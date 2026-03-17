@@ -8,6 +8,8 @@ description: Learn to setup and use the OptiTrack Blender plugin.
 
 The [OptiTrack Blender Plugin](https://optitrack.com/support/downloads/plugins.html) enables streaming of real-time Rigid Body data from Motive to Blender.&#x20;
 
+{% embed url="https://youtu.be/jolxdj_VoxI" %}
+
 ### Version Requirements <a href="#version-requirements" id="version-requirements"></a>
 
 * Blender Version: 4.1 or above (recommended)
