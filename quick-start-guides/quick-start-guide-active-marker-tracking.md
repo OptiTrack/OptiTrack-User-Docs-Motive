@@ -5,7 +5,7 @@ This page provides instructions on how to set up and use the OptiTrack active ma
 {% hint style="info" %}
 **Additional Note**
 
-* This guide is for [OptiTrack active markers](http://optitrack.com/products/active-components/) only. Third-party IR LEDs will not work with instructions provided on this page.
+* This guide is for [OptiTrack active markers](https://optitrack.com/accessories?cat=active-components) only. Third-party IR LEDs will not work with instructions provided on this page.
 * This solution is supported for Ethernet camera systems (Slim 13E or Prime series cameras) only. USB camera systems are not supported.
 * Motive version 2.0 or above is required.
 * This guide covers active component firmware versions 1.0 and above; this includes all active components that were shipped after _September 2017_.

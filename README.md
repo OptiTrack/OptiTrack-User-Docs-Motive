@@ -9,13 +9,10 @@ This wiki contains instructions on operating OptiTrack motion capture systems. I
 
 You can navigate through pages using links in the sidebar or using links included within the pages. You can also use the search bar provided on the top-right corner to search for page names and keywords that you are looking for. If you have any questions that are not documented in this wiki or from other provided documentation, please check our [forum](https://forums.naturalpoint.com/) or contact our [Support](http://optitrack.com/support/) for further assistance.
 
-* OptiTrack website: [http://www.optitrack.com](http://www.optitrack.com/)
-* The Helpdesk: [http://help.naturalpoint.com](http://help.naturalpoint.com/)
-* NaturalPoint Forums: [https://forums.naturalpoint.com](https://forums.naturalpoint.com/)
-
-{% hint style="warning" %}
-For versions of Motive 2.2 or older, please visit our old [wiki site](https://v21.wiki.optitrack.com/index.php?title=OptiTrack_Wiki).
-{% endhint %}
+* Resources on the OptiTrack website [http://www.optitrack.com](http://www.optitrack.com/)
+* OptiTrack Support: [https://optitrack.com/support](https://optitrack.com/support/)
+* NaturalPoint Forum Archive: [https://forums.naturalpoint.com](https://forums.naturalpoint.com/)
+* OptiTrack Discord: [https://discord.com/invite/optitrack](https://discord.com/invite/optitrack)
 
 ## Site Map
 
