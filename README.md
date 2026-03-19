@@ -23,14 +23,12 @@ coverY: 63
 
 <figure><picture><source srcset=".gitbook/assets/Versions DARK.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/Versions LIGHT.png" alt=""></picture><figcaption><p>Click the version number to change versions.</p></figcaption></figure>
 
-{% hint style="info" %}
-**For versions of Motive 2.2 or older, please visit our old** [**wiki site**](https://v21.wiki.optitrack.com/index.php?title=OptiTrack_Wiki)**.**
-{% endhint %}
+Can't find the information you're looking for, or need additional help? Quick links on the page banner take you directly to:
 
-* Can't find the information you're looking for, or need additional help? Quick links on the page banner take you directly to:
-  * Resources on the OptiTrack website [http://www.optitrack.com](http://www.optitrack.com/)
-  * NaturalPoint Forums: [https://forums.naturalpoint.com](https://forums.naturalpoint.com/)
-  * OptiTrack Support: [https://optitrack.com/support](https://optitrack.com/support/)
+* Resources on the OptiTrack website [http://www.optitrack.com](http://www.optitrack.com/)
+* OptiTrack Support: [https://optitrack.com/support](https://optitrack.com/support/)
+* NaturalPoint Forum Archive: [https://forums.naturalpoint.com](https://forums.naturalpoint.com/)
+* OptiTrack Discord: [https://discord.com/invite/optitrack](https://discord.com/invite/optitrack)
 
 ## Quick Links
 
@@ -108,4 +106,3 @@ Link directly to our most popular pages from the tabs below.&#x20;
 * [Movement Sciences Hardware](movement-sciences/movement-sciences-hardware/)
 {% endtab %}
 {% endtabs %}
-
