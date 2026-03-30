@@ -8,10 +8,13 @@ The OptiTrack VR driver lets you stream tracking data of the head-mounted displa
 **Supported HMDs**:
 
 * Vive
+* Vive Focus
 * Vive Pro
 * Vive Pro 2
 * Valve Index
 * HP Reverb
+
+Please refer to the manufacturer's user guide for instructions on setting up, charging, and using the HMD.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -69,7 +72,7 @@ You can either use the passive retro-reflective type markers or the active LED m
 
 ![Creating an HMD Rigid Body in the Builder pane.](<../.gitbook/assets/image (419) (1) (1) (1) (1) (1) (1) (10).png>)
 
-**This feature can be used only with HMDs that have the** [**OptiTrack Active HMD**](http://optitrack.com/products/active-components/) **clips mounted.**
+**This feature can be used only with HMDs that have the** [**OptiTrack Active HMD**](https://optitrack.com/accessories?cat=active-components) **clips mounted.**
 
 For using OptiTrack system for VR applications, it is important that the pivot point of HMD Rigid Body gets placed at the appropriate location, which is at the root of the nose in between the eyes. When using the HMD clips, you can utilize the HMD creation tools in the Builder pane to have Motive estimate this spot and place the pivot point accordingly. It utilizes known marker configurations on the clip to precisely positions the pivot point and sets the desired orientation.
 
@@ -90,10 +93,6 @@ HMDs with passive markers can utilize the [External Pivot Alignment](../motive/r
 9. During calibration, slowly rotate the HMD to collect data samples in different orientations.
 10. Once all necessary samples are collected, the calibrated HMD Rigid Body will be created.
 
-{% hint style="info" %}
-**This is supported only for Motive versions 2.1.2 or above.** If you are using any other versions of Motive 2.1, please update the version to 2.1.2, or use a template to create the Rigid Body definition; instructions for which is provided in the following page: [Using a Template File to Create Vive Pro Active Clip Rigid Body](https://github.com/OptiTrack/GitBook-Wiki/blob/main/virtual-reality/vr-plugins/vr-openvr/broken-reference/README.md).
-{% endhint %}
-
 ## Setting up the OpenVR Driver
 
 {% hint style="info" %}
@@ -102,7 +101,7 @@ HMDs with passive markers can utilize the [External Pivot Alignment](../motive/r
 
 ### **Download and run the installer**
 
-Download the OpenVR driver from the [downloads](https://optitrack.com/downloads/plugins.html) page. Once downloaded, launch the installer and follow the prompts to set up the driver. On the last window, make sure to select **Launch Configuration Utility** before clicking **Finish**. This will open the Configuration options to setup your HMD with Motive.
+Download the OpenVR driver from the [downloads](https://optitrack.com/support/downloads?cat=plugin) page. Once downloaded, launch the installer and follow the prompts to set up the driver. On the last window, make sure to select **Launch Configuration Utility** before clicking **Finish**. This will open the Configuration options to setup your HMD with Motive.
 
 {% hint style="info" %}
 You may receive a warning window prior to the installation wizard. To circumvent this, select **More info** and then **Run Anyway**.
@@ -222,7 +221,7 @@ Please make sure the Unity project is configured for OpenVR development. In Unit
 
 Make sure Unreal Engine is configured for SteamVR development. Please refer to the Unreal Engine's documentation for more information on developing for SteamVR.
 
-**Unreal Engine-SteamVR:** [**https://docs.unrealengine.com/en-us/Platforms/SteamVR**](https://docs.unrealengine.com/en-us/Platforms/SteamVR)
+**Unreal Engine-SteamVR:** [**https://dev.epicgames.com/documentation/en-us/unreal-engine/developing-for-steamvr-in-unreal-engine?application\_version=5.5**](https://dev.epicgames.com/documentation/en-us/unreal-engine/developing-for-steamvr-in-unreal-engine?application_version=5.5)
 
 ### Data Port Note
 
@@ -230,7 +229,7 @@ As of the OpenVR Driver 2.1.0 the auto-detection port default is 1513. In the ca
 
 ## Streaming Rigid Body/Skeleton data
 
-This driver is designed for streaming of HMD and controller tracking data only. For streaming tracking data of other Rigid Body objects, you will need to use the corresponding plugins ([UnrealEngine](https://github.com/OptiTrack/GitBook-Wiki/blob/main/virtual-reality/vr-plugins/vr-openvr/broken-reference/README.md) or [Unity](https://github.com/OptiTrack/GitBook-Wiki/blob/main/virtual-reality/vr-plugins/vr-openvr/broken-reference/README.md)). In other words, the HMD tracking data will be streamed through the SteamVR using the driver you've installed, and all other tracking data will be streamed through the plugin's client origin.
+This driver is designed for streaming of HMD and controller tracking data only. For streaming tracking data of other Rigid Body objects, you will need to use the [corresponding plugins](https://optitrack.com/support/downloads?cat=plugin) (UnrealEngine or Unity). In other words, the HMD tracking data will be streamed through the SteamVR using the driver you've installed, and all other tracking data will be streamed through the plugin's client origin.
 
 ### Aligning world coordinates
 
