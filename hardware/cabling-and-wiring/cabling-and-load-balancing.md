@@ -50,13 +50,13 @@ Depending on which OptiTrack cameras are used, a switch may not have a large eno
 
 For example, a 24-port switch may have a 370W power budget, supporting 12 PoE+ cameras that require 30W to power. If the same 24-port switch is connected to an RPS, it can now power all 24 PoE+ cameras (each with a 30W power requirement) utilizing all 24 of the ports on the switch.
 
-![Click image to enlarge.](<../../.gitbook/assets/System Network Structure_PowerBudget_3_1_Version-01 (1).png>)
+<figure><img src="../../.gitbook/assets/Network Power Budget.png" alt="A diagram showing the power distribution needs of various OptiTrack cameras."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
 
 ### PoE Switch Types
 
 PoE switches are categorized based on the maximum power level that individual ports can supply. The table below shows the power output of the various types of PoE switches and lists the current camera models that require each power level.&#x20;
 
-<table><thead><tr><th width="127">PoE Type</th><th width="158">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>PrimeX 13 or 13W, SlimX 13, SlimX 41, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, Prime Color, SlimX 120, VersaX 41N, 41W, or 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120, VersaX 120N, or 120W</td></tr></tbody></table>
+<table><thead><tr><th width="110.20001220703125">PoE Type</th><th width="131.5999755859375">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>PrimeX 13 or 13W, SlimX 13, SlimX 22, SlimX 41, VersaX 22, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, Prime Color, SlimX 120, VersaX 22W, VersaX 41N or 41W, VersaX 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120 or 120W, VersaX 120N, or 120W</td></tr></tbody></table>
 
 #### Power Requirements for External Devices
 
@@ -119,7 +119,7 @@ There are multiple categories of Ethernet cables, each with different specificat
 * Cat5 or Cat5e cables run at lower speeds and are not supported.
 * Cat7 and Cat8 cables will work, but do not offer any added benefits to offset the increased cost.&#x20;
 
-{% hint style="info" %}
+{% hint style="info" icon="comment-question" %}
 _**What about fiber optic cables?**_&#x20;
 
 While fiber optic cables can transmit data over greater distances than Ethernet, they do not provide power and as such cannot be used to connect cameras.&#x20;
@@ -220,7 +220,7 @@ These configurations have been tested for optimal use and safety. Deviating from
 
 {% tabs %}
 {% tab title="One to Two PoE Switch(es)" %}
-<figure><img src="../../.gitbook/assets/image (467).png" alt=""><figcaption><p>Connecting a network with a single switch.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Network Configuration - standard (1).png" alt="A diagram of a camera network with a single camera switch."><figcaption><p>Connecting a network with a single switch.</p></figcaption></figure>
 
 #### Adding a Second Switch
 
@@ -230,11 +230,15 @@ If additional switches are needed, a separate aggregation switch is required, so
 {% endtab %}
 
 {% tab title="Multiple PoE Switches (High camera counts)" %}
-![Click image to enlarge.](<../../.gitbook/assets/Network Structure_WikiVersionUpdate_LargeNetwork.png>)
+<figure><img src="../../.gitbook/assets/Network Configuration - Large (1).png" alt="A diagram of a large camera network, with multiple camera switches connected to a single aggregation switch."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
 
 **Uplink Switch:** For systems that require multiple PoE switches, connect all of the switches to an uplink aggregation switch to link to the host PC. Ethernet ports on the aggregation switch can be used to connect cameras.
 
 The switches must be connected in a star topology with the uplink switch at the central node, connecting to the Motive PC.&#x20;
+
+{% hint style="info" %}
+Use only PoE or PoE+ switches as aggregation switches.&#x20;
+{% endhint %}
 
 **NEVER** daisy chain multiple PoE switches in series; doing so can introduce latency to the system.
 {% endtab %}
