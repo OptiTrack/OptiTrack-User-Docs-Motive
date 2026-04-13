@@ -19,17 +19,10 @@ The OptiTrack Godot Plugin enables real-time streaming of Rigid Body data from M
 
 ### Download the Plugin
 
-The OptiTrack Godot plugin is available on GitHub in OptiTrack's optitrack-godot repository:&#x20;
-
-{% embed url="https://github.com/OptiTrack/optitrack-godot" %}
-
-* Click the green ![A screenshot of the <> Code button in Github. ](<../.gitbook/assets/Github Code download button.png>) code button at the top of the file list.&#x20;
-* Select **Download ZIP** to download the plugin locally.&#x20;
-
-<figure><img src="../.gitbook/assets/Godot Plugin - how to download.png" alt="A screenshot of the OptiTrack\optitrack-godot repository in GitHub, with the code button activated to show the menu options. Download ZIP is at the bottom of the list. "><figcaption></figcaption></figure>
+The OptiTrack Godot plugin is available from the [OptiTrack Plugins download](https://optitrack.com/software#motive-streaming-plugins) page. &#x20;
 
 * Once downloaded, unzip the plugin to a local directory.&#x20;
-* In Windows Explorer, open the extracted folder, _optitrack-godot-main_, then open the _**example-project**_ folder. Leave this folder open for a future step.&#x20;
+* In Windows Explorer, open the extracted folder, _optitrack-godot-plugin\_1.0.0_, then open the _**example-project**_ folder. Leave this folder open for a future step.&#x20;
 
 ### Import into the Godot Project
 
@@ -84,15 +77,17 @@ In Motive, click the ![A screenshot of the Streaming Settings button from the Mo
 
 To stream to Godot, make sure Streaming is enabled in the NatNet settings and the Transmission Type is set to Multicast.&#x20;
 
+To stream skeletons, set the Skeleton Coordinates to Local and the Bone Naming Convention to FBX. The skeleton should also be set with a Y-up axis.&#x20;
+
 For more information about streaming from Motive, please see the [Data Streaming](../motive/data-streaming.md) page.&#x20;
 
 <figure><img src="../.gitbook/assets/Motive - Streaming Settings for Godot.png" alt="A screenshot of the Motive Streaming Settings, with the &#x22;Enable&#x22; setting turned on and the &#x22;Transmission Type&#x22; setting set to Multicast. Both settings are highlighted. "><figcaption></figcaption></figure>
 
-#### Create Rigid Bodies
+#### Create Assets in Motive
 
-In Motive, create the Rigid Bodies that you wish to stream into Godot. Refer to the [Rigid Body Tracking](../motive/rigid-body-tracking/) page for detailed instructions on how to create a Rigid Body in Motive.&#x20;
+In Motive, create the Skeletons and Rigid Bodies that you wish to stream into Godot. Refer to the [Skeleton Tracking](../motive/skeleton-tracking.md) page and the [Rigid Body Tracking](../motive/rigid-body-tracking/) page for detailed instructions on how to create a Skeleton or Rigid Body in Motive.&#x20;
 
-Once you have Rigid Bodies to track in Motive, you're ready to stream them into Godot.&#x20;
+Once you have assets to track in Motive, you're ready to stream them into Godot.&#x20;
 
 ## Godot Plugin Connection Setup
 
@@ -122,7 +117,7 @@ The child node will appear in the Scene pane. To see the list of rigid body asse
 
 <div><figure><img src="../.gitbook/assets/Godot - Scene and Optitrack panes - Motive Streaming OFF.png" alt="A screenshot of the Godot Scene and OptiTrack panes, with the OptiTrackRigidBody child node added and the Streaming Connection stopped. "><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Godot - Scene and Optitrack panes Streaming ON.jpg" alt="A screenshot of the Godot Scene and OptiTrack panes, with the OptiTrackRigidBody child node added and the Streaming Connection enabled."><figcaption></figcaption></figure></div>
 
-### Add a Mesh
+#### Add a Mesh
 
 Apply a mesh to visualize the rigid body in the scene.&#x20;
 
@@ -139,7 +134,7 @@ Apply a mesh to visualize the rigid body in the scene.&#x20;
 
 <figure><img src="../.gitbook/assets/Godot - Mesh applied in 3D view.png" alt="A screenshot of the Godot 3D perspective window, with a box mesh applied to the rigid body asset.. "><figcaption><p>Mesh shown in the 3D scene. </p></figcaption></figure>
 
-### Add Animation&#x20;
+#### Add Animation&#x20;
 
 * &#x20;With the _MeshInstance3D_ installed, select the _OptiTrackRigidBody_ node in the Scene hierarchy.&#x20;
 * In the Inspector panel, check the box to _Animate in Editor._&#x20;
@@ -149,6 +144,63 @@ Apply a mesh to visualize the rigid body in the scene.&#x20;
 * Use the buttons at the bottom of the OptiTrack pane to play or pause the selected take in Motive.&#x20;
 
 <figure><img src="../.gitbook/assets/Godot - Motive Play and Pause buttons.jpg" alt="A screenshot of the Motive Timeline Play and Motive Timeline Pause buttons from the OptiTrack plugin in Godot. "><figcaption></figcaption></figure>
+
+### Configure Skeletons
+
+The OptiTrack Godot plugin includes compiled skeleton assets in both gendered avatars (female and male) for each spine model (the classic 3-segment spine or the default 7-segment spine), for a total of four skeleton options:
+
+* OptiTrackAvatarFemale3.tscn
+* OptiTrackAvatarFemale7.tscn
+* OptiTrackAvatarMale3.tscn
+* OptiTrackAvatarMale7.tscn
+
+These assets are located in the _addons_ folder under _optitrack\_plugin > model scenes._&#x20;
+
+Before adding a skeleton to the scene, you will need to assign the mesh if using Godot 4.6 or higher. Note that these steps are _not_ required if using Godot 4.5.
+
+* double-click the .tscn file in the Godot File System. This will open the model in a new window in the 3D viewport.&#x20;
+
+<figure><img src="../.gitbook/assets/Godot - Skeleton with Unassigned mesh.png" alt="A screenshot of Godot 4.6.1 with an open .tscn file that does not have a mesh assigned. "><figcaption></figcaption></figure>
+
+* In the Scene panel, select the Mesh. This will display the mesh properties in the Inspector panel.
+* In the MeshInstance3D section, click the Assign button for the Skeleton property.&#x20;
+
+<figure><img src="../.gitbook/assets/Godot - Skeleton with Unassigned mesh CROPPED and MARKEDUP.png" alt="A screenshot of the Inspector tab in Godot, with an OptiTrack avatar mesh selected. The MeshInstance3D properties are shown, with the Skeleton property highlighted. This property is currently Unassigned. "><figcaption></figcaption></figure>
+
+* Select the mesh from the list then click OK.&#x20;
+
+<figure><img src="../.gitbook/assets/Godot - assign a mesh to a skeleton.png" alt="A screenshot of the Godot screen to select a mesh to assign to a skeleton. "><figcaption></figcaption></figure>
+
+* The skeleton and avatar will now align in the 3D view:
+
+<figure><img src="../.gitbook/assets/Godot Skeleton with mesh assigned.png" alt="A screenshot of Godot 4.6.1 with an open .tscn file that has a mesh assigned. "><figcaption></figcaption></figure>
+
+* Close the tab for the .tscn file by clicking the x in the tab corner.&#x20;
+* Godot will prompt to save the scene. Click OK and ignore any errors that display.&#x20;
+* Repeat these steps for each avatar type that you plan to use in your scene.&#x20;
+
+### Create an OptiTrack Skeleton Node
+
+To add a child node for a skeleton to the project:&#x20;
+
+* Open the _addons_ folder and browse to _optitrack\_plugin > model scenes_&#x20;
+* Click and drag the .tscn file that corresponds to the asset in Motive into the scene, directly below Node3D.&#x20;
+
+<figure><img src="../.gitbook/assets/Find Skeleton Child Node slide 4.png" alt="A scene in Godot after an OptiTrack male avatar has been added."><figcaption><p>Adding a skeleton in Godot.</p></figcaption></figure>
+
+* Select the skeleton to display its properties in the Inspector tab.&#x20;
+* Click the Skeleton Asset ID dropdown to select the skeleton asset from Motive. &#x20;
+* Make sure the _Animate in Editor_ option is on.&#x20;
+
+<figure><img src="../.gitbook/assets/Assign Asset to Skeleton Step 1.png" alt="Assigning an Asset to a skeleton in Godot. "><figcaption></figcaption></figure>
+
+* Click the _Refresh Asset List_ button if the list of assets in the dropdown differs from the loaded Take in Motive.
+
+<figure><img src="../.gitbook/assets/Skeleton Asset ID - Unassigned and Refresh.png" alt="Skeleton Asset ID - unassigned in Godot, with the Refresh Asset List button. "><figcaption></figcaption></figure>
+
+The skeleton should now animate properly in Godot.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt="Side-by-side screenshots of the same skeleton in Motive and in Godot. "><figcaption></figcaption></figure>
 
 ## Troubleshooting
 

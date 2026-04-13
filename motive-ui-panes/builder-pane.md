@@ -389,7 +389,7 @@ The Take is saved in the currently open data folder. If completing the ROM in ed
 
 The _Assets_ tab of the _Settings_ panel has settings that pertain to skeleton creation.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt="A screenshot of the Motive Settings Panel, Asset settings, Skeleton Creation options. "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="A screenshot of the Motive Settings Panel, Asset settings, Skeleton Creation options. "><figcaption></figcaption></figure>
 
 The **Height Marker** setting ensures the solved skeleton matches the correct height for the actor.&#x20;
 

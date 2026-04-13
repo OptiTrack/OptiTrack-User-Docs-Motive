@@ -28,7 +28,7 @@ In addition to these plugins, the [NatNet SDK](../developer-tools/natnet-sdk/) e
 
 NatNet is a client/server networking protocol for sending and receiving data across a network in real-time. It utilizes UDP along with either Unicast or Multicast communication to integrate and stream reconstructed 3D data, Rigid Body data, Trained Markerset data, and Skeleton data from OptiTrack systems to client applications.&#x20;
 
-The API includes a class for communicating with OptiTrack server applications for building client protocols. Using the tools provided in the NatNet API, capture data can be used in various application platforms. Please refer to the [NatNet SDK section](data-streaming.md#natnet-sdk) of the user guide for more information on using NatNet and its API references.
+The API includes a class for communicating with OptiTrack server applications for building client protocols. Using the tools provided in the NatNet API, capture data can be used in various application platforms. Please refer to the [NatNet SDK section](../developer-tools/natnet-sdk/) of the user guide for more information on using NatNet and its API references.
 
 ![](<../.gitbook/assets/image (328).png>)
 

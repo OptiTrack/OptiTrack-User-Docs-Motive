@@ -4,7 +4,7 @@
 
 The Insight VCS: Maya plugin is an Autodesk® Maya® plugin designed for live virtual camera work directly within the Maya® environment.
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The Insight VCS plugin works in conjunction with Motive and the Insight VCS Controllers to provide real-time 6 DOF camera position, orientation, and virtual camera controls, including:
 
