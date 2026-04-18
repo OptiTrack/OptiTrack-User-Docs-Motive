@@ -154,14 +154,14 @@ The OptiTrack Skeleton device can record optical data to the current MotionBuild
 
 ## Playing Back Recorded Data
 
-The OptiTrack Skeleton device can be used show live data or blend live data with a recorded take. Please refer to [Playing Back Recorded Data section](https://github.com/OptiTrack/GitBook-Wiki/blob/main/plugins/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-Skeleton-plugin.md#playing-back-recorded-data) for steps on how to record from devices into MotionBuilder.
+The OptiTrack Skeleton device can be used show live data or blend live data with a recorded take. Please refer to Playing Back Recorded Data section for steps on how to record from devices into MotionBuilder.
 
 ## MotionBuilder Skeleton Character Setup QuickStart
 
 One approach to quickly stream Motive Skeletons onto MotionBuilder characters:
 
-1. **\[Motive]** - Setup a streaming session as outlined above under [Motive Setup (Server)](https://github.com/OptiTrack/GitBook-Wiki/blob/main/plugins/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-Skeleton-plugin.md#motive-data-streaming-setup-server). Set Data Streaming > Bone Naming Convention > FBX. If this is not set to FBX, the plugin will change this automatically when connected to the server.
-2. **\[MoBu]** - Connect to Motive and create a model binding as described in [Step-By-Step above](https://github.com/OptiTrack/GitBook-Wiki/blob/main/plugins/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-Skeleton-plugin.md#step-by-step-example).
+1. **\[Motive]** - Setup a streaming session as outlined above under Motive Setup (Server). Set Data Streaming > Bone Naming Convention > FBX. If this is not set to FBX, the plugin will change this automatically when connected to the server.
+2. **\[MoBu]** - Connect to Motive and create a model binding as described in Step-By-Step above.
 3. **\[MoBu]** - Make sure the **Auto-Characterize** feature is enabled under the **OptiTrack Skeleton Device**.
 4. **\[MoBu]** - Import a rigged model. Be sure rigged model is in T-Pose facing +Z.
 5. **\[MoBu]** - _Characterize_ rigged model.

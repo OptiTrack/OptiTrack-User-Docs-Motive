@@ -236,7 +236,7 @@ Refer to the Maya documentation for more information on Camera Settings.
 
 ## Other Resources
 
-[Insight VCS Support and Supplemental Documentation](https://optitrack.com/support/hardware/insight-vcs.html)
+Insight VCS Support and Supplemental Documentation
 
 {% file src="../../.gitbook/assets/Insight VCS-Pro Quick Start Guide.pdf" %}
 

@@ -1,11 +1,13 @@
 # OptiTrack Peripheral API
 
-The OptiTrack Peripheral API is an open C++ API that can be used to create 'plugin' devices. Custom built plugin DLL's will allow you to initialize and synchronize external devices with the OptiTrack motion capture system in Motive. After building a custom plugin device using the API, the library must be placed in the `\device` folder within the Motive install directory in order to initialize and integrate desired peripheral devices. For integrating [AMTI](https://docs.optitrack.com/v/v2.3/movement-sciences/movement-sciences-hardware/amti-force-plate-setup) and [Bertec](https://docs.optitrack.com/v/v2.3/movement-sciences/movement-sciences-hardware/bertec-force-plate-setup) force plates and [NI-DAQ](https://docs.optitrack.com/v/v2.3/movement-sciences/movement-sciences-hardware/ni-daq-setup) devices, the existing BiomechDevicePlugin.dll that installs with the peripheral module can be utilized.**Note:** The OptiTrack Peripheral API is available in Motive versions 1.10 and above.The following features are supported by the Peripheral API:
+The OptiTrack Peripheral API is an open C++ API that can be used to create 'plugin' devices. Custom built plugin DLL's will allow you to initialize and synchronize external devices with the OptiTrack motion capture system in Motive. After building a custom plugin device using the API, the library must be placed in the `\device` folder within the Motive install directory in order to initialize and integrate desired peripheral devices. For integrating [AMTI](../movement-sciences/movement-sciences-hardware/amti-force-plate-setup.md) and [Bertec](../movement-sciences/movement-sciences-hardware/bertec-force-plate-setup.md) force plates and [NI-DAQ](../movement-sciences/movement-sciences-hardware/ni-daq-setup.md) devices, the existing BiomechDevicePlugin.dll that installs with the peripheral module can be utilized.&#x20;
+
+The following features are supported by the Peripheral API:
 
 * Real-time synchronized data collection from peripheral hardware device and the OptiTrack motion capture system into Motive _Take_ (TAK) files and the open standard C3D file format.
-* Motive UI access to device properties and event settings under the [Devices pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/devices-pane), allowing the users to configure the device in Motive.
-* Real-time display of live device data in Motive's scope view in the [Graph View pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/graph-view-pane).
-* Captured data review in Motive's 2D Graphing windows in the [Graph View pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/graph-view-pane).
+* Motive UI access to device properties and event settings under the [Devices pane](../motive-ui-panes/devices-pane.md), allowing the users to configure the device in Motive.
+* Real-time display of live device data in Motive's scope view in the [Graph View pane](../motive-ui-panes/graph-view-pane.md).
+* Captured data review in Motive's 2D Graphing windows in the [Graph View pane](../motive-ui-panes/graph-view-pane.md).
 
 ## Contents <a href="#contents" id="contents"></a>
 
@@ -68,8 +70,8 @@ The following guideline can be used to create and apply custom device plugin DLL
     <figure><img src="../.gitbook/assets/image (464).png" alt=""><figcaption><p>Changes made in the .cpp files are reflected in the Devices and Properties panes.</p></figcaption></figure>
 2. Build the sample, which produces a plugin DLL. Copy this DLL to the `<Motive install folder>\devices` subfolder.
 3. If your plugin has external dependencies (e.g. driver / SDK dlls), make sure these are on your system path, or in the Motive install directory.
-4. Launch Motive. Your device should appear in the [Devices pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/devices-pane) in Motive. If it does not, check the Motive [Log pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/log-pane) for error notifications.
-5. When a peripheral device is detected in Motive, real-time collected data can be monitored from the real-time plotting of the [Graph View pane](https://docs.optitrack.com/v/v2.3/motive-ui-panes/graph-view-pane) in the Live mode.
+4. Launch Motive. Your device should appear in the [Devices pane](../motive-ui-panes/devices-pane.md) in Motive. If it does not, check the Motive [Log pane](../motive-ui-panes/log-pane.md) for error notifications.
+5. When a peripheral device is detected in Motive, real-time collected data can be monitored from the real-time plotting of the [Graph View pane](../motive-ui-panes/graph-view-pane.md) in the Live mode.
 
 <figure><img src="https://4243847686-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTSFWA3dBvgCMGQlNWsHE%2Fuploads%2FpkLIbQcK2ebhADppeiwt%2Fimage.png?alt=media&#x26;token=9a658877-32d2-473d-983d-a86d5f412b62" alt=""><figcaption></figcaption></figure>
 

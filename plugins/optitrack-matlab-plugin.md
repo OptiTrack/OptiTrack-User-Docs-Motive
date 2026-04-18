@@ -14,6 +14,8 @@ The MATLAB Plugin provides Samples of Code for MATLAB users to connect to Motive
 
 ## Setup <a href="#matlab-wrapper-setup" id="matlab-wrapper-setup"></a>
 
+Download the MATLAB plugin from our [Downloads](https://optitrack.com/support/downloads?cat=plugin) page.&#x20;
+
 The first time you run any of the samples the system will prompt for a DLL. This is the NatNetML.dll that comes packaged with the product.&#x20;
 
 Load the NatNetML.dll file into MATLAB when prompted, then press play.&#x20;

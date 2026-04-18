@@ -57,7 +57,7 @@ The OptiTrack Blender Plugin is designed to configure the necessary streaming se
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt="" width="491"><figcaption><p>Motive Application Settings: Streaming Pane. <br>Recommended settings for streaming to Blender.</p></figcaption></figure>
 
-Click the <img src="../../.gitbook/assets/Control Deck - Streaming Off SMALL (2).png" alt="" data-size="line"> button in the right corner of the Control Deck to open the [Data Streaming Pane](https://docs.optitrack.com/motive/data-streaming) in Motive’s [Application Settings](../../motive-ui-panes/settings/) window. Configure the following settings:
+Click the <img src="../../.gitbook/assets/Control Deck - Streaming Off SMALL (2).png" alt="" data-size="line"> button in the right corner of the Control Deck to open the [Data Streaming Pane](../../motive-ui-panes/settings/settings-streaming.md) in Motive’s [Application Settings](../../motive-ui-panes/settings/) window. Configure the following settings:
 
 * **Enable** - Toggle this setting on to enable streaming in Motive.
 * **Local Interface** - This is the Local Host IP address. Motive is the Server and Blender is the client.&#x20;

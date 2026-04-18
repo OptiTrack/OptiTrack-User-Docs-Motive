@@ -62,7 +62,9 @@ You can either use the passive retro-reflective type markers or the active LED m
 
 ![Creating an HMD Rigid Body in the Builder pane.](<../../.gitbook/assets/image (419) (1) (1) (1) (4).png>)
 
-**This feature can be used only with HMDs that have the** [**OptiTrack Active HMD**](http://optitrack.com/products/active-components/) **clips mounted.**
+{% hint style="warning" %}
+This feature can be used only with HMDs that have an OptiTrack Active HMD clips mounted.
+{% endhint %}
 
 For using OptiTrack system for VR applications, it is important that the pivot point of HMD Rigid Body gets placed at the appropriate location, which is at the root of the nose in between the eyes. When using the HMD clips, you can utilize the HMD creation tools in the Builder pane to have Motive estimate this spot and place the pivot point accordingly. It utilizes known marker configurations on the clip to precisely positions the pivot point and sets the desired orientation.
 
@@ -93,7 +95,7 @@ HMDs with passive markers can utilize the [External Pivot Alignment](../../motiv
 
 #### **Download and run the installer**
 
-Download the OpenVR driver from the [downloads](https://optitrack.com/downloads/plugins.html) page. Once downloaded, launch the installer and follow the prompts to set up the driver. On the last window, make sure to select **Launch Configuration Utility** before clicking **Finish**. This will open the Configuration options to setup your HMD with Motive.
+Download the OpenVR driver from the [downloads](https://optitrack.com/support/downloads?cat=plugin) page. Once downloaded, launch the installer and follow the prompts to set up the driver. On the last window, make sure to select **Launch Configuration Utility** before clicking **Finish**. This will open the Configuration options to setup your HMD with Motive.
 
 {% hint style="info" %}
 You may receive a warning window prior to the installation wizard. To circumvent this, select **More info** and then **Run Anyway**.
@@ -119,7 +121,7 @@ First, configure the connection settings so that the driver listens to the Motiv
 
 #### **Set up the HMD**
 
-In the HMD section, enable the HMD and input the Rigid Body ID of the HMD. The Rigid Body ID must match the [Streaming ID](../../motive/rigid-body-tracking/) property of the HMD Rigid Body definition in Motive.
+In the HMD section, enable the HMD and input the Rigid Body ID of the HMD. The Rigid Body ID must match the [Streaming ID](../../motive-ui-panes/properties-pane/properties-pane-rigid-body.md#streaming-id) property of the HMD Rigid Body definition in Motive.
 
 ![](<../../.gitbook/assets/image (729).png>)
 
@@ -226,7 +228,7 @@ In Unity version 2018 and earlier, you can enable SteamVR by configuring the pro
 
 ## Streaming Rigid Body/Skeleton data
 
-This driver is designed for streaming of HMD and controller tracking data only. For streaming tracking data of other Rigid Body objects, you will need to use the corresponding plugins ([Unreal Engine](../optitrack-unreal-engine-plugin/) or [Unity](./)). In other words, the HMD tracking data will be streamed through the SteamVR using the driver you've installed, and all other tracking data will be streamed through the plugin.
+This driver is designed for streaming of HMD and controller tracking data only. For streaming tracking data of other Rigid Body objects, use the corresponding plugins, UnrealEngine or Unity, available on our [Downloads](https://optitrack.com/support/downloads?cat=plugin) page. The HMD tracking data will be streamed through the SteamVR using the driver you've installed, and all other tracking data will be streamed through the plugin.
 
 ### Aligning world coordinates with the plugin
 

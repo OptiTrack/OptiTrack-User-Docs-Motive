@@ -4,7 +4,7 @@
 
 
 
-The [OptiTrack Unity3D Plugin](http://optitrack.com/downloads/plugins.html) allows you to stream real-time Rigid Body, Skeleton, and HMD tracking data from Motive into Unity. Using the streamed data, objects and characters in the scene can be animated. The plugin contents are distributed in _unitypackage_ format, and you can simply load this file into Unity projects to import its contents. Once imported, included C# scripts can be used for instantiating a client origin and receiving the tracking data. This article focuses on how to set up and use the plugin.
+The [OptiTrack Unity3D Plugin](https://optitrack.com/support/downloads?cat=plugin) allows you to stream real-time Rigid Body, Skeleton, and HMD tracking data from Motive into Unity. Using the streamed data, objects and characters in the scene can be animated. The plugin contents are distributed in _unitypackage_ format, and you can simply load this file into Unity projects to import its contents. Once imported, included C# scripts can be used for instantiating a client origin and receiving the tracking data. This article focuses on how to set up and use the plugin.
 
 ### **Versions Requirements**
 
@@ -90,7 +90,7 @@ Although it is not strictly necessary, you may find it helpful to organize your 
 
 1. **\[Unity]** On an object that you wish to animate, attach the _OpitrackRigidBody.cs_ script.
 2. **\[Unity]** In the **Streaming Client** entry, link the Client object in which the _OptitrackStreamingClient.cs_ script is attached. By default, it searches for an existing client instance, but this must be specified when there are more than one streaming client objects.
-3. **\[Unity]** For the **Rigid Body ID** entry, input the streaming ID of corresponding Rigid Body asset in Motive. The streaming ID can be found, and changed, under the [Rigid Body properties](/broken/pages/sQK8scBDhFagaBZY6IVS).
+3. **\[Unity]** For the **Rigid Body ID** entry, input the streaming ID of corresponding Rigid Body asset in Motive. The [streaming ID](../../motive-ui-panes/properties-pane/properties-pane-rigid-body.md#streaming-id) can be found, and changed, under the [Rigid Body properties](../../motive-ui-panes/properties-pane/properties-pane-rigid-body.md).
 4. **\[Motive]** Make sure Motive is tracking and streaming the data.
 5. **\[Unity]** Play the scene. The linked object will be animated according to the associated Rigid Body movement in Motive.
 

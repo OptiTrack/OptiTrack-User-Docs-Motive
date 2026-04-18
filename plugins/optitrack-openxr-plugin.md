@@ -12,7 +12,7 @@ The OptiTrack OpenXR plugin allows Motive to connect to a Head-Mounted Display (
 
 Download and install the software platform the supports your HMD from the manufacturer.
 
-All HMDs require their own software to connect the headset to the computer. This typically includes a user interface with systems that allow the HMD to be recognized by programs such as [SteamVR](https://naturalpoint.atlassian.net/wiki/spaces/VI/pages/2624028691/OptiTrack+OpenXR+Plugin+-+Getting+Started#SteamVR), games and other VR/XR applications.&#x20;
+All HMDs require their own software to connect the headset to the computer. This typically includes a user interface with systems that allow the HMD to be recognized by programs such as [SteamVR](https://store.steampowered.com/app/250820/SteamVR/), games and other VR/XR applications.&#x20;
 
 Follow the HMD manufacturer's instructions to download and setup the applicable software for the HMD device.&#x20;
 
@@ -52,7 +52,7 @@ The SteamVR interface includes options to select the OpenXR API layers, which in
 
 * Download and install the OptiTrack OpenXR plugin from the software [plugins downloads page](https://optitrack.com/support/downloads/plugins.html).&#x20;
 * Select the plugins install destination as C:\Program Files\OptiTrack\\.&#x20;
-* The [OptiTrack OpenXR Config Application](https://naturalpoint.atlassian.net/wiki/spaces/VI/pages/2624028691/OptiTrack+OpenXR+Plugin+-+Getting+Started#Setting-Up-the-OpenXR-Plugin-Config-App) will appear on the desktop once the installation is done.
+* The OptiTrack OpenXR Config Application will appear on the desktop once the installation is done.
 
 ## Setting Up the OpenXR Plugin Config App
 
