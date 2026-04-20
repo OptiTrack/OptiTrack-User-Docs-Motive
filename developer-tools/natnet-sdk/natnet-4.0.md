@@ -131,6 +131,15 @@ For example, Motive uses the following convention to display the Euler orientati
 * **Handedness:** Right-handed (RHS)
 * **Axes:** Relative Axes (aka 'local')
 
+## Analog Data
+
+When streaming analog data, all of the data will be sent, but the following issues need to be addressed in the client:&#x20;
+
+* A mocap frame of data can contain 0, 1, or multiple analog packets, depending on how the data is transmitted from the device. For example, NI-DAQ devices send data in batches that are not necessarily aligned to the mocap frame. Rather than waiting for the NI-DAQ batch to arrive, which would introduce significant latency, the late batch is sent with the next mocap frame along with the current analog batch, if available.&#x20;
+* Each analog packet is going to contain a variable number of samples per mocap frame.&#x20;
+
+&#x20;The **SampleClient.cpp** file includes sample code for streaming analog data.&#x20;
+
 ## Direct Depacketization
 
 In situations where the use of the NatNet library is not applicable (e.g. developing on unsupported platforms such as Unix), you can also depacketize the streamed data directly from the raw bit-stream without using the NatNet library. In order to provide the most current bitstream syntax, the NatNet SDK includes a testable working depacketization sample (PacketClient, PythonClient) that decodes NatNet Packets directly without using the NatNet client class.
