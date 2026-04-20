@@ -19,6 +19,7 @@
       * [PrimeX 13](hardware/cameras/ethernet-cameras/primex-13.md)
       * [PrimeX 13W](hardware/cameras/ethernet-cameras/primex-13w.md)
       * [SlimX 13](hardware/cameras/ethernet-cameras/slimx-13.md)
+      * [SlimX 22](hardware/cameras/ethernet-cameras/slimx-22.md)
       * [Prime Color](hardware/cameras/ethernet-cameras/prime-color.md)
       * [VersaX 22](hardware/cameras/ethernet-cameras/versax-22.md)
       * [VersaX 41](hardware/cameras/ethernet-cameras/versax-41.md)
