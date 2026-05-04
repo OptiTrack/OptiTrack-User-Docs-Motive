@@ -10,6 +10,9 @@ During [Calibration](./) process, a calibration square is used to define global 
 | ![](<../../.gitbook/assets/image (741).png>)   | <p>Legacy L-frame square: <br><br>Legacy calibration square designed before changing to the Right-hand coordinate system.</p><ul><li>Long arm: Positive z</li><li>Short arm: Negative x</li></ul>                                                                                                                   |
 | ![](<../../.gitbook/assets/image (1) (6).png>) | <p>Custom Calibration square: <br><br>Position three markers in your volume in the shape of a typical calibration square (creating a ~90 degree angle with one arm longer than the other). Then select the markers to set the ground plane.</p><ul><li>Long arm: Positive z</li><li>Short arm: Negative x</li></ul> |
 
+| <p><br>CS-100: <br><br>Used to define a ground plane in a small, precise motion capture volumes.</p><ul><li>Long arm: Positive z</li><li>Short arm: Positive x</li><li>Vertical offset: 11.5 mm</li><li>Marker size: 9.5 mm (diameter)</li></ul> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
 {% hint style="info" %}
 When creating a custom ground plane, you can use Motive to help you move the markers to create approximately 90 degree between the 3 markers. This is of course contingent on how good your calibration is, however, this will still give you a fairly accurate starting point when setting your ground plane.&#x20;
 {% endhint %}
