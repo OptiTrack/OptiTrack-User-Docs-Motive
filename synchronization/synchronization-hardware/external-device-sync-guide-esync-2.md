@@ -181,7 +181,7 @@ Open a web browser and enter the device's IP address to access the system config
 
 | Parameter  | Default Value |
 | ---------- | ------------- |
-| IP Address | 192.168.1.10  |
+| IP Address | 192.168.1.20  |
 | Username   | admin         |
 | password   | tmachine      |
 
