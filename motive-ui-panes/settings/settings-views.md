@@ -35,7 +35,7 @@ To restore all settings to their default values, select _Reset Settings_ from th
 
 The 2D tab of the Views settings contains display settings for the [Cameras View](../viewport.md#cameras-view) in Motive. These are all standard settings.&#x20;
 
-![2D view settings from the Application Settings panel.](<../../.gitbook/assets/Settings - Views 2D Standard CROPPED.png>)
+<img src="../../.gitbook/assets/Settings - Views 2D Standard CROPPED.png" alt="2D view settings from the Application Settings panel." width="563">
 
 #### **Background**
 
@@ -60,7 +60,7 @@ with yellow crosshairs in the Cameras view.](<../../.gitbook/assets/image (864).
 
 The 3D tab contains display settings for the [Perspective View](../viewport.md#perspective-view) in Motive. Settings are Standard unless noted otherwise.&#x20;
 
-![3D view settings from the Application Settings panel.](<../../.gitbook/assets/Settings - Views 3D Standard (1).png>)
+<img src="../../.gitbook/assets/Settings - Views 3D Standard (1).png" alt="3D view settings from the Application Settings panel." width="563">
 
 ### Basic 3D Settings
 
@@ -199,8 +199,8 @@ Determine whether marker labels displayed in the 3D Viewport will include the As
 
 (Default: off) Display the 3D positions and estimated diameter of selected markers. If the marker label visual is also enabled, the marker info will display at the end of the label.&#x20;
 
-![A Solved Rigid Body with Marker History displayed
-for the selected marker.](<../../.gitbook/assets/Settings - Views 3D Marker Info.png>)
+<img src="../../.gitbook/assets/Settings - Views 3D Marker Info.png" alt="A Solved Rigid Body with Marker History displayed
+for the selected marker." width="335">
 
 #### **Marker History**
 

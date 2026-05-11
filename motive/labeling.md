@@ -12,7 +12,7 @@ description: >-
 
 Marker labels are software tags assigned to identify **trajectories** of reconstructed 3D markers so they can be referenced for tracking individual markers, Rigid Bodies, Skeletons, or Trained Markersets. Labeled trajectories can be exported individually or combined together to compute positions and orientations of the tracked objects.&#x20;
 
-![Marker Labels for a Rigid Body.](<../.gitbook/assets/Rigid Body in Viewport with Labels.png>)
+<img src="../.gitbook/assets/Rigid Body in Viewport with Labels.png" alt="Marker Labels for a Rigid Body." width="377">
 
 {% hint style="danger" %}
 **Solved Data:** After editing marker data in a recorded _Take_, corresponding [Solved Data](data-recording/data-types.md#solved-data) must be updated.
@@ -26,8 +26,8 @@ Labeled or unlabeled trajectories can be identified and resolved from the follow
 * [**Labels pane**](../motive-ui-panes/labels-pane.md): The Labels pane lists all the marker labels and corresponding percentage gap for each label. The label will turn magenta in the list if it is missing at the current frame.
 * [**Graph View pane**](../motive-ui-panes/graph-view-pane.md): The timeline scrubber highlights in red any frames where the selected label is not assigned to a marker. The _Tracks_ view provides a list of labels and their continuity in a captured _Take_.
 
-![The Graph View pane shows unlabeled&#x20;
-trajectory gaps on labeled marker.](<../.gitbook/assets/image (866).png>) ![List of labeled markers for the selected Rigid Body and unlabeled markers shown on the Labels pane.](<../.gitbook/assets/image (932).png>)
+<div><img src="../.gitbook/assets/image (866).png" alt="The Graph View pane shows unlabeled 
+trajectory gaps on labeled marker."> <img src="../.gitbook/assets/image (932).png" alt="List of labeled markers for the selected Rigid Body and unlabeled markers shown on the Labels pane." width="563"></div>
 
 ## Labeling Methods
 
@@ -59,7 +59,7 @@ The auto-labeler runs in real-time during Live mode and the marker labels are sa
 2. Right-click to open the context menu.
 3. Click _reconstruct and auto-label_ to process the selected _Takes_. This pipeline creates a new set of 3D data and auto-labels the markers that match the corresponding asset definitions.
 
-![Auto-labeling a Take.](<../.gitbook/assets/Take Context Menu - Auto-label selected.png>)
+<img src="../.gitbook/assets/Take Context Menu - Auto-label selected.png" alt="Auto-labeling a Take." width="308">
 
 {% hint style="danger" %}
 Be careful when reconstructing a _Take_ again either by **Reconstruct** or **Reconstruct and Auto-label.** These processes overwrite the 3D data, discarding any post-processing edits on trajectories and marker labels.&#x20;

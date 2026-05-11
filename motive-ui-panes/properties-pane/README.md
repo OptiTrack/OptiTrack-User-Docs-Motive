@@ -27,7 +27,7 @@ This page covers features and functions common to the Property pane regardless o
 
 The Properties pane is accessed by clicking the <img src="../../.gitbook/assets/Properties Pane button.png" alt="" data-size="line"> icon on the toolbar. The pane is blank if nothing is selected, or when items that do not have any common properties are selected.&#x20;
 
-![Properties pane when nothing is selected.](<../../.gitbook/assets/Properties - nothing selected.png>)
+<img src="../../.gitbook/assets/Properties - nothing selected.png" alt="Properties pane when nothing is selected." width="310">
 
 When a single Take, asset, or device is selected, the Properties pane displays properties specific to the selection. See image at left, below.
 

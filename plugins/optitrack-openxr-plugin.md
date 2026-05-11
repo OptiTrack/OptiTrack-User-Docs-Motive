@@ -52,7 +52,7 @@ The SteamVR interface includes options to select the OpenXR API layers, which in
 
 * Download and install the OptiTrack OpenXR plugin from the software [plugins downloads page](https://optitrack.com/support/downloads/plugins.html).&#x20;
 * Select the plugins install destination as C:\Program Files\OptiTrack\\.&#x20;
-* The OptiTrack OpenXR Config Application will appear on the desktop once the installation is done.
+* The OptiTrack OpenXR Config Application will appear on the desktop once the installer has finished running.
 
 ## Setting Up the OpenXR Plugin Config App
 
@@ -115,6 +115,18 @@ In our testing, we found that the OpenXR Runtime needs to be set to Quest to use
 {% endhint %}
 
 ## Troubleshooting
+
+### Config App Fails to Load
+
+After installation, launching the Configuration app from the Windows Start menu may return an error:
+
+<figure><img src="../.gitbook/assets/OpenXR Error after installing.png" alt="Failed to Execute Script error when attempting to launch the OpenXR config app."><figcaption></figcaption></figure>
+
+If this occurs, restarting Windows will resolve the issue.&#x20;
+
+{% hint style="warning" %}
+If restarting the PC is not possible, use the desktop shortcut to open the app, or right-click the app on the start menu and select _Run as Administrator._ &#x20;
+{% endhint %}
 
 ### Sample App
 

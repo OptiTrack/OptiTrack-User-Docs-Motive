@@ -71,8 +71,8 @@ You can also create a Rigid Body using the following methods while the markers a
 * **Assets pane:** While the markers are selected in Motive, click on the add <img src="../.gitbook/assets/image (63).png" alt="" data-size="line"> button at the bottom of the [Assets pane](assets-pane.md).
 * **Hotkey:** While the markers are selected, use the _Create Rigid Body_ hotkey (Default: Ctrl +T).
 
-![Creating a Rigid Body from selected markers&#x20;
-using the right-click context menu.](<../.gitbook/assets/Create RB - Perspective view context menu.png>) ![Rigid body defined from the selected markers.](<../.gitbook/assets/Rigid Body Bone - Unsolved (2).png>)
+<div><img src="../.gitbook/assets/Create RB - Perspective view context menu.png" alt="Creating a Rigid Body from selected markers 
+using the right-click context menu." width="265"> <img src="../.gitbook/assets/Rigid Body Bone - Unsolved (2).png" alt="Rigid body defined from the selected markers." width="263"></div>
 
 Once the Rigid Body asset is created, the markers will be colored, labeled, and interconnected to each other. The newly created Rigid Body will be listed under the [Assets pane](assets-pane.md).
 

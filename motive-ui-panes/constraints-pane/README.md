@@ -133,7 +133,7 @@ Before making any changes to the x/y/z coordinates, save the current values by c
 * Marker Diameter:  view or change the diameter of an individual marker.
 * Constraint Type:  Motive assigns the constraint type during the auto-label process. The user should not need to adjust this property.
 
-![Constraint Properties.](<../../.gitbook/assets/Properties - constraint.png>)
+<img src="../../.gitbook/assets/Properties - constraint.png" alt="Constraint Properties." width="310">
 
 ## Export/Import Constraints
 

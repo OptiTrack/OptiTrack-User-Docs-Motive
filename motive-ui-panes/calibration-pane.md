@@ -16,7 +16,7 @@ This page will provide a brief overview of the options available on the Calibrat
 
 ## New Calibration
 
-![The Calibration pane.](<../.gitbook/assets/Calibration Pane - New Calibration (2).png>)
+<img src="../.gitbook/assets/Calibration Pane - New Calibration (2).png" alt="The Calibration pane." width="306">
 
 ### Prepare the Volume
 

@@ -239,7 +239,7 @@ Whenever a geometric model is attached, settings to adjust the scale, location, 
 
 #### Geometry Tips and Examples
 
-![Geometry Properties for a standard Cylinder object attached to a bone in a Trained Markersets.](<../../.gitbook/assets/TM with Geometry Added with Viewport.png>)
+<img src="../../.gitbook/assets/TM with Geometry Added with Viewport.png" alt="Geometry Properties for a standard Cylinder object attached to a bone in a Trained Markersets." width="563">
 
 {% hint style="warning" %}
 If you are exporting an OBJ file from Maya, make sure the Ambient Color setting is set to white upon export. If this color is set to black, it will remove textures when the Trained Markerset is deselected.&#x20;

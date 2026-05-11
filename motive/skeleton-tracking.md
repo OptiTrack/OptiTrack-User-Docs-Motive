@@ -379,7 +379,7 @@ To export all of the assets in Live-mode or in the current _TAKE_ file, go to _F
 
 ![Exporting Assets into the User Profile.](<../.gitbook/assets/image (424) (1).png>) ![Options when exporting the user profile. ](<../.gitbook/assets/image (124) (1) (1) (2).png>)
 
-![Exporting from Assets pane.](<../.gitbook/assets/Context Menu - Export Skeleton Asset.png>)
+<img src="../.gitbook/assets/Context Menu - Export Skeleton Asset.png" alt="Exporting from Assets pane." width="311">
 
 ## Relative Skeleton Joint Angles
 

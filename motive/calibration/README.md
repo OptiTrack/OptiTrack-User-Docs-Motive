@@ -41,7 +41,7 @@ Refinement cannot run if a full calibration has not been completed previously on
 
 The [Calibration pane ](../../motive-ui-panes/calibration-pane.md)will guide you through the calibration process. This pane can be accessed by clicking on the <img src="../../.gitbook/assets/Calibration Pane button.png" alt="" data-size="line"> icon on the toolbar or by entering the calibration layout from the top-right corner <img src="../../.gitbook/assets/View Template - Calibration.png" alt="" data-size="line">. For a new system calibration, click the _New Calibration_ button and Motive will walk you through the steps.
 
-![Starting a new calibration.](<../../.gitbook/assets/Calibration Pane - New Calibration (1).png>)
+<img src="../../.gitbook/assets/Calibration Pane - New Calibration (1).png" alt="Starting a new calibration." width="204">
 
 ### Preparing and Optimizing the Setup
 
@@ -102,8 +102,8 @@ For best results, the following requirements should be met:
 * Cameras should see only calibration markers. If any other reflection or noise is detected during wanding the sample will not be collected and may affect the calibration results negatively. For this reason, the person doing the wanding should not be wearing anything reflective.
 * The markers on the calibration wand must be in good quality. If the marker surface is damaged or scuffed, the system may struggle to collect wanding samples.
 
-![Calibration pane at the beginning&#x20;
-of the wanding process.](<../../.gitbook/assets/Calibration Pane - Start Wanding.png>)
+<img src="../../.gitbook/assets/Calibration Pane - Start Wanding.png" alt="Calibration pane at the beginning 
+of the wanding process." width="203">
 
 ### Wand Types
 
@@ -140,8 +140,8 @@ To start calibrating inside the volume, cover one of the markers and expose it w
 9. Continue wanding until the camera squares in the [Calibration pane](../../motive-ui-panes/calibration-pane.md) turn from dark green (insufficient number of samples) to light green (sufficient number of samples). Once all the squares have turned light green the _Start Calculating_ button will become active.
 10. Press _Start Calculating_ in the [Calibration Pane](../../motive-ui-panes/calibration-pane.md). Generally, 1,000-4,000 samples per camera are enough. Samples above this threshold are unnecessary and can be detrimental to a calibration's accuracy.
 
-![Cameras with adequate samples will turn light green. Cameras that still need to collect samples,&#x20;
-will need to continue sampling until they also change to light green.](../../.gitbook/assets/CalibrationPane_Wanding.png)
+<img src="../../.gitbook/assets/CalibrationPane_Wanding.png" alt="Cameras with adequate samples will turn light green. Cameras that still need to collect samples, 
+will need to continue sampling until they also change to light green." width="563">
 
 {% hint style="info" %}
 **Wanding Tips**

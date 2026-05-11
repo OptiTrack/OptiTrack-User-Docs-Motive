@@ -145,7 +145,7 @@ Most of the navigation controls in Motive are customizable, including mouse and 
 
 Mouse controls in Motive can be customized from the Mouse tab in [application settings panel](../motive-ui-panes/settings/settings-mouse-and-keyboard.md) to match your preference. Motive also includes common mouse control presets for Motive (the default), Blade, Maya, MotionBuilder and Visual3D applications. Click the <img src="../.gitbook/assets/Settings button (11).png" alt="" data-size="line"> button to open the Settings panel.&#x20;
 
-![Mouse settings can be customized from the application settings panel.](<../.gitbook/assets/Settings - Mouse.png>)
+<img src="../.gitbook/assets/Settings - Mouse.png" alt="Mouse settings can be customized from the application settings panel." width="490">
 
 The table below lists basic actions that are commonly used for navigating the viewports in Motive:
 
@@ -161,7 +161,7 @@ The table below lists basic actions that are commonly used for navigating the vi
 
 Hotkeys speed up workflows. See all the defaults on the [Motive Hotkeys](motive-hotkeys.md) page. To create custom hotkeys, save or import a keyboard preset, click the <img src="../.gitbook/assets/Settings button (11).png" alt="" data-size="line"> button to open the Settings panel.&#x20;
 
-![Keyboard settings.](<../.gitbook/assets/Settings - Keyboard.png>)
+<img src="../.gitbook/assets/Settings - Keyboard.png" alt="Keyboard settings." width="491">
 
 ## Control Deck
 

@@ -109,7 +109,7 @@ Motive can detect and pair a rigid body to its associated IMU. See the [IMU Sens
 If Rigid Bodies are created in Edit mode, the corresponding _Take_ needs to be [auto-labeled](../data-recording/data-types.md). The Rigid Body markers will be labeled using the Rigid Body asset and positions and orientations will be computed for each frame. If the 3D data have not been labeled after edits on the recorded data, the asset may not be tracked.
 {% endhint %}
 
-![Creating a Rigid Body](<../../.gitbook/assets/Builder Pane - Create RB selected (1).png>)
+<img src="../../.gitbook/assets/Builder Pane - Create RB selected (1).png" alt="Creating a Rigid Body" width="563">
 
 ### Rigid Body Properties
 
@@ -125,7 +125,7 @@ Default properties are applied to any newly created asset, such as minimum marke
 
 Properties for existing Rigid Body assets can be changed from the [Properties pane](../../motive-ui-panes/properties-pane/).
 
-![Properties of a selected Rigid Body under the Properties pane.](<../../.gitbook/assets/Properties - Rigid Body standard.png>)
+<img src="../../.gitbook/assets/Properties - Rigid Body standard.png" alt="Properties of a selected Rigid Body under the Properties pane." width="563">
 
 ### Add or Remove Markers
 
@@ -145,9 +145,9 @@ There are multiple ways to add or remove markers on a Rigid Body.&#x20;
 
 The pivot point or bone of a Rigid Body is used to define both its position and orientation. The default position of the bone for a newly created rigid body is at its geometric center and its orientation axis will align with the global coordinate axis. To view the pivot point in the 3D viewport, enable the _Bone_ setting in the Visuals section of the selected Rigid Body in the [Properties pane](../../motive-ui-panes/properties-pane/properties-pane-rigid-body.md).
 
-![Rigid Body real-time information shown in the Info pane.&#x20;
-Position is in respect to the global origin, and orientation is in&#x20;
-respect to the initial orientation when the Rigid Body was created.](<../../.gitbook/assets/Info Pane - Rigid Body.png>)
+<img src="../../.gitbook/assets/Info Pane - Rigid Body.png" alt="Rigid Body real-time information shown in the Info pane. 
+Position is in respect to the global origin, and orientation is in 
+respect to the initial orientation when the Rigid Body was created." width="375">
 
 ### Real-time Information
 

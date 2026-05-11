@@ -33,13 +33,13 @@ To configure assets that contain active tags and an Inertial Measurement Unit (I
 * Powered by PoE, connected directly via Ethernet cable to one of the switches in the camera network.
 * Please see the [BaseStation](../active-components-hardware/basestation.md) page for product specifications and more information.&#x20;
 
-![BaseStation.](<../../.gitbook/assets/image (1312).png>)
+<img src="../../.gitbook/assets/image (1312).png" alt="BaseStation." width="188">
 
 ### Active Marker Options
 
 #### **Active Tags**
 
-![Active Tags.](<../../.gitbook/assets/image (716).png>)
+<img src="../../.gitbook/assets/image (716).png" alt="Active Tags." width="188">
 
 * Connects to a USB power source to illuminate the active LEDs.
 * Receives RF signals from the Base Station and synchronizes illumination of the connected active LED markers accordingly.
@@ -51,7 +51,7 @@ Please see the page[ Information for Assembling the Active Tags](../active-compo
 
 #### **Active Pucks**
 
-![Active Puck.](<../../.gitbook/assets/image (1295).png>)
+<img src="../../.gitbook/assets/image (1295).png" alt="Active Puck." width="188">
 
 An active tag self-contained into a trackable object, the Active Puck provides 6 DoF information for any object to which it's attached. Pucks include a factory installed Active Tag with 8 LEDs and a rechargeable battery with up to 10-hours of run time on a single charge.
 
@@ -220,7 +220,7 @@ The Active IDs can be monitored in the [3D Viewport](../../motive-ui-panes/viewp
 
 **Active IDs that are not part of an asset:**
 
-![Unique Active IDs assigned to unlabeled active markers.](<../../.gitbook/assets/Marker IDs for Unpaired Puck.png>)
+<img src="../../.gitbook/assets/Marker IDs for Unpaired Puck.png" alt="Unique Active IDs assigned to unlabeled active markers." width="536">
 
 **The same Active IDs after asset creation:**
 
@@ -230,7 +230,7 @@ The Active IDs can be monitored in the [3D Viewport](../../motive-ui-panes/viewp
 Rigid body definitions created using Active Markers will search for specific Active IDs along with the marker placements to track the Rigid Body. See below for more details.&#x20;
 {% endhint %}
 
-![](<../../.gitbook/assets/image (1305).png>)
+<img src="../../.gitbook/assets/image (1305).png" alt="" width="375">
 
 {% hint style="danger" %}
 **Duplicate active frame IDs**

@@ -54,7 +54,7 @@ _Reference_ cameras in MJPEG or grayscale video mode and [Prime Color](../hardwa
 
 To set a new rate, click in the [Multiplier](devices-pane.md#multiplier) field and select a fractional rate from the drop-down list. Note that this field does not open for cameras in object mode. &#x20;
 
-![Set the Rate Multiplier on a Reference Camera.](<../.gitbook/assets/Devices Pane - Rate multiplier.png>)
+<img src="../.gitbook/assets/Devices Pane - Rate multiplier.png" alt="Set the Rate Multiplier on a Reference Camera." width="249">
 
 {% hint style="info" %}
 **eSync2 users:**  When using an eSync2 synchronization hub to synchronize the camera system to another signal (e.g., Internal Clock), use the Multiplier on the input signal to adjust the camera system frame rate.
@@ -92,7 +92,7 @@ The Device Groups panel is the only place to access existing Device Groups. You 
 4. To select all the devices in a group, select the group in the panel.
 5. To delete a group, click the <img src="../.gitbook/assets/Devices Pane - device group delete button.png" alt="" data-size="line">that appears to the right of the group name when the mouse hovers over it.&#x20;
 
-![Device Group panel expanded.](<../.gitbook/assets/Devices Pane - Device Groups.png>)
+<img src="../.gitbook/assets/Devices Pane - Device Groups.png" alt="Device Group panel expanded." width="245">
 
 ## Tracking Cameras
 

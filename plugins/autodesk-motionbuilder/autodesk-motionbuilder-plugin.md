@@ -34,7 +34,7 @@ To enable streaming in Motive, click the <img src="../../.gitbook/assets/Setting
 
 Please see the [Data Streaming](../../motive/data-streaming.md) page for more details on all settings available for streaming.&#x20;
 
-![Broadcast Frame Data set to true for streaming.](<../../.gitbook/assets/Settings - Streaming FBX Bones (1).png>)
+<img src="../../.gitbook/assets/Settings - Streaming FBX Bones (1).png" alt="Broadcast Frame Data set to true for streaming." width="490">
 
 #### **Additional Tips**
 

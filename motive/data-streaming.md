@@ -160,7 +160,7 @@ Selects the upward axis of the right-hand coordinate system in the streamed data
 
 For compatibility with left-handed coordinate systems, the simplest method is to rotate the capture volume 180 degrees on the Y axis when defining the ground plane during [Calibration](calibration/).
 
-![Click image to enlarge.](<../.gitbook/assets/image (267).png>)
+<img src="../.gitbook/assets/image (267).png" alt="Click image to enlarge." width="375">
 
 #### Remote Trigger
 

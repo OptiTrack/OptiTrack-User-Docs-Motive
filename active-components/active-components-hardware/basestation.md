@@ -6,7 +6,7 @@ description: >-
 
 # BaseStation
 
-![](<../../.gitbook/assets/image (595).png>)
+<img src="../../.gitbook/assets/image (595).png" alt="" width="188">
 
 The BaseStation is the active hardware component that links other active components to Motive. Using a radio frequency channel (RF channel) between 11-26, the BaseStation synchronizes OptiTrack cameras with Active Tags and Pucks. Once the BaseStation receives the signal from the active component, it sends that data to the Motive computer along the camera network. This allows Motive to recognize Active Pucks and Tags even with significant occlusion of the LED markers, as compared to passive markers.
 

@@ -49,7 +49,7 @@ Increasing the Minimum Rays value may prevent extraneous reconstructions. Decrea
 
 In general, we recommend modifying these settings only for systems with either a high or very low camera count.
 
-![Reconstruction settings are located under the Live Pipeline tab in the Application Settings.](<../.gitbook/assets/Settings - Live Pipeline Solver tab basic only.png>)
+<img src="../.gitbook/assets/Settings - Live Pipeline Solver tab basic only.png" alt="Reconstruction settings are located under the Live Pipeline tab in the Application Settings." width="491">
 
 **Additional Settings**
 
@@ -156,7 +156,7 @@ There are three Visual options for tracked rays:&#x20;
 * **Show All:** All tracked rays are displayed, regardless of the selection.&#x20;
 * **Hide All:**  No rays are visible.&#x20;
 
-![the 3D Viewport with All Tracked Rays displayed.](<../.gitbook/assets/Viewport - tracked rays all.png>)
+<img src="../.gitbook/assets/Viewport - tracked rays all.png" alt="the 3D Viewport with All Tracked Rays displayed." width="563">
 
 **Untracked Ray (Red)**
 
@@ -164,7 +164,7 @@ An untracked ray does not contribute to the reconstruction of a 3D point. Untrac
 
 Untracked rays can occur from errant reflections in the volume or from areas with insufficient camera coverage.&#x20;
 
-![Untracked rays in a volume.](<../.gitbook/assets/Viewport - Tracked and Untracked Rays All.png>)
+<img src="../.gitbook/assets/Viewport - Tracked and Untracked Rays All.png" alt="Untracked rays in a volume." width="563">
 
 #### Marker Size
 
@@ -177,7 +177,7 @@ Click the [Visual Aids](../motive-ui-panes/viewport.md#visual-aids-1) button in 
 Only markers that are close to the size boundaries but not within them will display in the Camera view in red. Markers with a significant size variance from the limits will be filtered out of the Camera view.&#x20;
 {% endhint %}
 
-![Reflections accepted (white) or rejected (red) by the size filter.](<../.gitbook/assets/Viewport - Cameras with Size visual.png>)
+<img src="../.gitbook/assets/Viewport - Cameras with Size visual.png" alt="Reflections accepted (white) or rejected (red) by the size filter." width="563">
 
 **Circularity**
 
@@ -190,7 +190,7 @@ Click the [Visual Aids](../motive-ui-panes/viewport.md#visual-aids-1) button in 
 * Markers that exceed the Circularity threshold are marked with a yellow crosshair at the center. The Circularity label is shown in White.
 * Markers that are below the Circularity threshold are shown with a small red X and the text _Circle Filter_. The label is red.&#x20;
 
-![Reflections accepted (white) or rejected (red) by the Circularity filter.](<../.gitbook/assets/Viewport - Cameras View Circularity Visual.png>)
+<img src="../.gitbook/assets/Viewport - Cameras View Circularity Visual.png" alt="Reflections accepted (white) or rejected (red) by the Circularity filter." width="563">
 
 #### Pixel Inspector
 
@@ -200,7 +200,7 @@ To enable, click the <img src="../.gitbook/assets/Viewport - Mouse Actions Butto
 
 Drag the mouse to select a region in the 2D view for the selected camera, zooming in until the data is visible. Move the mouse over the region to display the values for the pixel directly below the cursor and the eight pixels surrounding it. Average values for each column and row are displayed at the top and bottom of the selected range.&#x20;
 
-![Analyzing pixel brightness values using the pixel inspector.](<../.gitbook/assets/Viewport - Pixel Inspector.png>)
+<img src="../.gitbook/assets/Viewport - Pixel Inspector.png" alt="Analyzing pixel brightness values using the pixel inspector." width="563">
 
 {% hint style="info" %}
 If the Brightness values display 0 for illuminated pixels, it means the camera is in tracking mode. Change the video mode to Grayscale or MJPEG to display the brightness.
@@ -219,7 +219,7 @@ When Motive is processing in real-time, you can examine the marker rays and othe
 
 In [Live mode](data-recording/#live-mode-and-edit-mode), Any changes to the Live Pipeline settings (on either Solver or Camera tabs) are reflected immediately in the Live capture.
 
-![The current mode is highlighted in Cyan on the control deck.](<../.gitbook/assets/image (314).png>)
+<img src="../.gitbook/assets/image (314).png" alt="The current mode is highlighted in Cyan on the control deck." width="563">
 
 ### 2D Edit Mode
 

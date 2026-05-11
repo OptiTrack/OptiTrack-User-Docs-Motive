@@ -143,7 +143,7 @@ When playing back a recorded capture, the red shading on the navigation bar indi
 
 ### Frame Range Selection
 
-![Graph View Pane with frames 522 - 772 selected.](<../.gitbook/assets/Graph with Frame Range Selected.png>)
+<img src="../.gitbook/assets/Graph with Frame Range Selected.png" alt="Graph View Pane with frames 522 - 772 selected." width="442">
 
 Left-click and drag over the graph to select a specific frame range. Frame range selection are used in the following workflows:
 

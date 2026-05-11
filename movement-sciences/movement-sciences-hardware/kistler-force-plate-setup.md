@@ -204,7 +204,7 @@ On the [CS-400 calibration square](../../motive/calibration/calibration-squares.
 
 Place the calibration wand on the force plate so that vertex of the wand is located at the left corner of the side where the cable input is located, as shown in the image below. Correct placement of the calibration square is important because it determines the orientation of the force plate and its local coordinate axis within the global system. The coordinate systems for force plates are independent of the system used Motive.
 
-![Force plate with CS-400 aligned properly.](<../../.gitbook/assets/image (531).png>)
+<img src="../../.gitbook/assets/image (531).png" alt="Force plate with CS-400 aligned properly." width="563">
 
 {% hint style="info" %}
 **Kistler Force Plates**

@@ -268,4 +268,4 @@ All of the connected cameras should now be listed in the [Devices pane](../../mo
 
 Open the status [Log pane](../../motive-ui-panes/log-pane.md) and verify there are no current errors. The example below shows the sequence of errors that occur when a camera is disconnected. Look also for dropped frames, which may indicate a problem with how the system is delivering the camera data. Please refer to the [troubleshooting section ](../../general-troubleshooting/)for more details.
 
-![Status Log Pane with errors. ](<../../.gitbook/assets/Log Pane - with Current Events (1).png>)
+<img src="../../.gitbook/assets/Log Pane - with Current Events (1).png" alt="Status Log Pane with errors. " width="313">

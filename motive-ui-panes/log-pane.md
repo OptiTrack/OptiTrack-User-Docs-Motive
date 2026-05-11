@@ -6,7 +6,7 @@ The status Log pane displays important events or statuses of the camera system o
 
 Open the status Log pane from the [View menu](toolbar-command-bar.md#view) or by clicking the <img src="../.gitbook/assets/image (1513).png" alt="" data-size="line"> icon on the main toolbar.
 
-![Status messages indicating a disconnected camera.](<../.gitbook/assets/Log Pane - with Current Events.png>)
+<img src="../.gitbook/assets/Log Pane - with Current Events.png" alt="Status messages indicating a disconnected camera." width="313">
 
 In general, when there are no errors in the system operation, the _Current_ section of the log will remain free of warning, <img src="../.gitbook/assets/Log Pane - Warning icon 2 (1).png" alt="" data-size="line"> error, <img src="../.gitbook/assets/Log Pane - Error icon CROPPED.png" alt="" data-size="line"> or critical <img src="../.gitbook/assets/Log Pane - Critical icon CROPPED.png" alt="" data-size="line"> messages. Occasionally during system operations, the error/warning messages (e.g., Dropped Frame, Discontinuous Frame ID) may pop-up momentarily and disappear afterward. This could occur when Motive is changing its configuration, for example, when switching between Live and Edit modes or when re-configuring the synchronization settings. This is a common behavior and does not necessarily indicate system errors as long as the messages do not persist in the _Current_ section. If the error message persists under the _Current_ section or there is an excessive number of events, there may be an issue with the system operation.
 

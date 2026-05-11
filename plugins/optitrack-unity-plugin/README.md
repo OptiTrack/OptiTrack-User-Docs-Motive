@@ -24,7 +24,7 @@ The [OptiTrack Unity3D Plugin](https://optitrack.com/support/downloads?cat=plugi
 
 ### Streaming Setup
 
-![Data Streaming settings in Motive.](<../../.gitbook/assets/Settings - Streaming for Unity Plugin.png>)
+<img src="../../.gitbook/assets/Settings - Streaming for Unity Plugin.png" alt="Data Streaming settings in Motive." width="491">
 
 From Motive, tracking data can be streamed in real-time, either from a live capture (Live Mode) or recorded data (Edit Mode). Settings are configured in [Application Settings](../../motive-ui-panes/settings/), on the [Streaming Settings](../../motive-ui-panes/settings/settings-streaming.md) tab.&#x20;
 

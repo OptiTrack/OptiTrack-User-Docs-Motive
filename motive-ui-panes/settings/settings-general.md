@@ -17,7 +17,7 @@ Please see the following pages for descriptions of the settings on other tabs:
 
 Application Settings can be accessed from the [View menu](../toolbar-command-bar.md#view) or by clicking the <img src="../../.gitbook/assets/Settings button (9).png" alt="" data-size="line"> icon on the main toolbar.&#x20;
 
-![Standard Settings on the General Tab of the Settings Panel.](<../../.gitbook/assets/Settings - General No Advanced.png>)
+<img src="../../.gitbook/assets/Settings - General No Advanced.png" alt="Standard Settings on the General Tab of the Settings Panel." width="563">
 
 {% hint style="info" %}
 **Advanced Settings**

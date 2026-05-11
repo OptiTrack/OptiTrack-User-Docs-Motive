@@ -18,7 +18,7 @@ Use the Application Settings panel to customize Motive and set default values. T
 
 The Settings panel can be opened from the [View tab](../toolbar-command-bar.md#view) or by clicking the [<img src="../../.gitbook/assets/Settings button (9).png" alt="Toolbar AppSettings 20.png" data-size="line">](https://v30.wiki.optitrack.com/index.php?title=File:Toolbar_AppSettings_20.png) icon on the main toolbar.&#x20;
 
-![Application settings panel in Motive.](<../../.gitbook/assets/Settings - General No Advanced.png>)
+<img src="../../.gitbook/assets/Settings - General No Advanced.png" alt="Application settings panel in Motive." width="563">
 
 ## Advanced Settings
 

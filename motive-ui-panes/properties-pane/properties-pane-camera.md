@@ -204,7 +204,7 @@ Shows whether the selected camera has been calibrated. This property does not in
 
 When enabled, the estimated field of view (FOV) of the selected camera is shown in the perspective viewport. When the camera is selected, the lines display in yellow. When the camera is not selected, the lines display in cyan.
 
-![Selected camera with Show Field of View setting enabled. ](<../../.gitbook/assets/Camera Properties - display FOV.png>)
+<img src="../../.gitbook/assets/Camera Properties - display FOV.png" alt="Selected camera with Show Field of View setting enabled. " width="344">
 
 #### **Show Frame Delivery Info**
 
