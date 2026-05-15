@@ -1,6 +1,7 @@
 ---
-cover: .gitbook/assets/Banner Sample 1 (1).png
-coverY: 63
+cover: .gitbook/assets/Docs Banner Image.png
+coverY: 0
+coverHeight: 526
 ---
 
 # OptiTrack Documentation
