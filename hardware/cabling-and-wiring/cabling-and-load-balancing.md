@@ -50,13 +50,13 @@ Depending on which OptiTrack cameras are used, a switch may not have a large eno
 
 For example, a 24-port switch may have a 370W power budget, supporting 12 PoE+ cameras that require 30W to power. If the same 24-port switch is connected to an RPS, it can now power all 24 PoE+ cameras (each with a 30W power requirement) utilizing all 24 of the ports on the switch.
 
-<figure><img src="../../.gitbook/assets/Network Power Budget.png" alt="A diagram showing the power distribution needs of various OptiTrack cameras."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/System-Network-Structure_PowerBudget_3_4_add_SX22.png" alt="A diagram showing the power distribution needs of various OptiTrack cameras."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
 
 ### PoE Switch Types
 
 PoE switches are categorized based on the maximum power level that individual ports can supply. The table below shows the power output of the various types of PoE switches and lists the current camera models that require each power level.&#x20;
 
-<table><thead><tr><th width="110.20001220703125">PoE Type</th><th width="131.5999755859375">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>PrimeX 13 or 13W, SlimX 13, SlimX 22, SlimX 41, VersaX 22, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, Prime Color, SlimX 120, VersaX 22W, VersaX 41N or 41W, VersaX 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120 or 120W, VersaX 120N, or 120W</td></tr></tbody></table>
+<table><thead><tr><th width="110.20001220703125">PoE Type</th><th width="131.5999755859375">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>Prime Color, PrimeX 13 or 13W, SlimX 13, SlimX 22, SlimX 41, VersaX 22, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, SlimX 120, VersaX 22W, VersaX 41N or 41W, VersaX 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120 or 120W, VersaX 120N, or 120W</td></tr></tbody></table>
 
 #### Power Requirements for External Devices
 
