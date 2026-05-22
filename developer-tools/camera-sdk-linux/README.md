@@ -6,9 +6,13 @@ description: An overview of the Linux version of the Camera SDK.
 
 ## Overview
 
+{% hint style="danger" %}
+The Camera SDK for Linux currently does not include support for USB cameras.&#x20;
+{% endhint %}
+
 The Camera SDK for Linux provides hardware controls (cameras and hubs) and access to the most fundamental frame data, such as grayscale images and 2D object information, from each camera. Using the Camera SDK for Linux, you can develop your own image processing applications that utilize the capabilities of the OptiTrack cameras in either Ubuntu or Fedora.&#x20;
 
-The Camera SDK for Linux is a free tool available on the OptiTrack [download](https://optitrack.com/support/downloads/developer-tools.html) site.
+To download this free tool, visit the OptiTrack [download](https://optitrack.com/support/downloads/developer-tools.html) site.
 
 {% hint style="warning" %}
 **Note:** 3D tracking features are not directly supported with Camera SDK but they are featured via the Motive API. For more information on the Camera SDK, visit our [website](http://www.optitrack.com/products/camera-sdk/).
