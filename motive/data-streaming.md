@@ -254,6 +254,8 @@ DO NOT modify this setting unless instructed to do so by OptiTrack Support.
 
 For information on streaming data via the VRPN Streaming Engine, please visit the [VRPN knowledge base](https://github.com/vrpn/vrpn/wiki). Note that only 6 DOF Rigid Body data can be streamed via VRPN.
 
+Use the OptiTrack [VRPN Sample](../developer-tools/vrpn-sample.md) to test your VRPN configuration.&#x20;
+
 ![](<../.gitbook/assets/image (1396).png>)
 
 #### **Enabled**
@@ -421,10 +423,12 @@ Runs locally or over a network.&#x20;
 
 The Virtual-Reality Peripheral Network (VRPN) is an open source project containing a library and a set of servers that are designed for implementing a network interface between application programs and tracking devices used in a virtual-reality system.
 
-Motive 3.1 uses VRPN version 7.33.1.&#x20;
+Use the OptiTrack [VRPN Sample](../developer-tools/vrpn-sample.md) to test your VRPN configuration.&#x20;
+
+Motive versions 3.1 and above use VRPN version 7.33.1.&#x20;
 
 For more information: [VRPN Github](https://github.com/vrpn/vrpn/wiki)
 
 {% hint style="info" %}
-Join the community on the [OptiTrack Data Streaming](https://forums.naturalpoint.com/viewforum.php?f=59) Forum today!
+Join the community on the [OptiTrack Discord](https://discord.com/channels/1404531193180848260/1446623038153031893) today!
 {% endhint %}
