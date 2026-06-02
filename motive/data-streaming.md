@@ -421,11 +421,18 @@ Within Motive
 
 Runs locally or over a network.&#x20;
 
+Motive versions 3.1 and above use VRPN version 7.33.1.&#x20;
+
 The Virtual-Reality Peripheral Network (VRPN) is an open source project containing a library and a set of servers that are designed for implementing a network interface between application programs and tracking devices used in a virtual-reality system.
 
-Use the OptiTrack [VRPN Sample](../developer-tools/vrpn-sample.md) to test your VRPN configuration.&#x20;
+* Supports VRPN Tracker (RigidBodies), Axis (e.g. Analog joysticks), and Button (button) types.
+* Does not support VRPN messaging.
+* Timestamps are designed for synchronization within the tracked device (6DOF + Axis + button data).  Timestamps use the stl chronos system clock time since epoch. Motive third party peripheral devices may use a different synchronization system.
+* Timeout warnings are incorrect – include the use of VRPN “shutup” if the console messages are an issue.
+* For peripheral devices, channels with units of “axis” are streamed as VRPN Analog channels.  Channels with units of “button” are streamed as VRPN Button.
+* Make sure trackable and RigidBody name are the same.
 
-Motive versions 3.1 and above use VRPN version 7.33.1.&#x20;
+Use the OptiTrack [VRPN Sample](../developer-tools/vrpn-sample.md) to test your VRPN configuration.&#x20;
 
 For more information: [VRPN Github](https://github.com/vrpn/vrpn/wiki)
 
