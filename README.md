@@ -2,6 +2,27 @@
 cover: .gitbook/assets/Docs Banner Image.png
 coverY: 0
 coverHeight: 526
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # OptiTrack Documentation
