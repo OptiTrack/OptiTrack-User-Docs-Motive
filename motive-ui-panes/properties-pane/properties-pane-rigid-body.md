@@ -243,7 +243,7 @@ Determines the angle (in degrees) between the calculated drift correction and th
 
 When this value is exceeded, Motive will immediately correct the sensor fusion rotation to optical. This can help in circumstances where the IMU is physically impacted, such as when it is attached to an object with recoil.&#x20;
 
-#### Max Drift Correction _(Advanced)_
+#### Max Drift Correction&#x20;
 
 The rate of drift correction.&#x20;
 
@@ -296,7 +296,7 @@ Active devices such as CinePucks and Pucks are often equipped with an Inertial M
 
 To view properties related to the IMU, select the Active Tag paired to the Rigid Body in the [Devices pane](../devices-pane.md).&#x20;
 
-<figure><img src="../../.gitbook/assets/IMU Properties with Devices Pane - Sample.png" alt=""><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMU Devices and Properties Std only.png" alt="The Properties Pane for the Active Tag IMU paired to a rigid body."><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Wireless IMU properties are read-only in Motive.**&#x20;
