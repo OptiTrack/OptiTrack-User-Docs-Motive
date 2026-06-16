@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-editing
+---
+
 # Data Editing
 
 Labeling Pane in Motive\
@@ -45,7 +51,7 @@ The trimming feature can be used to crop a specific frame range from a Take. For
 
 **4)** A dialog box will pop up asking to confirm the data removal. If you wish to reset the frame numbers upon trimming the take, select the corresponding check box on the pop-up dialog.
 
-![](<../.gitbook/assets/image (380).png>)
+![](<../.gitbook/assets/image (381).png>)
 
 ## Labeling Errors
 
@@ -115,7 +121,7 @@ This refers to trajectories of selected reference markers and assumes the target
 
 The curves tool applies a noise filter (low-pass Butterworth, 4th degree) to trajectory data, and this modifies the marker trajectory smoother. This is a bi-directional filter that does not introduce phase shifts. Using this tool, any vibrating or fluttering movements are filtered out. First, set the cutoff frequency for the filter and define how strongly your data will be smoothed. When the cutoff frequency is set high, only high-frequency signals are filtered. When the cutoff frequency is low, trajectory signals at a lower frequency range will also be filtered. In other words, a low cutoff frequency setting will smooth most of the transitioning trajectories, whereas high cutoff frequency setting will smooth only the fluttering trajectories. High-frequency data are present during sharp transitions, and this can also be introduced by signal noise. Commonly used ranges for Filter Cutoff Frequency are between 7 Hz to 12 Hz, but you may want to adjust the value higher for fast and sharp motions to avoid softening motion transitions need to stay sharp.\\
 
-![Smoothing a 3D trajectories.](<../.gitbook/assets/image (389).png>)
+![Smoothing a 3D trajectories.](<../.gitbook/assets/image (390).png>)
 
 ### Fragments
 

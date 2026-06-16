@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/windows-10-network-settings
+---
+
 # Windows 10 Network Settings
 
 ## General Windows Setup

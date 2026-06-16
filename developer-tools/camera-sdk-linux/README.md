@@ -1,5 +1,9 @@
 ---
 description: An overview of the Linux version of the Camera SDK.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/camera-sdk-linux
 ---
 
 # Camera SDK for Linux

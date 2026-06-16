@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/quick-start-guides/quick-start-guide-precision-capture
+---
+
 # Quick Start Guide: Precision Capture
 
 With an optimized system setup, motion capture systems are capable of obtaining extremely accurate tracking data from a small to medium sized capture volume. This quick start guide includes general tips and suggestions on precision capture system setups and important cautions to keep in mind. This page also covers some of the precision verification methods in Motive. For more general instructions, please refer to the [Quick Start Guide: Getting Started](quick-start-guide-getting-started.md) or corresponding workflow pages.
@@ -28,7 +35,7 @@ Optimized camera placement techniques will greatly improve the tracking result a
 
 For precise tracking, better results will be obtained by placing cameras closer to the target object (adjusting focus will be required) in a sphere or dome-shaped camera arrangement, as shown in the images on the right. Good positional data in all dimensions (X, Y, and Z axis) will be attained only if there are cameras contributing to the calculation from a variety of different locations; each unique vantage adds additional data.
 
-![Capturing multiple unique vantages measure more accurate positions on all of the coordinate axis](<../.gitbook/assets/image (614).png>) ![Cameras placed in a dome arrangement around a cubic meter volume.](<../.gitbook/assets/image (344).png>)
+![Capturing multiple unique vantages measure more accurate positions on all of the coordinate axis](<../.gitbook/assets/image (614).png>) ![Cameras placed in a dome arrangement around a cubic meter volume.](<../.gitbook/assets/image (345).png>)
 
 **Mount Securely**
 

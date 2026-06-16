@@ -2,6 +2,9 @@
 description: >-
   This page provides detailed instructions to create rigid bodies in Motive, and
   covers other useful features associated with rigid body assets.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/rigid-body-tracking
 ---
 
 # Rigid Body Tracking
@@ -43,7 +46,7 @@ When tracking multiple objects using passive markers, it is beneficial to create
 {% hint style="info" %}
 **Note for Active Marker Users**
 
-If you are using [OptiTrack active markers](../../active-components/active-marker-tracking/) for tracking multiple Rigid Bodies, it is not required to have unique marker placements. Through the active labeling protocol, active markers can be labeled individually, and multiple rigid bodies can be distinguished through uniquely assigned marker labels. Please read through [Active Marker Tracking](../../active-components/active-marker-tracking/) page for more information.
+If you are using [OptiTrack active markers](../../active-classic/active-marker-tracking/) for tracking multiple Rigid Bodies, it is not required to have unique marker placements. Through the active labeling protocol, active markers can be labeled individually, and multiple rigid bodies can be distinguished through uniquely assigned marker labels. Please read through [Active Marker Tracking](../../active-classic/active-marker-tracking/) page for more information.
 {% endhint %}
 
 #### **What Makes Rigid Bodies Unique?**
@@ -214,7 +217,7 @@ Scroll to the _Visuals_ section of the asset's properties. Under _Geometry_, sel
 
 <figure><img src="../../.gitbook/assets/Rigid Body Align to Geometry (1).png" alt="" width="249"><figcaption><p>Rigid Body Advanced Properties:  Geometry.</p></figcaption></figure>
 
-To import your own object, select _Custom Model_. This will open the _Attached Geometry_ field. Click on the file folder icon to select the .obj or .fbx file to import into Motive. &#x20;
+To import your own object, select _Custom Model_. This will open the _Attached Geometry_ field. Click on the file folder icon to select the .obj, .fbx, or .stl file to import into Motive. &#x20;
 
 <figure><img src="../../.gitbook/assets/Asset Properties - Attach custom geometry.png" alt="" width="287"><figcaption><p>Select custom geometry Model. </p></figcaption></figure>
 
@@ -272,7 +275,7 @@ Please see the [Gizmo tools](../assets/gizmo-tool-translate-rotate-and-scale.md)
 Rigid Body tracking data can be exported or streamed to client applications in real-time:
 
 * Captured 6 DoF Rigid Body data can be exported into CSV, or FBX files. Please read the [Data Export](../data-export/) page for more details.
-* You can also use one of the streaming plugins or use NatNet client applications to receive tracking data in real-time. See: [NatNet SDK](../../developer-tools/natnet-sdk/natnet-4.0.md).
+* You can also use one of the streaming plugins or use NatNet client applications to receive tracking data in real-time. See: [NatNet SDK](../../developer-tools/natnet-sdk/natnet-4.5.md).
 
 ## Additional Features
 

@@ -2,6 +2,9 @@
 description: >-
   Use the VRPN Sample to verify that OptiTrack data is streaming through the
   VRPN protocol.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/vrpn-sample
 ---
 
 # VRPN Sample

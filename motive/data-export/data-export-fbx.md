@@ -1,5 +1,9 @@
 ---
 description: An overview of the data export options for FBX.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-export/data-export-fbx
 ---
 
 # Data Export: FBX
@@ -25,7 +29,7 @@ Autodesk has discontinued support for FBX ASCII import in MotionBuilder 2018 and
 
 Exported FBX files in ASCII format can contain reconstructed marker coordinate data as well as 6 Degree of Freedom data for each involved asset depending on the export setting configurations. ASCII files can also be opened and edited using text editor applications.
 
-![](<../../.gitbook/assets/image (920).png>) ![](<../../.gitbook/assets/image (338).png>) ![](<../../.gitbook/assets/image (1412).png>)
+![](<../../.gitbook/assets/image (920).png>) ![](<../../.gitbook/assets/image (339).png>) ![](<../../.gitbook/assets/image (1412).png>)
 
 ### FBX ASCII Export Options
 

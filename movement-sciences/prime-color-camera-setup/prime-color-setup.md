@@ -1,5 +1,9 @@
 ---
 description: A list of components used in a Prime Color Camera setup.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/prime-color-setup
 ---
 
 # Prime Color Setup: Required Components
@@ -16,7 +20,7 @@ The Prime Color is a full-color video camera that is capable of recording synchr
 
 The camera enables recording of high frame rate videos (up to 500 FPS at 480p) with resolutions up to 1080p (at 250 FPS) by performing onboard compression (H.264) of captured frames.&#x20;
 
-![](<../../.gitbook/assets/image (566).png>)
+![](<../../.gitbook/assets/image (567).png>)
 
 **eStrobe**
 
@@ -28,7 +32,7 @@ The eStrobe emits only white light, and will not interfere with tracking within 
 The eStrobe is for indoor use only. Sunlight should provide sufficient lighting for high-speed capture when filming outdoors.&#x20;
 {% endhint %}
 
-![](<../../.gitbook/assets/image (513).png>) ![](<../../.gitbook/assets/image (489).png>)
+![](<../../.gitbook/assets/image (514).png>) ![](<../../.gitbook/assets/image (490).png>)
 
 ## Computer Requirements
 

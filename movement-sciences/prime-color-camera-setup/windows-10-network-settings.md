@@ -1,5 +1,9 @@
 ---
 description: Recommended network settings for Prime Color Camera systems.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/windows-10-network-settings
 ---
 
 # Prime Color Camera Setup: Windows Network Settings
@@ -45,7 +49,7 @@ Once these policies are implemented, the firewall cannot be re-enabled by any ot
 
 #### Disable Firewall
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 1. Open Window’s [Local Group Policy Editor](windows-10-network-settings.md#local-group-policy-editor).
 2. Navigate to _Computer Configuration -> Windows Settings -> Security Settings -> Windows Defender Firewall with Advanced Security._

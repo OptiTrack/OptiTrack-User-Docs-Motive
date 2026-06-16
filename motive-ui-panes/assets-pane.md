@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/assets-pane
+---
+
 # Assets Pane
 
 The Assets pane in Motive lists out all of the assets involved in the Live, or recorded, capture and allows users to manage them. This pane can be accessed under the [View tab](toolbar-command-bar.md#view) in Motive or by clicking the <img src="../.gitbook/assets/Assets Pane button.png" alt="Screenshot of the Assets Pane button from the Motive toolbar. " data-size="original"> icon on the main toolbar.

@@ -1,5 +1,9 @@
 ---
 description: Detailed instructions for using the Continuous Calibration feature.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/calibration/continuous-calibration
 ---
 
 # Continuous Calibration
@@ -101,7 +105,7 @@ To manually adjust cameras in the 3D view, enable the advanced setting _Editable
 
 To access advanced settings, click the ![A screenshot of the Motive three-dot menu button.](<../../.gitbook/assets/Motive Context Menu (32).png>) button in the upper right corner and select _Show Advanced_.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (298).png" alt="A screenshot of the Motive Settings panel menu options: Show Advanced and Edit Advanced.  "><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (299).png" alt="A screenshot of the Motive Settings panel menu options: Show Advanced and Edit Advanced.  "><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Settings - General Advanced - middle MARKED UP.png" alt="A screenshot of the Motive Application settings panel, General tab, with the Advanced Calibration settings show. The setting &#x22;Editable in 3D View:&#x22; is highlighted. "><figcaption></figcaption></figure>
 

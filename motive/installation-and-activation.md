@@ -1,5 +1,9 @@
 ---
 description: A comprehensive guide to installing and licensing Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/installation-and-activation
 ---
 
 # Installation and License Activation

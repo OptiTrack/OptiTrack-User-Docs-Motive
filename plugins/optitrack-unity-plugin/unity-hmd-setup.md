@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unity-plugin/unity-hmd-setup
+---
+
 # Unity: HMD Setup
 
 This page provides instructions on setting up the [OptiTrack OpenVR driver](../optitrack-openvr-driver.md) for integrating OptiTrack system with Vive HMDs within SteamVR applications; including Unreal Engine and Unity.
@@ -46,7 +53,7 @@ Once the clip has been mounted, next step is to import the provided [Rigid Body 
 {% tab title="Markers" %}
 **Marker Types**
 
-You can either use the passive retro-reflective type markers or the active LED markers to track the HMD. Passive markers are retroreflective markers that reflect infrared light emitted from the IR LEDs on the camera. On the other hand, the active markers are LED markers that emit the IR light which gets uniquely identified in Motive. Either type of marker can be used to track HMDs. Using [active marker](../../active-components/active-marker-tracking/) is recommended especially for applications that involve tracking of multiple HMDs in the scene.
+You can either use the passive retro-reflective type markers or the active LED markers to track the HMD. Passive markers are retroreflective markers that reflect infrared light emitted from the IR LEDs on the camera. On the other hand, the active markers are LED markers that emit the IR light which gets uniquely identified in Motive. Either type of marker can be used to track HMDs. Using [active marker](../../active-classic/active-marker-tracking/) is recommended especially for applications that involve tracking of multiple HMDs in the scene.
 
 **Marker Placement**
 
@@ -74,7 +81,7 @@ HMDs with passive markers can utilize the [External Pivot Alignment](../../motiv
 
 #### **Steps**
 
-1. First of all, make sure Motive is configured for tracking [active markers](../../active-components/active-marker-tracking/).
+1. First of all, make sure Motive is configured for tracking [active markers](../../active-classic/active-marker-tracking/).
 2. Open the [Builder pane](../../motive-ui-panes/builder-pane.md) under [View tab](../../motive-ui-panes/toolbar-command-bar.md#view) and click _Rigid Bodies_.
 3. Under the _Type_ drop-down menu, select HMD. This will bring up the options for defining an HMD Rigid Body.
 4. If the selected marker matches one of the Active clips, it will indicate which type of Active Clip is being used.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-peripheral-api
+---
+
 # OptiTrack Peripheral API
 
 The OptiTrack Peripheral API is an open C++ API that can be used to create 'plugin' devices. Custom built plugin DLL's will allow you to initialize and synchronize external devices with the OptiTrack motion capture system in Motive. After building a custom plugin device using the API, the library must be placed in the `\device` folder within the Motive install directory in order to initialize and integrate desired peripheral devices. For integrating [AMTI](../movement-sciences/movement-sciences-hardware/amti-force-plate-setup.md) and [Bertec](../movement-sciences/movement-sciences-hardware/bertec-force-plate-setup.md) force plates and [NI-DAQ](../movement-sciences/movement-sciences-hardware/ni-daq-setup.md) devices, the existing BiomechDevicePlugin.dll that installs with the peripheral module can be utilized.&#x20;
@@ -65,9 +72,9 @@ The following guideline can be used to create and apply custom device plugin DLL
 
 1.  Copy the OptiTrackPeripheralExample project and modify the code in the lines where indicated in the sample.Edit the 'REQUIRED' and 'OPTIONAL' sections.​ Changes made in the .cpp files are reflected in the Devices and Properties panes.
 
-    <figure><img src="../.gitbook/assets/image (457).png" alt=""><figcaption><p>Edit the 'REQUIRED' and 'OPTIONAL' sections. Click image to enlarge.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (458).png" alt=""><figcaption><p>Edit the 'REQUIRED' and 'OPTIONAL' sections. Click image to enlarge.</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (464).png" alt=""><figcaption><p>Changes made in the .cpp files are reflected in the Devices and Properties panes.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (465).png" alt=""><figcaption><p>Changes made in the .cpp files are reflected in the Devices and Properties panes.</p></figcaption></figure>
 2. Build the sample, which produces a plugin DLL. Copy this DLL to the `<Motive install folder>\devices` subfolder.
 3. If your plugin has external dependencies (e.g. driver / SDK dlls), make sure these are on your system path, or in the Motive install directory.
 4. Launch Motive. Your device should appear in the [Devices pane](../motive-ui-panes/devices-pane.md) in Motive. If it does not, check the Motive [Log pane](../motive-ui-panes/log-pane.md) for error notifications.

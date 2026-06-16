@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/external-plugins/vvvv-integration
+---
+
 # vvvv Integration
 
 [vvvv](https://vvvv.org/) has created a VL.IO.OptiTrack plugin for use with an OptiTrack system.

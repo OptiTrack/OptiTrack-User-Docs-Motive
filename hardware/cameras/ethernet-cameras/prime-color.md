@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/ethernet-cameras/prime-color
+---
+
 # Prime Color
 
 {% hint style="info" %}

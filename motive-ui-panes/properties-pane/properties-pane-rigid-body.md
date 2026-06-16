@@ -1,5 +1,9 @@
 ---
 description: An in-depth look at the properties available for Rigid Bodies.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-rigid-body
 ---
 
 # Properties Pane: Rigid Body
@@ -67,7 +71,7 @@ Sets the minimum number of markers that must be tracked and labeled in order for
 
 #### **Minimum Active Markers to Boot&#x20;**_**(Advanced Setting)**_
 
-Sets the minimum number of active markers that must be tracked and labeled for Rigid Bodies to be booted or first tracked. For more information on working with Active Markers, see the pages [Active Marker Tracking](../../active-components/active-marker-tracking/) and [IMU Sensor Fusion](../../motive/imu-sensor-fusion.md).&#x20;
+Sets the minimum number of active markers that must be tracked and labeled for Rigid Bodies to be booted or first tracked. For more information on working with Active Markers, see the pages [Active Marker Tracking](../../active-classic/active-marker-tracking/) and [IMU Sensor Fusion](../../motive/imu-sensor-fusion.md).&#x20;
 
 **Asset Scale&#x20;**_**(Advanced Setting)**_
 
@@ -175,13 +179,13 @@ Whenever a geometric model is attached, settings to adjust the scale, location, 
 
 #### Geometry Tips and Examples
 
-![A OBJ file of a basketball attached to a Rigid Body.](<../../.gitbook/assets/image (105).png>)
+![A OBJ file of a basketball attached to a Rigid Body.](<../../.gitbook/assets/image (106).png>)
 
 {% hint style="warning" %}
 If you are exporting an OBJ file from Maya, make sure the Ambient Color setting is set to white upon export. If this color is set to black, it will remove textures when the Rigid Body is deselected.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (449).png" alt=""><figcaption><p>Common Material Attributes in Maya with Ambient Color selected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (450).png" alt=""><figcaption><p>Common Material Attributes in Maya with Ambient Color selected.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (813).png" alt=""><figcaption><p>Attached Geometry models with Ambient color set to Black (left) or White (right).</p></figcaption></figure>
 
@@ -243,7 +247,7 @@ Determines the angle (in degrees) between the calculated drift correction and th
 
 When this value is exceeded, Motive will immediately correct the sensor fusion rotation to optical. This can help in circumstances where the IMU is physically impacted, such as when it is attached to an object with recoil.&#x20;
 
-#### Max Drift Correction&#x20;
+#### Max Drift Correction _(Advanced)_
 
 The rate of drift correction.&#x20;
 
@@ -296,7 +300,7 @@ Active devices such as CinePucks and Pucks are often equipped with an Inertial M
 
 To view properties related to the IMU, select the Active Tag paired to the Rigid Body in the [Devices pane](../devices-pane.md).&#x20;
 
-<figure><img src="../../.gitbook/assets/IMU Devices and Properties Std only.png" alt="The Properties Pane for the Active Tag IMU paired to a rigid body."><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMU Properties with Devices Pane - Sample.png" alt=""><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Wireless IMU properties are read-only in Motive.**&#x20;
@@ -308,7 +312,7 @@ It's necessary to reconfigure wireless active devices when:&#x20;
 * You have purchased new Tags/Pucks to add to a system from a previous order.
 * There is a need to change the RF communication channel to avoid interference.
 
-Use the [Active Batch Programmer](../../active-components/configuration/active-batch-programmer.md) to update these properties.
+Use the [Active Batch Programmer](../../active-classic/configuration/active-batch-programmer.md) to update these properties.
 {% endhint %}
 
 ### Details

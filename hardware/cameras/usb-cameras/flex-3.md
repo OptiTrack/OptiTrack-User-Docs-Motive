@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/usb-cameras/flex-3
+---
+
 # Flex 3
 
 ![](<../../../.gitbook/assets/image (1018).png>)

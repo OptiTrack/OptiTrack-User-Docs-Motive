@@ -1,5 +1,8 @@
 ---
 description: Learn how to use an OptiTrack system to control a robotic arm.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/robotics/mocap4ros2-setup
 ---
 
 # MoCap4ROS2 Setup

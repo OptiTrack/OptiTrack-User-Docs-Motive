@@ -2,6 +2,9 @@
 description: >-
   This page covers the basics of marker labels in Motive and outlines a sample
   labeling workflow.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/labeling
 ---
 
 # Labeling
@@ -126,7 +129,7 @@ The **Tracks View** under the [Graph View pane](../motive-ui-panes/graph-view-pa
 
 The **Quick Label** mode allows you to tag labels with single-clicks in the 3D Viewport and is a handy way to reassign or modify marker labels throughout the capture.&#x20;
 
-![Use the Labels pane to quickly label markers. Click image to enlarge.](<../.gitbook/assets/image (894).png>) ![Re-labeling Skeleton markers using the Quick Label Mode.](<../.gitbook/assets/image (443).png>)
+![Use the Labels pane to quickly label markers. Click image to enlarge.](<../.gitbook/assets/image (894).png>) ![Re-labeling Skeleton markers using the Quick Label Mode.](<../.gitbook/assets/image (444).png>)
 
 ### Quick Label Mode Steps
 

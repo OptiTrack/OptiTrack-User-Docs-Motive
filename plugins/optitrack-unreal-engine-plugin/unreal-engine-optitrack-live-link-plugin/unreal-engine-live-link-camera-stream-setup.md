@@ -2,6 +2,10 @@
 description: >-
   Setup guide to stream video cameras from Motive using the Camera Role in
   Unreal Engine.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/unreal-engine-live-link-camera-stream-setup
 ---
 
 # Unreal Engine: Live Link Camera Stream Setup
@@ -28,8 +32,8 @@ Motive will stream the camera as a Live Link Rigid Body asset.&#x20;
 
 #### Connect the CinePuck and BaseStation
 
-* Plug the [BaseStation](../../../active-components/active-components-hardware/basestation.md) into one of the Power over Ethernet (PoE) switches on the OptiTrack camera network.&#x20;
-* Firmly attach the [CinePuck](../../../active-components/active-components-hardware/cinepuck.md) to the Studio Camera using the SmallRig NATO Rail and Clamps on the cage of the camera.
+* Plug the [BaseStation](../../../active-classic/active-classic-hardware/basestation.md) into one of the Power over Ethernet (PoE) switches on the OptiTrack camera network.&#x20;
+* Firmly attach the [CinePuck](../../../active-classic/active-classic-hardware/cinepuck.md) to the Studio Camera using the SmallRig NATO Rail and Clamps on the cage of the camera.
 * The CinePuck can be mounted anywhere on the camera. For best results, put the puck closer to the lens.
 * Power on the CinePuck, and let it calibrate the IMU bias. The lights will flash red and orange during calibration and change to green when done.
 

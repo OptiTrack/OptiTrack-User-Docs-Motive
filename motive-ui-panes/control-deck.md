@@ -1,5 +1,9 @@
 ---
 description: An in-depth look at the features and functions available on the Control Deck.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/control-deck
 ---
 
 # Control Deck
@@ -67,7 +71,7 @@ Displays the current frame number during recording.&#x20;
 
 When you are ready to begin recording, click the Record button. While recording, a red outline visual displays around the Viewport panes and the Record button becomes a Stop Recording button: <img src="../.gitbook/assets/Stop Recording Button.png" alt="" data-size="line">
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Motive while recording a <em>Take</em>. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Motive while recording a <em>Take</em>. </p></figcaption></figure>
 
 #### Recording Delay
 
@@ -156,13 +160,13 @@ In Edit mode, the Timeline is displayed across the top of the Control Deck.&#x20
 
 ## Status Monitor
 
-![Status parameter shown on the control deck.](<../.gitbook/assets/image (113).png>)
+![Status parameter shown on the control deck.](<../.gitbook/assets/image (114).png>)
 
 Located on the right corner of the control deck, the status monitor displays specific operational parameters in Motive.&#x20;
 
 Click the monitor to see all monitored data. The blue check mark in the leftmost column indicates the status that displays on the control deck when the monitor window is closed. To select a different status to display, click the column to the left of the status name to move the check mark.&#x20;
 
-![Status panel in Motive.](<../.gitbook/assets/image (169).png>)
+![Status panel in Motive.](<../.gitbook/assets/image (170).png>)
 
 #### **Residual**&#x20;
 
@@ -209,7 +213,7 @@ Streaming status is available only for Unicast streaming. This status is disable
 * Hover over the icon to see streaming connection status messages.
 * Click the icon to quickly access the [Data Streaming settings](../motive/data-streaming.md).
 
-![Streaming Status](<../.gitbook/assets/image (119).png>)
+![Streaming Status](<../.gitbook/assets/image (120).png>)
 
 ## Notifications
 
@@ -217,4 +221,4 @@ Important software notifications are reported at the right corner of the control
 
 Only important configuration notifications are reported here. Software status messages are reported on the [Log pane](log-pane.md).
 
-![Sample Notification.](<../.gitbook/assets/image (94).png>)
+![Sample Notification.](<../.gitbook/assets/image (95).png>)

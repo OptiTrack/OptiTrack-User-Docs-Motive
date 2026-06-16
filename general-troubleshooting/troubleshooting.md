@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/troubleshooting
+---
+
 # Troubleshooting Q\&A
 
 ### Hardware: Cabling and Wiring

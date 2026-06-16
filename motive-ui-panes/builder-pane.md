@@ -1,12 +1,16 @@
 ---
 description: A review of the functions available on the Builder pane.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/builder-pane
 ---
 
 # Builder Pane
 
 ## Overview
 
-The Builder pane is accessed under the _View tab_ or by clicking the <img src="../.gitbook/assets/image (62).png" alt="" data-size="line"> icon on the main toolbar.
+The Builder pane is accessed under the _View tab_ or by clicking the <img src="../.gitbook/assets/image (63).png" alt="" data-size="line"> icon on the main toolbar.
 
 The **Builder pane** is used to create and edit trackable models, also called trackable assets:
 
@@ -24,7 +28,7 @@ The trackable models can be used to auto-label the 3D capture both in Live mode 
 
 On the Builder pane, you can either create a new trackable asset or modify an existing one. Select the _Type_ of asset you wish to work on, and then select whether you wish to create or make modifications to existing assets. Create and Modify tools for different Asset types are explained in the sections below.
 
-![Builder pane.](<../.gitbook/assets/image (276).png>)
+![Builder pane.](<../.gitbook/assets/image (277).png>)
 
 ### Post-Processing&#x20;
 
@@ -68,7 +72,7 @@ You may encounter limits if using an excessive number of markers, or experience 
 You can also create a Rigid Body using the following methods while the markers are selected:
 
 * **Perspective View (3D viewport):** Right-click on the selected markers to access the context menu. Under the _Markers_ section, click _Create Rigid Body_.
-* **Assets pane:** While the markers are selected in Motive, click on the add <img src="../.gitbook/assets/image (63).png" alt="" data-size="line"> button at the bottom of the [Assets pane](assets-pane.md).
+* **Assets pane:** While the markers are selected in Motive, click on the add <img src="../.gitbook/assets/image (64).png" alt="" data-size="line"> button at the bottom of the [Assets pane](assets-pane.md).
 * **Hotkey:** While the markers are selected, use the _Create Rigid Body_ hotkey (Default: Ctrl +T).
 
 <div><img src="../.gitbook/assets/Create RB - Perspective view context menu.png" alt="Creating a Rigid Body from selected markers 
@@ -102,7 +106,7 @@ HMDs with passive markers can utilize the [External Pivot Alignment](builder-pan
 
 ![Creating an HMD Rigid Body in the Builder pane.](<../.gitbook/assets/image (419) (1) (1) (1) (8).png>)
 
-1. Make sure Motive is configured for tracking [active markers](../active-components/active-marker-tracking/#motive-settings).
+1. Make sure Motive is configured for tracking [active markers](../active-classic/active-marker-tracking/#motive-settings).
 2. Open the Builder pane under [View tab](toolbar-command-bar.md#view) and click _Rigid Bodies_.
 3. Under the _Type_ drop-down menu, select HMD. This will bring up the options for defining an HMD Rigid Body.
 4. If the selected marker matches one of the Active clips, it will indicate which type of Active Clip is being used.
@@ -168,7 +172,7 @@ The Rigid Body refinement tool improves the accuracy of Rigid Body calculation i
    2. Slowly rotate the Rigid Body to collect samples at different orientations until the progress bar is full.
 5. You can also refine the asset in Edit mode. Motive will automatically replay the current take file to complete the refinement process.&#x20;
 
-<div><figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>Rigid Body Refinement in Progress.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Refine RB - results.png" alt=""><figcaption><p>Rigid Body Refinement Results.</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>Rigid Body Refinement in Progress.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Refine RB - results.png" alt=""><figcaption><p>Rigid Body Refinement Results.</p></figcaption></figure></div>
 
 ### Probe Calibration
 
@@ -230,7 +234,7 @@ Scroll to the _Visuals_ section of the asset's properties. Under _Geometry_, sel
 
 <figure><img src="../.gitbook/assets/Rigid Body Align to Geometry.png" alt=""><figcaption><p>Geometry Options for Assets.</p></figcaption></figure>
 
-To import your own object, select _Custom Model_. This will open the _Attached Geometry_ field. Click on the file folder icon to select the .obj or .fbx file to import into Motive. &#x20;
+To import your own object, select _Custom Model_. This will open the _Attached Geometry_ field. Click on the file folder icon to select the .obj, .fbx, or .stl file to import into Motive. &#x20;
 
 <figure><img src="../.gitbook/assets/image (1494).png" alt=""><figcaption><p>Select custom Model. </p></figcaption></figure>
 
@@ -343,7 +347,11 @@ Motive includes two spine models for skeletons:&#x20;
 
 <figure><img src="../.gitbook/assets/5 segment spine side view comparison to classic.png" alt="" width="488"><figcaption><p>The Classic Spine model (left) compared to the 5 Spine Segment model (right)</p></figcaption></figure>
 
-The 7 Segment Spine is the default model. To change the default, to go [_Settings > Assets_](settings/settings-assets.md). On the _Assets tab_ under _Skeleton Creation_, change the Spine Type to the preferred default for your workflow.    &#x20;
+The 7 Segment Spine is the default model. To change the default, to go [_Settings > Assets_](settings/settings-assets.md). On the _Assets tab_ under _Skeleton Creation_, change the Spine Type to the preferred default for your workflow.
+
+{% hint style="info" %}
+You may need to create skeletons with a straight spine when retargeting to a game engine, as the natural curvature of the spine may cause the game model's chest to pop out. This option is available only in the Application Settings. To turn it on, go to [_Settings > Assets_](settings/settings-assets.md). Under [_Skeleton Creation_](settings/settings-assets.md#skeleton-creation), enable the setting to create a [Straight Spine](settings/settings-assets.md#straight-spine).&#x20;
+{% endhint %}
 
 #### Select Visual
 
@@ -530,7 +538,7 @@ You can add or remove marker constraints (referred to as [asset model markers](.
 1. From the Viewport visual options, enable selection of Marker Constraints.
 2. Access the Modify tab on the Builder pane.
 3. Select the asset whose marker constraints you wish to modify.
-4. in the 3D Viewport, CTRL + left-click on a marker constraint that's associated with the selected asset. Click the <img src="../.gitbook/assets/Add button.png" alt="" data-size="line"> button to add the marker constraint to the asset definition. To remove it, click the <img src="../.gitbook/assets/image (60).png" alt="" data-size="line"> button.
+4. in the 3D Viewport, CTRL + left-click on a marker constraint that's associated with the selected asset. Click the <img src="../.gitbook/assets/Add button.png" alt="" data-size="line"> button to add the marker constraint to the asset definition. To remove it, click the <img src="../.gitbook/assets/image (61).png" alt="" data-size="line"> button.
 5. On the Marker Constraints section of the Builder pane, click + to add the marker to the definition or - to remove the marker.
 6. Use the Constraints pane to modify marker label and/or colors.
 

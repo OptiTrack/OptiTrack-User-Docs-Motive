@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body/biomech-57
+---
+
 # Biomech (57)
 
 ![The anterior and posterior views of the Biomech Marker Set (49). The calibration markers are highlighted in red.](<../../.gitbook/assets/image (1366).png>)

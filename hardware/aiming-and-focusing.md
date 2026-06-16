@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/aiming-and-focusing
+---
+
 # Aiming and Focusing
 
 In order to ensure that every camera in a mocap system takes full advantage of its capability, they need to be focused and aimed at the target tracking volume. This page includes detailed instructions on how to adjust the focus and aim of each camera for an optimal motion capture. OptiTrack cameras are focused at infinity by default, which is generally sufficient for common tracking applications. However, we recommend users always double-check the camera view and make sure the captured images are focused when first setting up the system. Obtaining best quality image is very important as 3D data is derived from the captured images.
@@ -21,7 +28,7 @@ Adjusting aim with a single person can be difficult because the user will have t
 
 ## Adjusting Aiming
 
-![Cameras — shows only one side — aimed to cover the main target volume.](<../.gitbook/assets/image (278).png>)
+![Cameras — shows only one side — aimed to cover the main target volume.](<../.gitbook/assets/image (279).png>)
 
 After all the cameras are placed at correct locations, they need to be properly aimed in order to fully utilize their capture coverage. In general, all cameras need to be aimed at the target capture volume where markers will be tracked. While cameras are still attached to the mounting structure, carefully adjust the camera clamp so that the camera field of view (FOV) is directed at the capture region. Refer to 2D camera views from the [Camera Preview](../motive-ui-panes/viewport.md) pane to ensure that each camera view covers the desired capture region.
 
@@ -37,7 +44,7 @@ All OptiTrack cameras (except the Duo 3 and Trio 3 tracking bars) can be re-focu
 Double-click on the aim assist button to have the software automatically zoom into a single marker near the center of the camera view. This makes the focusing process easier to accomplish for a single person.
 {% endhint %}
 
-![Out of Focus](<../.gitbook/assets/image (660).png>) ![Moderately Focused](<../.gitbook/assets/image (492) (1).png>) ![In-Focus](<../.gitbook/assets/image (283).png>)
+![Out of Focus](<../.gitbook/assets/image (660).png>) ![Moderately Focused](<../.gitbook/assets/image (492) (1).png>) ![In-Focus](<../.gitbook/assets/image (284).png>)
 
 ### How to Change Focus
 

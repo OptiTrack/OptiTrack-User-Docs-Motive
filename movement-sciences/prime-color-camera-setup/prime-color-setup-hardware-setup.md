@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/prime-color-setup-hardware-setup
+---
+
 # Prime Color Setup: Hardware Setup
 
 ### Camera Lens
@@ -91,7 +98,7 @@ The eStrobe synchronizes with Prime Color cameras through RCA cable connection. 
 
 {% tabs %}
 {% tab title="eStrobe with Single Prime Color Camera" %}
-![Click image to enlarge.](<../../.gitbook/assets/image (208).png>)
+![Click image to enlarge.](<../../.gitbook/assets/image (209).png>)
 
 {% hint style="info" %}
 **Illumination:**

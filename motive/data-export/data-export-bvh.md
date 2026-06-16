@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-export/data-export-bvh
+---
+
 # Data Export: BVH
 
 ## BVH File Format
@@ -31,4 +38,4 @@ BVH Specific Export Options
 |    Bone Name Syntax    |                                                                                                                                               Sets the convention for bone names in the exported data.                                                                                                                                              |
 |     Skeleton Names     | Select which skeletons will be exported:  All skeletons, selected skeletons, or custom. The custom option will populate the selection field with the names of all the skeletons in the _Take_. Remove the names of the skeletons you do not wish to include in your export. Names must match the names of actual skeletons in the _Take_ to export. |
 
-![MotionBuilder BVH Naming Conventions and Segments Hierarchy (1)](<../../.gitbook/assets/image (399).png>) ![MotionBuilder BVH Naming Conventions and Segments Hierarchy (2)](<../../.gitbook/assets/image (901).png>)
+![MotionBuilder BVH Naming Conventions and Segments Hierarchy (1)](<../../.gitbook/assets/image (400).png>) ![MotionBuilder BVH Naming Conventions and Segments Hierarchy (2)](<../../.gitbook/assets/image (901).png>)

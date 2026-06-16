@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/general-motive-force-plate-setup
+---
+
 # General Motive Force Plate Setup
 
 This page is intended for a general overview of setting up force plates in Motive. Please visit the following pages for specific force plate setup from the different manufacturers:
@@ -225,7 +232,7 @@ Motive can stream the tracking data and the force plate data into various applic
 {% hint style="danger" %}
 **Number of Force Plates**
 
-At the time of writing, there is a hard limit on the maximum number of force plate data that can be streamed out from Motive. Please note that only up to 8 force plate data can be streamed out from Motive and received by a [NatNet SDK 4.0](../../developer-tools/natnet-sdk/natnet-4.0.md) application.
+At the time of writing, there is a hard limit on the maximum number of force plate data that can be streamed out from Motive. Please note that only up to 8 force plate data can be streamed out from Motive and received by a [NatNet SDK 4.0](../../developer-tools/natnet-sdk/natnet-4.5.md) application.
 {% endhint %}
 
 ## Force Plate States

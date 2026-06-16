@@ -1,6 +1,12 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/viewport
+---
+
 # Viewport
 
-When using Motive, the main Viewport will always be docked in the center. The Viewport can be divided into two, three, or four panes. If desired, additional Viewer panes can be opened by clicking the <img src="../.gitbook/assets/image (69).png" alt="" data-size="line"> icon on the main toolbar.&#x20;
+When using Motive, the main Viewport will always be docked in the center. The Viewport can be divided into two, three, or four panes. If desired, additional Viewer panes can be opened by clicking the <img src="../.gitbook/assets/image (70).png" alt="" data-size="line"> icon on the main toolbar.&#x20;
 
 ## Viewport Control
 
@@ -28,7 +34,7 @@ The following actions are useful for when navigating using the viewport. All of 
 
 ## Perspective View
 
-![3D Perspective View.](<../.gitbook/assets/image (173).png>)
+![3D Perspective View.](<../.gitbook/assets/image (174).png>)
 
 {% hint style="info" %}
 To set the floor plane to match the volume size, go to _Settings_ --> _View_ --> _3D Tab_ --> and adjust the _Grid Width_ and _Grid Length_ values.&#x20;
@@ -36,7 +42,7 @@ To set the floor plane to match the volume size, go to _Settings_ --> _View_ -->
 
 ### Toolbar Options
 
-#### **Mouse Interactions** ![](<../.gitbook/assets/image (176).png>)
+#### **Mouse Interactions** ![](<../.gitbook/assets/image (177).png>)
 
 Allows you to switch between different mouse interaction modes in the 3D viewport. Please see [Gizmo Tool:  Translate, Rotate, and Scale](../motive/assets/gizmo-tool-translate-rotate-and-scale.md) for more information on using the translate, rotate and scale tools, and [Quick Label](../motive/labeling.md#quicklabel-mode) for more information on the quick label tool.
 
@@ -53,11 +59,11 @@ Allows you to switch between different mouse interaction modes in the 3D viewpor
 * **Local Coordinates**: When enabled, translation, rotation, and scaling changes will be applied with respect to the local coordinate axis of the selected asset. When disabled, all changes will be applied to the global coordinate axis.
 * **Symmetric Bones**: When enabled, any modifications on bone lengths and orientations are applied symmetrically on both the left and right side of a Skeleton.
 
-#### **Zoom Actions** ![](<../.gitbook/assets/image (128).png>)
+#### **Zoom Actions** ![](<../.gitbook/assets/image (129).png>)
 
 Actions for zooming in to a selected object or zooming out to fit all. You can also use "F" and "Shift + F" hotkeys for this.
 
-#### **Visual Aids** ![](<../.gitbook/assets/image (162).png>)
+#### **Visual Aids** ![](<../.gitbook/assets/image (163).png>)
 
 Opens a menu to enable or disable visuals in the perspective viewport. From this menu, you can show or hide markers, marker labels, Rigid Bodies, Skeletons, tracked rays, and more.
 
@@ -118,11 +124,11 @@ Select what to show in the 3D Viewport.&#x20;
 * **Floor Plane:** Display the floor plane of the volume in light gray.
 * **Shadow:**  Add a projected shadow graphic to the floor pane for objects in the take. The Floor Plane visual must be on to see shadows.
 
-#### **Selection Lock** ![](<../.gitbook/assets/image (87).png>)
+#### **Selection Lock** ![](<../.gitbook/assets/image (88).png>)
 
 This tool locks the focus on the selected object(s), moving the viewport to follow the selection throughout the capture.&#x20;
 
-#### **Selection** ![](<../.gitbook/assets/image (160).png>)
+#### **Selection** ![](<../.gitbook/assets/image (161).png>)
 
 Enables selection of specific objects in the 3D view. Only the items checked in the menu will be selectable in the perspective view.
 
@@ -191,7 +197,7 @@ The following context menus appear when an asset (skeleton, rigid body, or train
   * **Auto-Generate Bones:**  Automatically generate bones at flex points. This is why recording a full range of motion of your object is important so these bones can be added correctly.&#x20;
   * **Refine Bone Positions:**  Apply another round of Marker Training and refine Bone positions based on new training information.&#x20;
   * **Refine Constraint Positions:**  Apply another round of Marker Training and refine Constraint positions based on new training information.&#x20;
-* **Active Tags:**  Active tags provide _synchronized_ tracking through active LED markers and an internal Inertial Measurement Unit (IMU). Read the articles [IMU Sensor Fusion](/broken/pages/ysdyrsuQyF9qn6xMu4ix) and [Active Marker Tracking](../active-components/active-marker-tracking/) for more details on the actions below.&#x20;
+* **Active Tags:**  Active tags provide _synchronized_ tracking through active LED markers and an internal Inertial Measurement Unit (IMU). Read the articles [IMU Sensor Fusion](/broken/pages/ysdyrsuQyF9qn6xMu4ix) and [Active Marker Tracking](../active-classic/active-marker-tracking/) for more details on the actions below.&#x20;
   * **Auto Configure Active Tags:**  Pair and align the Rigid Body to the IMU Tag all in one step.
   * **Set Auto Pair:**  The Rigid Body will search for an IMU pair. Once paired, this will be indicated in the _3D Viewport_ IMU visual as 'IMU Paired', the _Devices_ pane Active Tag 'Paired Asset' column, and in the _Assets_ pane's 'Active Tag' column.&#x20;
   * **Unpair Active Tag:**  Remove a paired Tag from the Rigid Body.&#x20;
@@ -216,7 +222,7 @@ The following context menu appears when a force plate is selected.
 
 ## Cameras View
 
-![](<../.gitbook/assets/image (110).png>)
+![](<../.gitbook/assets/image (111).png>)
 
 ### Hotkeys
 
@@ -237,7 +243,7 @@ From this icon, you can switch between different mouse interaction modes in the 
 
 
 
-![Pixel inspector enabled in 2D view.](<../.gitbook/assets/image (141).png>)
+![Pixel inspector enabled in 2D view.](<../.gitbook/assets/image (142).png>)
 
 #### **Pixel Inspection**
 
@@ -249,15 +255,15 @@ To mask an area not previously masked, select Ellipse, Rectangle, or Pencil. Whe
 
 To unmask a previously masked area, use the Erase Rectangle, Erase Ellipse, or Eraser functions.&#x20;
 
-#### **Zoom Actions** ![](<../.gitbook/assets/image (85).png>)
+#### **Zoom Actions** ![](<../.gitbook/assets/image (86).png>)
 
 Zoom to All:  Zooms all cameras to fit the pane. (default hotkey: Shift + F)
 
 Zoom to Selection:  Zooms into selected cameras to fit the pane. (default hotkey: F)
 
-#### **Visual Aids** ![](<../.gitbook/assets/image (132).png>)
+#### **Visual Aids** ![](<../.gitbook/assets/image (133).png>)
 
-![Camera viewport visual aid options.](<../.gitbook/assets/image (256).png>)
+![Camera viewport visual aid options.](<../.gitbook/assets/image (257).png>)
 
 Show or hide additional camera information from the camera viewport.
 
@@ -274,7 +280,7 @@ Zoom in to a camera in object mode to view the following marker data in the 3D V
 * **Size:**  Show number of pixels involved in each reflection. The label will appear red if the reflection does not satisfy the 2D filter setting.
 * **Labels:**  Show whether the markers detected in the camera view are passive retroreflective marker or active markers. When the camera detects an active LED marker the corresponding label ID for each marker will be shown.
 
-#### **Camera Masking Settings** ![](<../.gitbook/assets/image (122).png>)
+#### **Camera Masking Settings** ![](<../.gitbook/assets/image (123).png>)
 
 Using the masking settings context menu, you can re-apply auto-masking feature, clear masks, and/or perform other actions related to applying masks in the camera view.
 

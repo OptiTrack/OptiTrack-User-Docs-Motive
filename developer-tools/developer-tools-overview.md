@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/developer-tools-overview
+---
+
 # Developer Tools Overview
 
 here are three OptiTrack developer tools for developing custom applications: the Camera SDK, the NatNet SDK, and the Motive API. All of the tools support a C/C++ interface to OptiTrack cameras and provides control over OptiTrack motion capture systems.
@@ -40,7 +47,7 @@ The Motive API allows control of, and access to, the backend software platform o
 
 ![](<../.gitbook/assets/image (1011).png>)
 
-**Go to the NatNet SDK page:** [**NatNet SDK 4.0**](natnet-sdk/natnet-4.0.md)
+**Go to the NatNet SDK page:** [**NatNet SDK 4.0**](natnet-sdk/natnet-4.5.md)
 
 The NatNet SDK is a client/server networking SDK designed for sending and receiving NaturalPoint data across networks. The NatNet SDK makes the motion capture data available to other applications in real-time. It utilizes UDP along with either Unicast or Multicast communication for integrating and streaming 3D reconstructed data, Rigid Body data, and Skeleton data from OptiTrack systems. Using the NatNet SDK, you can develop custom client/server applications that utilize motion capture data. The NatNet SDK is a free tool that can be downloaded from our website.
 

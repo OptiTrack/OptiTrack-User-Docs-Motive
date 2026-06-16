@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/motive-hotkeys
+---
+
 # Motive HotKeys
 
 Hotkeys can be viewed and customized from the [Application Settings](../motive-ui-panes/settings/settings-mouse-and-keyboard.md) panel. The below chart lists only the commonly used hotkeys. There are also other hotkeys and unassigned hotkeys, which are not included in the chart below. For a complete list of hotkey assignments, please check the [Application Settings](../motive-ui-panes/settings/settings-mouse-and-keyboard.md) in Motive.

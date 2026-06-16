@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-class-function-reference
+---
+
 # NatNet: Class/Function Reference
 
 This page provides function and class references of the NatNet SDK library.
@@ -29,7 +36,7 @@ Most of the NatNet SDK functions return their operation results in an integer ty
 
 ## NatNetClient Class
 
-The **NatNetClient** class is the main component of the NatNet SDK. Using an instance of the NatNetClient class, you can establish a network connection with a server application (e.g. Motive) and query data descriptions, tracking data, and send/receive remote commands. For detailed declarations, refer to the [NatNetClient.h](natnet-4.0.md) header file included in the SDK.
+The **NatNetClient** class is the main component of the NatNet SDK. Using an instance of the NatNetClient class, you can establish a network connection with a server application (e.g. Motive) and query data descriptions, tracking data, and send/receive remote commands. For detailed declarations, refer to the [NatNetClient.h](natnet-4.5.md) header file included in the SDK.
 
 ### Constructor and Destructor
 

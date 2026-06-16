@@ -1,13 +1,20 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/hand-and-fingers/active-finger-markerset
+---
+
 # Active Finger Marker Set
 
 ## Overview
 
-The active finger Marker Set utilizes the tracking capability of active markers and the active labeling features to accomplish tracking of both the hands and the fingers. These Marker Sets require the [active marker](../../active-components/active-marker-tracking/) tracking solution and a set of Tag(s). Wired from an active Tag, each active marker must attach to the expected locations. For each hand, 8 active markers are needed, with 2 passive markers attached at the wrist.
+The active finger Marker Set utilizes the tracking capability of active markers and the active labeling features to accomplish tracking of both the hands and the fingers. These Marker Sets require the [active marker](../../active-classic/active-marker-tracking/) tracking solution and a set of Tag(s). Wired from an active Tag, each active marker must attach to the expected locations. For each hand, 8 active markers are needed, with 2 passive markers attached at the wrist.
 
 {% hint style="info" %}
 **Manus VR Gloves**
 
-Alternatively, you can also use Manus VR Gloves for tracking the fingers. For more information, refer to the [Manus Glove Setup](../../active-components/active-components-hardware/manus-glove-setup.md) page.
+Alternatively, you can also use Manus VR Gloves for tracking the fingers. For more information, refer to the [Manus Glove Setup](../../active-classic/active-classic-hardware/manus-glove-setup.md) page.
 {% endhint %}
 
 #### **Requirements**

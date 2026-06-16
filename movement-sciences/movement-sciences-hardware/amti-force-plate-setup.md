@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/amti-force-plate-setup
+---
+
 # AMTI Force Plate Setup
 
 Example force plate properties for triggered sync.This page provides instructions on integrating an AMTI Force plate system with an OptiTrack motion capture system.
@@ -73,7 +80,7 @@ In order to integrate force plate systems with Motive, you will need to setup th
 **Note** : Even if you are not using NI-DAQ, it is still necessary to install NI-DAQmx drivers that come up next in the installer.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (525).png>) ![](../../.gitbook/assets/DAQmxInstall.gif)
+![](<../../.gitbook/assets/image (526).png>) ![](../../.gitbook/assets/DAQmxInstall.gif)
 
 ### Force Plate Setup in Motive
 
@@ -174,7 +181,7 @@ Once this is set, the force plate system will start sampling at the frequency of
 In Motive 3.0 and above, you can quickly configure eSync into biomech sync settings by right-clicking on the eSync from the [Devices pane](../../motive-ui-panes/devices-pane.md) and select one of the presets from the context menu. This will enable and set all of the eSync outputs to the Internal Clock and set the clock frequency.
 {% endhint %}
 
-![Applying Biomech preset settings.](<../../.gitbook/assets/image (490).png>)
+![Applying Biomech preset settings.](<../../.gitbook/assets/image (491).png>)
 
 {% hint style="info" %}
 **Live Data**
@@ -198,7 +205,7 @@ Starting from Motive 3.0, clock synchronization in Live mode is supported, and t
 
 Once this is done, the force plate system will synchronize to the recording trigger signal when Motive starts collecting data, and the force plates will free-run after the initial sync trigger. You can configure the sampling rate of the force plates by modifying the _Multiplier_ values in [Devices pane](../../motive-ui-panes/devices-pane.md) to sample at a whole multiple of the camera system frame rate.
 
-![Example eSync 2 properties for triggered sync.](<../../.gitbook/assets/image (491).png>) ![Example force plate properties for triggered sync.](<../../.gitbook/assets/image (1114).png>)
+![Example eSync 2 properties for triggered sync.](<../../.gitbook/assets/image (492).png>) ![Example force plate properties for triggered sync.](<../../.gitbook/assets/image (1114).png>)
 
 {% hint style="info" %}
 For free run sync setups, sampling rates of force plates can be set from the [Devices pane](../../motive-ui-panes/devices-pane.md), but the sampling rate of force plates must be configured to a whole multiple of the camera system's framerate. By adjusting the _Rate Multiplier_ values in the [Devices pane](../../motive-ui-panes/devices-pane.md), sampling rates of the force plates can be modified. First, pick a frame rate of the camera system and then adjust the rate multiplier values to set force plates to the desired sampling rate.
@@ -274,7 +281,7 @@ Since Motive uses a different coordinate system than the system used in common b
 
 This will convert the coordinate axis of the exported data so that the x-axis represents the anteroposterior axis (left/right), the y-axis represents the mediolateral axis (front/back), and the z-axis represents the longitudinal axis (up/down).
 
-![The MotionMonitor biomechanics analysis software.](<../../.gitbook/assets/image (1067).png>) ![Visual3D biomechanics analysis software provided by C-Motion](<../../.gitbook/assets/image (537).png>)
+![The MotionMonitor biomechanics analysis software.](<../../.gitbook/assets/image (1067).png>) ![Visual3D biomechanics analysis software provided by C-Motion](<../../.gitbook/assets/image (538).png>)
 
 ![C3D export setting for applications using z-up right-handed coordinate systems.](<../../.gitbook/assets/image (1055) (1) (1) (1) (4).png>)
 
@@ -291,5 +298,5 @@ Motive can stream the tracking data and the force plate data into various applic
 {% hint style="danger" %}
 **Number of Force Plates**
 
-At the time of writing, there is a hard limit on the maximum number of force plate data that can be streamed out from Motive. Please note that only up to 8 force plate data can be streamed out from Motive and received by a [NatNet SDK 4.0](../../developer-tools/natnet-sdk/natnet-4.0.md) application.
+At the time of writing, there is a hard limit on the maximum number of force plate data that can be streamed out from Motive. Please note that only up to 8 force plate data can be streamed out from Motive and received by a [NatNet SDK 4.0](../../developer-tools/natnet-sdk/natnet-4.5.md) application.
 {% endhint %}

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body/core-50
+---
+
 # Core (50)
 
 ![Front view of the Baseline + 13 Additional Markers (50) Marker Set.](<../../.gitbook/assets/image (979).png>) ![Back view of the Baseline + 13 Additional Markers (50) Marker Set.](<../../.gitbook/assets/image (1037).png>)

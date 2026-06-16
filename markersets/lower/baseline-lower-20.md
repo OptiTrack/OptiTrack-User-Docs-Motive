@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/lower/baseline-lower-20
+---
+
 # Baseline Lower (20)
 
 ![Front view of the Baseline Lower Body (20) Marker Set.](<../../.gitbook/assets/image (996).png>) ![Back view of the Baseline Lower Body (20) Marker Set.](<../../.gitbook/assets/image (1016).png>)

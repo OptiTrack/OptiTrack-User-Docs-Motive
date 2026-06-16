@@ -1,10 +1,17 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/status-panel
+---
+
 # Status Panel
 
 The status panel lists out the system parameters for monitoring the live status of system operations. Click on the displayed status at the bottom right corner of Motive, and the Status Panel will pop up. You can drag and place the Status Panel anywhere.
 
 ## Status Panel
 
-![Status Panel in Motive.](<../.gitbook/assets/image (169).png>)
+![Status Panel in Motive.](<../.gitbook/assets/image (170).png>)
 
 #### **Residual**
 
@@ -46,10 +53,10 @@ Final data acquisition rate of the system.
 
 When there is an increased latency on any of the processing pipeline that needs an attention, it will be highlighted in purple. Increase processing latency may result in dropped frames when real-time processing the data in live-captures or in 2D Mode. Increased latency usually occurs due to the CPU not being fast enough to process the data in real-time. If you perform post-processing reconstructions, you will be accessing the recorded 3D data or solved data (rigid bodies), and there will be no processing required for the corresponding pipeline and they will be indicated as _inactive_.
 
-![Increased Point Cloud latency and skeleton solver latency. Increase in skeleton solve latency is due to the Point Cloud engine slowing down.](<../.gitbook/assets/image (133).png>) ![Point cloud is inactive when accessing already reconstructed 3D data.](<../.gitbook/assets/image (92).png>)
+![Increased Point Cloud latency and skeleton solver latency. Increase in skeleton solve latency is due to the Point Cloud engine slowing down.](<../.gitbook/assets/image (134).png>) ![Point cloud is inactive when accessing already reconstructed 3D data.](<../.gitbook/assets/image (93).png>)
 
 #### **Real-time Point Cloud Latency**
 
 With large camera systems, the Point Cloud engine may experience increased latency due to the amount of data it needs to handle in real-time. If the increased latency is causing frame drops or affecting the tracking quality, you can exclude selected cameras from contributing to the real-time reconstruction. In the [Devices pane](devices-pane.md), reveal the _Reconstruction_ setting from the header context menu, and disable this setting for the cameras that you wish to process later. 2D frames captured by these cameras will be recorded in the TAK but they will not contribute to real-time reconstruction. This will reduce the amount of data to be processed in real-time, and you will still be able to utilize the 2D frames using post-processing reconstruction pipeline.
 
-![](<../.gitbook/assets/image (157).png>)
+![](<../.gitbook/assets/image (158).png>)

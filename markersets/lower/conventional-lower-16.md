@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/lower/conventional-lower-16
+---
+
 # Conventional Lower (16)
 
 <div><figure><img src="../../.gitbook/assets/image (1425).png" alt=""><figcaption><p>Conventional Lower Front</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1417).png" alt=""><figcaption><p>Conventional Lower Back</p></figcaption></figure></div>

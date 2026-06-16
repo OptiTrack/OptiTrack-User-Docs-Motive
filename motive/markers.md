@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/markers
+---
+
 # Markers
 
 OptiTrack motion capture systems can use both passive and active markers as indicators for 3D position and orientation. An appropriate marker setup is essential for both tracking the quality and reliability of captured data. All markers must be properly placed and must remain securely attached to surfaces throughout the capture. If any markers are taken off or moved, they will become unlabeled from the Marker Set and will stop contributing to the tracking of the attached object. In addition to marker placements, marker counts and specifications (sizes, circularity, and reflectivity) also influence the tracking quality. Passive (retroreflective) markers need to have well-maintained retroreflective surfaces in order to fully reflect the IR light back to the camera. Active (LED) markers must be properly configured and synchronized with the system.
@@ -14,7 +20,7 @@ The size of markers affects visibility. Larger markers stand out in the camera v
 
 If you wish to track non-spherical retroreflective surfaces, lower the Circularity value in [2D object filter](../motive-ui-panes/settings/) in the application settings. This adjusts the circle filter threshold and non-circular reflections can also be considered as markers. However, keep in mind that this will lower the filtering threshold for extraneous reflections as well. If you wish to track non-spherical retroreflective surfaces, lower the Circularity value from the [cameras tab](../motive-ui-panes/settings/) in the application settings.
 
-![2D reflections filtered by the Size and Roundness (circularity) filter](<../.gitbook/assets/image (548).png>)
+![2D reflections filtered by the Size and Roundness (circularity) filter](<../.gitbook/assets/image (549).png>)
 
 #### **Worn markers**
 
@@ -38,7 +44,7 @@ OptiTrack cameras can track any surface covered with retro-reflective material. 
 
 ### OptiTrack Active Markers
 
-OptiTrack's active solution provides advanced tracking of IR LED markers to accomplish the best tracking results. This allows each marker to be labeled individually. Please refer to the [Active Marker Tracking](../active-components/active-marker-tracking/) page for more information.
+OptiTrack's active solution provides advanced tracking of IR LED markers to accomplish the best tracking results. This allows each marker to be labeled individually. Please refer to the [Active Marker Tracking](../active-classic/active-marker-tracking/) page for more information.
 
 ### Custom Active Markers
 

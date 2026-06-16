@@ -2,6 +2,10 @@
 description: >-
   Use the Live Link Hub to stream OptiTrack camera data to the UEFN plugin for
   video game development in Fortnite.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/unreal-editor-for-fortnite-uefn-optitrack-plugin-for-live-link-hub
 ---
 
 # Unreal Editor for Fortnite (UEFN): OptiTrack Plugin for Live Link Hub

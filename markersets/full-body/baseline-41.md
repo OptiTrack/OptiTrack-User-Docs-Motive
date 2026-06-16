@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body/baseline-41
+---
+
 # Baseline (41)
 
 ![](<../../.gitbook/assets/image (970).png>) ![](<../../.gitbook/assets/image (1028).png>)

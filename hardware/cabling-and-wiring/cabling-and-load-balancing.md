@@ -1,5 +1,9 @@
 ---
 description: A guide to cabling and connecting your OptiTrack camera system.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/cabling-and-load-balancing
 ---
 
 # Cabling and Load Balancing
@@ -50,26 +54,31 @@ Depending on which OptiTrack cameras are used, a switch may not have a large eno
 
 For example, a 24-port switch may have a 370W power budget, supporting 12 PoE+ cameras that require 30W to power. If the same 24-port switch is connected to an RPS, it can now power all 24 PoE+ cameras (each with a 30W power requirement) utilizing all 24 of the ports on the switch.
 
-<figure><img src="../../.gitbook/assets/System-Network-Structure_PowerBudget_3_4_add_SX22.png" alt="A diagram showing the power distribution needs of various OptiTrack cameras."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/System-Network-Structure_PowerBudget_3_5_add_PX260.png" alt="A diagram showing the power distribution needs of various OptiTrack cameras."><figcaption></figcaption></figure>
 
 ### PoE Switch Types
 
 PoE switches are categorized based on the maximum power level that individual ports can supply. The table below shows the power output of the various types of PoE switches and lists the current camera models that require each power level.&#x20;
 
-<table><thead><tr><th width="110.20001220703125">PoE Type</th><th width="131.5999755859375">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>Prime Color, PrimeX 13 or 13W, SlimX 13, SlimX 22, SlimX 41, VersaX 22, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, SlimX 120, VersaX 22W, VersaX 41N or 41W, VersaX 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120 or 120W, VersaX 120N, or 120W</td></tr></tbody></table>
-
-#### Power Requirements for External Devices
-
-When calculating the number of switches needed, include the eSync2 (if used) and all BaseStations needed for the capture:
-
-* eSync2: 4.4W
-* BaseStation: 2.2W
-* Wired AnchorPuck: 22W
-* Wired CinePuck: 9W
+<table><thead><tr><th width="110.20001220703125">PoE Type</th><th width="131.5999755859375">Max Watts / Port</th><th>Cameras</th></tr></thead><tbody><tr><td>PoE</td><td>15.4W</td><td>Prime Color, PrimeX 13 or 13W, SlimX 13, SlimX 22, SlimX 41, VersaX 22, VersaX 41</td></tr><tr><td>PoE+</td><td>30W</td><td>PrimeX 22, PrimeX 41 or 41W, SlimX 120, VersaX 22W, VersaX 41N or 41W, VersaX 120</td></tr><tr><td>PoE++</td><td>90W</td><td>PrimeX 120 or 120W, PrimeX 260, VersaX 120N, or 120W</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Not all PoE++ switches are the same. **PoE++ Type 3** switches provide only 60W of power per port, which is insufficient to power a PrimeX 120 camera. A **PoE++ Type 4** switch supplies 100W per port, providing the optimum power to each PrimeX 120 on the switch.&#x20;
 {% endhint %}
+
+#### Power Requirements for External Devices
+
+When calculating the number of switches needed, include the eSync2 (if used) and all BaseStations and Wired ActiveIO devices needed for the capture.&#x20;
+
+{% hint style="info" %}
+Note that while the device power draw may be lower than the power allocation to the port, the port still receives its full allocation. Use the port's wattage when calculating load balances on switches, not the power draw of the device.&#x20;
+{% endhint %}
+
+* eSync2: 4.4W (PoE)
+* ActiveIO BaseStation: 5W (PoE)
+* Classic BaseStation: 2.2W (PoE)&#x20;
+* Wired AnchorPuck: 22W (PoE+)
+* Wired CinePuck: 9W (PoE)
 
 ### SFP Module
 
@@ -111,15 +120,13 @@ OptiTrack does not support the use of VLANs for camera systems. If you are conne
 
 There are multiple categories of Ethernet cables, each with different specifications for maximum data transmission rate and cable length.&#x20;
 
-<table><thead><tr><th width="141">Cable Type</th><th width="203">Max Speed/Length</th><th width="207">Max Bandwidth</th><th>Diameter</th></tr></thead><tbody><tr><td>Cat6</td><td>10 Gb/s (55 m)</td><td>250 MHz</td><td>6.1 mm</td></tr><tr><td><strong>Cat6a</strong></td><td><strong>10 Gb/s (100 m)</strong></td><td><strong>500 MHz</strong></td><td><strong>8.38 mm</strong></td></tr><tr><td>Cat7/a</td><td>100 Gb/s (15 m*)</td><td>600 or 1000 MHz</td><td>8.51 mm</td></tr><tr><td>Cat8</td><td>40 Gb/s (30 m*)</td><td>2000 MHz</td><td>8.66 mm</td></tr></tbody></table>
-
 \*In general, the maximum cable length for an Ethernet cable is 100 m. While Cat7 and Cat8 cables can transmit data at higher rates, it reduces the maximum distance the data can travel before signal loss occurs.&#x20;
 
 * **Cat6a** cables are recommended.
 * Cat5 or Cat5e cables run at lower speeds and are not supported.
 * Cat7 and Cat8 cables will work, but do not offer any added benefits to offset the increased cost.&#x20;
 
-{% hint style="info" icon="comment-question" %}
+{% hint style="info" %}
 _**What about fiber optic cables?**_&#x20;
 
 While fiber optic cables can transmit data over greater distances than Ethernet, they do not provide power and as such cannot be used to connect cameras.&#x20;
@@ -220,7 +227,7 @@ These configurations have been tested for optimal use and safety. Deviating from
 
 {% tabs %}
 {% tab title="One to Two PoE Switch(es)" %}
-<figure><img src="../../.gitbook/assets/Network Configuration - standard (1).png" alt="A diagram of a camera network with a single camera switch."><figcaption><p>Connecting a network with a single switch.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Network Configuration - standard.png" alt="A diagram of a camera network with a single camera switch."><figcaption><p>Connecting a network with a single switch.</p></figcaption></figure>
 
 #### Adding a Second Switch
 
@@ -230,7 +237,7 @@ If additional switches are needed, a separate aggregation switch is required, so
 {% endtab %}
 
 {% tab title="Multiple PoE Switches (High camera counts)" %}
-<figure><img src="../../.gitbook/assets/Network Configuration - Large (1).png" alt="A diagram of a large camera network, with multiple camera switches connected to a single aggregation switch."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Network Configuration - Large.png" alt="A diagram of a large camera network, with multiple camera switches connected to a single aggregation switch."><figcaption><p>Click image to enlarge.</p></figcaption></figure>
 
 **Uplink Switch:** For systems that require multiple PoE switches, connect all of the switches to an uplink aggregation switch to link to the host PC. Ethernet ports on the aggregation switch can be used to connect cameras.
 
@@ -252,7 +259,7 @@ External devices can include timecode inputs such as Video Genlock or Precision 
 
 Only one eSync2 is needed per system. When one is used, it is the master in the synchronization chain.
 
-![The eSync 2 output and input ports descriptions](<../../.gitbook/assets/image (260).png>)
+![The eSync 2 output and input ports descriptions](<../../.gitbook/assets/image (261).png>)
 
 {% hint style="info" %}
 With large camera systems, connect the eSync to the aggregator switch via a standard Ethernet port for more stable camera synchronization.&#x20;

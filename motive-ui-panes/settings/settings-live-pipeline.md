@@ -1,5 +1,9 @@
 ---
 description: Motive's Live Pipeline Settings defined.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-live-pipeline
 ---
 
 # Settings: Live Pipeline
@@ -47,11 +51,11 @@ Solver settings control how each marker's trajectory is reconstructed into the 3
 
 The standard settings are those most likely to be customized by the user. We recommend exercising caution before making adjustments to any Solver advanced settings.&#x20;
 
-<figure><img src="../../.gitbook/assets/Settings Live Pipeline - Solver basic settings.png" alt="A screenshot of the Motive Settings panel showing the standard Live Pipeline settings, with the Solver properties displayed. "><figcaption><p>Basic Live Pipeline Solver settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings - Live Pipeline Solver Standard.png" alt="A screenshot of the Motive Settings panel showing the standard Live Pipeline settings, with the Solver properties displayed. "><figcaption><p>Basic Live Pipeline Solver settings.</p></figcaption></figure>
 
 ### General Solver Settings
 
-<figure><img src="../../.gitbook/assets/Settings Live Pipeline - solver advanced General.png" alt="A screenshot of the standard and advanced settings available in the General section of the Live Pipeline settings. "><figcaption><p>Basic and Advanced General settings on the Live Pipeline Solver tab.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings - Live Pipeline General Advanced.png" alt="A screenshot of the standard and advanced settings available in the General section of the Live Pipeline settings. "><figcaption><p>Basic and Advanced General settings on the Live Pipeline Solver tab.</p></figcaption></figure>
 
 <details>
 
@@ -69,6 +73,18 @@ Click the drop down to select a new preset or to _Import, Save,_ or _Delete_ exi
 * **Save Preset:** Saves the current configuration as a new .MOTIVE file. If the file is saved in the Presets folder, it will appear in the top section of the drop down list.&#x20;
 * **Delete Preset:** Removes obsolete presets from the list and deletes the .MOTIVE file.&#x20;
 * **Open Presets Folder:** Opens the Presets folder in an Explorer window for direct file management. Use this option if you wish to move files in bulk or to save old presets in an alternate location.
+
+</details>
+
+<details>
+
+<summary>Marker Type</summary>
+
+Determines which marker types will be included in the solve:
+
+* **Active + Passive:** includes both Active and Passive markers in the solve. This is the default setting.&#x20;
+* **Passive Only:** includes only Passive markers in the solve and excludes Active markers.
+* **Active Only:** includes only Active markers in the solve and excludes Passive markers.&#x20;
 
 </details>
 

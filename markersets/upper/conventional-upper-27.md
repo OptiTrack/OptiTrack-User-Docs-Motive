@@ -1,10 +1,17 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/upper/conventional-upper-27
+---
+
 # Conventional Upper (27)
 
 ## Conventional Upper (27)
 
 <div><figure><img src="../../.gitbook/assets/image (1356).png" alt=""><figcaption><p>Conventional Upper Front</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1369).png" alt=""><figcaption><p>Conventional Upper Back</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (507).png" alt=""><figcaption></figcaption></figure>
 
 ### Head Markers
 

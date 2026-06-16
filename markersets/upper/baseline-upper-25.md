@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/upper/baseline-upper-25
+---
+
 # Baseline Upper (25)
 
 ![Front view of the Baseline Upper Body (25) Marker Set.](<../../.gitbook/assets/Baseline Upper 25 Front.png>) ![Back view of the Baseline Upper Body (25) Marker Set.](<../../.gitbook/assets/Baseline Upper 25 Back.png>)

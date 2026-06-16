@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/running-motive-on-high-dpi-displays
+---
+
 # Running Motive on High DPI Displays
 
 ## Running Motive on High-resolution Displays

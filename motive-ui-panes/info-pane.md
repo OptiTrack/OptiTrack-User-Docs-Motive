@@ -1,5 +1,8 @@
 ---
 description: Details for using the tools available on the Info Pane.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/info-pane
 ---
 
 # Info Pane
@@ -45,7 +48,7 @@ This tool calculates the measured displacement of a selected marker. You can use
 
 The Rigid Bodies tool under Info pane in Motive displays real-time tracking information of a Rigid Body selected in Motive. Reported data includes a total number of tracked Rigid Body markers, mean errors for each of them, and the 6 Degree of Freedom (position and orientation) tracking data for the Rigid Body.
 
-<figure><img src="../.gitbook/assets/image (364).png" alt="A screenshot of the Rigid Body Tools on the Motive Info Pane. "><figcaption><p>Info pane displaying tracking information of a selected Rigid Body.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (365).png" alt="A screenshot of the Rigid Body Tools on the Motive Info Pane. "><figcaption><p>Info pane displaying tracking information of a selected Rigid Body.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Euler Angles**

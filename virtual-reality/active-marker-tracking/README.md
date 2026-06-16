@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/active-marker-tracking
+---
+
 # Active Marker Tracking
 
 This page provides instructions on how to set up and use the OptiTrack active marker solution. To configure assets that contain active tags and an Inertial Measurement Unit (IMU) such as Pucks and CinePucks, please refer to the article [IMU Sensor Fusion](/broken/pages/ysdyrsuQyF9qn6xMu4ix).&#x20;
@@ -9,7 +16,7 @@ This page provides instructions on how to set up and use the OptiTrack active ma
 * This solution is supported for Ethernet camera systems (Slim 13E or Prime series cameras) only. USB camera systems are not supported.
 * Motive version 2.0 or above is required.
 * This guide covers active component firmware versions 1.0 and above; this includes all active components that were shipped after _September 2017_.
-* For active components that were shipped prior to _September 2017_, please see the [compatibility notes](../../active-components/configuration/active-component-firmware-compatibility.md) page for more information about the firmware compatibility.
+* For active components that were shipped prior to _September 2017_, please see the [compatibility notes](../../active-classic/configuration/active-component-firmware-compatibility.md) page for more information about the firmware compatibility.
 {% endhint %}
 
 ## Overview
@@ -87,7 +94,7 @@ _Note: Behavior of the LEDs on the base station is subject to be changed._
 **Puck Setup**
 
 * Press the power button for 1\~2 seconds and release. The top-left LED will illuminate in orange while it initializes. Once it initializes the bottom LED will light up green if it has made a successful connection with the base station. Then the top-left LED will start blinking in green indicating that the sync packets are being received.
-* For more information, please read through the [Active Puck](../../active-components/active-components-hardware/active-puck.md) page.
+* For more information, please read through the [Active Puck](../../active-classic/active-classic-hardware/active-puck.md) page.
 
 ![Puck initializing. Top-left: Orange.](<../../.gitbook/assets/image (820).png>) ![Connected to base station and receiving sync packets.](<../../.gitbook/assets/image (1348).png>)
 

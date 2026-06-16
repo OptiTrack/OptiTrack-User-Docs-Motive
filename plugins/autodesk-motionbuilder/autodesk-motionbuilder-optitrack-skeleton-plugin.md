@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-skeleton-plugin
+---
+
 # Autodesk MotionBuilder: OptiTrack Skeleton Plugin
 
 ## **Overview**

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/robotics/outdoor-tracking-setup
+---
+
 # Outdoor Tracking Setup
 
 PrimeX 41, PrimeX 22, Prime 41\*\*, and Prime 17W\*\* camera models have powerful tracking capability that allows tracking outdoors. With strong infrared (IR) LED illuminations and some adjustments to its settings, a Prime system can overcome sunlight interference and perform 3D capture. This page provides general hardware and software system setup recommendations for outdoor captures.

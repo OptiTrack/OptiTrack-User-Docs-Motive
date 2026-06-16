@@ -1,5 +1,9 @@
 ---
 description: Common licensing problems and how to address them.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/licensing-troubleshooting
 ---
 
 # Licensing Troubleshooting

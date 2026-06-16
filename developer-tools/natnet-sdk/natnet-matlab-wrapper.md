@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-matlab-wrapper
+---
+
 # NatNet: Matlab Wrapper
 
 ## NatNet-Matlab Wrapper

@@ -1,5 +1,9 @@
 ---
 description: An overview of properties unique to the Prime Color Camera series.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/prime-color-camera-setup-camera-settings
 ---
 
 # Prime Color Camera Setup: Camera Settings
@@ -78,7 +82,7 @@ Decreasing the bit-rate in such cases may slow the data transmission speed of th
 
 While the image quality increases at a higher bit-rate setting, this also results in larger file sizes and possible frame drops due to data bandwidth bottlenecks. The desired result may differ depending on the capture application and its intended use. The graph below illustrates how the image quality varies depending on the camera frame rate and bit-rate settings.
 
-![Image Quality by Bit Rate and Frame Rate.](<../../.gitbook/assets/image (124).png>)
+![Image Quality by Bit Rate and Frame Rate.](<../../.gitbook/assets/image (125).png>)
 
 #### Convert Bit Rate to Bit Rate per frame
 
@@ -150,7 +154,7 @@ Consider the two scenarios with exactly 4 cameras each and notice that the maxim
 Data output from the entire camera system can be monitored through the [Status Panel](../../motive-ui-panes/status-panel.md). Output from individual cameras can be monitored from the 2D Camera Preview pane when the _Camera Info_ display is enabled under the visual aids ( <img src="../../.gitbook/assets/Motive Visual Options button (4).png" alt="" data-size="line"> ) option.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (480).png>)
+![](<../../.gitbook/assets/image (481).png>)
 
 ### Gamma
 
@@ -158,7 +162,7 @@ Default : 28
 
 Gamma correction is a non-linear amplification of the output image. The gamma setting will adjust the brightness of dark pixels, midtone pixels, and bright pixels differently, affecting both brightness and contrast of the image. Depending on the capture environment, especially with a dark background, you may need to adjust the gamma setting to get best quality images.
 
-![](<../../.gitbook/assets/image (472).png>) ![](<../../.gitbook/assets/image (127).png>)
+![](<../../.gitbook/assets/image (473).png>) ![](<../../.gitbook/assets/image (128).png>)
 
 ### LED
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/usb-camera-system-setup/usb-camera-network-overview-and-specs
+---
+
 # USB Camera Network Overview and Specs
 
 A USB camera system provides high-quality motion capture for small to medium size volumes at an affordable price range. USB camera models include the **Flex series** (Flex 3 and Flex 13) and **Slim 3U** models. USB cameras are powered by the OptiHub, which is designed to maximize the capacity of Flex series cameras by providing sufficient power to each camera, allowing tracking at long ranges.&#x20;
@@ -8,9 +15,9 @@ If needed, up to two active USB extensions can be used when connecting the OptiH
 
 ### Cabling the USB System
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p>OptiHub 2 for USB camera systems.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>OptiHub 2 for USB camera systems.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>Wiring diagram of a Flex series camera system.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Wiring diagram of a Flex series camera system.</p></figcaption></figure>
 
 **Main Components**
 
@@ -45,7 +52,7 @@ OptiSync is a custom synchronization protocol which sends the synchronization si
 * The Wired Sync is a camera-to-camera synchronization protocol using RCA cables in a daisy chain arrangement. With a master RCA sync cable connecting the master camera to the OptiHub, each camera in the system is connected in series via RCA sync cables and splitters. The **V100:R1 (Legacy)** and the **Slim 3U** cameras utilize Wired Sync only, and therefore any OptiTrack system containing these cameras need to be synchronized through the Wired Sync. Wired Sync is optionally available for Flex 3 cameras.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>OptiSync</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Wired Sync.png" alt=""><figcaption><p>Wired Sync</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>OptiSync</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Wired Sync.png" alt=""><figcaption><p>Wired Sync</p></figcaption></figure></div>
 
 ## Checkpoint
 

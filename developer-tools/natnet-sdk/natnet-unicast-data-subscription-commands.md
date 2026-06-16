@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-unicast-data-subscription-commands
+---
+
 # NatNet: Unicast Data Subscription Commands
 
 This page provides instructions on how to use the subscribe commands in natNet. This feature is supported for Unicast streaming clients only.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-take
+---
+
 # Properties Pane: Take
 
 When a [_Take_](../../motive/motive-basics.md#file-management) is selected from the [Data pane](../data-pane.md), related information will be displayed in the [Properties pane](./).
@@ -6,7 +13,7 @@ From the Properties pane, you can get the general information about the _Take_, 
 
 ## General
 
-![Take properties listed under the Properties pane.](<../../.gitbook/assets/image (131).png>)
+![Take properties listed under the Properties pane.](<../../.gitbook/assets/image (132).png>)
 
 #### **Name**
 

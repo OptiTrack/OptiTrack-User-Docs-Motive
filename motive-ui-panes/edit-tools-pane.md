@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/edit-tools-pane
+---
+
 # Edit Tools Pane
 
 In Motive, the Edit Tools pane can be accessed under the [View tab](toolbar-command-bar.md#view) or by clicking [![Tb19.png](https://v30.wiki.optitrack.com/images/0/07/Tb19.png)](https://v30.wiki.optitrack.com/index.php?title=File:Tb19.png) icon on the main toolbar.
@@ -28,7 +35,7 @@ Default: 2 frames. The Gap Size Threshold defines the minimum size of a gap that
 
 ## Gaps
 
-![Gaps section under the Edit Tools pane.](<../.gitbook/assets/image (409).png>)
+![Gaps section under the Edit Tools pane.](<../.gitbook/assets/image (410).png>)
 
 #### **Previous**
 
@@ -56,7 +63,7 @@ When using the [_pattern-base_](../motive/data-editing.md) interpolation to fill
 
 ## Curves
 
-![Curves function under Edit Tools.](<../.gitbook/assets/image (422).png>)
+![Curves function under Edit Tools.](<../.gitbook/assets/image (423).png>)
 
 #### **Smooth All**
 
@@ -68,7 +75,7 @@ Determines how strongly your data will be smoothed. The lower the setting, the m
 
 ## Fragments
 
-![Editor Tools showing fragments method.](<../.gitbook/assets/image (358).png>)
+![Editor Tools showing fragments method.](<../.gitbook/assets/image (359).png>)
 
 #### **Delete**
 
@@ -80,7 +87,7 @@ For all trajectories that have frames shorter than the percentage defined in thi
 
 ## Swaps
 
-![Editor Tools showing Swap Fix Tab.](<../.gitbook/assets/image (387).png>)
+![Editor Tools showing Swap Fix Tab.](<../.gitbook/assets/image (388).png>)
 
 #### **Previous**
 

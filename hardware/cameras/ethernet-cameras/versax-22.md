@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/ethernet-cameras/versax-22
+---
+
 # VersaX 22
 
 <figure><img src="../../../.gitbook/assets/versax22-scaled-416.webp" alt=""><figcaption></figcaption></figure>

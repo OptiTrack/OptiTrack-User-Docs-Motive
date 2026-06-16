@@ -2,6 +2,10 @@
 description: >-
   This page provides instructions on how to use the OptiTrack MotionBuilder
   Optical plugin.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-optical-plugin
 ---
 
 # Autodesk MotionBuilder: OptiTrack Optical Plugin

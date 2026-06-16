@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/imu-sensor-fusion
+---
+
 # IMU Sensor Fusion
 
 ## Overview
@@ -43,7 +49,7 @@ We highly recommend ensuring all markers can be tracked with **minimal occlusion
 This could mean that an IMU device is not present in the Rigid Body or it is not being recognized.&#x20;
 
 * Check the _Devices_ pane to see if the IMU Device is populated in the table with its Uplink ID.&#x20;
-* If the device is not listed, use [Active Batch Programmer](../active-components/configuration/active-batch-programmer.md) to check the RF Channel and Uplink ID. If the device is set to the correct RF channel and an IMU does not appear, the active device may not have an IMU.
+* If the device is not listed, use [Active Batch Programmer](../active-classic/configuration/active-batch-programmer.md) to check the RF Channel and Uplink ID. If the device is set to the correct RF channel and an IMU does not appear, the active device may not have an IMU.
 
 **If the IMU Doesn't Fuse**
 
@@ -218,7 +224,7 @@ The active pattern grouping currently applied to the device.&#x20;
 
 Click any tag in the Devices Pane to display its properties in the Properties pane. In Live mode, these properties can be edited for Wired tags. For wireless devices, these values are read-only.&#x20;
 
-For wireless devices, the RF Channel and Uplink ID can be changed using [ Active Batch Programmer](../active-components/configuration/active-batch-programmer.md).&#x20;
+For wireless devices, the RF Channel and Uplink ID can be changed using [ Active Batch Programmer](../active-classic/configuration/active-batch-programmer.md).&#x20;
 
 <figure><img src="../.gitbook/assets/Properties - IMU Paired to RB.png" alt=""><figcaption><p>Active Tag properties pane.</p></figcaption></figure>
 
@@ -318,7 +324,7 @@ Wireless pucks and CinePucks attach to the camera system using a BaseStation. Th
 |     240    |        4       |       11       |       18       |
 |     250    |        4       |       11       |                |
 
-As noted, the table does not include all possible frame rate and divisor combinations. If you are familiar with using Tera Term or [PuTTy](../active-components/configuration/active-hardware-configuration-putty.md), you can determine the maximum number of IMUs for any specific frame rate and divisor combination not shown on the table.
+As noted, the table does not include all possible frame rate and divisor combinations. If you are familiar with using Tera Term or [PuTTy](../active-classic/configuration/active-hardware-configuration-putty.md), you can determine the maximum number of IMUs for any specific frame rate and divisor combination not shown on the table.
 
 1. Use PuTTy to change the divisor rate on the BaseStation.
 2. Connect an IMU puck to PuTTy.

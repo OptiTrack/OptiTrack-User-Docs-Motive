@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body-+-fingers/baseline-+-active-fingers-57
+---
+
 # Baseline + Active Fingers (57)
 
 ## Overview

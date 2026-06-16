@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/synchronization-hardware/external-device-sync-guide-esync-2
+---
+
 # External Device Sync Guide: eSync 2
 
 ## Overview

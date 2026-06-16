@@ -2,6 +2,10 @@
 description: >-
   A guide to installing and removing the optional Ring Light from a Versa
   camera.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/versax-camera-ring-light-installation
 ---
 
 # VersaX Camera Ring Light Installation

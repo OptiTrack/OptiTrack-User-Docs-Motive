@@ -2,6 +2,10 @@
 description: >-
   This page provides step-by-step instructions for creating the rigid body based
   skeleton Marker Sets in Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/rigid-body-skeleton-markerset
 ---
 
 # Rigid Body Skeleton Marker Set

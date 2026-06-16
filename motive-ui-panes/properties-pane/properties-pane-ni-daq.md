@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-ni-daq
+---
+
 # Properties Pane: NI-DAQ
 
 When an NI-DAQ device is selected in Motive, its device information gets listed under the [Properties pane](./). Just basic information on the used device will be shown in the [Properties pane](./). For configuring properties of the device, use the [Devices pane](../devices-pane.md).
@@ -16,7 +23,7 @@ The list of advanced settings can also be customized to show only the settings t
 
 ## Settings
 
-![Properties for the NI-DAQ device selected in Devices pane gets displayed in the Properties pane.](<../../.gitbook/assets/image (246).png>)
+![Properties for the NI-DAQ device selected in Devices pane gets displayed in the Properties pane.](<../../.gitbook/assets/image (247).png>)
 
 #### **Enabled**
 
@@ -54,7 +61,7 @@ Shows the acquisition rate of the selected NI-DAQ device(s).
 
 ## Device Channel Properties
 
-![NI-DAQ device channel properties displayed in the Devices pane.](<../../.gitbook/assets/image (562).png>)
+![NI-DAQ device channel properties displayed in the Devices pane.](<../../.gitbook/assets/image (563).png>)
 
 Properties of individual channels can be configured directly from the [Devices pane](../devices-pane.md). As shown in the image, you can click on the [![ContextMenu dotdotdot.png](https://v30.wiki.optitrack.com/images/c/c4/ContextMenu_dotdotdot.png)](https://v30.wiki.optitrack.com/index.php?title=File:ContextMenu_dotdotdot.png) icon to bring up the settings and make changes.
 

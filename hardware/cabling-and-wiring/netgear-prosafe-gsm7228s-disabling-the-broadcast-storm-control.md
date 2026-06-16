@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/netgear-prosafe-gsm7228s-disabling-the-broadcast-storm-control
+---
+
 # NETGEAR ProSafe GSM7228S: Disabling the Broadcast Storm Control
 
 ## Overview

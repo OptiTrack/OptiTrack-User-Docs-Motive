@@ -1,5 +1,9 @@
 ---
 description: Motive's General Settings defined.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-general
 ---
 
 # Settings: General

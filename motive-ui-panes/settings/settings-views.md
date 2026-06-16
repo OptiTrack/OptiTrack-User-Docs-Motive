@@ -1,5 +1,9 @@
 ---
 description: Motive's Views Settings defined.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-views
 ---
 
 # Settings: Views
@@ -169,7 +173,7 @@ Settings in this section determine how markers are displayed in the 3D Viewport.
 
 #### **Active**
 
-(Default: cyan) Set the color for [active markers](../../active-components/active-marker-tracking/).
+(Default: cyan) Set the color for [active markers](../../active-classic/active-marker-tracking/).
 
 #### Intermediate _(Advanced)_
 
@@ -310,4 +314,4 @@ You can copy the .xml files to your project folders for sharing and later use. C
 
 (Default: 1000) The scope, in frames, of the domain range used for plotting graphs.
 
-![Plotting 6 DoF data for a Rigid Body in the Graph View pane.](<../../.gitbook/assets/image (340).png>)
+![Plotting 6 DoF data for a Rigid Body in the Graph View pane.](<../../.gitbook/assets/image (341).png>)

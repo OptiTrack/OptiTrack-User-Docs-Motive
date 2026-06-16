@@ -2,6 +2,10 @@
 description: >-
   Learn how to use the Active Puck Static Meshes included in the Live Link
   Plug-in Content folder.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/live-link-content-active-puck-static-meshes
 ---
 
 # Live Link Content:  Active Puck Static Meshes

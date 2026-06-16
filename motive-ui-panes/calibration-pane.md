@@ -1,5 +1,9 @@
 ---
 description: An overview of common features available in the Calibration Pane.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/calibration-pane
 ---
 
 # Calibration Pane
@@ -27,7 +31,7 @@ Before you begin the calibration process, ensure the volume is properly setup fo
 * Remove all extraneous reflections or markers in the volume. Cover any that cannot be removed.
 
 {% hint style="info" %}
-Need help? Click the ![](<../.gitbook/assets/image (214).png>) button on the Calibration pane to open the [Calibration ](../motive/calibration/)documentation page.
+Need help? Click the ![](<../.gitbook/assets/image (215).png>) button on the Calibration pane to open the [Calibration ](../motive/calibration/)documentation page.
 {% endhint %}
 
 When you are ready to begin calibrating, click the _New Calibration_ button.&#x20;
@@ -69,7 +73,7 @@ This button will move to the next phase of the Calibration process with the mask
 
 ### Wand the Volume
 
-![](<../.gitbook/assets/image (249).png>)
+![](<../.gitbook/assets/image (250).png>)
 
 #### Calibration Type
 
@@ -98,13 +102,13 @@ The _Start Wanding_ button begins the calibration process. Please see [Wanding S
 
 ![Camera squares changing from grey (no samples taken)&#x20;
 to dark green (some samples taken) to&#x20;
-light green (sufficient samples taken).](<../.gitbook/assets/image (211).png>)
+light green (sufficient samples taken).](<../.gitbook/assets/image (212).png>)
 
 #### Show list
 
 Displays the number of samples each camera has captured. Between 1,000-4,000 samples is ideal.&#x20;
 
-![Adequate samples collected for 3 cameras.](<../.gitbook/assets/image (204).png>)
+![Adequate samples collected for 3 cameras.](<../.gitbook/assets/image (205).png>)
 
 #### Start Calculating
 
@@ -117,7 +121,7 @@ The _Start Calculati&#x6E;_&#x67; button stops the collection of samples and beg
   * **Dark Cyan:** Calibration samples are Excellent.
   * **Light Cyan:**  Calibration samples are Exceptional.
 
-![An exceptional calibration in Motive.](<../.gitbook/assets/image (224).png>)
+![An exceptional calibration in Motive.](<../.gitbook/assets/image (225).png>)
 
 * If the results are acceptable, press _Continue_ to apply the calibration. If not, press _Cancel_ and repeat the wanding process.&#x20;
 * In general, if the results are anything less than Excellent, we recommend you adjust the camera settings and/or wanding techniques and try again.
@@ -166,7 +170,7 @@ To load a previously completed calibration, click _Load Calibration,_ which will
 
 Calibration files are automatically saved in the default Calibrations folder every time a calibration is completed. Click _Open Calibration Folder_ to manage calibration files using Windows File Explorer. Calibration files cannot be opened or loaded into Motive from this window.&#x20;
 
-![Motive's Calibrations Folder in Windows File Explorer.](<../.gitbook/assets/image (222).png>)
+![Motive's Calibrations Folder in Windows File Explorer.](<../.gitbook/assets/image (223).png>)
 
 ## Continuous Calibration
 
@@ -177,7 +181,7 @@ The continuous calibration feature continuously monitors and refines the camera 
   * **Sampling:** Motive is sampling the position of at least four markers.
   * **Evaluating:** Motive is calculating the newly acquired samples.
 
-![Continuous Calibration status.](<../.gitbook/assets/image (206).png>)
+![Continuous Calibration status.](<../.gitbook/assets/image (207).png>)
 
 ### Anchor Markers
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-migration-to-natnet-3.0-libraries
+---
+
 # NatNet: Migration to NatNet 3.0 libraries
 
 This page is created to guide help users migrating their NatNet projects onto NatNet 3.0 libraries.

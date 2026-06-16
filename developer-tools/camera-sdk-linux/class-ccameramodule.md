@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/camera-sdk-linux/class-ccameramodule
+---
+
 # Class: cCameraModule
 
 To attach cCameraModule instances to a camera object using Motive API, call the following functions:

@@ -1,5 +1,9 @@
 ---
 description: Motive's Streaming Settings defined.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-streaming
 ---
 
 # Settings: Streaming
@@ -17,7 +21,7 @@ Please see the following pages for descriptions of the settings on other tabs:
 
 Application Settings can be accessed from the [View menu](../toolbar-command-bar.md#view) or by clicking the <img src="../../.gitbook/assets/Settings button (10).png" alt="The Settings button from the Motive toolbar." data-size="line"> icon on the main toolbar.&#x20;
 
-<figure><img src="../../.gitbook/assets/Settings - Streaming Basic.png" alt="The Application Settings panel in Motive, with the Streaming tab selected and Standard settings shown. " width="563"><figcaption><p>Standard settings on the Streaming tab of the Settings panel in Motive. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings Streaming - NatNet Std only .png" alt="The Application Settings panel in Motive, with the Streaming tab selected and Standard settings shown. "><figcaption><p>Standard settings on the Streaming tab of the Settings panel in Motive. </p></figcaption></figure>
 
 {% hint style="info" %}
 **Advanced Settings**
@@ -41,11 +45,11 @@ The NatNet settings allow streaming of tracking data via Motive's free streaming
 Some third-party applications accept only certain types of streamed data. Please refer to the pages in the [Plugins section](../../plugins/) of our documentation for more information on OptiTrack-supported integrations.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Settings - Streaming Adv Top.png" alt="The Motive Settings panel, with the Streaming tab selected and advanced properties displayed."><figcaption><p>Streaming Advanced settings (partial list) in Motive.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings Streaming - NatNet Adv TOP .png" alt="The Motive Settings panel, with the Streaming tab selected and advanced properties displayed."><figcaption><p>Streaming Advanced settings (partial list) in Motive.</p></figcaption></figure>
 
 With Advanced settings displayed, scroll to see additional options:
 
-<figure><img src="../../.gitbook/assets/Settings - Streaming Adv Bottom CROPPED.png" alt=""><figcaption><p>Additional Advanced Streaming settings in Motive. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings Streaming - NatNet Adv BOTTOM CROPPED .png" alt=""><figcaption><p>Additional Advanced Streaming settings in Motive. </p></figcaption></figure>
 
 <details>
 
@@ -151,6 +155,30 @@ Enables or disables streaming of bone information from Trained Markerset assets.
 <summary><strong>Devices</strong></summary>
 
 Enables or disables streaming of active peripheral devices (ie. force plates, Delsys Trigno EMG devices, etc.)
+
+</details>
+
+<details>
+
+<summary><strong>IMU</strong></summary>
+
+Enables or disables streaming of IMU (Inertial Measurement Unit) data for client-side sensor fusion workflows.&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>GPIO</strong></summary>
+
+Enables or disables streaming of GPIO (General Purpose Input/Output) data. This setting enables workflows where button inputs are activated on ActiveIO devices, then sent to game engines or other client applications where actions in the game can occur.
+
+</details>
+
+<details>
+
+<summary><strong>Anchors</strong></summary>
+
+Enables or disables streaming of anchor marker data. This allows for improved monitoring of system health using a NatNet Client.
 
 </details>
 
@@ -315,7 +343,7 @@ Enables or disables streaming of Rigid Body data via the VRPN protocol.
 
 <details>
 
-<summary><strong>Zero When Untracked (Advanced)</strong></summary>
+<summary><strong>Zero When Untracked</strong></summary>
 
 When enabled, this setting zeros out the data for untracked assets.&#x20;
 

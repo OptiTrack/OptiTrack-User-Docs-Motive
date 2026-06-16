@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/firewall-settings
+---
+
 # Firewall Settings
 
 ## Overview
@@ -17,4 +24,4 @@ To access basic Windows firewall settings in Windows 10:
   * This will open the Status window, and from here you can scroll to the bottom to find 'Windows Firewall'
 * Alternatively, you can either select the Windows icon from taskbar or press the Windows key on your keyboard and search for 'firewall' and select 'Windows Defender Firewall' (be sure to not select 'Windows Defender Firewall with Advanced Security')
 
-<figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>

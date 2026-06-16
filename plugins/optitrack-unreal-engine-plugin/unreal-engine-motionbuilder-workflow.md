@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-motionbuilder-workflow
+---
+
 # Unreal Engine: MotionBuilder Workflow
 
 This guide will cover how to get motion capture data streamed from Motive to Unreal Engine 5's MetaHumans with the additional help of MotionBuilder.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/synchronization/optitrack-timecode
+---
+
 # OptiTrack Timecode
 
 ## Overview
@@ -27,7 +34,7 @@ The generic form for OptiTrack timecode: **HH:MM:SS:FF.Y (hours:minutes:seconds:
 
 ## NatNet: Timecode
 
-When using the [NatNet SDK 4.0](../developer-tools/natnet-sdk/natnet-4.0.md), the OptiTrack timecode is sent to NatNet clients in the form of two unsigned integers contained within the packet of [sFrameOfMocapData](../developer-tools/natnet-sdk/natnet-data-types.md):
+When using the [NatNet SDK 4.0](../developer-tools/natnet-sdk/natnet-4.5.md), the OptiTrack timecode is sent to NatNet clients in the form of two unsigned integers contained within the packet of [sFrameOfMocapData](../developer-tools/natnet-sdk/natnet-data-types.md):
 
 * **OptiTrack encoded SMPTE timecode**: `Unsigned int Timecode`
 * **OptiTrack encoded sub-frame data**: `Unsigned int TimecodeSubframe`

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/usb-camera-system-setup/tracking-bar-coordinate-system
+---
+
 # Tracking Bar Coordinate System
 
 {% hint style="warning" %}

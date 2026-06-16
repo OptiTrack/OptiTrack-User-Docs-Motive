@@ -1,7 +1,7 @@
 ---
 cover: .gitbook/assets/Docs Banner Image.png
 coverY: 0
-coverHeight: 526
+coverHeight: 531
 layout:
   width: default
   cover:
@@ -23,6 +23,9 @@ layout:
     visible: true
   actions:
     visible: true
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/
 ---
 
 # OptiTrack Documentation
@@ -96,7 +99,7 @@ Link directly to our most popular pages from the tabs below.&#x20;
 ### Active Tracking
 
 * [Quick Start Guide: Active Marker Tracking](quick-start-guides/quick-start-guide-active-marker-tracking.md)
-* [Active Marker Tracking](active-components/active-marker-tracking/)
+* [Active Marker Tracking](active-classic/active-marker-tracking/)
 * [IMU Sensor Fusion](motive/imu-sensor-fusion.md)
 {% endtab %}
 {% endtabs %}
@@ -106,7 +109,7 @@ Link directly to our most popular pages from the tabs below.&#x20;
 ### Streaming&#x20;
 
 * [Data Streaming](motive/data-streaming.md)
-* [NatNet 4.0](developer-tools/natnet-sdk/natnet-4.0.md)
+* [NatNet 4.0](developer-tools/natnet-sdk/natnet-4.5.md)
 * [OptiTrack Unity Plugin](plugins/optitrack-unity-plugin/)
 * [Unreal Engine Plugin](plugins/optitrack-unreal-engine-plugin/)
 * [Unreal Engine OptiTrack Live Link Plugin](plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/)

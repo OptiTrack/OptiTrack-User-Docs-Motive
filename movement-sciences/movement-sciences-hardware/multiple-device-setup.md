@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/multiple-device-setup
+---
+
 # Multiple Device Setup
 
 ## Overview
@@ -77,7 +84,7 @@ Once the _Internal Clock_ is selected as the sync source, configure the clock si
 * _Clock Freq (Hz)_: This sets the frequency of the clock signal. In this setup, the clock signal will be used to sync the camera system frame rate and also the acquisition rate of the NI-DAQ devices. Since the NI-DAQ devices usually sample at a higher frame rate, first set the clock frequency to the desired NI-DAQ sampling rate and apply input divider and multiplier for the camera system.
 * _Input Trigger/Divider/Multiplier_: Adjust the input divider and multiplier to derive the camera system frame rate from the configured internal clock signal. The final frame rate will be displayed at the bottom of the _Sync Input_ section. Only the supported camera frame rate can be applied.
 
-![Sync Input configured to Internal Clock: 1000 Hz. With the input divider and multiplier applied, cameras synchronize at 100 FPS.](<../../.gitbook/assets/image (545).png>)
+![Sync Input configured to Internal Clock: 1000 Hz. With the input divider and multiplier applied, cameras synchronize at 100 FPS.](<../../.gitbook/assets/image (546).png>)
 
 **Step 10. \[Motive → Properties: eSync 2] Configure the Sync Outputs.**
 
@@ -90,7 +97,7 @@ Now, configure the output signal into the child devices. Configure the correspon
 AMTI Force plates can also be synchronized through Gater Internal Clock signal. See [AMTI Force Plate Setup](amti-force-plate-setup.md) page for more information.
 {% endhint %}
 
-![Custom Synchronization: Output signal configured to Gated Internal Clock for the NI-DAQ device and Recording Gate for Bertec force plates.](<../../.gitbook/assets/image (226).png>)
+![Custom Synchronization: Output signal configured to Gated Internal Clock for the NI-DAQ device and Recording Gate for Bertec force plates.](<../../.gitbook/assets/image (227).png>)
 
 **Step 11. \[Motive: → Properties: eSync]] Configure the Remote Trigger device.**
 
@@ -108,7 +115,7 @@ Click on the NI-DAQ device under the [Devices pane](../../motive-ui-panes/device
 * NIDAQExternalClockTerminal: Designate input channel of the NI-DAQ.
 * SyncMode: Free Run.
 
-![NI-DAQ properties and the corresponding sync settings.](<../../.gitbook/assets/image (567).png>)
+![NI-DAQ properties and the corresponding sync settings.](<../../.gitbook/assets/image (568).png>)
 
 **Step 14. \[Motive → Properties: Force Plate]**
 
@@ -118,7 +125,7 @@ Click on the Force Plate device under the [Devices pane](../../motive-ui-panes/d
 * Use External Clock: False
 * Sync Mode: Free Run
 
-![Sample configuration of the Force Plate (AMTI) properties.](<../../.gitbook/assets/image (218).png>)
+![Sample configuration of the Force Plate (AMTI) properties.](<../../.gitbook/assets/image (219).png>)
 
 #### **Step 15. \[Motive]**
 

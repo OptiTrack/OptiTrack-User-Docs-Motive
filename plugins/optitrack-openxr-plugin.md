@@ -1,5 +1,9 @@
 ---
 description: A Quick Start Guide for using OptiTrack's OpenXR Plugin.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-openxr-plugin
 ---
 
 # OptiTrack OpenXR Plugin

@@ -1,5 +1,9 @@
 ---
 description: Configure a Netgear PoE++ switch to connect a PrimeX 120 camera.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/switch-configuration-for-primex-120
 ---
 
 # Switch Configuration for PrimeX 120

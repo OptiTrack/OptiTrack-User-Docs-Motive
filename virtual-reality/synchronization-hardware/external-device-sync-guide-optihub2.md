@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/synchronization-hardware/external-device-sync-guide-optihub2
+---
+
 # External Device Sync Guide: OptiHub2
 
 ## **Overview**

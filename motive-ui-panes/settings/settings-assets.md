@@ -1,3 +1,11 @@
+---
+description: The application settings available for asset creation in Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-assets
+---
+
 # Settings: Assets
 
 ## **Overview**
@@ -15,7 +23,7 @@ Please see the following pages for descriptions of the settings on other tabs:
 
 Application Settings can be accessed from the [View menu](../toolbar-command-bar.md#view) or by clicking the <img src="../../.gitbook/assets/Settings button (9).png" alt="A screenshot of the Settings button from the Motive toolbar. " data-size="line"> icon on the main toolbar.&#x20;
 
-<figure><img src="../../.gitbook/assets/Settings Assets Standard top.png" alt="A screenshot of the basic settings on the Motive Settings: Assets pane. "><figcaption><p>Assets tab in Application Settings - basic settings shown.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings Assets Standard Only (1).png" alt="A screenshot of the basic settings on the Motive Settings: Assets pane. "><figcaption><p>Assets tab in Application Settings - basic settings shown.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Advanced Settings**
@@ -121,7 +129,7 @@ The Skeleton Creation section contains settings applicable to the creation of ne
 
 For descriptions of the Skeleton properties, please see the [Properties: Skeleton](https://github.com/OptiTrack/GitBook-Wiki/blob/main/motive-ui-panes/properties-pane/properties-pane-Skeleton.md) page.
 
-<figure><img src="../../.gitbook/assets/Settings - Assets Advanced Skeleton Creation.png" alt="A screenshot of the Skeleton Creation settings from the Motive Settings panel, Assets tab.  "><figcaption><p>Standard and Advanced <em>Skeleton Creation</em> Assets settings. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Settings Assets Skeleton Creation Std and Adv (1).png" alt="A screenshot of the Skeleton Creation settings from the Motive Settings panel, Assets tab.  "><figcaption><p>Standard and Advanced <em>Skeleton Creation</em> Assets settings. </p></figcaption></figure>
 
 <details>
 
@@ -181,6 +189,14 @@ Motive includes two spine models for Skeletons:
 * The **7 Segment Spine** model has five spine bones and two neck bones. This model accounts for the natural curves in the human spine and allows for better alignment between the Skeleton in Motive and the actor.
 
 The selected type will be the default option when creating new Skeletons, and can be changed as needed from the [Builder pane](../builder-pane.md#skeleton-create).&#x20;
+
+</details>
+
+<details>
+
+<summary>Straight Spine</summary>
+
+When enabled, the Straight Spine setting removes the curve in the spine when creating Skeleton assets. This setting improves the results when retargeting the Skeleton to a game engine, where the spinal curve may result in a character with a puffed-out chest.&#x20;
 
 </details>
 

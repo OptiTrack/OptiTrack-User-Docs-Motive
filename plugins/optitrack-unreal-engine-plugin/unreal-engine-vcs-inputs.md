@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-vcs-inputs
+---
+
 # Unreal Engine VCS Inputs
 
 This page provides instructions on how to configure VCS inputs in Unreal Engine. The basic configuration is similar to configuring any other input triggers in Unreal Engine. Please note that only one VCS controller can be connected and configured due to some limitations. Having two controllers connected at the same time is not supported.

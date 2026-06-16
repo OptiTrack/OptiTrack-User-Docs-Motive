@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-creating-a-managed-c-sharp-client-application
+---
+
 # NatNet: Creating a Managed (C sharp) Client Application
 
 The following guide references **SampleClientML.cs** client application that is provided with the SDK. This sample demonstrates the use of .NET NatNet assembly for connecting to a NatNet server, receiving a data stream, and parsing and printing out the received data.

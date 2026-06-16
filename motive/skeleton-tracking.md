@@ -1,5 +1,8 @@
 ---
 description: Detailed instructions for creating and using Skeleton assets in Motive.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/skeleton-tracking
 ---
 
 # Skeleton Tracking
@@ -132,6 +135,11 @@ Once the skeleton markers are [correctly placed](skeleton-tracking.md#placing-th
 1. Select the calibration _Pose_ you plan to use to define the Skeleton from the drop-down menu. This is set to the T-pose by default.
 2. The _Constraints_ drop-down allows you to assign labels that are defined by the Marker Set template (Default) or to assign custom labels by [loading a previously prepared XML](../motive-ui-panes/constraints-pane/constraints-xml-files.md) file of constraint names.&#x20;
 3. Select the skeleton _Model_ to use for the spine. The default is the 7 Segment spine, but the classic 3 segment spine is also available for workflows that rely on this model. To change the default to the classic model, go to _Settings > Assets_. On the _Assets_ tab under _Skeleton Creation_, change the _Spine Type_ to your preferred default.
+
+{% hint style="info" %}
+You may need to create skeletons with a straight spine when retargeting to a game engine, as the natural curvature of the spine may cause the game model's chest to pop out. This option is available only in the Application Settings. To turn it on, go to [_Settings > Assets_](../motive-ui-panes/settings/settings-assets.md). Under [_Skeleton Creation_](../motive-ui-panes/settings/settings-assets.md#skeleton-creation), enable the setting to create a [Straight Spine](../motive-ui-panes/settings/settings-assets.md#straight-spine).&#x20;
+{% endhint %}
+
 4. Select the _Visual_ template to apply to the skeleton. Options are:  Segment; Avatar - male; Avatar - female; None; or Cycle Avatar, which randomly assigns one of the two gendered avatars. This value can be changed later in the [Skeleton Properties](../motive-ui-panes/properties-pane/properties-pane-skeleton.md).&#x20;
 5. Enter a unique name for the skeleton. The skeleton name is included as a prefix in the label for each of the skeleton markers.&#x20;
 6. &#x20;Ask the subject to stand in the selected [calibration pose](skeleton-tracking.md#calibration-pose), feet shoulder-width apart. The T-pose should be done with palms downward.&#x20;

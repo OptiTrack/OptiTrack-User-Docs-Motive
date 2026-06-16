@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/autodesk-motionbuilder/autodesk-motionbuilder-timecode-data
+---
+
 # Autodesk MotionBuilder: Timecode Data
 
 ## Overview
@@ -14,7 +21,7 @@ To monitor the timecode, select the connected OptiTrack I/O devices under the **
 
 ![Timecode settings.](<../../.gitbook/assets/image (1339).png>)
 
-![Timecode display in Motive.](<../../.gitbook/assets/image (181).png>)
+![Timecode display in Motive.](<../../.gitbook/assets/image (182).png>)
 
 ### Timecode on Assets
 

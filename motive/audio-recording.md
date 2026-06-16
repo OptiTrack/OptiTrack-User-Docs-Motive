@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/audio-recording
+---
+
 # Audio Recording
 
 {% hint style="danger" %}
@@ -51,7 +57,7 @@ Audio capture within Motive, does not natively synchronize to video or motion ca
 
 A device's audio format can be configured under the Sound settings found in the Control Panel. To do this select the recording device, click on Properties, then the default format can be changed under the Advanced Tab as shown in the image below.
 
-![Accessing microphone properties from the Sound settings.](<../.gitbook/assets/image (307).png>) ![Configuring microphone device format.](<../.gitbook/assets/image (1403).png>)
+![Accessing microphone properties from the Sound settings.](<../.gitbook/assets/image (308).png>) ![Configuring microphone device format.](<../.gitbook/assets/image (1403).png>)
 
 ## Audio Export
 

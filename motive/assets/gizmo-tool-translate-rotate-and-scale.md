@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/assets/gizmo-tool-translate-rotate-and-scale
+---
+
 # Gizmo Tool: Translate, Rotate, and Scale
 
 This page provides instructions on how to utilize the Gizmo tool for modifying asset definitions (Rigid Bodies and Skeletons) on the [3D Perspective View](../../motive-ui-panes/viewport.md) of Motive

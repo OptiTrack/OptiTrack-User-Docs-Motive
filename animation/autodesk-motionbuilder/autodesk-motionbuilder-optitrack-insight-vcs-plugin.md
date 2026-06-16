@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/animation/autodesk-motionbuilder/autodesk-motionbuilder-optitrack-insight-vcs-plugin
+---
+
 # Autodesk MotionBuilder: OptiTrack Insight VCS Plugin
 
 ## **Overview**

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/camera-mount-structures
+---
+
 # Camera Mount Structures
 
 Choosing an appropriate camera mounting solution is very important when setting up a capture volume. A stable setup not only prevents camera damage from unexpected collisions, but it also maintains calibration quality throughout capture. All OptiTrack cameras have **¼-20 UNC Threaded holes** – ¼ inch diameter, 20 threads/inch – which is the industry standard for mounting cameras. Before planning the mount structures, make sure that you have optimized your [camera placement](camera-placement.md) plans.
@@ -147,7 +154,7 @@ It's easiest and safest to install with another person rather than installing by
 9. Attach the clamps to the rail.
 10. [Aim](aiming-and-focusing.md) each camera.
 
-![Speed rail with connector insert and bracket.](<../.gitbook/assets/image (291).png>) ![Prime cameras mounted onto a speed rail with tee bracket.](<../.gitbook/assets/image (300).png>) ![Flex 13 mounted onto a speed rail with elbow bracket and 5" offset wall bracket.](<../.gitbook/assets/image (491) (1).png>)
+![Speed rail with connector insert and bracket.](<../.gitbook/assets/image (292).png>) ![Prime cameras mounted onto a speed rail with tee bracket.](<../.gitbook/assets/image (301).png>) ![Flex 13 mounted onto a speed rail with elbow bracket and 5" offset wall bracket.](<../.gitbook/assets/image (491) (1).png>)
 
 {% hint style="info" %}
 **Helpful Tips/Additional Information**

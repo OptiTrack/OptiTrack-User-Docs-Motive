@@ -1,5 +1,8 @@
 ---
 description: An overview of the Data pane and its contents.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/data-pane
 ---
 
 # Data Pane
@@ -91,7 +94,7 @@ In the list of session folders, the currently loaded session folder will be deno
 * <img src="../.gitbook/assets/Data Pane - Add session folder.png" alt="A screenshot from Motive of the Data pane button to add a new session folder." data-size="line">  Add a new session folder. The new folder will be saved in the Motive's default location.&#x20;
 * <img src="../.gitbook/assets/Data Pane - Data Mgmt Pane.png" alt="A screenshot from Motive of the Data pane button to toggle on/off the viewing of the Sessions folders list. " data-size="line"> Collapse the session folder sidebar.
 
-<figure><img src="../.gitbook/assets/image (258).png" alt="A screenshot from Motive of the Data pane with the list of loaded session folders highlighted. The current session folder is noted with a flag icon."><figcaption><p>List of loaded session folders. Current session folder is noted with a flag icon.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (259).png" alt="A screenshot from Motive of the Data pane with the list of loaded session folders highlighted. The current session folder is noted with a flag icon."><figcaption><p>List of loaded session folders. Current session folder is noted with a flag icon.</p></figcaption></figure>
 
 ### Context Menu Options
 
@@ -137,7 +140,7 @@ When a session folder is selected, associated _Take_ files and their description
 
 To view additional fields, click on the pane menu, select _new_ to create a custom view, and all of the possible fields will be available to add to the new view. Right-click on the column header to select the columns to display. For each of the enabled columns, you can click on the arrow next to it to sort up/down the list of _Takes_ depending on the category.
 
-<figure><img src="../.gitbook/assets/image (394).png" alt="A screenshot from Motive of the data pane, with the list of take names section highlighted."><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (395).png" alt="A screenshot from Motive of the data pane, with the list of take names section highlighted."><figcaption></figcaption></figure>
 
 ### Take Information
 
@@ -338,7 +341,7 @@ A list of take names is known as a shot list. Shot lists can be imported from ei
 
 Take lists can be imported by copying a list of take names and pasting them onto the Data pane. Each take name must be on its own line.&#x20;
 
-<figure><img src="../.gitbook/assets/image (396).png" alt="2 screenshots - the image on the left shows the data pane in Motive with a list of simple take names. The image on the right shows the same list in a text file, with the context menu open and Copy selected. "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (397).png" alt="2 screenshots - the image on the left shows the data pane in Motive with a list of simple take names. The image on the right shows the same list in a text file, with the context menu open and Copy selected. "><figcaption></figcaption></figure>
 
 **From a CSV File**
 

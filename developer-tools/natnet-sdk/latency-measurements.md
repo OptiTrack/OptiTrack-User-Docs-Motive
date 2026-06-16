@@ -1,10 +1,17 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/latency-measurements
+---
+
 # Latency Measurements
 
 This page provides detailed information on the definition of latency measurements in Motive and the NatNet SDK streaming protocol.
 
 ## Overview
 
-The OptiTrack systems combine state of art technologies to provide swift processing of captured frame data in order to accomplish 3D tracking in real-time. However, minimal processing latencies are inevitably introduced throughout processing pipelines. For timing-sensitive applications, these latency metrics can be monitored from the [Status Panel](../../motive-ui-panes/status-panel.md) of Motive or in the [NatNet SDK 4.0](natnet-4.0.md) streaming protocol.
+The OptiTrack systems combine state of art technologies to provide swift processing of captured frame data in order to accomplish 3D tracking in real-time. However, minimal processing latencies are inevitably introduced throughout processing pipelines. For timing-sensitive applications, these latency metrics can be monitored from the [Status Panel](../../motive-ui-panes/status-panel.md) of Motive or in the [NatNet SDK 4.0](natnet-4.5.md) streaming protocol.
 
 ## Latency Simplified
 
@@ -51,7 +58,7 @@ Example frame rates vs the latency added by the camera for a PrimeX 41 camera...
 
 * This measurement is reported in the [Status Panel](../../motive-ui-panes/status-panel.md) in Motive.
 * It represents the amount of time it takes Motive to process each frame of captured data. This includes the time taken for reconstructing the 2D data into 3D data, labeling and modeling the trackable assets, displaying in the viewport, and other processes configured in Motive.
-* Please note that this does not include the time it takes for Motive to convert the solved data into the NatNet streaming protocol format. This conversion accounts for a slight additional latency (≈ 0.2 ms) which is only reflected in the software latency value reported via [NatNet SDK 4.0](natnet-4.0.md), therefore resulting in a small delta between the software latency values as reported by Motive and NatNet.
+* Please note that this does not include the time it takes for Motive to convert the solved data into the NatNet streaming protocol format. This conversion accounts for a slight additional latency (≈ 0.2 ms) which is only reflected in the software latency value reported via [NatNet SDK 4.0](natnet-4.5.md), therefore resulting in a small delta between the software latency values as reported by Motive and NatNet.
 
 #### **Pipeline Specific Latencies**
 
@@ -80,7 +87,7 @@ These timestamps are reported in “ticks” that are provided by the host compu
 
 * **(Available for Ethernet camera systems only)**
 * This is the latency introduced by both hardware and software component of the system. This represents the time difference between when the cameras expose and when the capture data is all processed and prepared to be streamed out.
-* This value needs to be derived from the [NatNet SDK 4.0](natnet-4.0.md) streaming protocol by subtracting two timestamp values that are reported in NatNet:
+* This value needs to be derived from the [NatNet SDK 4.0](natnet-4.5.md) streaming protocol by subtracting two timestamp values that are reported in NatNet:
 
 ```
 const bool bSystemLatencyAvailable = data->CameraMidExposureTimestamp != 0;
@@ -116,7 +123,7 @@ In the older versions of NatNet, the software latency was roughly estimated and 
 
 **Transmission Latency**
 
-* This value must be derived from the [NatNet SDK 4.0](natnet-4.0.md) streaming protocol.
+* This value must be derived from the [NatNet SDK 4.0](natnet-4.5.md) streaming protocol.
 * The transmission latency represents the time difference between when Motive streams out the packaged tracking data and when the data reaches the client application(s) through a selected network.
 * This value can be obtained by calling the [SecondsSinceHostTimestampmethod](natnet-class-function-reference.md#natnetclient-secondssincehosttimestamp) using sFrameOfMocapData::TransmitTimestamp as the input.
 
@@ -127,7 +134,7 @@ const double transitLatencyMillisec = pClient->SecondsSinceHostTimestamp( data->
 
 **Client Latency**
 
-* This value must be derived from the [NatNet SDK 4.0](natnet-4.0.md) streaming protocol.
+* This value must be derived from the [NatNet SDK 4.0](natnet-4.5.md) streaming protocol.
 * The client latency is the time difference between when the cameras expose and when the NatNet client applications receive the processed data. This is basically the total time it takes for a client application(s) to receive the tracking data from a mocap system.
 * This value can be obtained by calling the [SecondsSinceHostTimestamp](https://v30.wiki.optitrack.com/index.php?title=NatNet:_Class/Function_Reference#NatNetClient::SecondsSinceHostTimestamp) method using **sFrameOfMocapData::CameraMidExposureTimestamp** as the input.
 

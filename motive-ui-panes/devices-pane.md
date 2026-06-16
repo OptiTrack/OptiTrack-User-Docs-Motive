@@ -1,5 +1,9 @@
 ---
 description: An overview of features available in the Devices Pane.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/devices-pane
 ---
 
 # Devices Pane
@@ -20,7 +24,7 @@ When a single device is selected, the [Properties pane](properties-pane/) displa
 
 ### Interface
 
-Open the Devices pane from the View menu or by clicking the ![](<../.gitbook/assets/image (70).png>) icon on the main toolbar.
+Open the Devices pane from the View menu or by clicking the ![](<../.gitbook/assets/image (71).png>) icon on the main toolbar.
 
 ![Devices Pane.](<../.gitbook/assets/Devices Pane - Anotated.png>)
 
@@ -34,7 +38,7 @@ The master Camera Frame Rate is shown at the top of the pane. This is the frame 
 
 To change the rate, click on the rate to open the drop-down menu and select the desired rate.
 
-![](<../.gitbook/assets/image (379).png>)
+![](<../.gitbook/assets/image (380).png>)
 
 {% hint style="info" %}
 #### Frame Rates and Windowing
@@ -102,7 +106,7 @@ The Tracking cameras category includes all the motion capture cameras connected 
 Reference cameras do not contribute to the 3D reconstruction. The video captured by the reference camera is included in the _Take_ file.&#x20;
 {% endhint %}
 
-![](<../.gitbook/assets/image (448).png>)
+![](<../.gitbook/assets/image (449).png>)
 
 ### Tracking Camera Settings
 
@@ -305,10 +309,10 @@ The Synchronization category includes synchronization devices such as the eSync 
 
 ### Base Stations&#x20;
 
-[Base Station](../active-components/active-components-hardware/basestation.md) values are read-only, in both the Devices pane and the Properties pane. Available display options are the _Device_ (device type) and the _Serial number_.
+[Base Station](../active-classic/active-classic-hardware/basestation.md) values are read-only, in both the Devices pane and the Properties pane. Available display options are the _Device_ (device type) and the _Serial number_.
 
 {% hint style="info" %}
-The [Active Batch Programmer](../active-components/configuration/active-batch-programmer.md) is required to view additional settings or make configuration changes to a Base Station and its associated active devices.&#x20;
+The [Active Batch Programmer](../active-classic/configuration/active-batch-programmer.md) is required to view additional settings or make configuration changes to a Base Station and its associated active devices.&#x20;
 {% endhint %}
 
 ### Sync Hub

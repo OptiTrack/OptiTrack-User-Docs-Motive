@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/rizzoli-markersets
+---
+
 # Rizzoli Marker Sets
 
 ## Overview
@@ -15,9 +22,9 @@ The Rizzoli Lower Body template integrates a novel marker placement for lower bo
 
 For more information on the segment and joint definitions, please refer to the referenced research papers.
 
-![Diagram showing the locations of the markers and the segment axis defined in the lower body Marker Set (Leardini et al. 2007\[1\]).](<../.gitbook/assets/image (492).png>)
+![Diagram showing the locations of the markers and the segment axis defined in the lower body Marker Set (Leardini et al. 2007\[1\]).](<../.gitbook/assets/image (493).png>)
 
-![](<../.gitbook/assets/image (518).png>)
+![](<../.gitbook/assets/image (519).png>)
 
 Rizzoli Lower Body Protocol Markers
 
@@ -53,9 +60,9 @@ This Marker Set is designed for tracking multi-segment trunk kinematics[\[2\]](r
 
 For more information on the Rizzoli Trunk Marker Set, please refer to the referenced research papers.
 
-![Marker placement diagram with marker labels from (Leardini et al.,2011)\[2\]](<../.gitbook/assets/image (527).png>)
+![Marker placement diagram with marker labels from (Leardini et al.,2011)\[2\]](<../.gitbook/assets/image (528).png>)
 
-![](<../.gitbook/assets/image (503).png>)
+![](<../.gitbook/assets/image (505).png>)
 
 Rizzoli Trunk Markers
 
@@ -78,7 +85,7 @@ Rizzoli Trunk Markers
 
 The Rizzoli Body template combines the Rizzoli Lower Body Protocol and the Rizzoli Trunk Protocol to provide tracking of the full-body kinematics.
 
-![](<../.gitbook/assets/image (482).png>)
+![](<../.gitbook/assets/image (483).png>)
 
 Rizzoli Full Body Markers
 
@@ -121,9 +128,9 @@ There are two calibration markers in each foot protocol. They are located at the
 
 Refer to the referenced papers for specific information on the joint and segment definitions.
 
-![Foot marker labels and segment definitions for the foot model (Leardini et al., 2007)](<../.gitbook/assets/image (541).png>)
+![Foot marker labels and segment definitions for the foot model (Leardini et al., 2007)](<../.gitbook/assets/image (542).png>)
 
-![Marker placement diagram for the Rizzoli Right Foot Protocol (14)](<../.gitbook/assets/image (199).png>)
+![Marker placement diagram for the Rizzoli Right Foot Protocol (14)](<../.gitbook/assets/image (200).png>)
 
 Rizzoli Foot Markers
 

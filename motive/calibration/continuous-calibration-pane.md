@@ -1,5 +1,9 @@
 ---
 description: An overview of the Continuous Calibration pane and its functions.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/calibration/continuous-calibration-pane
 ---
 
 # Continuous Calibration Pane

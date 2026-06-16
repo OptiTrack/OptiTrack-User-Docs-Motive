@@ -1,5 +1,9 @@
 ---
 description: An in-depth look at the properties available for Trained Markersets.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-trained-markerset
 ---
 
 # Properties Pane:  Trained Markerset
@@ -245,6 +249,6 @@ Whenever a geometric model is attached, settings to adjust the scale, location, 
 If you are exporting an OBJ file from Maya, make sure the Ambient Color setting is set to white upon export. If this color is set to black, it will remove textures when the Trained Markerset is deselected.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (449).png" alt=""><figcaption><p>Common Material Attributes in Maya with Ambient Color selected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (450).png" alt=""><figcaption><p>Common Material Attributes in Maya with Ambient Color selected.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (813).png" alt=""><figcaption><p>Attached Geometry models with Ambient color set to Black (left) or White (right).</p></figcaption></figure>

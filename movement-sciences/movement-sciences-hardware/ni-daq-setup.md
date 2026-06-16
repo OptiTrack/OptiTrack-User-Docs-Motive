@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/ni-daq-setup
+---
+
 # NI-DAQ Setup
 
 ## Overview
@@ -92,7 +99,7 @@ OptiTrack mocap systems use the eSync 2 to provide highly accurate synchronizati
 
 **Screw Terminal Device Cabling**
 
-![Wiring diagram for screw terminal NI-DAQ devices. The analog input channels in this configuration should use RSE terminal type.](<../../.gitbook/assets/image (574).png>)
+![Wiring diagram for screw terminal NI-DAQ devices. The analog input channels in this configuration should use RSE terminal type.](<../../.gitbook/assets/image (575).png>)
 
 **BNC Terminal Cabling**
 
@@ -154,7 +161,7 @@ After agreeing to install the Peripheral Device, the installer will ask to insta
 **Installation Note:** For integration into Motive, the NI-DAQmx 15.1.1 or later runtime driver must be installed. If you are already using an older version of the NI-DAQmx runtime and Motive is having problems recognizing the connected device, update the driver or uninstall and re-install the packaged version of the driver before contacting [Support](http://optitrack.com/contact/). In Motive, you can inspect device connection status via the [Log Pane](../../motive-ui-panes/log-pane.md) which can be accessed under the View tab in Motive.
 {% endhint %}
 
-![Connected NI-DAQ device detected and listed under Devices Pane in Motive.](<../../.gitbook/assets/image (498).png>)
+![Connected NI-DAQ device detected and listed under Devices Pane in Motive.](<../../.gitbook/assets/image (499).png>)
 
 #### **3. Check device connection**
 
@@ -178,9 +185,9 @@ First, make sure the NI-DAQ device and its operating analog input channels are e
 
 **d.** Graph Pane: Show the 'Scope' View.
 
-![Recorded signal from the NI-DAQ channel displayed on the Graph pane in Motive.](<../../.gitbook/assets/image (191).png>)
+![Recorded signal from the NI-DAQ channel displayed on the Graph pane in Motive.](<../../.gitbook/assets/image (192).png>)
 
-![Creating graph layout for live-scoping analog channels.](<../../.gitbook/assets/image (495).png>)
+![Creating graph layout for live-scoping analog channels.](<../../.gitbook/assets/image (497).png>)
 
 **6. Zero the DAQ device**
 
@@ -192,7 +199,7 @@ Now that the device is detected in Motive, you can select and configure settings
 
 ### Device Properties
 
-![Properties for the NI-DAQ device selected in Devices pane gets displayed in the Properties pane.](<../../.gitbook/assets/image (100).png>)
+![Properties for the NI-DAQ device selected in Devices pane gets displayed in the Properties pane.](<../../.gitbook/assets/image (101).png>)
 
 Properties of connected NI-DAQ devices get listed in the [Properties pane](../../motive-ui-panes/properties-pane/) when a device is selected in the [Devices pane](../../motive-ui-panes/devices-pane.md). These properties need to be configured in order to properly synchronized the data acquisition device and the camera system together. Details about appropriate property settings will be covered in the following section.
 
@@ -206,7 +213,7 @@ Properties of individual channels can be configured directly from the [Devices p
 
 Depending on the model, NI-DAQ devices may have different sets of allowable input types and voltage ranges for their analog channels. Refer to your NI-DAQ device User's Guide for detailed information about supported signal types and voltage ranges.
 
-![NI-DAQ device channel properties displayed in the Devices pane.](<../../.gitbook/assets/image (172).png>)
+![NI-DAQ device channel properties displayed in the Devices pane.](<../../.gitbook/assets/image (173).png>)
 
 #### **Min Voltage**
 
@@ -253,9 +260,9 @@ Reference clock synchronization keeps Motive and your device continuously synchr
 \
 **5. \[Motive: Control Panel]** Record. The recorded NI-DAQ device samples will be synchronized with the external clock signal outputted from the eSync 2.
 
-![Quick configuration of the eSync 2.](<../../.gitbook/assets/image (200).png>)
+![Quick configuration of the eSync 2.](<../../.gitbook/assets/image (201).png>)
 
-![Quick configuration of the NI-DAQ.](<../../.gitbook/assets/image (546).png>)
+![Quick configuration of the NI-DAQ.](<../../.gitbook/assets/image (547).png>)
 {% endtab %}
 
 {% tab title="Reference Clock Sync" %}
@@ -295,7 +302,7 @@ To configure this, set the _Source_ to _Internal Clock_ in the Sync Input Settin
 \
 **11. \[Motive: Control Panel]** Record. The recorded NI-DAQ device samples will be synchronized with the external clock signal outputted from the eSync 2.
 
-![Properties of the eSync 2 for synchronization with NI-DAQ devices through the clock signal.](<../../.gitbook/assets/image (557).png>)
+![Properties of the eSync 2 for synchronization with NI-DAQ devices through the clock signal.](<../../.gitbook/assets/image (558).png>)
 
 ![NI-DAQ Properties for synchronizing to the clock signal from the eSync 2.](<../../.gitbook/assets/image (1349).png>)
 {% endtab %}
@@ -338,9 +345,9 @@ For best results, use the external clock sync approach to achieve per-sample bas
 \
 **11. \[Motive: Control Deck]** Click the record button to initiate the recording, and both the camera system and NI-DAQ will start recording simultaneously using the trigger signal.
 
-![Properties of the eSync 2 for synchronization with NI-DAQ devices through the recording gate signal.](<../../.gitbook/assets/image (560).png>)
+![Properties of the eSync 2 for synchronization with NI-DAQ devices through the recording gate signal.](<../../.gitbook/assets/image (561).png>)
 
-![NI-DAQ Properties for synchronizing against the recording trigger signal from the eSync 2.](<../../.gitbook/assets/image (538).png>)
+![NI-DAQ Properties for synchronizing against the recording trigger signal from the eSync 2.](<../../.gitbook/assets/image (539).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -378,7 +385,7 @@ Captured analog signals are recorded within the _Take_ file and they can be play
 * Right-click on the graph view and set the desired layout dimensions.
 * On one of the graphs, right-click and under the Devices section, select the analog channels you wish to plot.
 
-![A recorded NI-DAQ device and its channels displayed under the Devices pane.](<../../.gitbook/assets/image (552).png>)
+![A recorded NI-DAQ device and its channels displayed under the Devices pane.](<../../.gitbook/assets/image (553).png>)
 
 ## Analog Data Export
 

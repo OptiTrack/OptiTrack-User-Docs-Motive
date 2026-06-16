@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/camera-sdk/class-cuid
+---
+
 # Class: cUID
 
 ### UID.h

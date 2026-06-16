@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/glove-device-setup/stretchsense-glove-setup
+---
+
 # StretchSense Glove Setup
 
 This page provides instructions on integrating StretchSense gloves with an OptiTrack motion capture system.
@@ -22,7 +29,7 @@ If you're having issues with latency, it is recommended that you run Hand Engine
 Before getting setup in Motive, you'll need to pair and calibrate your gloves within Hand Engine . Hand Engine is StretchSense's software that allows you to pair your gloves to their respective USB dongles and calibrate prior to integrating into Motive.&#x20;
 
 {% hint style="info" %}
-For a full guide on setting up your gloves with Hand Engine, please visit the [StretchSense Knowledge Base](https://get.stretchsense.com/knowledge/quick-start).&#x20;
+For a full guide on setting up your gloves with Hand Engine, please visit the [StretchSense Knowledge Base](https://stretchsense.my.site.com/defaulthelpcenter26Sep/s/article/OptiTrack-Motive-Streaming-from-Hand-Engine?language=en_US).&#x20;
 {% endhint %}
 
 ## Motive Setup
@@ -35,7 +42,7 @@ C:\Program Files\OptiTrack\Motive\devices
 <figure><img src="../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You will want to make sure Motive is not open during this process. Once the DLL has been stored in the devices folder, you can then open Motive.&#x20;
+Make sure Motive is not open during this process. Once the DLL has been stored in the devices folder, you can then open Motive.&#x20;
 {% endhint %}
 
 3. Open Motive and power on the StretchSense gloves. You'll see the gloves appear in the Devices pane.&#x20;

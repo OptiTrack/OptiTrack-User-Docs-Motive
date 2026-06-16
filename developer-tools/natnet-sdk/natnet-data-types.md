@@ -3,12 +3,16 @@ description: >-
   An overview of the general data structure used in the NatNet software
   development kit (SDK) and how the library is used to parse received tracking
   information.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-data-types
 ---
 
 # NatNet: Data Types
 
 {% hint style="info" %}
-For specific details on each of the data types, please refer to the [NatNetTypes.h](natnet-4.0.md#file-list) header file.
+For specific details on each of the data types, please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file.
 {% endhint %}
 
 ## General Structure
@@ -33,7 +37,7 @@ To receive data descriptions from a connected server, use the [NatNetClient::Get
 The **sDataSetDescriptions** structure stores an array of multiple descriptions for each asset (Marker Sets, RigidBodies, Skeletons, and Force Plates) involved in a capture and necessary information can be parsed from it.&#x20;
 
 {% hint style="info" %}
-Refer to the [NatNetTypes.h](natnet-4.0.md#file-list) header file for more information on each data type and members of each description struct.
+Refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for more information on each data type and members of each description struct.
 {% endhint %}
 
 ### Description: Struct
@@ -142,7 +146,7 @@ Saved struct Type: Native Library: _sForcePlateDescription_
 
 Saved struct Type: Managed Assembly: _ForcePlate_
 
-Force plate description contains names and IDs of the plate and its channels as well as other hardware parameter settings. Please refer to the [NatNetTypes.h](natnet-4.0.md#file-list) header file for specific details.
+Force plate description contains names and IDs of the plate and its channels as well as other hardware parameter settings. Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
 
 * Force plate ID and serial number
 * Force plate dimensions
@@ -174,7 +178,7 @@ Saved struct Type: Native Library: _sDeviceDescription_
 
 Saved struct Type: Managed Assembly: _Device_
 
-An instance of the sDeviceDescription contains information of the data acquisition (NI-DAQ) devices. It includes information on both the DAQ device (ID, name , serial number) as well as its corresponding channels (channel count, channel data type, channel names). Please refer to the [NatNetTypes.h](natnet-4.0.md#file-list) header file for specific details.
+An instance of the sDeviceDescription contains information of the data acquisition (NI-DAQ) devices. It includes information on both the DAQ device (ID, name , serial number) as well as its corresponding channels (channel count, channel data type, channel names). Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
 
 * Device ID. Used only for identification of devices in the stream.
 * Device Name
@@ -446,7 +450,7 @@ Variable names:
 ### Additional Notes
 
 * One reconstructed 3D marker can be stored in two different places (e.g. in LabeledMarkers and in RigidBody) within a frame of mocap data. In those cases, [unique identifier values](natnet-data-types.md#unique-id) of the marker can be used to correlate them in the client application if necessary.
-* Declarations for these data types are listed in the [NatNetTypes.h](natnet-4.0.md#file-list) header files within the SDK. The SampleClient project included in the `\NatNet SDK\Sample` folder illustrates how to retrieve and interpret the data descriptions and frame data.
+* Declarations for these data types are listed in the [NatNetTypes.h](natnet-4.5.md#file-list) header files within the SDK. The SampleClient project included in the `\NatNet SDK\Sample` folder illustrates how to retrieve and interpret the data descriptions and frame data.
 
 {% hint style="info" %}
 Refer to the NatNetTypes.h header file or the NatNetML.dll assembly for the most up to date descriptions of the types.

@@ -2,6 +2,10 @@
 description: >-
   A glossary of the items available on the toolbar and the command bar of
   Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/toolbar-command-bar
 ---
 
 # Toolbar/Command Bar
@@ -24,7 +28,7 @@ Open Motive files: Calibration (MCAL) or (CAL), Takes (TAK), or Profile (MOTIVE)
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (167).png" alt="A screenshot of the Save Current Take icon from the Motive toolbar.">  Save Current Take</summary>
+<summary><img src="../.gitbook/assets/image (168).png" alt="A screenshot of the Save Current Take icon from the Motive toolbar.">  Save Current Take</summary>
 
 Save currently opened Take.
 
@@ -32,7 +36,7 @@ Save currently opened Take.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (93).png" alt="A screenshot of the Save All Takes icon from the Motive toolbar.">  Save All Takes</summary>
+<summary><img src="../.gitbook/assets/image (94).png" alt="A screenshot of the Save All Takes icon from the Motive toolbar.">  Save All Takes</summary>
 
 Save all of the Takes that are loaded in the [Data pane](data-pane.md).
 
@@ -40,7 +44,7 @@ Save all of the Takes that are loaded in the [Data pane](data-pane.md).
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (96).png" alt="A screenshot of the Applications Settings icon from the Motive toolbar.">  Application Settings</summary>
+<summary><img src="../.gitbook/assets/image (97).png" alt="A screenshot of the Applications Settings icon from the Motive toolbar.">  Application Settings</summary>
 
 Opens the [Application Setting](toolbar-command-bar.md#application-settings) pane for software preferences. Reconstruction settings are also modified in this pane.
 
@@ -48,7 +52,7 @@ Opens the [Application Setting](toolbar-command-bar.md#application-settings) pan
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (161).png" alt="A screenshot of the Hide All Panes icon from the Motive toolbar.">  Hide All Panes</summary>
+<summary><img src="../.gitbook/assets/image (162).png" alt="A screenshot of the Hide All Panes icon from the Motive toolbar.">  Hide All Panes</summary>
 
 Closes all the panes in the layout, leaving only the main viewport.
 
@@ -56,7 +60,7 @@ Closes all the panes in the layout, leaving only the main viewport.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (111).png" alt="A screenshot of the Devices Pane icon from the Motive toolbar.">  Devices Pane</summary>
+<summary><img src="../.gitbook/assets/image (112).png" alt="A screenshot of the Devices Pane icon from the Motive toolbar.">  Devices Pane</summary>
 
 &#x20;Opens the [Devices pane](toolbar-command-bar.md#devices-pane). This pane displays:
 
@@ -69,7 +73,7 @@ Closes all the panes in the layout, leaving only the main viewport.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (471).png" alt="A screenshot of the Calibration pane icon from the Motive toolbar.">  Calibration</summary>
+<summary><img src="../.gitbook/assets/image (472).png" alt="A screenshot of the Calibration pane icon from the Motive toolbar.">  Calibration</summary>
 
 Opens the [Calibration pane](calibration-pane.md).&#x20;
 
@@ -77,7 +81,7 @@ Opens the [Calibration pane](calibration-pane.md).&#x20;
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (153).png" alt="A screenshot of the Data Pane icon from the Motive toolbar.">  Data Pane</summary>
+<summary><img src="../.gitbook/assets/image (154).png" alt="A screenshot of the Data Pane icon from the Motive toolbar.">  Data Pane</summary>
 
 Opens the [Data pane](data-pane.md) for managing takes.
 
@@ -85,7 +89,7 @@ Opens the [Data pane](data-pane.md) for managing takes.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (106).png" alt="A screenshot of the Assets Pane icon from the Motive toolbar.">  Assets Pane</summary>
+<summary><img src="../.gitbook/assets/image (107).png" alt="A screenshot of the Assets Pane icon from the Motive toolbar.">  Assets Pane</summary>
 
 Opens the [Assets pane](assets-pane.md) for managing the list of tracked assets as well as integrated devices such as force plates and data acquisition devices.&#x20;
 
@@ -93,7 +97,7 @@ Opens the [Assets pane](assets-pane.md) for managing the list of tracked assets 
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (103).png" alt="A screenshot of the Builder pane icon from the Motive toolbar.">  Properties Pane</summary>
+<summary><img src="../.gitbook/assets/image (104).png" alt="A screenshot of the Builder pane icon from the Motive toolbar.">  Properties Pane</summary>
 
 Opens the [Properties pane](properties-pane/) for managing the properties of selected items in Motive.
 
@@ -101,7 +105,7 @@ Opens the [Properties pane](properties-pane/) for managing the properties of sel
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (152).png" alt="">  Builder Pane</summary>
+<summary><img src="../.gitbook/assets/image (153).png" alt="">  Builder Pane</summary>
 
 Opens the [Builder pane](builder-pane.md) for defining or modifying Rigid Body, Skeleton, or Trained Markerset assets in Motive.
 
@@ -109,7 +113,7 @@ Opens the [Builder pane](builder-pane.md) for defining or modifying Rigid Body, 
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (117).png" alt="A screenshot of the Constraints pane icon from the Motive toolbar.">  Constraints Pane</summary>
+<summary><img src="../.gitbook/assets/image (118).png" alt="A screenshot of the Constraints pane icon from the Motive toolbar.">  Constraints Pane</summary>
 
 Opens the [Constraints pane](toolbar-command-bar.md#constraints-pane) for creating and configuring constraints associated each assets.
 
@@ -117,7 +121,7 @@ Opens the [Constraints pane](toolbar-command-bar.md#constraints-pane) for creati
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (144).png" alt="A screenshot of the Edit Tools icon from the Motive toolbar.">  Edit Tools Pane</summary>
+<summary><img src="../.gitbook/assets/image (145).png" alt="A screenshot of the Edit Tools icon from the Motive toolbar.">  Edit Tools Pane</summary>
 
 Opens [Edit Tools](edit-tools-pane.md) for post-processing pipelines.
 
@@ -125,7 +129,7 @@ Opens [Edit Tools](edit-tools-pane.md) for post-processing pipelines.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (102).png" alt="A screenshot of the Labeling Pane icon from the Motive toolbar.">  Labeling Pane</summary>
+<summary><img src="../.gitbook/assets/image (103).png" alt="A screenshot of the Labeling Pane icon from the Motive toolbar.">  Labeling Pane</summary>
 
 Opens the Labeling pane for labeling the markers.
 
@@ -133,7 +137,7 @@ Opens the Labeling pane for labeling the markers.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (115).png" alt="A screenshot of the Graph View icons from the Motive toolbar.">  Graph View Pane</summary>
+<summary><img src="../.gitbook/assets/image (116).png" alt="A screenshot of the Graph View icons from the Motive toolbar.">  Graph View Pane</summary>
 
 Opens the [Graph View pane](graph-view-pane.md) for monitoring the channel data.
 
@@ -141,7 +145,7 @@ Opens the [Graph View pane](graph-view-pane.md) for monitoring the channel data.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (97).png" alt="A screenshot of the Log pane icon from the Motive toolbar.">  Log Pane</summary>
+<summary><img src="../.gitbook/assets/image (98).png" alt="A screenshot of the Log pane icon from the Motive toolbar.">  Log Pane</summary>
 
 Opens the [Log pane](log-pane.md) for monitoring activity.
 
@@ -149,7 +153,7 @@ Opens the [Log pane](log-pane.md) for monitoring activity.
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (149).png" alt="A screenshot of the Viewport icon from the Motive toolbar.">  Viewport</summary>
+<summary><img src="../.gitbook/assets/image (150).png" alt="A screenshot of the Viewport icon from the Motive toolbar.">  Viewport</summary>
 
 Opens additional [Viewports](viewport.md).&#x20;
 
@@ -165,7 +169,7 @@ Opens the [Continuous Calibration pane](../motive/calibration/continuous-calibra
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (158).png" alt="A screenshot of the Probe pane icon from the Motive toolbar.">  Probe Pane</summary>
+<summary><img src="../.gitbook/assets/image (159).png" alt="A screenshot of the Probe pane icon from the Motive toolbar.">  Probe Pane</summary>
 
 Opens the [Probe pane](probe-pane.md) for collecting sample points using the [Probe](../motive/measurement-probe-kit-guide.md).
 
@@ -173,7 +177,7 @@ Opens the [Probe pane](probe-pane.md) for collecting sample points using the [Pr
 
 <details>
 
-<summary><img src="../.gitbook/assets/image (123).png" alt="A screenshot of the Info pane icon from the Motive toolbar.">  Info Pane</summary>
+<summary><img src="../.gitbook/assets/image (124).png" alt="A screenshot of the Info pane icon from the Motive toolbar.">  Info Pane</summary>
 
 Opens the [Info pane](info-pane.md) for monitoring real-time tracking data of a selected Rigid Body in Motive.
 
@@ -183,7 +187,7 @@ Opens the [Info pane](info-pane.md) for monitoring real-time tracking data of a 
 
 The Command bar contains menus of related commands. This section covers the items available on each menu.
 
-<figure><img src="../.gitbook/assets/image (89).png" alt="A screenshot of the Command Bar in Motive."><figcaption><p>The Command Bar in Motive.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt="A screenshot of the Command Bar in Motive."><figcaption><p>The Command Bar in Motive.</p></figcaption></figure>
 
 ### File
 

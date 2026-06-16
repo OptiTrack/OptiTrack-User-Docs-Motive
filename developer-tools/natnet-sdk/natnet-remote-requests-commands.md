@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-remote-requests-commands
+---
+
 # NatNet: Remote Requests/Commands
 
 ## Remote Requests/Commands

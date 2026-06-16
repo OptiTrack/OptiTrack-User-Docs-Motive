@@ -1,5 +1,9 @@
 ---
 description: An overview of common features available in the Properties Pane.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane
 ---
 
 # Properties Pane

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-export
+---
+
 # Data Export
 
 Various types of files, including the tracking data, can be exported out from Motive. This page provides information on what file formats can be exported from Motive and instructions on how to export them.
@@ -251,4 +257,4 @@ The CSV file includes the device serial number and name.&#x20;
 * For Cameras, the name is pre-defined and includes the camera model and serial number.&#x20;
 * For all other devices, Motive will export the product serial number along with the name assigned in the device's properties. If no name is entered, the field will be left blank.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Properties pane for a Force Plate asset.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Properties pane for a Force Plate asset.</p></figcaption></figure>

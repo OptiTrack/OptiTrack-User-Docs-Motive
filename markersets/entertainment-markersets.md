@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/entertainment-markersets
+---
+
 # Entertainment Marker Sets
 
 ## Overview
@@ -18,7 +25,7 @@ Asymmetry is the key to avoiding the congruency for tracking multiple Marker Set
 
 * [Baseline (41)](full-body/baseline-41.md)
 * [Baseline + Passive Fingers (49)](full-body-+-fingers/baseline-+-passive-fingers-49.md)
-* [Baseline + ActiveFingers (57)](../active-components/active-marker-tracking/active-finger-markerset.md)
+* [Baseline + ActiveFingers (57)](../active-classic/active-marker-tracking/active-finger-markerset.md)
 * [Baseline Upper (25)](upper/baseline-upper-25.md)
 * [Baseline Lower (20)](lower/baseline-lower-20.md)
 
@@ -26,7 +33,7 @@ Asymmetry is the key to avoiding the congruency for tracking multiple Marker Set
 
 * [Core (50)](full-body/core-50.md)
 * [Core + Passive Fingers (54)](full-body-+-fingers/core-+-passive-fingers-54.md)
-* [Core + ActiveFingers (62)](../active-components/active-marker-tracking/active-finger-markerset.md)
+* [Core + ActiveFingers (62)](../active-classic/active-marker-tracking/active-finger-markerset.md)
 
 ### Baseline Markers
 

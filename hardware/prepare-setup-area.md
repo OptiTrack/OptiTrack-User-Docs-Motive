@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/prepare-setup-area
+---
+
 # Prepare Setup Area
 
 Before setting up a motion capture system, choose a suitable setup area and prepare it in order to achieve the best tracking performance. This page highlights some of the considerations to make when preparing the setup area for general tracking applications. Note that this page provides just general recommendations and these could vary depending on the size of a system or purpose of the capture.
@@ -22,7 +28,7 @@ First of all, pick a place to set up the capture volume.
 * Avoid reflective flooring. The IR lights from the cameras could be reflected by it and interfere with tracking. If this is inevitable, consider covering the floor with surface mats to prevent the reflections.
 * Avoid flexible or deformable flooring; such flooring can negatively impact your system's calibration.
 
-![Rubber mats for covering reflective flooring.](<../.gitbook/assets/image (311).png>)
+![Rubber mats for covering reflective flooring.](<../.gitbook/assets/image (312).png>)
 
 ### Reducing IR Interference
 

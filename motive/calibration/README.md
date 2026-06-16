@@ -2,6 +2,9 @@
 description: >-
   Detailed instructions for camera system calibration and information about the
   Calibration pane.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/calibration
 ---
 
 # Calibration
@@ -88,7 +91,7 @@ Masks can also be applied from the Cameras Viewport if needed. From the Cameras 
 Masked pixels are completely filtered from the [2D data](../data-recording/data-types.md), which means the data in masked regions will not be collected for computing the [3D data](../data-recording/data-types.md). For this reason, excessive use of masking may result in data loss or frequent marker occlusions.&#x20;
 {% endhint %}
 
-![](<../../.gitbook/assets/image (561).png>)
+![](<../../.gitbook/assets/image (562).png>)
 
 ## Wanding
 
@@ -229,7 +232,7 @@ Motive accounts for the vertical offset when using a standard OptiTrack calibrat
 
 When using a custom calibration square, measure the distance between the center of the marker and the lowest tip at the vertex of the calibration square. Enter this value in the _Vertical Offset_ field in the Calibration pane.&#x20;
 
-![Setting ground plane using custom calibration square.](<../../.gitbook/assets/image (555).png>)
+![Setting ground plane using custom calibration square.](<../../.gitbook/assets/image (556).png>)
 
 {% hint style="info" %}
 The **Vertical Offset** property can also be used to place the ground plane at a specific elevation. A positive offset value will set the plane below the markers, and a negative value will set the plane above the markers.

@@ -1,5 +1,9 @@
 ---
 description: An in-depth look at the properties available for skeleton assets.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-skeleton
 ---
 
 # Properties Pane: Skeleton

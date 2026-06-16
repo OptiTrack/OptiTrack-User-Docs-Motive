@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/usb-cameras/duo-3
+---
+
 # Duo 3
 
 ![](<../../../.gitbook/assets/duo-3_765 (2).png>)

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/usb-cameras/adjusting-global-origin-for-tracking-bars
+---
+
 # Adjusting Global Origin for Tracking Bars
 
 {% hint style="info" %}

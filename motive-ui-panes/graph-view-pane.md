@@ -1,5 +1,9 @@
 ---
 description: Instructions and tips on using the Graph View pane to visualize tracking data.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/graph-view-pane
 ---
 
 # Graph View Pane
@@ -30,20 +34,20 @@ Select a marker, bone, or asset in the 3D Viewport to display its data on the gr
 
 ### Toolbar
 
-![](<../.gitbook/assets/image (416).png>)
+![](<../.gitbook/assets/image (417).png>)
 
 | Icon                                                                                         | Name                                   | Description                                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](<../.gitbook/assets/image (420).png>)                                                    | Graph Editor                           | Opens the Data and Visuals sidebar to customize a selected graph within a layout.                                                                                                                                                       |
-| ![](<../.gitbook/assets/image (432).png>)                                                    | Auto Extents                           | Toggle to autoscale X/Y/Z graphs.                                                                                                                                                                                                       |
-| ![](<../.gitbook/assets/image (360).png>)                                                    | <p>Zoom Fit</p><p>(selected range)</p> | Zooms into selected frame region and centers the timeline accordingly.                                                                                                                                                                  |
-| ![](<../.gitbook/assets/image (445).png>)                                                    | Lock Cursor Centered                   | Locks the timeline scrubber at the center of the view range.                                                                                                                                                                            |
-| ![](<../.gitbook/assets/image (357).png>)                                                    | Delete Selected Keys                   | Deletes the selected frame region.                                                                                                                                                                                                      |
-| ![](<../.gitbook/assets/image (433).png>)                                                    | Move Selected Keys                     | Translates trajectories in selected frame region. Select a range and drag up and down on a trajectory.                                                                                                                                  |
-| ![](<../.gitbook/assets/image (384).png>)                                                    | Draw Keys                              | Manually draw trajectory by clicking and dragging a selected trajectory in the Editor.                                                                                                                                                  |
-| ![](<../.gitbook/assets/image (376).png>)                                                    | Merge Keys Up                          | Merges two trajectories together. This feature is useful when used with the [Tracks View](graph-view-pane.md#tracks-view) graphs. Select two trajectories and click this button to merge the bottom trajectory into the top trajectory. |
-| ![](<../.gitbook/assets/image (391).png>)                                                    | Merge Keys Down                        | Merges two trajectories together. This feature is useful when used with the [Tracks View](graph-view-pane.md#tracks-view) graphs. Select two trajectories and click this button to merge the top trajectory into the bottom trajectory. |
-| ![](<../.gitbook/assets/image (363).png>)                                                    | Lock Selection                         | Locks the current selection (marker, Rigid Body, Skeleton, force plates, or NI-DAQ) onto all graphs on the layout. This is used to temporarily hold the selections.                                                                     |
+| ![](<../.gitbook/assets/image (421).png>)                                                    | Graph Editor                           | Opens the Data and Visuals sidebar to customize a selected graph within a layout.                                                                                                                                                       |
+| ![](<../.gitbook/assets/image (433).png>)                                                    | Auto Extents                           | Toggle to autoscale X/Y/Z graphs.                                                                                                                                                                                                       |
+| ![](<../.gitbook/assets/image (361).png>)                                                    | <p>Zoom Fit</p><p>(selected range)</p> | Zooms into selected frame region and centers the timeline accordingly.                                                                                                                                                                  |
+| ![](<../.gitbook/assets/image (446).png>)                                                    | Lock Cursor Centered                   | Locks the timeline scrubber at the center of the view range.                                                                                                                                                                            |
+| ![](<../.gitbook/assets/image (358).png>)                                                    | Delete Selected Keys                   | Deletes the selected frame region.                                                                                                                                                                                                      |
+| ![](<../.gitbook/assets/image (434).png>)                                                    | Move Selected Keys                     | Translates trajectories in selected frame region. Select a range and drag up and down on a trajectory.                                                                                                                                  |
+| ![](<../.gitbook/assets/image (385).png>)                                                    | Draw Keys                              | Manually draw trajectory by clicking and dragging a selected trajectory in the Editor.                                                                                                                                                  |
+| ![](<../.gitbook/assets/image (377).png>)                                                    | Merge Keys Up                          | Merges two trajectories together. This feature is useful when used with the [Tracks View](graph-view-pane.md#tracks-view) graphs. Select two trajectories and click this button to merge the bottom trajectory into the top trajectory. |
+| ![](<../.gitbook/assets/image (392).png>)                                                    | Merge Keys Down                        | Merges two trajectories together. This feature is useful when used with the [Tracks View](graph-view-pane.md#tracks-view) graphs. Select two trajectories and click this button to merge the top trajectory into the bottom trajectory. |
+| ![](<../.gitbook/assets/image (364).png>)                                                    | Lock Selection                         | Locks the current selection (marker, Rigid Body, Skeleton, force plates, or NI-DAQ) onto all graphs on the layout. This is used to temporarily hold the selections.                                                                     |
 | <img src="../.gitbook/assets/Graph Pane - Layout displayed.png" alt="" data-size="original"> | Select Layout                          | Displays the name of the system or user defined [Layout ](graph-view-pane.md#layouts)currently in use. When clicked, opens the Layout menu.                                                                                             |
 | <img src="../.gitbook/assets/Motive Context Menu (28).png" alt="" data-size="line">          | Context Menu                           | Opens the Pane Options menu.                                                                                                                                                                                                            |
 
@@ -91,7 +95,7 @@ Scroll-click and drag to pan the view vertically and horizontally throughout plo
 
 #### **Zoom (Right-click + Drag)**
 
-Right-click and drag on a graph to free-form zoom in and out on both vertical and horizontal axis. If the _Auto Extents Graph_ <img src="../.gitbook/assets/image (49).png" alt="" data-size="line">  is enabled, the vertical axis range will be fixed according to the max and min value of the plotted data.
+Right-click and drag on a graph to free-form zoom in and out on both vertical and horizontal axis. If the _Auto Extents Graph_ <img src="../.gitbook/assets/image (50).png" alt="" data-size="line">  is enabled, the vertical axis range will be fixed according to the max and min value of the plotted data.
 
 {% hint style="info" %}
 **Other Ways to Zoom:**
@@ -119,7 +123,7 @@ Scroll-click and drag to pan the view range range.
 
 Zoom into a frame range by re-sizing the scope range using the navigation bar handles. You can also  **Alt + right-click** on the graph to select a specific range to zoom to.
 
-![Changing the working range from the Control Deck.](<../.gitbook/assets/image (446).png>)
+![Changing the working range from the Control Deck.](<../.gitbook/assets/image (447).png>)
 
 ![Changing the working range from the Graph pane.](<../.gitbook/assets/image (921).png>)
 
@@ -147,7 +151,7 @@ When playing back a recorded capture, the red shading on the navigation bar indi
 
 Left-click and drag over the graph to select a specific frame range. Frame range selection are used in the following workflows:
 
-* **Zooming**: Zoom to the selected range by clicking on the <img src="../.gitbook/assets/image (50).png" alt="" data-size="line"> button or by using the _F_ hotkey.
+* **Zooming**: Zoom to the selected range by clicking on the <img src="../.gitbook/assets/image (51).png" alt="" data-size="line"> button or by using the _F_ hotkey.
 * **Tracking Data Export**: Restrict exported tracking data to the selected range for easier analysis.
 * **Reconstruction**: Focus on a specific frame range during the post-processing reconstruction pipeline (Reconstructing / Reconstruct and Auto-labeling).
 * **Labeling**: Assign or modify marker labels, or run the auto-label pipeline on selected ranges only.
@@ -189,13 +193,13 @@ Layouts under the _System Layouts_ category are the same graphs that existed in 
 
 The Channel View provides X/Y/Z curves for each selected marker, providing verbose motion data that highlights gaps, spikes, or other types of noise in the data.
 
-![System Layouts: Channel View](<../.gitbook/assets/image (424).png>)
+![System Layouts: Channel View](<../.gitbook/assets/image (425).png>)
 
 #### **Combined View**
 
 The Combined View provides X/Y/Z curves for each selected marker at same plot. This mode is useful for monitoring positions changes without having to translate or rescale the y-axis of the graph.
 
-![System Layout: Combined View.](<../.gitbook/assets/image (368).png>)
+![System Layout: Combined View.](<../.gitbook/assets/image (369).png>)
 
 #### **Tracks View**
 
@@ -255,7 +259,7 @@ Select _Create Graph Layout_ from the pane menu <img src="../.gitbook/assets/Mot
 
 Right-click on the graph. Under _Grid Layout,_ choose the number of rows and columns for the grid. The maximum allowed is 3 x 3.&#x20;
 
-![Choosing desired number of rows and columns on a newly created layout.](<../.gitbook/assets/image (378).png>)
+![Choosing desired number of rows and columns on a newly created layout.](<../.gitbook/assets/image (379).png>)
 
 #### **Step 3. Open the Graph Editor**
 
@@ -313,7 +317,7 @@ Click the <img src="../.gitbook/assets/Motive Context Menu.png" alt="" data-size
 
 Particularized graphs are indicated by an <img src="../.gitbook/assets/image (1508).png" alt="" data-size="line"> icon at the top-right corner of the graph.
 
-![Particularized graph. Fz force data from OR6-7-1000 plate, explicitly, will be plotted on the graph.](<../.gitbook/assets/image (366).png>)
+![Particularized graph. Fz force data from OR6-7-1000 plate, explicitly, will be plotted on the graph.](<../.gitbook/assets/image (367).png>)
 
 ## Preferred Layouts
 

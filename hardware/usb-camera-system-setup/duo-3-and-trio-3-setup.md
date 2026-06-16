@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/usb-camera-system-setup/duo-3-and-trio-3-setup
+---
+
 # Duo 3 and Trio 3 Setup
 
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/vr-plugins/vr-unreal-engine/unreal-engine-optitrack-live-link-plugin/ue5.1-live-link-retarget-external-workaround
+---
+
 # UE5.1 Live Link Retarget External Workaround
 
 {% hint style="info" %}

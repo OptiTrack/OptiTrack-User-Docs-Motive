@@ -1,5 +1,9 @@
 ---
 description: An overview of the status indicator lights on the OptiTrack Ethernet cameras.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/camera-status-indicators
 ---
 
 # Camera Status Indicators
@@ -60,7 +64,7 @@ Can Change Color: Yes
 
 The camera is actively sending data and receiving commands when loaded into Motive.
 
-<div><figure><img src="../.gitbook/assets/image (453).png" alt="A PrimeX camera with the ringlight displaying a cyan color. "><figcaption><p>PrimeX Camera<br>with a Cyan<br>Ring light</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX Cyan Live mode.jpg" alt="SlimX camera with a Cyan indicator light."><figcaption><p>SlimX Camera <br>with a Cyan <br>indicator light.</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (454).png" alt="A PrimeX camera with the ringlight displaying a cyan color. "><figcaption><p>PrimeX Camera<br>with a Cyan<br>Ring light</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX Cyan Live mode.jpg" alt="SlimX camera with a Cyan indicator light."><figcaption><p>SlimX Camera <br>with a Cyan <br>indicator light.</p></figcaption></figure></div>
 
 </details>
 
@@ -112,7 +116,7 @@ When the camera starts to take samples, there will be a white light that follows
 
 This will fill in dark green and then light green when enough samples are taken.
 
-<figure><img src="../.gitbook/assets/image (517).png" alt="A PrimeX camera with the ringlight displaying the light green color. "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (518).png" alt="A PrimeX camera with the ringlight displaying the light green color. "><figcaption></figcaption></figure>
 
 On a SlimX camera, the status light will blink green during calibration.
 
@@ -130,7 +134,7 @@ Can Change Color: No
 
 During calibration, when cameras have collected sufficient data the ring light on a PrimeX and the status light on a SlimX will turn green. Once enough cameras have collected enough samples the remaining cameras will flash white to indicate they still need to collect more samples for a successful calibration.
 
-<div><figure><img src="../.gitbook/assets/image (520).png" alt="A PrimeX camera with the ringlight displaying the flashing white color. "><figcaption><p>A PrimeX camera<br>with a white<br>ring light</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX White.jpg" alt="A SlimX camera with a white indicator light."><figcaption><p>A SlimX camera <br>with a white <br>status light</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (521).png" alt="A PrimeX camera with the ringlight displaying the flashing white color. "><figcaption><p>A PrimeX camera<br>with a white<br>ring light</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX White.jpg" alt="A SlimX camera with a white indicator light."><figcaption><p>A SlimX camera <br>with a white <br>status light</p></figcaption></figure></div>
 
 </details>
 
@@ -188,7 +192,7 @@ PrimeX cameras will cycle in cyan and SlimX cameras will flash in cyan when firm
 
 The bottom left display will show the percentage of the firmware update that has occurred. Once the update reaches 100%, the color turns off and the camera reboots.
 
-<div><figure><img src="../.gitbook/assets/image (481).png" alt="A PrimeX camera with the ringlight displaying the Cycle Cyan color. "><figcaption><p>A PrimeX camera <br>with the ring light <br>cycling in cyan</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX Cyan Blinking Firmware Update.jpg" alt="A SlimX camera with the indicator light blinking the Cycle Cyan color. "><figcaption><p>A SlimX camera<br>with the status light<br>blinking in cyan</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (482).png" alt="A PrimeX camera with the ringlight displaying the Cycle Cyan color. "><figcaption><p>A PrimeX camera <br>with the ring light <br>cycling in cyan</p></figcaption></figure> <figure><img src="../.gitbook/assets/SlimX Cyan Blinking Firmware Update.jpg" alt="A SlimX camera with the indicator light blinking the Cycle Cyan color. "><figcaption><p>A SlimX camera<br>with the status light<br>blinking in cyan</p></figcaption></figure></div>
 
 </details>
 
@@ -202,7 +206,7 @@ Can Change Color: Yes
 
 Camera is in Duplex mode.&#x20;
 
-**Supported Camera Models:** PrimeX 13\*, 22, 41, and 120, SlimX 22, 41, and 120, and VersaX 22, 41, and 120.&#x20;
+**Supported Camera Models:** PrimeX 13\*, 22, 41, 120, and 260, SlimX 22, 41, 120, and 260, and VersaX 22, 41, and 120.&#x20;
 
 \*PrimeX 13 cameras require Motive version 3.3.3.&#x20;
 
@@ -294,7 +298,7 @@ contact [OptiTrack Support](https://optitrack.com/support#create-new-support-tic
 
 ### Changing Status Ring Light
 
-Some of the colors of the Status Ring can be customized. To do so, go to [Settings > General](../motive-ui-panes/settings/settings-general.md). Click the color box next to the status you would like to change. This will open a color picker window where you can choose a solid color or choose multi-color to oscillate between colors. You also have the ability to save a color to your color library to apply it to other statuses.
+Some of the colors of the Status Ring can be customized. To do so, go to [Settings > General](../motive-ui-panes/settings/settings-general.md). In the Status Rings section, click the color box next to the status you would like to change. This will open a color picker window where you can choose a solid color or choose multi-color to oscillate between colors. You also have the ability to save a color to your color library to apply it to other statuses.
 
 #### Turning off Aim Assist Button LED
 

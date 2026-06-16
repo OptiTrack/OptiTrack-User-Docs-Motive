@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/trained-markersets
+---
+
 # Trained Markersets
 
 ## Quick Start Guide
@@ -6,7 +12,7 @@ Trained Markersets allow you to create Assets from any object that is not a Rigi
 
 Please follow the steps below to get started.&#x20;
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Trained Markerset:  Auto-Generate Asset </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Trained Markerset:  Auto-Generate Asset </p></figcaption></figure>
 
 ### Auto-Generate Asset
 
@@ -20,9 +26,9 @@ In order to get the best training data, it is imperative to record markers with 
 * Right-click and select _Create Markerset_.
 * Right-click the newly created asset and select _Training -> Auto-Generate Asset._&#x20;
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Select Auto-Generate Asset from Training Options.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Select Auto-Generate Asset from Training Options.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>After Auto-Generate is complete, training and marker sticks should be generated.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p>After Auto-Generate is complete, training and marker sticks should be generated.</p></figcaption></figure>
 
 ### Adding Bones
 
@@ -43,9 +49,9 @@ A bone can be made from one or more markers:
 * A bone made from 2 markers will track with 5 Degrees of Freedom and a bone made from 1 marker will track with 3 Degrees of Freedom (only positional data). This means that rotational values may turn out strange if it is not connected to a 6 DoF bone on either end. This type is well-suited for under-constrained segments like an elbow with only one or two markers on it.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p>Markerset selected and markers selected.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Bones from markers.webp" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption><p>Markerset selected and markers selected.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Bones from markers.webp" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p>Markerset is not selected when highlighted in Cyan.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption><p>Markerset is not selected when highlighted in Cyan.</p></figcaption></figure>
 
 Once you are finished adding the necessary bones you can create Bone Chains to connect bones:
 
@@ -53,14 +59,14 @@ Once you are finished adding the necessary bones you can create Bone Chains to c
 2.  Right click in 3D viewport and select _Bone(s) -> Add Bone Chain_.\
     <br>
 
-    <figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 3. Solve your Markerset:  right click on asset in asset pane and select Solve. You can now export, or stream, or do whatever else you'd like in Edit.&#x20;
 4. If you would like your Asset to be available in Live, simply right click on the Markerset in the Assets pane and select Copy Asset to Live.&#x20;
 5. And voilà, you have a Markerset you can track and record in Live.&#x20;
 
 ## Training Options
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption><p>Training Options Submenu.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Training Options Submenu.</p></figcaption></figure>
 
 #### Auto-Generate Asset
 
@@ -92,7 +98,7 @@ This applies another round of Marker Training and refines Constraint positions b
 
 ## 3D View Context Menu Bone Options
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 #### Add from Marker(s)
 
@@ -106,7 +112,7 @@ This removes the Bone from the Markerset and 3D viewport.&#x20;
 
 This adds a parent/child relationship to bones.&#x20;
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 #### Unparent Bone(s)
 
@@ -116,9 +122,9 @@ This removes the Bone Chain between bones.&#x20;
 
 When a child bone is selected, you can select Reroot Bones to make a child bone the parent. i.e. Bone 002 is a child of Bone 001 and Bone 001 (the root bone) is a child to Markerset 001. After selecting Bone 002 and Reroot bones, Bone 002 is now the parent to Bone 001 and the child to Markerset 001.&#x20;
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p>Before Reroot Bones.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p>Before Reroot Bones.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p>After Reroot Bones.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption><p>After Reroot Bones.</p></figcaption></figure>
 
 #### Align to Camera
 

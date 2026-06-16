@@ -1,5 +1,9 @@
 ---
 description: How to use the Captury Live software with an OptiTrack camera system.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/external-plugins/captury-live-integration
 ---
 
 # Captury Live Integration

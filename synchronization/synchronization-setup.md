@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/synchronization/synchronization-setup
+---
+
 # Synchronization Setup
 
 ## **Overview**

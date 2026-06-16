@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/for-visual3d-users
+---
+
 # For Visual3D Users
 
 This page contains useful information for users who are outputting motion capture data from Motive into Visual3D.
@@ -65,7 +72,7 @@ There is an known behavior where importing C3D data with timecode doesn't accura
 
 Streaming tracking data into the Visual3D requires 2-step pipelines. Motive streams tracking data first into the _Visual3D Server_, and then from this application the data is streamed into Visual3D.
 
-![Data streaming settings of Motive for outputting data into Visual3D.](<../.gitbook/assets/image (187).png>)
+![Data streaming settings of Motive for outputting data into Visual3D.](<../.gitbook/assets/image (188).png>)
 
 **On Motive**
 
@@ -79,7 +86,7 @@ The For Visual3D Users contains _advanced settings_ that are hidden by default. 
 The list of advanced settings can also be customized to show only the settings that are needed specifically for your capture application. To do so, go the pane menu and click _Edit Advanced_, and uncheck the settings that you wish to be listed in the pane by default. One all desired settings are unchecked, click _Done Editing_ to apply the customized configurations.
 {% endhint %}
 
-![](<../.gitbook/assets/image (337).png>)
+![](<../.gitbook/assets/image (338).png>)
 
 **On Visual3D Server/Visual3D**
 

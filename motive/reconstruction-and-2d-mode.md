@@ -2,6 +2,10 @@
 description: >-
   An in-depth explanation of the reconstruction process and settings that affect
   how 3D tracking data is obtained in Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/reconstruction-and-2d-mode
 ---
 
 # Reconstruction and 2D Mode
@@ -97,7 +101,7 @@ In general, the overall quality of 3D reconstructions is determined by the quali
 
 Camera settings are configured under the [Devices pane](../motive-ui-panes/devices-pane.md) or under the [Properties pane](../motive-ui-panes/properties-pane/properties-pane-camera.md) when one or more camera is selected. The following section highlights settings directly related to 3D reconstruction.
 
-![](<../.gitbook/assets/image (299).png>)
+![](<../.gitbook/assets/image (300).png>)
 
 ### Enable Reconstruction
 
@@ -194,7 +198,7 @@ Click the [Visual Aids](../motive-ui-panes/viewport.md#visual-aids-1) button in 
 
 #### Pixel Inspector
 
-Technically a mouse tool rather than a visual aid, the Pixel Inspector displays the x, y coordinates and, when in reference mode, the brightness value for individual pixels in the 2D camera view.&#x20;
+Technically a mouse tool rather than a visual aid, the Pixel Inspector displays the x, y coordinates and, when in reference mode (grayscale or MJPEG), the brightness value for individual pixels in the 2D camera view.&#x20;
 
 To enable, click the <img src="../.gitbook/assets/Viewport - Mouse Actions Button.png" alt="" data-size="line"> button in the [Cameras View](../motive-ui-panes/viewport.md#cameras-view) to open the [Mouse Actions](../motive-ui-panes/viewport.md#mouse-actions) menu and select _Pixel Inspector_.
 
@@ -219,7 +223,7 @@ When Motive is processing in real-time, you can examine the marker rays and othe
 
 In [Live mode](data-recording/#live-mode-and-edit-mode), Any changes to the Live Pipeline settings (on either Solver or Camera tabs) are reflected immediately in the Live capture.
 
-<img src="../.gitbook/assets/image (314).png" alt="The current mode is highlighted in Cyan on the control deck." width="563">
+<img src="../.gitbook/assets/image (315).png" alt="The current mode is highlighted in Cyan on the control deck." width="563">
 
 ### 2D Edit Mode
 

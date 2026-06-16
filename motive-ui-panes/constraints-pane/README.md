@@ -1,5 +1,9 @@
 ---
 description: This page provides instructions for using the Constraints pane in Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/constraints-pane
 ---
 
 # Constraints Pane
@@ -143,4 +147,4 @@ Exporting constraints makes an XML file containing the names, colors, marker sti
 
 Please see the page [Constraints XML Files](constraints-xml-files.md) for more information on working with these files.
 
-![](<../../.gitbook/assets/image (429).png>)
+![](<../../.gitbook/assets/image (430).png>)

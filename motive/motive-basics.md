@@ -1,5 +1,8 @@
 ---
 description: Everything you need to know to move around the Motive interface.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/motive-basics
 ---
 
 # Motive Basics
@@ -108,7 +111,7 @@ This file is loaded at startup to provide instant access to the 3D volume. The .
 
 In Motive, the main [viewport](../motive-ui-panes/viewport.md) is fixed at the center of the UI and is used to monitor the 2D or 3D capture data in both live capture and playback of recorded data. The viewports can be set to either [Perspective View](../motive-ui-panes/viewport.md#perspective-view), which shows the reconstructed 3D data within the calibrated 3D space, or [Cameras View](../motive-ui-panes/viewport.md#cameras-view), which shows 2D images from each camera in the system. These views can be selected from the drop-down menu at the top-right corner. By default, the Perspective View opens in the top pane and the Cameras view opens in the bottom pane. Both views are essential for assessing and monitoring the tracking data.
 
-![Selecting viewport mode from the drop-down menu.](<../.gitbook/assets/image (542).png>)
+![Selecting viewport mode from the drop-down menu.](<../.gitbook/assets/image (543).png>)
 
 ### Perspective View - 3D
 
@@ -133,7 +136,7 @@ In Motive, the main [viewport](../motive-ui-panes/viewport.md) is fixed at the c
 * When needed, the Viewport can be split into 3 or 4 smaller views. Click the <img src="../.gitbook/assets/Motive Context Menu (27).png" alt="" data-size="line"> in the top-right corner of the viewport to open the Viewport context menu to select additional panes or different layouts. You can also use the hotkey **Shift + 4** to open the four pane layout.
 * When needed, additional Viewer panes can be opened from the [View menu ](../motive-ui-panes/toolbar-command-bar.md)or by clicking the ![](<../.gitbook/assets/Motive ViewPort Button (1).png>) icon on the main toolbar.
 
-![Main viewport split into 4 different views](<../.gitbook/assets/image (764).png>) ![Options for splitting the view](<../.gitbook/assets/image (511).png>)
+![Main viewport split into 4 different views](<../.gitbook/assets/image (764).png>) ![Options for splitting the view](<../.gitbook/assets/image (512).png>)
 
 ## Viewport Navigation Controls
 

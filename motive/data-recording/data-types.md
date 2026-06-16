@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-recording/data-types
+---
+
 # Data Types
 
 This page explains different types of captured data in Motive. Understanding these types is essential in order to fully utilize the data-processing pipelines in Motive.
@@ -10,7 +17,7 @@ Motive saves tracking data into a _Take_ file (TAK extension), and when a captur
 
 Available data types are listed on the [Data pane](../../motive-ui-panes/data-pane.md). When you open up a _Take_ in [Edit mode](../../motive-ui-panes/control-deck.md), the loaded data type will be highlighted at the top-left corner of the 3D viewport. If available, 3D Data will be loaded first by default, and the 2D data can be accessed by entering the [2D Mode](../../motive-ui-panes/viewport.md#cameras-view) from the Data pane.
 
-![3D data is loaded from a recorded Take.](<../../.gitbook/assets/image (434).png>)
+![3D data is loaded from a recorded Take.](<../../.gitbook/assets/image (435).png>)
 
 ## Data Types
 
@@ -22,7 +29,7 @@ Images in recorded 2D data depend on the [image processing mode](../camera-video
 
 Using the 2D object data along with the camera calibration information, 3D data is computed. Extraneous reflections that fail to satisfy the 2D object filter parameters (defined under [application settings](../../motive-ui-panes/settings/)) get filtered out, and only the remaining reflections are processed. The process of converting 2D centroid locations into 3D coordinates is called **Reconstruction**, which will be covered in the later section of this page.
 
-![2D object image of a single camera from the 2D camera preview.](<../../.gitbook/assets/image (404).png>) ![Size and circularity information displayed from the 2D camera preview.](<../../.gitbook/assets/image (883).png>)
+![2D object image of a single camera from the 2D camera preview.](<../../.gitbook/assets/image (405).png>) ![Size and circularity information displayed from the 2D camera preview.](<../../.gitbook/assets/image (883).png>)
 
 3D data can be reconstructed either in real-time or in post-capture. For real-time capture, Motive processes captured 2D images on a per-frame basis and streams the 3D data into external pipelines with extremely low processing latency. For recorded captures, the saved 2D data can be used to create a fresh set of 3D data through [post-processing reconstruction](../reconstruction-and-2d-mode.md#post-processing-reconstruction), and any existing 3D data will be overwritten with the newly reconstructed data.
 
@@ -62,7 +69,7 @@ Recorded [2D data](data-types.md#2d-data), audio data, and reference videos can 
 
 Deleting 2D data will significantly reduce the size of the _Take_ file. You may want to delete recorded 2D data when there is already a final version of reconstructed 3D data recorded in a _Take_ and the 2D data is no longer needed. However, be aware that deleting [2D data](data-types.md#2d-data) removes the most fundamental data from the _Take_ file. After 2D data has been deleted, the action cannot be reverted, and without 2D data, 3D data cannot be [reconstructed](../reconstruction-and-2d-mode.md#reconstruction-basic-concept) again.
 
-![Delete 2D data dialog window.](<../../.gitbook/assets/image (905).png>) ![Data pane context menu.](<../../.gitbook/assets/image (354).png>)
+![Delete 2D data dialog window.](<../../.gitbook/assets/image (905).png>) ![Data pane context menu.](<../../.gitbook/assets/image (355).png>)
 
 ### Deleting 3D Data
 
@@ -76,7 +83,7 @@ When frame range is not selected, it will delete 3D data from the entire frame. 
 
 When multiple _Takes_ are selected from the [Data pane](../../motive-ui-panes/data-pane.md), deleting 3D data will remove 3D data from all of the selected _Takes_. This will remove 3D data from the entire frame ranges.
 
-![Data pane: Deleting 3D data from a recorded Take.](<../../.gitbook/assets/image (388).png>)
+![Data pane: Deleting 3D data from a recorded Take.](<../../.gitbook/assets/image (389).png>)
 
 ### Deleting Solved Data
 

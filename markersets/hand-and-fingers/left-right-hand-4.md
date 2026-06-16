@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/hand-and-fingers/left-right-hand-4
+---
+
 # Left/Right Hand (4) Active
 
 <div><figure><img src="../../.gitbook/assets/image (1418).png" alt=""><figcaption><p>Left Hand Marker Set</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1416).png" alt=""><figcaption><p>Right Hand Marker Set</p></figcaption></figure></div>

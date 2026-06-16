@@ -1,5 +1,8 @@
 ---
 description: This page provides an overview of the recording process in Motive.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-recording
 ---
 
 # Data Recording
@@ -43,7 +46,7 @@ Motive has two modes: **Live** and **Edit.** The Control Deck contains the opera
 
 Live mode is used when recording new _Takes_ or when streaming a live capture. In this mode, all enabled cameras continuously capture 2D images and reconstruct the detected reflections into 3D data in real-time.
 
-![The Motive Viewport and Control Deck in Live Mode.](<../../.gitbook/assets/image (437).png>)
+![The Motive Viewport and Control Deck in Live Mode.](<../../.gitbook/assets/image (438).png>)
 
 **Edit Mode**
 

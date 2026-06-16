@@ -1,5 +1,9 @@
 ---
 description: A summary of applications that use OptiTrack cameras for robotics.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/robotics/optitrack-robot-applications
 ---
 
 # OptiTrack Robot Applications

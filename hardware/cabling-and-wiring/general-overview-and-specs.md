@@ -2,6 +2,10 @@
 description: >-
   General specifications to setup an OptiTrack camera system on an Ethernet
   network.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/general-overview-and-specs
 ---
 
 # General Overview and Specs

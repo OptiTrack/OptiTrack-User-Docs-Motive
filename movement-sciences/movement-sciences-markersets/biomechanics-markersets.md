@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-markersets/biomechanics-markersets
+---
+
 # Biomechanics Marker Sets
 
 In a Motive Body license, there are a number of Skeleton Marker Set templates for biomechanics tracking applications. When attaching the markers, reference the Skeleton avatar from the [Builder pane](https://v30.wiki.optitrack.com/index.php?title=Builder_pane#Skeleton:_Create) for relative locations. Then refer to the corresponding Marker Set pages, or related reference materials, for additional descriptions on where each marker must be placed on the subject.
 
-![Biomechanical Marker Set marker placements: Biomech (57).](<../../.gitbook/assets/image (532).png>)
+![Biomechanical Marker Set marker placements: Biomech (57).](<../../.gitbook/assets/image (533).png>)
 
 **Biomechanics** Marker Sets\*\*:\*\*
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/motive-batch-processor
+---
+
 # Motive Batch Processor
 
 The Motive Batch Processor is a separate stand-alone Windows application, built on the new NMotive scripting and programming API, that can be utilized to process a set of Motive Take files via IronPython or C# scripts. While the Batch Processor includes some example script files, it is primarily designed to utilize user-authored scripts.
@@ -43,7 +50,7 @@ A class reference in Microsoft compiled HTML (.chm) format can be found in the `
 
 **C:\Program Files\OptiTrack\Motive\Help\NMotiveAPI.chm**
 
-![](<../.gitbook/assets/image (294).png>)
+![](<../.gitbook/assets/image (295).png>)
 
 ## C# Scripts
 

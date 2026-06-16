@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/quick-start-guides/quick-start-guide-getting-started
+---
+
 # Quick Start Guide: Getting Started
 
 Welcome to the **Quick Start Guide: Getting Started**!
@@ -15,7 +22,7 @@ Note that Motive offers features far beyond the ones listed in this guide, and t
 
 For best tracking results, you need to prepare and clean up the capture environment before setting up the system. First, remove unnecessary objects that could block the camera views. Cover open windows and minimize incoming sunlight. Avoid setting up a system over reflective flooring since IR lights from cameras may get reflected and add noise to the data. If this is not an option, use rubber mats to cover the reflective area. Likewise, items with reflective surfaces or illuminating features should be removed or covered with non-reflective materials in order to avoid extraneous reflections.
 
-![](<../.gitbook/assets/image (302).png>)
+![](<../.gitbook/assets/image (303).png>)
 
 **Key Checkpoints for a Good Capture Area**
 
@@ -33,11 +40,11 @@ _Ethernet Camera Models: PrimeX series and SlimX 13 cameras. Follow the below wi
 
 {% tabs %}
 {% tab title="Single PoE Switch" %}
-![Click image to enlarge.](<../.gitbook/assets/image (244).png>)
+![Click image to enlarge.](<../.gitbook/assets/image (245).png>)
 {% endtab %}
 
 {% tab title="Multiple PoE Switch (High camera counts)" %}
-![Click image to enlarge.](<../.gitbook/assets/image (241).png>)
+![Click image to enlarge.](<../.gitbook/assets/image (242).png>)
 
 * **Uplink Switch:** For systems with higher camera counts that uses multiple PoE switches, use an uplink Ethernet switch to link and connect all of the switches to the Host PC. In the end, the switches must be connected in a star topology with the uplink switch at the central node connecting to the host PC. **NEVER** daisy chain multiple PoE switches in series because doing so can introduce latency to the system.
 * **High Camera Counts:** For setting up more than 24 Prime series cameras, we recommend using a 10 Gigabit uplink switch and connecting it to the host PC via an Ethernet cable that supports 10 Gigabit transfer rate — Cat6a or above. This will provide larger data bandwidth and reduce the data transfer latency.
@@ -88,7 +95,7 @@ Optical motion capture systems utilize multiple 2D images from each camera to co
 
 _See Also:_ [Camera Placement](../hardware/camera-placement.md) and [Camera Mount Structures](../hardware/camera-mount-structures.md) pages.
 
-![](<../.gitbook/assets/image (497) (1) (1) (1).png>) ![](<../.gitbook/assets/image (636).png>) ![](<../.gitbook/assets/image (278).png>)
+![](<../.gitbook/assets/image (497) (1) (1) (1).png>) ![](<../.gitbook/assets/image (636).png>) ![](<../.gitbook/assets/image (279).png>)
 
 ### Lens Focus
 
@@ -98,7 +105,7 @@ To adjust or to check camera focus, place some markers on the target tracking ar
 
 _See Also:_ [Aiming and Focusing](../hardware/aiming-and-focusing.md) page.
 
-![Out of focus](<../.gitbook/assets/image (660).png>) ![Moderately in focus](<../.gitbook/assets/image (635).png>) ![In focus](<../.gitbook/assets/image (283).png>)
+![Out of focus](<../.gitbook/assets/image (660).png>) ![Moderately in focus](<../.gitbook/assets/image (635).png>) ![In focus](<../.gitbook/assets/image (284).png>)
 
 ## Software Setup
 
@@ -154,7 +161,7 @@ When connecting either the Security Key or Hardware Key into the computer, pleas
 
 By default, Motive will start on the calibration layout with all the necessary panes open. Using this layout, you can calibrate the camera system and construct a 3D tracking volume. The layout may be slightly different for certain camera models or software licenses.
 
-![](<../.gitbook/assets/image (320).png>)
+![](<../.gitbook/assets/image (321).png>)
 
 The following panes will be open:
 
@@ -195,7 +202,7 @@ To check whether the camera setting is optimized, it is best to check both the g
 
 The exposure setting determines how long the camera imagers are exposed per each frame of data. With longer the exposure, more light will be captured by the camera, creating the brighter images that can improve visibility for small and dim markers. However, high exposure values can introduce false markers, larger marker blooms, and marker blurring – all of which can negatively impact marker data quality. It is best to minimize the exposure setting as long as the markers are clearly visible in the captured images.
 
-![Adjusting camera settings using the Devices pane. This can also be done through the Properties pane as well.](<../.gitbook/assets/image (637).png>) ![Retroreflective markers shown on the grayscale image.](<../.gitbook/assets/image (322).png>)
+![Adjusting camera settings using the Devices pane. This can also be done through the Properties pane as well.](<../.gitbook/assets/image (637).png>) ![Retroreflective markers shown on the grayscale image.](<../.gitbook/assets/image (323).png>)
 
 ## System Calibration
 
@@ -277,7 +284,7 @@ Each capture recording will be saved in a **Take** (TAK) file and related _Take_
 
 **See Also:** [Motive Basics](../motive/motive-basics.md) page.
 
-![Session folders loaded in the Data Management pane](<../.gitbook/assets/image (639).png>) ![An example session folder in Windows File Explorer.](<../.gitbook/assets/image (336).png>)
+![Session folders loaded in the Data Management pane](<../.gitbook/assets/image (639).png>) ![An example session folder in Windows File Explorer.](<../.gitbook/assets/image (337).png>)
 
 **Motive Profiles**
 
@@ -289,7 +296,7 @@ Place the retro-reflective markers onto subjects (Rigid Body or Skeleton) that y
 
 **See Also:** [Markers](../motive/markers.md) page for marker types, or [Rigid Body Tracking](../motive/rigid-body-tracking/) and [Skeleton Tracking](../motive/skeleton-tracking.md) page for placement directions.
 
-![Retroreflective markers placed on a quadrocopter](<../.gitbook/assets/image (1400).png>) ![The corresponding Rigid Body defined in Motive](<../.gitbook/assets/image (304).png>) ![Markers placed for a subject.](<../.gitbook/assets/image (663).png>) ![Markers placements shown for Baseline (41) skeleton shown in the Builder pane.](<../.gitbook/assets/image (1386).png>)
+![Retroreflective markers placed on a quadrocopter](<../.gitbook/assets/image (1400).png>) ![The corresponding Rigid Body defined in Motive](<../.gitbook/assets/image (305).png>) ![Markers placed for a subject.](<../.gitbook/assets/image (663).png>) ![Markers placements shown for Baseline (41) skeleton shown in the Builder pane.](<../.gitbook/assets/image (1386).png>)
 
 ### Define Skeletons and Rigid Bodies
 
@@ -353,7 +360,7 @@ Markers detected in the camera views get trajectorized into 3D coordinates. The 
 
 **See Also:** [Labeling](../motive/labeling.md) page.
 
-![Unlabeled passive markers displayed in white. Color settings can be adjusted from the Application Settings.](<../.gitbook/assets/image (610).png>) ![Labeled skeleton markers displayed in assigned color. Marker colors and sticks can be modified using Constraints pane.](<../.gitbook/assets/image (270).png>) ![Labeled Rigid Body markers displayed in assigned color. Rigid Body colors can be adjusted from the Rigid Body properties.](<../.gitbook/assets/image (649).png>)
+![Unlabeled passive markers displayed in white. Color settings can be adjusted from the Application Settings.](<../.gitbook/assets/image (610).png>) ![Labeled skeleton markers displayed in assigned color. Marker colors and sticks can be modified using Constraints pane.](<../.gitbook/assets/image (271).png>) ![Labeled Rigid Body markers displayed in assigned color. Rigid Body colors can be adjusted from the Rigid Body properties.](<../.gitbook/assets/image (649).png>)
 
 {% hint style="info" %}
 **Changing Marker Labels and Colors**
@@ -375,4 +382,4 @@ Motive offers multiple options to stream tracking data onto external application
 
 **See Also:** [Data Streaming](../motive/data-streaming.md) page
 
-![Data Streaming in Motive allows you to stream capture data into other applications.](<../.gitbook/assets/image (295).png>)
+![Data Streaming in Motive allows you to stream capture data into other applications.](<../.gitbook/assets/image (296).png>)

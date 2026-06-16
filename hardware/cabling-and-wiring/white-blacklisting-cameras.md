@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cabling-and-wiring/white-blacklisting-cameras
+---
+
 # White/Blacklisting Cameras
 
 ## Overview
@@ -23,7 +30,7 @@ When there are multiple Prime Color cameras in a setup, you can configure the fi
 
 **Active marker tracking on multiple capture volumes**
 
-For [active marker tracking](../../active-components/active-marker-tracking/), this filter can be used to distribute the cameras to different host computers. By doing so, you can segregate the cameras into multiple capture volumes and have them share the same connected BaseStation. This could be beneficial for VR applications especially if you plan on having multiple volumes to calibrate because you can use the same active components between different volumes.
+For [active marker tracking](../../active-classic/active-marker-tracking/), this filter can be used to distribute the cameras to different host computers. By doing so, you can segregate the cameras into multiple capture volumes and have them share the same connected BaseStation. This could be beneficial for VR applications especially if you plan on having multiple volumes to calibrate because you can use the same active components between different volumes.
 
 ## Configuring the XML File
 
@@ -106,4 +113,4 @@ Once the XMl file is configured, please save the file in the ProgramData directo
 
 <figure><img src="../../.gitbook/assets/image (850).png" alt=""><figcaption><p>The XML file was configured to communicate with only two specific cameras over the network.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (452).png" alt=""><figcaption><p>The XML file was configured to distribute the cameras to two different network interfaces.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (453).png" alt=""><figcaption><p>The XML file was configured to distribute the cameras to two different network interfaces.</p></figcaption></figure>

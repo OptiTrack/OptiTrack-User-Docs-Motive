@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/measurement-probe-kit-guide
+---
+
 # Measurement Probe Kit Guide
 
 This page provides information and instructions on how to utilize the Probe Measurement Kit.
@@ -33,7 +40,7 @@ This section provides detailed steps on how to create and use the measurement pr
 10. When sufficient samples are collected, the pivot point will be positioned at the tip of the probe and the _Mean Tip Error_ will be displayed. If the probe calibration was unsuccessful, just repeat the calibration again from step 4.
 11. Once the probe is calibrated successfully, a probe asset will be displayed over the Rigid Body in Motive, and live x/y/z position data will be displayed under the [Probe pane](../motive-ui-panes/probe-pane.md).
 
-![Creating measurement probe in Motive](<../.gitbook/assets/image (468).png>)
+![Creating measurement probe in Motive](<../.gitbook/assets/image (469).png>)
 
 {% hint style="danger" %}
 **Caution**
@@ -58,11 +65,11 @@ It's highly recommended to use the Probe kit when using this feature. With that 
 4. A Virtual Reference point is constructed at the location and the coordinates of the point are displayed in the [Probe Pane](../motive-ui-panes/probe-pane.md). The points location can be [exported from the Probe Pane](measurement-probe-kit-guide.md#export-samples) as a .CSV file.
 5. Collecting additional samples will provide distance and angles between collected samples.
 
-![Sampling 3D points using the measurement probe.](<../.gitbook/assets/image (301).png>)
+![Sampling 3D points using the measurement probe.](<../.gitbook/assets/image (302).png>)
 
 ![Probe pane displaying live 3D position of
 &#x20;the probe tip, and position, distance, and&#x20;
-angle of the previously collected points.](<../.gitbook/assets/image (469).png>)
+angle of the previously collected points.](<../.gitbook/assets/image (470).png>)
 
 ## Export Samples
 
@@ -74,4 +81,4 @@ Also, If needed, you can trigger Motive to export the collected sample coordinat
 
 ## Real-time Streaming
 
-The location of the probe tip can also be streamed into another application in real-time. You can do this by [data-streaming](data-streaming.md) the probe Rigid Body position via [NatNet](../developer-tools/natnet-sdk/natnet-4.0.md). Once calibrated, the pivot point of the Rigid Body gets positioned precisely at the tip of the probe. The location of a pivot point is represented by the corresponding Rigid Body x-y-z position, and it can be referenced to find out where the probe tip is located.
+The location of the probe tip can also be streamed into another application in real-time. You can do this by [data-streaming](data-streaming.md) the probe Rigid Body position via [NatNet](../developer-tools/natnet-sdk/natnet-4.5.md). Once calibrated, the pivot point of the Rigid Body gets positioned precisely at the tip of the probe. The location of a pivot point is represented by the corresponding Rigid Body x-y-z position, and it can be referenced to find out where the probe tip is located.

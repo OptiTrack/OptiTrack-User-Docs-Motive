@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/ethernet-cameras/slimx-13
+---
+
 # SlimX 13
 
 ![](<../../../.gitbook/assets/image (992).png>)

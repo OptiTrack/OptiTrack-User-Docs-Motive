@@ -1,5 +1,9 @@
 ---
 description: An introduction to the Motive API.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/motive-api/motive-api-overview
 ---
 
 # Motive API Overview

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/prime-color-setup-data-recording-export
+---
+
 # Prime Color Setup: Data Recording / Export
 
 Once you have set up the system and configured the cameras correctly, Motive is now ready to capture _Takes_. Recorded TAK files will contain color video along with the tracking data, and you can play them back in Motive. Also, the color reference video can be exported out from the TAK.
@@ -6,13 +13,13 @@ Once you have set up the system and configured the cameras correctly, Motive is 
 
 Once the camera is set up, you can start recording from Motive. Captured frames will be stored within the TAK file and you can access them again in Edit mode. Please note that capture files with Prime Color video images will be much larger in file size.
 
-![](<../../.gitbook/assets/image (521).png>)
+![](<../../.gitbook/assets/image (522).png>)
 
 ## Video Export
 
 Once the color videos have been saved onto TAK files, the captured reference videos can be exported into AVI files using either H.264 or MJPEG compression format. The H.264 format will allow faster export of the recorded videos and is recommended. Video for the current TAK can be exported by clicking _File tab -> Export Video_ option in Motive, or you can also export directly from the [Data pane](../../motive-ui-panes/data-pane.md) by right-clicking on the Take(s) and clicking Export Video from the context menu. The following export dialogue window will open and you will be able to configure the export settings before outputting the files:
 
-![](<../../.gitbook/assets/image (564).png>)
+![](<../../.gitbook/assets/image (565).png>)
 
 ### **Dropped Frames**
 

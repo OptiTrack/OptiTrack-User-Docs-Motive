@@ -1,5 +1,9 @@
 ---
 description: General instructions for using the eSync 2 for synchronizing external devices.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/synchronization/synchronization-hardware/external-device-sync-guide-esync-2
 ---
 
 # External Device Sync Guide: eSync 2
@@ -24,7 +28,7 @@ The eSync 2 synchronization hub has multiple sync input and output ports. In gen
 
 ![AMTI Force Plate Setup example with eSync. Click image to enlarge.](<../../.gitbook/assets/image (1135).png>)
 
-![The eSync 2. For more specifications go to the OptiTrack website.](<../../.gitbook/assets/image (252).png>)
+![The eSync 2. For more specifications go to the OptiTrack website.](<../../.gitbook/assets/image (253).png>)
 
 {% hint style="warning" %}
 Ports A (3.3V input sync), C (Isolated Sync In), D (Video Genlock In), E (SMPTE Time Code In), and I (3.3V output sync) are all BNC female ports.
@@ -72,7 +76,7 @@ Once you have connected the external devices to the eSync 2, the first step is t
 
 The first step is to define a parent sync source for the camera system. This is configured in the _Sync Input → Source_ entry under the [eSync 2 properties](../../motive-ui-panes/properties-pane/properties-pane-esync2.md).
 
-![Selecting synchronization input source.](<../../.gitbook/assets/image (91).png>)
+![Selecting synchronization input source.](<../../.gitbook/assets/image (92).png>)
 
 **Internal Free Run**
 
@@ -308,7 +312,7 @@ _Note: For capturing multiple recordings via recording trigger, only the first_ 
 6. When the second trigger is detected, Motive stops recording and awaits the next trigger for repeated recordings. For High Gated and Low Gated trigger options, Motive will record during respective gated windows.
 7. Once the recording is finished, press the stop button to disarm Motive.
 
-![](<../../.gitbook/assets/image (84).png>)
+![](<../../.gitbook/assets/image (85).png>)
 
 ## Troubleshooting
 

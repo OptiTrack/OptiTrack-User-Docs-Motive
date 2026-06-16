@@ -1,5 +1,9 @@
 ---
 description: Step-by-Step instructions for retargeting Live Link content in Unreal Engine.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/quick-start-guide-real-time-retargeting-in-unreal-engine-with-live-link-content
 ---
 
 # Quick Start Guide: Real-Time Retargeting in Unreal Engine with Live Link Content

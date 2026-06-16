@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/external-plugins/houdini-19-integration
+---
+
 # Houdini 19 Integration
 
 <figure><img src="../../.gitbook/assets/image (598).png" alt=""><figcaption><p>Houdini 3D Animation</p></figcaption></figure>

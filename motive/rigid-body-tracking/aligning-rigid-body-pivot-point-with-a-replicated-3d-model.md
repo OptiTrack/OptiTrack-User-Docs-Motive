@@ -2,6 +2,10 @@
 description: >-
   This page provides instructions for aligning a Rigid Body pivot point with a
   real object replicated 3D model.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/rigid-body-tracking/aligning-rigid-body-pivot-point-with-a-replicated-3d-model
 ---
 
 # Aligning Rigid Body Pivot Point with a Replicated 3D Model

@@ -1,5 +1,8 @@
 ---
 description: An introduction to the Applications Settings panel.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings
 ---
 
 # Settings

@@ -1,12 +1,19 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-esync2
+---
+
 # Properties Pane: eSync2
 
 By modifying the device properties of the eSync, users can customize the sync configurations of the camera system for implementing various sync chain setups.
 
 While the eSync is selected under the [Devices pane](../devices-pane.md), use the [Properties pane](./) to monitor the eSync properties. Here, users can configure the parent sync source of the camera system and also the output sync signals from the eSync for integrating child devices (e.g. [NI-DAQ](../../movement-sciences/movement-sciences-hardware/ni-daq-setup.md)). For a specific explanation on steps for synchronizing external devices, read through the following page: [External Device Sync Guide: eSync 2](../../synchronization/synchronization-hardware/external-device-sync-guide-esync-2.md).
 
-<figure><img src="../../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (576).png" alt=""><figcaption></figcaption></figure>
 
-![eSync2 Properties](<../../.gitbook/assets/image (109).png>)
+![eSync2 Properties](<../../.gitbook/assets/image (110).png>)
 
 ## Sync Input
 

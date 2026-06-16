@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body/conventional-39
+---
+
 # Conventional (39)
 
 <div><figure><img src="../../.gitbook/assets/image (1364).png" alt=""><figcaption><p>Conventional Marker Set front</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (696).png" alt=""><figcaption><p>Conventional Marker Set back</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (507).png" alt=""><figcaption></figcaption></figure>
 
 ### Head Markers
 

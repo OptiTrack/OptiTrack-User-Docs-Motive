@@ -2,6 +2,10 @@
 description: >-
   This page lists the NatNet sample applications provided with the SDK and
   provides instructions for some of the samples.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-sample-projects
 ---
 
 # NatNet: Sample Projects
@@ -103,7 +107,7 @@ Edit the sample with the following properties:
 * IP Address: Use the IP address of the client NIC card you wish to use.
 * Server IP Address: IP Address of the server entered in step 2 above.
 
-![SampleClient3D - Decoding and draqing labeled Rigid Body position and orientation (6DoF) data.](<../../.gitbook/assets/image (346).png>)
+![SampleClient3D - Decoding and draqing labeled Rigid Body position and orientation (6DoF) data.](<../../.gitbook/assets/image (347).png>)
 
 ### WinForms .NET Sample
 

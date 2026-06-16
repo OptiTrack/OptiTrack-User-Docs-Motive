@@ -2,6 +2,10 @@
 description: >-
   This document outlines recommended optimizations for a Motive PC operating in
   real-time interactive applications.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/windows-11-optimization-for-realtime-applications
 ---
 
 # Windows 11 Optimization for Realtime Applications
@@ -64,7 +68,7 @@ Once this policy is implemented, the Windows Defender Antivirus cannot be re-ena
 3. Double-click _Turn Off Microsoft Defender Antivirus_.
 4. Select _Enabled_ and click OK.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="406"><figcaption><p>Turning off Microsoft Defender Antivirus.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt="" width="406"><figcaption><p>Turning off Microsoft Defender Antivirus.</p></figcaption></figure>
 
 ## Disable Anti-malware
 
@@ -102,7 +106,7 @@ Save the following script to a batch file named _OptiTrack\_ForceDefenderOFF.bat
 5. Click the _Select Folder_ button.
 6. Restart the computer to decrease the RAM usage by the _Antimalware Service Executable_ in Task Manager Processes.
 
-<div><figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Windows Security Settings.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Win Security Virus Exclusions.png" alt=""><figcaption><p>Virus &#x26; threat protection settings:  Exclusions.</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Windows Security Settings.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Win Security Virus Exclusions.png" alt=""><figcaption><p>Virus &#x26; threat protection settings:  Exclusions.</p></figcaption></figure></div>
 
 ### Disable Windows Notifications
 
@@ -134,7 +138,7 @@ Stop scheduled tasks from running.
 2. Select all the task in the _Task Scheduler Library_ list.
 3. Right-click and select _Disable_.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt="" width="544"><figcaption><p>Windows Task Scheduler Library.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt="" width="544"><figcaption><p>Windows Task Scheduler Library.</p></figcaption></figure>
 
 ### Disable all Windows Defender Tasks
 
@@ -145,7 +149,7 @@ Stop scheduled tasks from running.
 3. Select all the tasks in the list.
 4. Right-click and select _Disable_.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="563"><figcaption><p>Windows Task Scheduler:  Windows Defender Tasks.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt="" width="563"><figcaption><p>Windows Task Scheduler:  Windows Defender Tasks.</p></figcaption></figure>
 
 ## Disable Startup Applications
 
@@ -161,7 +165,7 @@ Stop unnecessary applications from loading at startup.
 **DO NOT** disable _OptiTrack\_ForceDefenderOff.bat_.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (45).png" alt="" width="563"><figcaption><p>Task Manager:  Startup apps window.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption><p>Task Manager:  Startup apps window.</p></figcaption></figure>
 
 ## Disc Drive Optimizations
 
@@ -189,7 +193,7 @@ Use the recommended network configuration.
 2. Incoming camera data
 3. Outgoing streaming data
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="" width="563"><figcaption><p>Recommended Network Topology for OptiTrack systems.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt="" width="563"><figcaption><p>Recommended Network Topology for OptiTrack systems.</p></figcaption></figure>
 
 ### Camera and Streaming Network Interface Card (NIC) Configuration Settings
 

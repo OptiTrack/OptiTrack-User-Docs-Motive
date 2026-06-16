@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/delsys-emg-setup
+---
+
 # Delsys EMG Setup
 
 ## Overview
@@ -28,11 +35,11 @@ Below are two diagrams depicting two types of Delsys hardware setups. One withou
 
 {% tabs %}
 {% tab title="Delsys setup without NI-DAQ" %}
-![Click image to enlarge.](<../../.gitbook/assets/image (213).png>)
+![Click image to enlarge.](<../../.gitbook/assets/image (214).png>)
 {% endtab %}
 
 {% tab title="Delsys setup with NI-DAQ" %}
-![Click image to enlarge.](<../../.gitbook/assets/image (536).png>)
+![Click image to enlarge.](<../../.gitbook/assets/image (537).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -42,13 +49,13 @@ Below are two diagrams depicting two types of Delsys hardware setups. One withou
 
 Please make sure the firmwares on both the Trigno Base Station and the EMG sensors have been updated. You can check the firmware version using the Software Update Tool provided by Delsys. For more information, please refer to the user manual.
 
-![Checking firmware versions on the base station.](<../../.gitbook/assets/image (519).png>)
+![Checking firmware versions on the base station.](<../../.gitbook/assets/image (520).png>)
 
 ### Delsys Software Setup
 
 Before proceeding with integrating the EMG system into Motive, please make sure the required software for the Delsys Trigno Avanti sensor system is all set up on the host computer. This includes Trigno Control Utility software which will get along with the Trigno EMGworks or Delsys SDK Server package version 3.5.8. For the sensor to work in Motive they must first be configured and paired in the Delsys Trigno Control Utility (TCU) software.
 
-![Delsys Trigno Avanti sensors detected in the TCU software.](<../../.gitbook/assets/image (556).png>)
+![Delsys Trigno Avanti sensors detected in the TCU software.](<../../.gitbook/assets/image (557).png>)
 
 ### Peripheral Module Setup
 
@@ -66,7 +73,7 @@ In order to integrate Delsys EMG systems with Motive, you will need to setup the
 
 Make sure to launch the Delsys TCU software first. Make sure all of the sensors have been powered and paired in the TCU software. If the sensors are not detected here, they will not be detected in Motive.
 
-![Two EMG sensors paired and operating in Trigno Control Utility software.](<../../.gitbook/assets/image (473).png>)
+![Two EMG sensors paired and operating in Trigno Control Utility software.](<../../.gitbook/assets/image (474).png>)
 
 **Step 2. Start Motive**
 
@@ -76,19 +83,19 @@ Once the sensors are detected and running in the Delsys TCU software, launch Mot
 
 **In Motive:** If the sensor is connected, it will be reported under the [Log](../../motive-ui-panes/log-pane.md) panel and the Trigno device will be listed in the [Devices pane](../../motive-ui-panes/devices-pane.md).
 
-![](<../../.gitbook/assets/image (225).png>)
+![](<../../.gitbook/assets/image (226).png>)
 
-![](<../../.gitbook/assets/image (516).png>)
+![](<../../.gitbook/assets/image (517).png>)
 
 **In TCU:** If the TCU software is connected to Motive, it will indicate that it has connected to a remote client. As shown in the image below.
 
-![](<../../.gitbook/assets/image (245).png>)
+![](<../../.gitbook/assets/image (246).png>)
 
 **Step 4. Enable data channels**
 
 Open the [Devices pane](../../motive-ui-panes/devices-pane.md) in Motive and connected Trigno device will be listed. If you click on the [![ContextMenu dotdotdot.png](https://v30.wiki.optitrack.com/images/c/c4/ContextMenu_dotdotdot.png)](https://v30.wiki.optitrack.com/index.php?title=File:ContextMenu_dotdotdot.png) on the device, and all of the available data channels will be shown in the pop-up. Click on the data channels and enable the ones that will be used.
 
-![Sensor channels shown in the Devices pane. Click image to enlarge.](<../../.gitbook/assets/image (523).png>) ![Sensor ID shown in the TCU software. Click image to enlarge.](<../../.gitbook/assets/image (534).png>)
+![Sensor channels shown in the Devices pane. Click image to enlarge.](<../../.gitbook/assets/image (524).png>) ![Sensor ID shown in the TCU software. Click image to enlarge.](<../../.gitbook/assets/image (535).png>)
 
 {% hint style="info" %}
 **Data Channels**:
@@ -105,7 +112,7 @@ Open the [Devices pane](../../motive-ui-panes/devices-pane.md) in Motive and con
 
 Once you have enabled all of the desired data channels, enable the Trigno device from the Devices pane.
 
-![Trigno device enabled.](<../../.gitbook/assets/image (192).png>)
+![Trigno device enabled.](<../../.gitbook/assets/image (193).png>)
 
 **Step 8. Confirm incoming data in Graph pane**
 
@@ -117,7 +124,7 @@ As a last step, use the Graph pane to check the EMG data coming through the enab
 The graph layout may need to be configured for plotting the EMG channel data. To create a new layout, click on the [![ContextMenu dotdotdot.png](https://v30.wiki.optitrack.com/images/c/c4/ContextMenu_dotdotdot.png)](https://v30.wiki.optitrack.com/index.php?title=File:ContextMenu_dotdotdot.png) button in [Graph pane](../../motive-ui-panes/graph-view-pane.md) and select _Create New Layout_ from the context menu. Once new layout is created, click on the [![Graph Editor 20.png](https://v30.wiki.optitrack.com/images/d/d1/Graph_Editor_20.png)](https://v30.wiki.optitrack.com/index.php?title=File:Graph_Editor_20.png) icon to expand the sidebar, and click on the graph which you wish to plot the graphs onto, and check mark the EMG channels in the sidebar to start plotting the channel data onto the selected graph. Make sure Trigno device is selected under the Devices pane.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (479).png>) ![](<../../.gitbook/assets/image (509).png>)
+![](<../../.gitbook/assets/image (480).png>) ![](<../../.gitbook/assets/image (510).png>)
 
 ## Synchronization
 
@@ -136,9 +143,9 @@ Refer to the Delsys documentation for more information on setting up the trigger
 5. **\[Motive]** Select Trigno device to access its properties.
 6. **\[Motive]** Set the _Triggered Sync_ setting to _Device_. Note that once Trigno is configured to the Triggered sync mode, EMG data will not be reporting until a recording is started to trigger the Delsys system.
 
-![Delsys trigger module layout snapshot from Delsys documentation.](<../../.gitbook/assets/image (475).png>)
+![Delsys trigger module layout snapshot from Delsys documentation.](<../../.gitbook/assets/image (476).png>)
 
-![eSync 2 configured to outputting recording gate signal.](<../../.gitbook/assets/image (289) (1) (1).png>) ![Triggered Sync set to Device on Trigno properties.](<../../.gitbook/assets/image (565).png>)
+![eSync 2 configured to outputting recording gate signal.](<../../.gitbook/assets/image (289) (1) (1).png>) ![Triggered Sync set to Device on Trigno properties.](<../../.gitbook/assets/image (566).png>)
 
 ## Device Properties: Data Operation
 
@@ -156,7 +163,7 @@ RMS is a common way to interpret EMG data. Motive performs RMS envelope calculat
 
 Noise removal can be controlled by the Noise Sample Size property. Set this to 0 to completely disable noise removal.
 
-![Properties of Trigno Delsys listed under the Properties pane.](<../../.gitbook/assets/image (195).png>)
+![Properties of Trigno Delsys listed under the Properties pane.](<../../.gitbook/assets/image (196).png>)
 
 ## Data Recording
 
@@ -216,9 +223,9 @@ A - This can happen if the version of the firmwares on the Trigno base station a
 
 </details>
 
-![Unable to synchronize USB communication warning.](<../../.gitbook/assets/image (559).png>)
+![Unable to synchronize USB communication warning.](<../../.gitbook/assets/image (560).png>)
 
-![](<../../.gitbook/assets/image (535).png>)
+![](<../../.gitbook/assets/image (536).png>)
 
 ## Troubleshooting
 

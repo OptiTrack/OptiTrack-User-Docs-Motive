@@ -1,5 +1,9 @@
 ---
 description: An overview of the samples available in the OptiTrack MATLAB plugin.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-matlab-plugin
 ---
 
 # OptiTrack MATLAB Plugin

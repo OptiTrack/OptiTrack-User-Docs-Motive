@@ -2,6 +2,10 @@
 description: >-
   How to integrate a Bertec force plate system with an OptiTrack motion capture
   system.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/movement-sciences-hardware/bertec-force-plate-setup
 ---
 
 # Bertec Force Plate Setup
@@ -85,7 +89,7 @@ In order to integrate force plate systems with Motive, you will need to setup th
 Even if you are not using a NI-DAQ, it is still necessary to install NI-DAQmx drivers through the installer.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (525).png>) ![](../../.gitbook/assets/DAQmxInstall.gif)
+![](<../../.gitbook/assets/image (526).png>) ![](../../.gitbook/assets/DAQmxInstall.gif)
 
 ### **Bertec Customers**
 
@@ -158,7 +162,7 @@ Sampling rate of force plates is configured through the synchronization setup wh
 * **Recording Trigger Sync:** When using the recording signal from the eSync to trigger-sync the force plates, the force plates will be running at their own _free run_ sampling rate. In this case, only 1000 Hz sampling rate is supported, and you will need to adjust the camera frame rate in the [Devices pane](../../motive-ui-panes/devices-pane.md) and apply framerate-multipliers to set the 1000 Hz sampling rate on the force plates.
 {% endhint %}
 
-![Configuring force plate sampling rate from Devices pane.](<../../.gitbook/assets/image (558).png>)
+![Configuring force plate sampling rate from Devices pane.](<../../.gitbook/assets/image (559).png>)
 
 ## Synchronization Configuration
 
@@ -192,7 +196,7 @@ When synchronizing through the eSync 2, use the following steps to configure the
 
 Once this is set, the force plate system will start sampling at the frequency of the clock signal configured on the eSync 2, and this rate will be displayed on the [Devices pane](../../motive-ui-panes/devices-pane.md) as well.
 
-![Example eSync properties for clock sync. Make sure the eSync is selected in the Properties pane.](<../../.gitbook/assets/image (563).png>) ![Example force plate properties for clock sync. Make sure the Force Plate is selected in the Properties pane.](<../../.gitbook/assets/image (502).png>)
+![Example eSync properties for clock sync. Make sure the eSync is selected in the Properties pane.](<../../.gitbook/assets/image (564).png>) ![Example force plate properties for clock sync. Make sure the Force Plate is selected in the Properties pane.](<../../.gitbook/assets/image (503).png>)
 
 {% hint style="info" %}
 **eSync Settings Tip:**
@@ -224,7 +228,7 @@ Starting from Motive 3.0, clock synchronization in Live mode is supported, and t
 
 Once this is done, the force plate system will synchronize to the recording trigger signal when Motive starts collecting data, and the force plates will free-run after the initial sync trigger. You can configure the sampling rate of the force plates by modifying the _Multiplier_ values in [Devices pane](../../motive-ui-panes/devices-pane.md) to sample at a whole multiple of the camera system frame rate.
 
-![Example eSync 2 properties for triggered sync.](<../../.gitbook/assets/image (491).png>) ![Example force plate properties for triggered sync.](<../../.gitbook/assets/image (1114).png>)
+![Example eSync 2 properties for triggered sync.](<../../.gitbook/assets/image (492).png>) ![Example force plate properties for triggered sync.](<../../.gitbook/assets/image (1114).png>)
 
 {% hint style="info" %}
 **Sampling Rate**
@@ -303,7 +307,7 @@ Since Motive uses a different coordinate system than the system used in common b
 
 This will convert the coordinate axis of the exported data so that the x-axis represents the anteroposterior axis (left/right), the y-axis represents the mediolateral axis (front/back), and the z-axis represents the longitudinal axis (up/down).
 
-![The MotionMonitor biomechanics analysis software.](<../../.gitbook/assets/image (1067).png>) ![Visual3D biomechanics analysis software provided by C-Motion](<../../.gitbook/assets/image (537).png>)
+![The MotionMonitor biomechanics analysis software.](<../../.gitbook/assets/image (1067).png>) ![Visual3D biomechanics analysis software provided by C-Motion](<../../.gitbook/assets/image (538).png>)
 
 ![C3D export setting for applications using z-up right-handed coordinate systems.](<../../.gitbook/assets/image (1055) (1) (1) (1) (4).png>)
 

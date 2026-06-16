@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/usb-camera-system-setup/tracking-bar-coordinate-system/transforming-coordinate-system-global-to-local
+---
+
 # Transforming Coordinate System: Global to Local
 
 The API reports "world-space" values for markers and rigid body objects at each frame.  It is often desirable to convert the coordinates of points reported by the API from the world-space (or global) coordinates into the local space of the rigid body.  This is useful, for example, if you have a rigid body that defines the world space that you want to track markers within.

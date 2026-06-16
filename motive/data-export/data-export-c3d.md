@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-export/data-export-c3d
+---
+
 # Data Export: C3D
 
 ## C3D Export

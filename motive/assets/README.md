@@ -1,5 +1,8 @@
 ---
 description: Learn how to work with different types of trackable assets in Motive.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/assets
 ---
 
 # Assets

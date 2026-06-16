@@ -1,5 +1,9 @@
 ---
 description: A guide to installing and using the OptiTrack Godot plugin.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-godot-plugin
 ---
 
 # OptiTrack Godot Plugin
@@ -19,10 +23,17 @@ The OptiTrack Godot Plugin enables real-time streaming of Rigid Body data from M
 
 ### Download the Plugin
 
-The OptiTrack Godot plugin is available from the [OptiTrack Plugins download](https://optitrack.com/software#motive-streaming-plugins) page. &#x20;
+The OptiTrack Godot plugin is available on GitHub in OptiTrack's optitrack-godot repository:&#x20;
+
+{% embed url="https://github.com/OptiTrack/optitrack-godot" %}
+
+* Click the green ![A screenshot of the <> Code button in Github. ](<../.gitbook/assets/Github Code download button.png>) code button at the top of the file list.&#x20;
+* Select **Download ZIP** to download the plugin locally.&#x20;
+
+<figure><img src="../.gitbook/assets/Godot Plugin - how to download.png" alt="A screenshot of the OptiTrack\optitrack-godot repository in GitHub, with the code button activated to show the menu options. Download ZIP is at the bottom of the list. "><figcaption></figcaption></figure>
 
 * Once downloaded, unzip the plugin to a local directory.&#x20;
-* In Windows Explorer, open the extracted folder, _optitrack-godot-plugin\_1.0.0_, then open the _**example-project**_ folder. Leave this folder open for a future step.&#x20;
+* In Windows Explorer, open the extracted folder, _optitrack-godot-main_, then open the _**example-project**_ folder. Leave this folder open for a future step.&#x20;
 
 ### Import into the Godot Project
 
@@ -81,7 +92,7 @@ To stream skeletons, set the Skeleton Coordinates to Local and the Bone Naming C
 
 For more information about streaming from Motive, please see the [Data Streaming](../motive/data-streaming.md) page.&#x20;
 
-<figure><img src="../.gitbook/assets/Motive - Streaming Settings for Godot.png" alt="A screenshot of the Motive Streaming Settings, with the &#x22;Enable&#x22; setting turned on and the &#x22;Transmission Type&#x22; setting set to Multicast. Both settings are highlighted. "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Motive - Streaming Settings for Godot.png" alt="A screenshot of the Motive Streaming Settings, with the &#x22;Enable&#x22; setting turned on and the &#x22;Transmission Type&#x22; setting set to Multicast. Both settings are highlighted. " width="563"><figcaption></figcaption></figure>
 
 #### Create Assets in Motive
 

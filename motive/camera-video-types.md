@@ -1,5 +1,8 @@
 ---
 description: An overview of the different video modes available on the OptiTrack cameras.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/camera-video-types
 ---
 
 # Camera Video Types

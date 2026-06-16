@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/full-body-+-fingers/core-+-passive-fingers-54
+---
+
 # Core + Passive Fingers (54)
 
 ![Front view of the Baseline + 11 Additional Markers + Fingers (54) Marker Set.](<../../.gitbook/assets/image (1030).png>) ![Back view of the Baseline + 11 Additional Markers + Fingers (54) Marker Set.](<../../.gitbook/assets/image (1007).png>)

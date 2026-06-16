@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/plugins/optitrack-unity-plugin
+---
+
 # OptiTrack Unity Plugin
 
 ## **Overview**
@@ -84,7 +91,7 @@ In order to receive tracking data from a server application (e.g. Motive), a cli
 Although it is not strictly necessary, you may find it helpful to organize your tracked objects as children of the streaming Client object. This will allow you to adjust the position of the Client object to adjust the position of all streamed objects relative to the Client object.
 {% endhint %}
 
-![Position data in unity. Click image to enlarge.](<../../.gitbook/assets/image (182).png>)
+![Position data in unity. Click image to enlarge.](<../../.gitbook/assets/image (183).png>)
 
 ### Animating a Rigid Body
 

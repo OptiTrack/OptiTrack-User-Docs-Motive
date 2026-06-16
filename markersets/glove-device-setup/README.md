@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/glove-device-setup
+---
+
 # Glove Device Setup
 
 ### Motive Setup

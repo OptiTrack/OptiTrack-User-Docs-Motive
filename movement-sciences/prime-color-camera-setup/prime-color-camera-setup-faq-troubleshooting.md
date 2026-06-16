@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/movement-sciences/prime-color-camera-setup/prime-color-camera-setup-faq-troubleshooting
+---
+
 # Prime Color Camera Setup: FAQ / Troubleshooting
 
 <details>

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/properties-pane/properties-pane-optihub2
+---
+
 # Properties Pane: OptiHub2
 
 {% hint style="danger" %}
@@ -14,7 +21,7 @@ While the OptiHub is selected under the [Devices pane](../devices-pane.md), use 
 
 ![](<../../.gitbook/assets/image (601).png>)
 
-![OptiHub 2 properties.](<../../.gitbook/assets/image (142).png>)
+![OptiHub 2 properties.](<../../.gitbook/assets/image (143).png>)
 
 ## Synchronization Control
 
@@ -36,7 +43,7 @@ To setup the sync input signals, first define a input **Source** and configure d
 
 ### Source: _Internal/Wired_
 
-![Sync settings when the input sync source is set to Internal/Wired.](<../../.gitbook/assets/image (165).png>)
+![Sync settings when the input sync source is set to Internal/Wired.](<../../.gitbook/assets/image (166).png>)
 
 The Internal/Wired input source uses the OptiHub 2's internal synchronization generator as the main sync source. You can modify the synchronization frequency for both [Wired and OptiSync](../../synchronization/synchronization-hardware/external-device-sync-guide-optihub2.md) protocol under the Synchronization Control section. When you adjust the system frame rate from this panel, the modified frame rate may not be reflected on the Devices pane. Check the streaming section of the status bar for the exact information.
 
@@ -46,7 +53,7 @@ This option is only valid if the _Sync Input: Source_ is set to Internal Sync. C
 
 ### Source: _Sync In_
 
-![Input sync settings when the source is set to Sync In.](<../../.gitbook/assets/image (130).png>)
+![Input sync settings when the source is set to Sync In.](<../../.gitbook/assets/image (131).png>)
 
 The Sync In input source setting uses signals coming into the input ports of the OptiHub 2 to trigger the synchronization. Please refer to External [Device Sync Guide: OptiHub 2](../../synchronization/synchronization-hardware/external-device-sync-guide-optihub2.md) page for more instructions on this.
 
@@ -68,7 +75,7 @@ Allows a triggering rate compatible with the camera frame rate to be derived fro
 
 ### Source: _USB Sync_
 
-![Sync settings when the input sync source is set to USB sync.](<../../.gitbook/assets/image (140).png>)
+![Sync settings when the input sync source is set to USB sync.](<../../.gitbook/assets/image (141).png>)
 
 (The camera system will be the child) sets an external USB device as the sync source. This mode is for customers who use the [Camera SDK](../../developer-tools/camera-sdk/) development kits and would like to have their software trigger the cameras instead. Using the provided API, the OptiHub 2 will be send the trigger signal from the PC via the OptiHib 2's USB uplink connection to the PC.
 

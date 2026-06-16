@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/vr-hmd-setup/sync-configuration-with-an-htc-vive-system
+---
+
 # Sync Configuration with an HTC Vive System
 
 {% hint style="danger" %}
@@ -39,7 +46,7 @@ Refer to the [Hardware Setup](../../hardware/) wiki pages for more details.
 
 The sync output of the base stations use 3.5 mm stereo (TRS) cables, whereas the Input ports of the eSync 2 are BNC ports. You will need to use a stereo female to RCA male adapter (e.g. [http://www.monoprice.com/product?p\_id=5612](http://www.monoprice.com/product?p_id=5612)) as well as an RCA-to-BNC adaptor (included with the eSync 2) to connect the channel b base station and the eSync 2 hub. After attaching the stereo to RCA adaptor, connect the red RCA cable into the eSync 2 using a BNC adapter, as shown in the following photo.
 
-![Connecting an HTC Vive system into the eSync 2.](<../../.gitbook/assets/image (476).png>)
+![Connecting an HTC Vive system into the eSync 2.](<../../.gitbook/assets/image (477).png>)
 
 #### **Step 4: Motive: Synchronization pane. Configure the synchronization in Motive.**
 
@@ -62,7 +69,7 @@ Now that the OptiTrack system’s shutter timing is synchronized with the base s
 
 ![Custom synchronization configuration without applying multipliers to the final frame rate. 60 Hz input signal detected for the connected input under the Input Monitor.](<../../.gitbook/assets/image (762).png>)
 
-![Custom synchronization configuration with multiplier (X2) applied to the input signal, resulting in final frame rate of approx. 120 Hz.](<../../.gitbook/assets/image (528).png>)
+![Custom synchronization configuration with multiplier (X2) applied to the input signal, resulting in final frame rate of approx. 120 Hz.](<../../.gitbook/assets/image (529).png>)
 
 {% hint style="danger" %}
 **Notes on the Sync Settings**

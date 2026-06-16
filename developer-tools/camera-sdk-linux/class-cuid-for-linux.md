@@ -1,5 +1,9 @@
 ---
 description: The header file UID.h for the Camera SDK for linux.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/camera-sdk-linux/class-cuid-for-linux
 ---
 
 # Class: cUID for Linux

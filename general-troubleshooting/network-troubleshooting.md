@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/general-troubleshooting/network-troubleshooting
+---
+
 # Network Troubleshooting
 
 ## Overview
@@ -25,7 +32,7 @@ When working with network hardware, it's always a good rule to start with an eas
 * You can also try a cable that you're using for another camera that is powered and showing up in Motive to guarantee that it is indeed a cable issue.&#x20;
 * If you've determined that you have a bad cable, remove the cable from the system and replace it with another available cable.&#x20;
 
-<figure><img src="../.gitbook/assets/image (321).png" alt=""><figcaption><p>Camera powered, but not connected to Motive. Indicated by small white dot in bottom left. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (322).png" alt=""><figcaption><p>Camera powered, but not connected to Motive. Indicated by small white dot in bottom left. </p></figcaption></figure>
 
 {% hint style="info" %}
 Be sure to test the new cable before it lands at its final position within your setup.&#x20;

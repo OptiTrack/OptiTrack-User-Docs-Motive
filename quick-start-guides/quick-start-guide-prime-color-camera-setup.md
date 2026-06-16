@@ -2,6 +2,10 @@
 description: >-
   Optimize a Prime Color Camera system with recommended settings for best
   performance.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/quick-start-guides/quick-start-guide-prime-color-camera-setup
 ---
 
 # Quick Start Guide: Prime Color Camera Setup
@@ -166,7 +170,7 @@ Once this policy is implemented, the Windows Defender Antivirus cannot be re-ena
 3. Double-click _Turn Off Microsoft Defender Antivirus_.
 4. Select _Enabled_ and click OK.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="406"><figcaption><p>Turning off Microsoft Defender Antivirus.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt="" width="406"><figcaption><p>Turning off Microsoft Defender Antivirus.</p></figcaption></figure>
 
 #### Disable Anti-malware Real-time Protection
 
@@ -230,7 +234,7 @@ The Network Interface Card (NIC) has two settings to optimize your system and re
 
 On the Properties window, click the _Configure..._ button.&#x20;
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Network Properties: Configure NIC</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Network Properties: Configure NIC</p></figcaption></figure>
 
 Click the _Advanced_ tab to access the NIC Properties.&#x20;
 

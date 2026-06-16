@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/natnet-sdk/natnet-creating-a-native-c++-client-application
+---
+
 # NatNet: Creating a Native (C++) Client Application
 
 This guide covers essential points to developing a native client application using the NatNet SDK. The guideline uses sample codes in the SampleClient.cpp application in the `\NatNet SDK\Sample` folder, please refer to this project as an additional reference.

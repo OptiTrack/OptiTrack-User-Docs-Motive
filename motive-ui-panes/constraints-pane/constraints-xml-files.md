@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/constraints-pane/constraints-xml-files
+---
+
 # Constraints XML Files
 
 ## **Overview**
@@ -26,13 +33,13 @@ This page includes detailed step-by-step instructions on customizing constraint 
 
 **c)** If you changed marker labels, the corresponding marker names must also be renamed within the \<marker\_colors> and \<marker\_sticks> sections as well. Otherwise, the marker colors and marker sticks will not be defined properly.
 
-![Modifying marker labels. Default HeadTop marker label is changed to NewHeadTop for Skeletons using the XML template file.](<../../.gitbook/assets/image (401).png>)
+![Modifying marker labels. Default HeadTop marker label is changed to NewHeadTop for Skeletons using the XML template file.](<../../.gitbook/assets/image (402).png>)
 
 #### **Customize Marker Sticks and Colors**
 
 **a)** To customize the marker colors, sticks, or weight, open the exported XML file using a text editor and scroll down to the \<marker\_colors> and/or \<marker\_sticks> sections. If the \<marker\_colors> and/or \<marker\_sticks> sections do not exist in the exported XML file, then you could be using an old Skeleton created before Motive 1.10. [Updating](../../motive/skeleton-tracking.md) and exporting the old Skeleton will provide these sections in the XML.
 
-![MarkerColors definition section in the Skeleton template XML file.](<../../.gitbook/assets/image (369).png>) ![MarkerSticks definition section in the Skeleton template XML file.](<../../.gitbook/assets/image (426).png>)
+![MarkerColors definition section in the Skeleton template XML file.](<../../.gitbook/assets/image (370).png>) ![MarkerSticks definition section in the Skeleton template XML file.](<../../.gitbook/assets/image (427).png>)
 
 **b)** You can customize the marker colors and the marker sticks in these sections. For each marker name, you must use exactly same marker labels that were defined by the \<marker\_names> section of the same XML file. If any marker label was changed in the \<marker\_names> section, the changed name must be reflected in the respective colors and sticks definitions as well. In other words, if a _Custom\_Name_ was assigned under _name_ for a label in the \<marker\_names> section _\<marker name="Custom\_Name" old\_name="Name" />_, the same _Custom\_Name_ must be used to rename all the respective marker names within \<marker\_colors> and/or \<marker\_sticks> sections of the XML.
 

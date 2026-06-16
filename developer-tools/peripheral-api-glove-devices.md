@@ -2,6 +2,10 @@
 description: >-
   This document provides general guidelines to create a device plugin for
   external glove devices in Motive.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/peripheral-api-glove-devices
 ---
 
 # Peripheral API:  Glove Devices
@@ -22,7 +26,7 @@ In this article, we will show how to integrate glove devices using the plugin in
 
 Glove devices update the local quaternion rotation of the finger bones. The hand skeleton in Motive is made up of 15 bone joints, three bones per finger. Each bone will require 4 float values to represent the quaternion rotation. In total, 60 float analog channels will be created for the glove device.
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>Float values per glove.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Float values per glove.</p></figcaption></figure>
 
 The hand orientation in Motive respects the right-handed coordinate system. For the left hand, the local coordinate is +X pointing towards the fingertips when in T-pose, and for the right hand, +X points towards the wrist/body when in T-pose.&#x20;
 

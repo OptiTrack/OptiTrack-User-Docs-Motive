@@ -1,5 +1,9 @@
 ---
 description: Defines the options available when exporting tracking data to a CSV file.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive/data-export/data-export-csv
 ---
 
 # Data Export: CSV
@@ -169,7 +173,7 @@ The cameras used in the Take are listed at the bottom of the export file.&#x20;
 
 ### Device Data
 
-For _Takes_ containing active devices ([Active Puck](../../active-components/active-components-hardware/active-puck.md) or [CinePuck](../../active-components/active-components-hardware/cinepuck.md)) force plates ([AMTI](../../movement-sciences/movement-sciences-hardware/amti-force-plate-setup.md) or [Bertec](../../movement-sciences/movement-sciences-hardware/bertec-force-plate-setup.md)) or data acquisition ([NI-DAQ](../../movement-sciences/movement-sciences-hardware/ni-daq-setup.md)) devices, additional CSV files will be exported for each connected device. For example, if you have two force plates and a NI-DAQ device in the setup, a total of four CSV files will be created when you export the tracking data from Motive (five, if the Data Description file is also exported). Each of the exported CSV files will contain basic properties and settings at its header, including device information and sample counts. Also, mocap frame rate to device sampling rate ratio is included since force plate and analog data are sampled at higher sampling rates.
+For _Takes_ containing active devices ([Active Puck](../../active-classic/active-classic-hardware/active-puck.md) or [CinePuck](../../active-classic/active-classic-hardware/cinepuck.md)) force plates ([AMTI](../../movement-sciences/movement-sciences-hardware/amti-force-plate-setup.md) or [Bertec](../../movement-sciences/movement-sciences-hardware/bertec-force-plate-setup.md)) or data acquisition ([NI-DAQ](../../movement-sciences/movement-sciences-hardware/ni-daq-setup.md)) devices, additional CSV files will be exported for each connected device. For example, if you have two force plates and a NI-DAQ device in the setup, a total of four CSV files will be created when you export the tracking data from Motive (five, if the Data Description file is also exported). Each of the exported CSV files will contain basic properties and settings at its header, including device information and sample counts. Also, mocap frame rate to device sampling rate ratio is included since force plate and analog data are sampled at higher sampling rates.
 
 {% hint style="info" %}
 Since device data is usually sampled at a higher rate than the camera system, the camera samples are collected at the center of the corresponding device data samples that were collected. For example, if the device data has 9 sub-frames for each camera frame sample, the camera tracking data will be recorded at every 5th frame of device data.
@@ -195,7 +199,7 @@ When the header is disabled, this information is excluded from the CSV files. In
 
 <table><thead><tr><th width="127" align="center">Row</th><th>Description</th></tr></thead><tbody><tr><td align="center">1st row</td><td>General information about the Take and export settings:  Format version of the CSV export, name of the TAK file, the captured frame rate, the export frame rate, capture start time, capture start frame, number of total frames, total exported frames, rotation type, length units, and coordinate space type.</td></tr><tr><td align="center">2nd row</td><td>Empty</td></tr><tr><td align="center">3rd row</td><td>Displays which data type is listed in each corresponding column. Data types include raw marker, Rigid Body, Rigid Body marker, bone, bone marker, or unlabeled marker. Read more about <a href="../data-recording/#marker-types-in-motive">Marker Types</a>.</td></tr><tr><td align="center">4th row</td><td>Includes marker or asset labels for each corresponding data set.</td></tr><tr><td align="center">5th row</td><td>Displays marker or asset ID.</td></tr><tr><td align="center">6th and 7th rows</td><td>Shows which data is included in the column: rotation or position and orientation on X/Y/Z.</td></tr></tbody></table>
 
-![](<../../.gitbook/assets/image (385).png>)
+![](<../../.gitbook/assets/image (386).png>)
 
 {% hint style="info" %}
 **TIP: Occlusion in the marker data**

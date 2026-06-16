@@ -1,5 +1,9 @@
 ---
 description: A guide to the functions available in the Motive API.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/motive-api/motive-api-function-reference
 ---
 
 # Motive API: Function Reference

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/settings/settings-audio
+---
+
 # Settings: Audio
 
 In Motive, the Application Settings can be accessed under the [View tab](../toolbar-command-bar.md#view) or by clicking [![Toolbar AppSettings 20.png](https://v30.wiki.optitrack.com/images/8/8e/Toolbar_AppSettings_20.png)](https://v30.wiki.optitrack.com/index.php?title=File:Toolbar_AppSettings_20.png) icon on the main toolbar. Default Application Settings can be recovered by Reset Application Settings under the Edit Tools tab from the main [Toolbar](../toolbar-command-bar.md).
@@ -10,7 +17,7 @@ If you have an audio input device, you can record _synchronized_ audio along wit
 
 In Motive, audio recording and playback settings can be accessed from [Application Settings](./).
 
-![Audio settings in Motive.](<../../.gitbook/assets/image (305).png>)
+![Audio settings in Motive.](<../../.gitbook/assets/image (306).png>)
 
 ### Audio Recording Steps
 
@@ -35,7 +42,7 @@ In order to playback audio recordings in Motive, audio format of recorded sounds
 
 The recorded audio format is determined by the format of a recording device that was used when capturing _Takes_. However, audio formats in the input and output devices may not always agree. In this case, you will need to adjust the input device properties to match them. Device's audio format can be configured under the Sound settings in Windows. In Sound settings (accessed from Control Panel), select the recording device, click on Properties, and the default format can be changed under the Advanced Tab, as shown in the image below.
 
-![Accessing microphone properties from the Sound settings.](<../../.gitbook/assets/image (569).png>) ![Configuring microphone device format.](<../../.gitbook/assets/image (602).png>)
+![Accessing microphone properties from the Sound settings.](<../../.gitbook/assets/image (570).png>) ![Configuring microphone device format.](<../../.gitbook/assets/image (602).png>)
 
 ## Audio Export
 

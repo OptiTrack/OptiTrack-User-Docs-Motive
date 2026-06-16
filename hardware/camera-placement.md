@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/camera-placement
+---
+
 # Camera Placement
 
 In optical motion capture systems, proper camera placement is very important in order to efficiently utilize the captured images from each camera. Before setting up the cameras, it is good idea to plan ahead and create a blueprint of the camera placement layout. This page highlights the key aspects and tips for efficient camera placements.
@@ -53,4 +59,4 @@ An ideal distance between a camera and the captured subject also depends on the 
 
 ## Placement Examples
 
-![Click images to enlarge.](<../.gitbook/assets/image (277).png>) ![](<../.gitbook/assets/image (607).png>) ![](<../.gitbook/assets/image (281).png>) ![](<../.gitbook/assets/image (652).png>) ![](<../.gitbook/assets/image (656).png>)
+![Click images to enlarge.](<../.gitbook/assets/image (278).png>) ![](<../.gitbook/assets/image (607).png>) ![](<../.gitbook/assets/image (282).png>) ![](<../.gitbook/assets/image (652).png>) ![](<../.gitbook/assets/image (656).png>)

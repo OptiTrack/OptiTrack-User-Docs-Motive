@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/ethernet-cameras/primex-120
+---
+
 # PrimeX 120
 
 <figure><img src="../../../.gitbook/assets/primex120-perspective-scaled-416.webp" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/hardware/cameras/usb-cameras/trio-3
+---
+
 # Trio 3
 
 ![](../../../.gitbook/assets/trio-3_765.png)

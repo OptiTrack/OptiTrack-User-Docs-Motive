@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/motive-ui-panes/probe-pane
+---
+
 # Probe Pane
 
 This page provides information on the Probe pane, which can be accessed under the _Tools_ tab or by clicking on the [![Toolbar Probe 30.png](https://v30.wiki.optitrack.com/images/f/f7/Toolbar_Probe_30.png)](https://v30.wiki.optitrack.com/index.php?title=File:Toolbar_Probe_30.png) icon from the toolbar.
@@ -46,4 +52,4 @@ Shows the distance between the last two collected samples.
 
 Shows the angle between the last three collected samples
 
-![Probe pane showing the measurements.](<../.gitbook/assets/image (101).png>)
+![Probe pane showing the measurements.](<../.gitbook/assets/image (102).png>)

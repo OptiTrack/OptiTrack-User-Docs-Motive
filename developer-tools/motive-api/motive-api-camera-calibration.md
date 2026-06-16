@@ -2,6 +2,10 @@
 description: >-
   Sample code with instructions on using Motive API functions to calibrate a
   camera system.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/developer-tools/motive-api/motive-api-camera-calibration
 ---
 
 # Motive API Camera Calibration

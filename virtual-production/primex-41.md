@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-production/primex-41
+---
+
 # PrimeX 41
 
 ![](<../.gitbook/assets/image (1008).png>)

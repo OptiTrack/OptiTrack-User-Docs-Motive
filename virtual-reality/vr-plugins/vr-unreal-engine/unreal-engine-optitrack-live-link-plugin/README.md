@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/vr-plugins/vr-unreal-engine/unreal-engine-optitrack-live-link-plugin
+---
+
 # Unreal Engine: OptiTrack Live Link Plugin
 
 ## **Overview**

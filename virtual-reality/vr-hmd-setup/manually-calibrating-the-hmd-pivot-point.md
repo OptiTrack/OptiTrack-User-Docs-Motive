@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/virtual-reality/vr-hmd-setup/manually-calibrating-the-hmd-pivot-point
+---
+
 # Manually Calibrating the HMD Pivot Point
 
 {% hint style="danger" %}
@@ -24,9 +31,9 @@ Place two markers on left and right side of the HMD, these markers will serve tw
 * Most importantly, place these markers in the exactly same location of the left and right side so that they form a precisely symmetrical arrangement.
 * Same dimension attachment bases must be used for both of the markers.
 
-![Sample marker placement: Front view. The two side markers are placed parallel to the HMD display.](<../../.gitbook/assets/image (188).png>) ![Sample marker placement: Top view.](<../../.gitbook/assets/image (533).png>)
+![Sample marker placement: Front view. The two side markers are placed parallel to the HMD display.](<../../.gitbook/assets/image (189).png>) ![Sample marker placement: Top view.](<../../.gitbook/assets/image (534).png>)
 
-![Sample marker placement: Side view. The two side markers are aligned along the eye-level of the user.](<../../.gitbook/assets/image (501).png>)
+![Sample marker placement: Side view. The two side markers are aligned along the eye-level of the user.](<../../.gitbook/assets/image (502).png>)
 
 ## Pivot Point Position
 
@@ -40,15 +47,15 @@ For Motive versions 2.1 and above, setting pivot point location is much easier u
 
 **1. Set the pivot point over the landmark marker.** Use the [Set Pivot Point to Selected Marker](../../motive/rigid-body-tracking/#resetting-the-pivot-point) feature to assign the pivot point to the marker. This will set the elevation of the pivot point along the eye-level.
 
-![Top view: Rigid body pivot point is assigned to the left landmark marker.](<../../.gitbook/assets/image (190).png>) ![Side view: Now both the landmark marker and the pivot point is positioned along the user's eye-level elevation.](<../../.gitbook/assets/image (549).png>)
+![Top view: Rigid body pivot point is assigned to the left landmark marker.](<../../.gitbook/assets/image (191).png>) ![Side view: Now both the landmark marker and the pivot point is positioned along the user's eye-level elevation.](<../../.gitbook/assets/image (550).png>)
 
 **2. Place the pivot point at the midpoint between the two markers.** Enable _Two Marker Distance_ visual aid [![Viewport16.png](https://v30.wiki.optitrack.com/images/6/6d/Viewport16.png)](https://v30.wiki.optitrack.com/index.php?title=File:Viewport16.png) from the [perspective pane](../../motive-ui-panes/viewport.md#perspective-view), and select the two landmark markers in Motive. This will provide a distance between two markers. Then, using this information, translate the pivot point laterally by half of the distance so that it is placed right on the midpoint between two markers.
 
-![Translating the pivot point by half of the measured distance to place it at the midpoint.](<../../.gitbook/assets/image (524).png>) ![Translating the pivot point by half of the measured distance to place it at the midpoint. Click image to enlarge.](<../../.gitbook/assets/image (487).png>)
+![Translating the pivot point by half of the measured distance to place it at the midpoint.](<../../.gitbook/assets/image (525).png>) ![Translating the pivot point by half of the measured distance to place it at the midpoint. Click image to enlarge.](<../../.gitbook/assets/image (488).png>)
 
 **3. Translate the pivot point along the z-axis using the translation tool.** For the most accurate position, you may need to physically measure the sagittal, z-axis, distance from the landmark marker to the root of nose, and apply the measured offset.
 
-![Pivot point translated along the z-axis.](<../../.gitbook/assets/image (497).png>) ![Perspective view of the adjusted pivot point position.](<../../.gitbook/assets/image (568).png>)
+![Pivot point translated along the z-axis.](<../../.gitbook/assets/image (498).png>) ![Perspective view of the adjusted pivot point position.](<../../.gitbook/assets/image (569).png>)
 
 ## Orientation
 
@@ -57,7 +64,7 @@ Now that you have translated the pivot point, you need to make detailed adjustme
 * In Unreal Engine: the X-axis of the HMD Rigid Body must be directed forward.
 * In Unity: the Z-axis of the HMD Rigid Body must be directed forward.
 
-![Slight offset in the Rigid Body orientation.](<../../.gitbook/assets/image (233).png>) ![After Adjusting, the Rigid Body orientation axes are precisely aligned with the global axes of Motive.](<../../.gitbook/assets/image (515).png>)
+![Slight offset in the Rigid Body orientation.](<../../.gitbook/assets/image (234).png>) ![After Adjusting, the Rigid Body orientation axes are precisely aligned with the global axes of Motive.](<../../.gitbook/assets/image (516).png>)
 
 {% hint style="info" %}
 **Tip:** Once you have the Rigid Body asset for the HMD configured, you can export the asset into a TRA file for future uses. Importing the TRA file (e.g. CV1.tra) will load the Rigid Body (HMD) asset and make it available for use; however, the marker placement **must** remain unchanged in order to re-load previously created Rigid Bodies.

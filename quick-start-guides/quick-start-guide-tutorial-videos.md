@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/quick-start-guides/quick-start-guide-tutorial-videos
+---
+
 # Quick Start Guide: Tutorial Videos
 
 This page includes all of the Motive tutorial video for visual learners.

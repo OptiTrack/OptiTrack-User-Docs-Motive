@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/GaZwzcsVav6zPBRZpapU/markersets/lower/helen-hayes-lower-19
+---
+
 # Helen Hayes Lower (19)
 
 <div><figure><img src="../../.gitbook/assets/image (1368).png" alt=""><figcaption><p>Helen Hayes Marker Set Front</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (691).png" alt=""><figcaption><p>Helen Hayes Marker Set Back</p></figcaption></figure></div>
