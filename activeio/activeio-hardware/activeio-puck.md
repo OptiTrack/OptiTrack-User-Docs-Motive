@@ -314,5 +314,3 @@ The Manus Glove mount has an attachment designed for the Manus Glove interface.
 If any of the adapter plate accessories do not fit for the object you are tracking, you can use the attached CAD file to modify and 3D print customized adapter plates.
 
 * Adapter Plate CAD file (STEP):
-
-{% file src="../../.gitbook/assets/AIO-PUCK-01 - REV C - ASSY, PUCK, ACTIVE IO - EXTERNAL.STEP" %}
