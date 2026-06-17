@@ -155,6 +155,7 @@
     * [ActiveIO BaseStation](activeio/activeio-hardware/activeio-basestation.md)
     * [ActiveIO Puck](activeio/activeio-hardware/activeio-puck.md)
     * [ActiveIO Wand](activeio/activeio-hardware/activeio-wand.md)
+    * [ActiveIO Square](activeio/activeio-hardware/activeio-square.md)
   * [ActiveIO Configuration](activeio/activeio-configuration.md)
 * [ACTIVE CLASSIC](active-classic/README.md)
   * [Active Classic Hardware](active-classic/active-classic-hardware/README.md)
