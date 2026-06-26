@@ -17,7 +17,7 @@ The Rokoko Smartgloves plugin allows for easy integration of the external glove 
 * **Rokoko Smartgloves:** Hardware powered through USB or a battery pack.
 * **WiFi Router:** A dedicated Wi-Fi router or supported Wi-Fi network for Rokoko devices.
 * **Rokoko Studio:** Rokoko Studio software must be installed on the computer that will receive the glove data. Download and setup information is available from [Rokoko Support](https://support.rokoko.com/hc/en-us).
-* **Rokoko Plugin DLL:** The software package that allows the Rokoko gloves to work in Motive.
+* **Rokoko Plugin DLL:** The software package that allows the Rokoko gloves to work in Motive. [Download the DLL](https://support.rokoko.com/hc/en-us/article_attachments/47902603867537) from the Rokoko site.&#x20;
 
 **OptiTrack**
 
@@ -101,7 +101,7 @@ For the most reliable setup, run Rokoko Studio and Motive on the same computer. 
 #### Gloves appear in Rokoko Studio but not in Motive <a href="#gloves-appear-in-rokoko-studio-but-not-in-motive" id="gloves-appear-in-rokoko-studio-but-not-in-motive"></a>
 
 * Restart Motive after confirming the gloves are connected in Rokoko Studio.
-* Confirm that the required Rokoko glove DLL is in _C:\Program Files\OptiTrack\Motive\devices_.
+* Confirm that [the required Rokoko glove DLL](https://support.rokoko.com/hc/en-us/article_attachments/47902603867537) is in _C:\Program Files\OptiTrack\Motive\devices_.
 * Open the Devices pane and verify that a Rokoko device is created, registered, and assigned to the correct hand.
 * Check the [Motive Log pane](../../motive-ui-panes/log-pane.md) for device connection, registration, or sync messages.
 * Check Rokoko to make sure that the firmware for the gloves is at a reasonable version. Connect it to the Rokoko computer to update the firmware, if necessary.
