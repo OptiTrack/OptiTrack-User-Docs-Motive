@@ -309,8 +309,18 @@ The Manus Glove mount has an attachment designed for the Manus Glove interface.
 
 </details>
 
-### Adapter Plate CAD File
+### Adapter Plate Design Files
 
-If any of the adapter plate accessories do not fit for the object you are tracking, you can use the attached CAD file to modify and 3D print customized adapter plates.
+If any of the adapter plate accessories do not fit for the object you are tracking, you can use the attached CAD or SolidWorks files to modify and 3D print customized adapter plates.
 
-* Adapter Plate CAD file (STEP):
+#### Adapter Plate Technical Drawing
+
+{% file src="../../.gitbook/assets/ACC0060 REV A.0 - MOUNT, BAYONET, BLANK.pdf" %}
+
+#### Adapter Plate CAD file (STEP)
+
+{% file src="../../.gitbook/assets/ACC0060 REV A.0 -MOUNT, BAYONET, BLANK.STEP" %}
+
+#### Adapter Plate SolidWorks file (SLDPRT)
+
+{% file src="../../.gitbook/assets/ACC0060 REV A.0 - MOUNT, BAYONET, BLANK.SLDPRT" %}
