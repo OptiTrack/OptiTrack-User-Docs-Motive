@@ -19,6 +19,8 @@ Please consult our [ActiveIO Configuration](../activeio-configuration.md) page f
 * [ActiveIO BaseStation](activeio-basestation.md)
 * Motive 3.5 or higher
 
+Please see the [ActiveIO Wand Extension Pole](activeio-wand-extension-pole-adapter.md) page for instructions on connecting the optional extension pole accessory.
+
 ## Control Panel
 
 The control panel for the ActiveIO Wand is located in the center of the wand, near the handle.&#x20;
