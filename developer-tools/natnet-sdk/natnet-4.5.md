@@ -49,7 +49,7 @@ The NatNet SDK is shipped in a compressed ZIP file format. Within the unzipped N
 
 **Sample Projects: `NatNet SDK\Samples`**
 
-The Sample folder, contains Visual Studio 2013 projects that use the NatNetSDK libraries for various applications. These samples are the quickest path towards getting NatNet data into your application. **We strongly recommend taking a close look into these samples and adapt applicable codes into your application.** More information on these samples are covered in the [NatNet Samples](natnet-sample-projects.md) page.
+The Sample folder, contains Visual Studio projects that use the NatNetSDK libraries for various applications. These samples are the quickest path towards getting NatNet data into your application. **We strongly recommend taking a close look into these samples and adapt applicable codes into your application.** More information on these samples are covered in the [NatNet Samples](natnet-sample-projects.md) page.
 
 **Library Header Files: `NatNet SDK\include`**
 
@@ -195,6 +195,8 @@ Starting with Motive 3.0, you can send NatNet remote commands to Motive and sele
 
 **Bit-Stream NatNet Versions**
 
+* NatNet 4.5 (Motive 4.5)
+* NatNet 4.4 (Motive 4.4)
 * NatNet 4.3 (Motive 3.3)
 * NatNet 4.2 (Motive 3.2)
 * NatNet 4.1 (Motive 3.1)
@@ -203,4 +205,3 @@ Starting with Motive 3.0, you can send NatNet remote commands to Motive and sele
 * NatNet 3.0 (Motive 2.0)
 * NatNet 2.10 (Motive 1.10)
 * NatNet 2.9 (Motive 1.9)
-
