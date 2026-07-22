@@ -24,25 +24,117 @@ The following projects are located in the `NatNet SDK\Samples` folder.
 
 ### **NatNet SDK Samples**
 
-The following sample projects utilizes NatNet SDK library for obtaining tracking data from a connected server application.
+The following sample projects utilize the NatNet SDK library to obtain tracking data from a connected server application.
 
-| Sample Name                                                                               | NatNet Library Type | Description                                                                                                                                                                                                                                                                                                                    |
-| ----------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Matlab](natnet-sample-projects.md#running-the-matlab-sample)                             | Managed: Matlab     | Sample MATLAB code file (.m) for using MATLAB with the NatNet managed assembly (NatNetML.dll) using the provided [natnet.p wrapper](https://v30.wiki.optitrack.com/index.php?title=NatNet:_Matlab_Wrapper) class. Works in Matlab version 2014 or above.                                                                       |
-| MinimalClient                                                                             | Native: C++         | <p>Sample NatNet console app that connects to a NatNet server to receive a data stream. </p><p></p><p>Contains the bare minimum code to make the NatNet connection. Good for testing connectivity. </p>                                                                                                                        |
-| [SampleClient](natnet-sample-projects.md#running-the-console-output-sample-sample-client) | Native: C++         | <p>Sample NatNet console app that connects to a NatNet server, receives a data stream, and writes that data stream to an ASCII file.   </p><p></p><p>More robust than the <em>MinimalClient</em>, <em>SampleClient</em> provides a feature-rich template that includes everything necessary to build your own application.</p> |
-| [SampleClient3D](natnet-sample-projects.md#running-the-rigid-body-sample-sampleclient3d)  | Native: C++         | Sample NatNet application that connects to a NatNet server, receives a data stream, and displays that data in an OpenGL 3D window.                                                                                                                                                                                             |
-| SampleClientML                                                                            | Managed: .NET (C#)  | Sample NatNet C# console application that connects to a NatNet server on the local IP address, receives data stream, and outputs the received data. **Note:** [**Skeleton As Rigid Bodies**](../../motive-ui-panes/settings/settings-streaming.md#skeleton-as-rigid-bodies) **must be set to false.**                          |
-| [WinFormsSample](natnet-sample-projects.md#running-the-.net-sample)                       | Managed: C# .NET    | Simple C# .NET sample showing how to use the NatNet managed assembly (NatNetML.dll). This sample also demonstrates how to send and receive the NatNet commands.                                                                                                                                                                |
+<details>
+
+<summary>Matlab</summary>
+
+NatNet Library Type: Managed: _Matlab_
+
+Sample MATLAB code file (.m) for using MATLAB with the NatNet managed assembly (NatNetML.dll) using the provided [natnet.p wrapper](https://v30.wiki.optitrack.com/index.php?title=NatNet:_Matlab_Wrapper) class. Works in Matlab version 2014 or above.
+
+Please see the [MatLab Sample](natnet-sample-projects.md#matlab-sample) section of this documentation for more detail.&#x20;
+
+</details>
+
+<details>
+
+<summary>MinimalClient</summary>
+
+NatNet Library Type: Native: C++
+
+Sample NatNet console app that connects to a NatNet server to receive a data stream.&#x20;
+
+Contains the bare minimum code to make the NatNet connection. Good for testing connectivity.&#x20;
+
+</details>
+
+<details>
+
+<summary>SampleClient</summary>
+
+NatNet Library Type: Native C++
+
+Sample NatNet console app that connects to a NatNet server, receives a data stream, and writes that data stream to an ASCII file.  &#x20;
+
+More robust than the _MinimalClient_, _SampleClient_ provides a feature-rich template that includes everything necessary to build your own application.
+
+Please see the [SampleClient](natnet-sample-projects.md#running-the-console-output-sample-sample-client) section for more information on using this sample.&#x20;
+
+</details>
+
+<details>
+
+<summary>SampleCient3D</summary>
+
+NatNet Library Type: Native C++
+
+Sample NatNet application that connects to a NatNet server, receives a data stream, and displays that data in an OpenGL 3D window.
+
+Please see the [SampleClient3D](natnet-sample-projects.md#rigid-body-sample-sampleclient3d) section for more information on using this sample.&#x20;
+
+</details>
+
+<details>
+
+<summary>SampleClientML</summary>
+
+NatNet Library Type: Managed: .NET (C#)
+
+Sample NatNet C# console application that connects to a NatNet server on the local IP address, receives data stream, and outputs the received data.&#x20;
+
+{% hint style="warning" %}
+In Motive, the Streaming setting [Skeleton As Rigid Bodies](../../motive-ui-panes/settings/settings-streaming.md#skeleton-as-rigid-bodies) must be disabled when using this Sample.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>WinFormSample</summary>
+
+NatNet Library Type: Managed: C# .NET
+
+Simple C# .NET sample showing how to use the NatNet managed assembly (NatNetML.dll). This sample also demonstrates how to send and receive the NatNet commands.
+
+Please see the [WinFormsSample](natnet-sample-projects.md#running-the-.net-sample) section for more information on using this sample.&#x20;
+
+</details>
+
+<details>
+
+<summary>CalibHealthSystem</summary>
+
+NatNet Library Type: Native C++
+
+Sample NatNet application that provides metrics related to continuous calibration. This sample demonstrates how to look at errors from cameras, anchors, rigid bodies, or markers to determine metrics that could indicate misalignment with continuous calibration.&#x20;
+
+</details>
 
 ### **Direct Depacketization Samples**
 
 The following sample projects do not use the NatNet SDK library. Client/Server connection is established at a low-level by creating sockets and threads within the program, and the streamed data are depacketized directly from the bit-stream syntax. The following sample approaches should be used only when the use of NatNet SDK library is not applicable (e.g., streaming into UNIX clients).
 
-| Sample Name  | Type   | Description                                                                                                                                                            |
-| ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PacketClient | C++    | Simple example showing how to connect to a NatNet multicast stream and decode NatNet packets directly without using the NatNet SDK.                                    |
-| PythonSample | Python | <p>Sample Python code file (.py) for using Python with NatNet streaming. This sample depacketizes data directly from the bit-stream without using the library.<br></p> |
+<details>
+
+<summary>PacketClient</summary>
+
+Type: C++
+
+Simple example showing how to connect to a NatNet multicast stream and decode NatNet packets directly without using the NatNet SDK.
+
+</details>
+
+<details>
+
+<summary>PythonSample</summary>
+
+Type: Python
+
+Sample Python code file (.py) for using Python with NatNet streaming. This sample depacketizes data directly from the bit-stream without using the library.
+
+</details>
 
 {% hint style="info" %}
 When working in Edit mode, pause playback in Motive to view the streamed data. Press the **h key** to display the NatNet help screen for additional commands.&#x20;
@@ -52,9 +144,15 @@ When working in Edit mode, pause playback in Motive to view the streamed data. P
 
 The following samples demonstrate how to use remote triggering in Motive using the [XML formatted UDP broadcast packets](../../motive/data-streaming.md).
 
-| Sample Name     | Type | Description                                                                                                                          |
-| --------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| BroadcastSample | C++  | XML broadcast. Sample application illustrating how to use remote record trigger in Motive using XML formatted UDP broadcast packets. |
+<details>
+
+<summary>BroadcastSample</summary>
+
+Type: C++
+
+XML broadcast. Sample application illustrating how to use remote record trigger in Motive using XML formatted UDP broadcast packets.
+
+</details>
 
 ## Running NatNet Samples
 
