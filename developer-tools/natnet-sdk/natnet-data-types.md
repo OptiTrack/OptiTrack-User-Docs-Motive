@@ -42,11 +42,11 @@ Refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for more infor
 
 ### Description: Struct
 
-The following section lists the main data description _structs_ that are available through the SDK.
+The following data description _structs_ are available through the SDK:
 
-***
+<details>
 
-#### Server Description
+<summary>Server Description</summary>
 
 Saved struct Type: Native Library: _sServerDescription_
 
@@ -60,9 +60,11 @@ Contains basic network information of the connected server application and the h
 * Host's high resolution clock frequency. Used for calculating the latency
 * Connection status
 
-***
+</details>
 
-#### Data Descriptions
+<details>
+
+<summary>Data Descriptions</summary>
 
 Saved struct Type: Native Library: _sDataDescriptions_
 
@@ -70,9 +72,11 @@ Saved struct Type: Managed Assembly: _List\<DataDescriptor>_
 
 Contains an array of data descriptions for each active asset in a capture, and basic information about corresponding asset is stored in each description packet. Data descriptions are obtained by calling the GetDataDescriptions method from the NatNetClient class. Descriptions of each asset type is explained below.
 
-***
+</details>
 
-#### Marker Sets Description
+<details>
+
+<summary>Marker Sets Description</summary>
 
 Saved struct Type: Native Library: _sMarkerSetDescription_
 
@@ -84,9 +88,11 @@ Marker Set description contains a total number of markers in a Marker Set and ea
 * Number of markers in the set
 * Marker names
 
-***
+</details>
 
-#### Rigid Body Description
+<details>
+
+<summary>Rigid Body Description</summary>
 
 Saved struct Type: Native Library: _sRigidBodyDescription_
 
@@ -100,9 +106,11 @@ Rigid Body description contains corresponding Rigid Body names. Skeleton bones a
 * Offset displacement from the parent Rigid Body
 * Array of marker locations that represent the expected marker locations of the Rigid Body asset.
 
-***
+</details>
 
-#### Skeleton Description
+<details>
+
+<summary>Skeleton Description</summary>
 
 Saved struct Type: Native Library: _sSkeletonDescription_
 
@@ -117,9 +125,66 @@ Skeleton description contains corresponding Skeleton asset name, Skeleton ID, an
 
 **Note:** Beginning with NatNet 3.0, Skeleton bone data description packet changed from left-handed convention to right-handed convention to be consistent with the convention used in all other data packets. For older versions of NatNet clients, the server, Motive, will detect the client version and stream out Skeleton data in the matching convention. This change will only affect direct depacketization clients as well as clients that have the NatNet library upgraded to 3.0 from previous versions; for those clients, corresponding changes must be made to work with Motive 2.0.
 
-***
+</details>
 
-#### Asset Description
+<details>
+
+<summary>Force Plate Description</summary>
+
+Saved struct Type: Native Library: _sForcePlateDescription_
+
+Saved struct Type: Managed Assembly: _ForcePlate_
+
+Force plate description contains names and IDs of the plate and its channels as well as other hardware parameter settings. Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
+
+* Force plate ID and serial number
+* Force plate dimensions
+* Electrical offset
+* Number of channels
+* Channel info
+* More. See _NatNetTypes.h_ file for more information
+
+</details>
+
+<details>
+
+<summary>Device Description</summary>
+
+Saved struct Type: Native Library: _sDeviceDescription_
+
+Saved struct Type: Managed Assembly: _Device_
+
+An instance of the sDeviceDescription contains information of the data acquisition (NI-DAQ) devices. It includes information on both the DAQ device (ID, name , serial number) as well as its corresponding channels (channel count, channel data type, channel names). Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
+
+* Device ID. Used only for identification of devices in the stream.
+* Device Name
+* Device serial number
+* Device Type
+* Channel count
+* Channel Names
+
+</details>
+
+<details>
+
+<summary>Camera Description</summary>
+
+Saved struct Type: Native Library: sCameraDescription
+
+Saved struct Type: Managed Assembly: Camera
+
+An instance of the sCameraDescription contains information regarding the camera name, its position, and orientation.
+
+* Camera Name (can be used with Get/Set property commands)
+* Camera Position (x, y, z float variables)
+* Camera Orientation (qx, qy, qz, qw float variables)
+* For more info, see the NatnetTypes.h file.
+
+</details>
+
+<details>
+
+<summary>Asset Description</summary>
 
 Saved struct Type: Native Library: _sAssetDescription_
 
@@ -138,64 +203,63 @@ The following asset-specific arrays are also included:&#x20;
 * Rigid Body (bone) descriptions
 * Marker descriptions
 
-***
+</details>
 
-#### Force Plate Description
+<details>
 
-Saved struct Type: Native Library: _sForcePlateDescription_
+<summary>IMU Description</summary>
 
-Saved struct Type: Managed Assembly: _ForcePlate_
+Saved Struct Type: Native Library _sIMUDescription_
 
-Force plate description contains names and IDs of the plate and its channels as well as other hardware parameter settings. Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
+Saved Struct Type: Managed Library _IMU_
 
-* Force plate ID and serial number
-* Force plate dimensions
-* Electrical offset
-* Number of channels
-* Channel info
-* More. See _NatNetTypes.h_ file for more information
+IMU description contains corresponding data for Inertial Measurement Units (IMUs):&#x20;
 
-***
+* IMU Name
+* IMU ID (tag identifier)
+* IMU Sensor Fused Boolean (on/off)
+* IMU Rigid Body ID that correlates the IMU to its paired Rigid Body
 
-#### Camera Description
+</details>
 
-Saved struct Type: Native Library: sCameraDescription
+<details>
 
-Saved struct Type: Managed Assembly: Camera
+<summary>GPIO Description</summary>
 
-An instance of the sCameraDescription contains information regarding the camera name, its position, and orientation.
+* Saved Struct Type: Native Library _sGPIODescription_
+* Saved Struct Type: Managed Library _GPIO_
 
-* Camera Name (can be used with Get/Set property commands)
-* Camera Position (x, y, z float variables)
-* Camera Orientation (qx, qy, qz, qw float variables)
-* For more info, see the NatnetTypes.h file.
+GPIO Description contains corresponding data for General Purpose input/Output (GPIO) devices:&#x20;
 
-***
+* GPIO Name
+* GPIO streaming ID
+* Number of GPIO Ports
+* Array of relevant pin names
 
-#### Device Description
+</details>
 
-Saved struct Type: Native Library: _sDeviceDescription_
+<details>
 
-Saved struct Type: Managed Assembly: _Device_
+<summary>Anchor Description</summary>
 
-An instance of the sDeviceDescription contains information of the data acquisition (NI-DAQ) devices. It includes information on both the DAQ device (ID, name , serial number) as well as its corresponding channels (channel count, channel data type, channel names). Please refer to the [NatNetTypes.h](natnet-4.5.md#file-list) header file for specific details.
+* Saved Struct Type: Native Library _sAnchorDescription_
+* Saved Struct Type: Managed Library _Anchor_
 
-* Device ID. Used only for identification of devices in the stream.
-* Device Name
-* Device serial number
-* Device Type
-* Channel count
-* Channel Names
+The Anchor Description contains a corresponding anchor name, anchor streaming ID, and the x,y,z anchor coordinates. It has the hierarchal relationship as following:
 
-***
+* Anchor Name
+* Array of coordinates that describe where the Anchor Marker is in the scene.
+* Anchor Active ID
+
+</details>
 
 ## Frame of Mocap Data
 
-As mentioned in the beginning, frame-specific tracking data are stored separately from the DataDescription instances as this cannot be known ahead of time or out of band but only by per frame basis. These data get saved into instances of **sFrameOfMocapData** for corresponding frames, and they will contain arrays of frame-specific data _structs_ (e.g.sRigidBodyData, sSkeletonData) for each types of assets included in the capture. Respective frame number, timecode, and streaming latency values are also saved in these packets.
+Frame-specific tracking data are stored separately from the DataDescription instances as this cannot be known ahead of time or out of band but only on a per frame basis. These data get saved into instances of **sFrameOfMocapData** for corresponding frames, and they will contain arrays of frame-specific data _structs_ (e.g.sRigidBodyData, sSkeletonData) for each of the types of assets included in the capture. Respective frame number, timecode, and streaming latency values are also saved in these packets.
 
 The sFrameOfMocapData can be obtained by setting up a frame handler function using the [NatNetClient::SetFrameReceivedCallback](natnet-class-function-reference.md#natnetclient-setframereceivedcallback) method. In most cases, a frame handler function must be assigned in order to make sure every frame is promptly processed. Refer to the provided [_SampleClient_](natnet-sample-projects.md#running-the-.net-sample) project for an exemplary setup.
 
-FrameOfMocapData
+When streamed, the following data are available in the FrameOfMocapData:&#x20;
 
 <details>
 
@@ -319,27 +383,6 @@ Variable name:
 
 <details>
 
-<summary>Asset Data</summary>
-
-A total number of Trained Markerset assets, both tracked and untracked, in the frame.
-
-Variable name:
-
-* _nAssets_
-
-A named, hierarchical collection of RigidBody data in sRigidBodyData struct.
-
-**Unique ID:** A unique ID is assigned to each Trained Markerset asset so that it can be referenced.
-
-Variable name:
-
-* sAssetData - Native
-* AssetData - Managed
-
-</details>
-
-<details>
-
 <summary>Force Plate Data</summary>
 
 A total number of force plates.
@@ -371,6 +414,59 @@ An array containing data from each of analog device channels (e.g. NI-DAQ). Each
 Variable name:
 
 * _Devices_
+
+</details>
+
+<details>
+
+<summary>Asset Data</summary>
+
+A total number of Trained Markerset assets, both tracked and untracked, in the frame.
+
+Variable name:
+
+* _nAssets_
+
+A named, hierarchical collection of RigidBody data in sRigidBodyData struct.
+
+**Unique ID:** A unique ID is assigned to each Trained Markerset asset so that it can be referenced.
+
+Variable name:
+
+* sAssetData - Native
+* AssetData - Managed
+
+</details>
+
+<details>
+
+<summary>IMU Data</summary>
+
+Saved Struct Type: Native Library _sIMUData_
+
+Saved Struct Type: Managed Library: _IMUData_
+
+Position and orientation data for IMUs in the frame.&#x20;
+
+* Float positional values for x, y, and z
+* Float rotational values for gyroscope orientation (qx, qy, qz, qw)
+* Parameters value (if IMU has relevant parameters to stream)
+
+</details>
+
+<details>
+
+<summary>GPIO Data</summary>
+
+Saved Struct Type: Native Library _sGPIOData_
+
+Managed Library: _GPIOData_
+
+Data related to GPIO devices in the frame.&#x20;
+
+* GPIO ID to identify tag
+* Number of GPIO ports
+* GPIO pin values (an array of them)
 
 </details>
 
