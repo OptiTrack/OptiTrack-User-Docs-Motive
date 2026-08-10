@@ -174,7 +174,7 @@ This setting does not apply to the ActiveIO Wand as the device IMU is not used d
 
 ## Specifications
 
-[Additional specifications](https://optitrack3.payloadcms.app/api/media/file/activeio-wand-spec-sheet.pdf) are available on the [OptiTrack website](https://optitrack.com/).&#x20;
+[Additional specifications](https://www.optitrack.com/api/media/file/activeio-wand-spec-sheet.pdf) are available on the [OptiTrack website](https://optitrack.com/).&#x20;
 
 <details>
 
