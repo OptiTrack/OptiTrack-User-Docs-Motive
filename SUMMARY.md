@@ -76,6 +76,7 @@
     * [Data Export: CSV](motive/data-export/data-export-csv.md)
     * [Data Export: FBX](motive/data-export/data-export-fbx.md)
     * [Data Export: TRC](motive/data-export/data-export-trc.md)
+    * [Data Export: USD](motive/data-export/data-export-usd.md)
   * [Data Streaming](motive/data-streaming.md)
   * [Camera Video Types](motive/camera-video-types.md)
   * [Audio Recording](motive/audio-recording.md)
