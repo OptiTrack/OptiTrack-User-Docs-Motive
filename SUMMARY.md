@@ -3,6 +3,7 @@
 * [OptiTrack Documentation](README.md)
 * [WHAT'S NEW](whats-new/README.md)
   * [What's New in Motive 3.5](whats-new/whats-new-in-motive-3.5.md)
+  * [Changelogs](whats-new/changelogs.md)
 * [QUICK START GUIDES](quick-start-guides/README.md)
   * [Quick Start Guide: Getting Started](quick-start-guides/quick-start-guide-getting-started.md)
   * [Quick Start Guide: Prime Color Camera Setup](quick-start-guides/quick-start-guide-prime-color-camera-setup.md)
