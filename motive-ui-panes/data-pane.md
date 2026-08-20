@@ -82,9 +82,9 @@ Exports a list of Take information into either a CSV or XML file. Included eleme
 
 ## List of Session Folders
 
-The leftmost section of the Data pane is used to list the sessions that are loaded in Motive. Session folders in Motive group multiple associated _Take_ files, and they can be imported simply by dragging-and-dropping or importing <img src="../.gitbook/assets/Data Pane - Import Folder.png" alt="A screenshot from Motive of the &#x22;Open Session folder&#x22; icon." data-size="line"> a folder into the data management pane. When a session folder is loaded, all of the _Take_ files within the folder are loaded altogether.
+The leftmost section of the Data pane is used to list the sessions that are loaded in Motive. Session folders in Motive group multiple associated _Take_ files, and they can be imported simply by dragging-and-dropping or importing <img src="../.gitbook/assets/Data Pane - Import Folder (1).png" alt="A screenshot from Motive of the &#x22;Open Session folder&#x22; icon." data-size="line"> a folder into the data management pane. When a session folder is loaded, all of the _Take_ files within the folder are loaded altogether.
 
-In the list of session folders, the currently loaded session folder will be denoted with a flag symbol <img src="../.gitbook/assets/Data Pane - Flag for current folder.png" alt="A screenshot from Motive of the flag icon that denotes the currently open session folder." data-size="line"> , and the selected session folder will be highlighted in white.
+In the list of session folders, the currently loaded session folder will be denoted with a flag symbol <img src="../.gitbook/assets/Data Pane - Flag for current folder (1).png" alt="A screenshot from Motive of the flag icon that denotes the currently open session folder." data-size="line"> , and the selected session folder will be highlighted in white.
 
 **Session Folder Buttons**
 

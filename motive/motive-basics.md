@@ -42,7 +42,7 @@ Alternately, with the session folder list closed, click the name of the current 
 
 
 
-The active Session Folder is noted with a <img src="../.gitbook/assets/Data Pane - Flag for current folder (1).png" alt="" data-size="line"> flag icon. To switch to a different folder, left-click the folder name in the Session list.&#x20;
+The active Session Folder is noted with a <img src="../.gitbook/assets/Data Pane - Flag for current folder (1) (1).png" alt="" data-size="line"> flag icon. To switch to a different folder, left-click the folder name in the Session list.&#x20;
 
 Please refer to the [Session Folders](../motive-ui-panes/data-pane.md#list-of-session-folders) section of the Data pane page for more information on working with these folders.&#x20;
 
