@@ -93,7 +93,7 @@ For HMDs using the active HMD clip, you can use the HMD tool in the [Builder pan
 8. During calibration, slowly rotate the HMD to collect data samples in different orientations.
 9. Once all necessary samples are collected, the calibrated HMD rigid body will be created.
 
-![6RB CalibratedPivots.png](https://v23.wiki.optitrack.com/images/thumb/d/d0/6RB_CalibratedPivots.png/350px-6RB_CalibratedPivots.png)
+<figure><img src="../.gitbook/assets/image (1586).png" alt="A view of the calibrated HMD rigid body."><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Head" %}
