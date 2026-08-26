@@ -108,6 +108,7 @@
   * [Log Pane](motive-ui-panes/log-pane.md)
   * [Probe Pane](motive-ui-panes/probe-pane.md)
   * [Properties Pane](motive-ui-panes/properties-pane/README.md)
+    * [Properties Pane: ActiveIO Devices](motive-ui-panes/properties-pane/properties-pane-activeio-devices.md)
     * [Properties Pane: Camera](motive-ui-panes/properties-pane/properties-pane-camera.md)
     * [Properties Pane: Force Plates](motive-ui-panes/properties-pane/properties-pane-force-plates.md)
     * [Properties Pane: NI-DAQ](motive-ui-panes/properties-pane/properties-pane-ni-daq.md)
