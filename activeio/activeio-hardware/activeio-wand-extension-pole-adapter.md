@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to attach the ActiveIO Wand to an extension pole to calibration large
+  How to attach the ActiveIO Wand to an extension pole to calibrate large
   spaces.
 ---
 
