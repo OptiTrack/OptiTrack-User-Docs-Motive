@@ -153,7 +153,7 @@ For best results, we recommend using the ActiveIO Wand in Synchronized mode.&#x2
 If the device is set to run in Always On mode, the Marker State is a read-only property, set to _Off_.&#x20;
 
 {% hint style="info" %}
-The switch on the ActiveIO Wand control panel will remain set to Sync whenever the device is connected to Motive through an ActiveIO BaseStation, even when the of the Marker State is set to _Off_ in Motive.&#x20;
+The switch on the ActiveIO Wand control panel will remain set to Sync whenever the device is connected to Motive through an ActiveIO BaseStation, even when the Marker State is set to _Off_ in Motive.&#x20;
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/ActiveIO Wand Change Marker State CROPPED.png" alt="The Marker State Device Property in Motive, with options: Off; Synchronized; ActiveIO "><figcaption><p>Marker State options for the ActiveIO Wand.</p></figcaption></figure>
