@@ -255,7 +255,6 @@
     * [StretchSense Glove Setup](markersets/glove-device-setup/stretchsense-glove-setup.md)
   * [Rizzoli Marker Sets](markersets/rizzoli-markersets.md)
   * [Entertainment Marker Sets](markersets/entertainment-markersets.md)
-  * [Rigid Body Skeleton Marker Set](markersets/rigid-body-skeleton-markerset.md)
 * [GENERAL TROUBLESHOOTING](general-troubleshooting/README.md)
   * [Network Troubleshooting](general-troubleshooting/network-troubleshooting.md)
   * [Authenticating Cameras Without an Internet Connection](general-troubleshooting/authenticating-cameras-without-an-internet-connection.md)
