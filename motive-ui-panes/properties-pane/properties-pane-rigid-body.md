@@ -504,7 +504,7 @@ To view properties related to the IMU, select the Active Tag paired to the Rigid
 The properties shown are for ActiveIO devices. Not all are available for Active Classic devices.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/ActiveIO Puck - devices and basic properties, claimed (1).png" alt="The Properties Pane and Devices Pane for an ActiveIO Puck, paired to a Rigid Body."><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body. Standard Properties only. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ActiveIO Standard Properties and Devices Pane.png" alt="The Properties Pane and Devices Pane for an ActiveIO Puck, paired to a Rigid Body."><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body. Standard Properties only. </p></figcaption></figure>
 
 ### Details
 
@@ -580,7 +580,7 @@ An open text field for storing custom device information, such as asset tag, loc
 
 The General IMU properties vary depending on the IMU type.&#x20;
 
-<figure><img src="../../.gitbook/assets/Properties - RB IMU General Adv.png" alt="The General section of the ActiveIO device properties, standard and advanced properties shown."><figcaption><p>Standard and Advanced properties in the General section of the Active Tag properties.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Properties - RB IMU General Adv (1).png" alt="The General section of the ActiveIO device properties, standard and advanced properties shown."><figcaption><p>Standard and Advanced properties in the General section of the Active Tag properties.</p></figcaption></figure>
 
 <details>
 
@@ -639,6 +639,16 @@ This property is available for ActiveIO devices only.&#x20;
 
 <details>
 
+<summary>Illumination</summary>
+
+Indicates the amount of time, in microseconds, that the active LEDs will illuminate per frame when the [Marker State](properties-pane-rigid-body.md#marker-state) is set to _Synchronized_ or _ActiveIO_.
+
+By Default, this property is set to match the camera frame rate.
+
+</details>
+
+<details>
+
 <summary>Battery Level</summary>
 
 Indicates the amount of battery power available, in percent.
@@ -658,6 +668,18 @@ The strength of the RF signal, in decibel-milliwatts (dBm).&#x20;
 {% hint style="info" %}
 This property is available for ActiveIO devices only.&#x20;
 {% endhint %}
+
+</details>
+
+<details>
+
+<summary>Packet Error Rate</summary>
+
+Displays the percentage of:
+
+The number of frames where device data is received / number of frames (over the past 3 seconds)
+
+The rate is updated about every 3 seconds.
 
 </details>
 
