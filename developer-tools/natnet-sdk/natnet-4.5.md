@@ -195,8 +195,8 @@ Starting with Motive 3.0, you can send NatNet remote commands to Motive and sele
 
 **Bit-Stream NatNet Versions**
 
-* NatNet 4.5 (Motive 4.5)
-* NatNet 4.4 (Motive 4.4)
+* NatNet 4.5 (Motive 3.5)
+* NatNet 4.4 (Motive 3.4)
 * NatNet 4.3 (Motive 3.3)
 * NatNet 4.2 (Motive 3.2)
 * NatNet 4.1 (Motive 3.1)
