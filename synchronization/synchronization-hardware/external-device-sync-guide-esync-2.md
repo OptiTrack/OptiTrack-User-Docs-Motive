@@ -159,14 +159,14 @@ The [TM 2500C from Time Machines](https://timemachinescorp.com/product/gps-ntppt
 #### PTP Setup
 
 * Install Motive 3.1.1, or a more recent version.
-* Connect the eSync2 and PTP generator device to the Ethernet switch.
-* Connect the PTP devices PPS port to the _Input 1_ port of the eSync2.
+* Connect the eSync 2 and PTP generator device to the Ethernet switch.
+* Connect the PTP devices PPS port to the _Input 1_ port of the eSync 2.
 * Connect the GPS port to the antenna and place the antenna outdoors.
 
-<figure><img src="../../.gitbook/assets/PTP to eSync Annotated.png" alt=""><figcaption><p>Connecting the PTP to the eSync2.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PTP to eSync Annotated.png" alt=""><figcaption><p>Connecting the PTP to the eSync 2.</p></figcaption></figure>
 
 * Connect the device to a standard power source.
-* In Motive, select the eSync2 in the Device Pane to display its properties.&#x20;
+* In Motive, select the eSync 2 in the Device Pane to display its properties.&#x20;
 * Set the Sync Input Source to _PTP Precision Timestamp._
 
 <figure><img src="../../.gitbook/assets/eSync Properties - PTP device.png" alt=""><figcaption></figcaption></figure>
