@@ -10,6 +10,92 @@ description: Motive's changelog history.
 
 <summary>Motive 3.5</summary>
 
+### Motive 3.5.0 Final
+
+#### **Full Feature List**
+
+* **General Features**
+  * Added a hotkey to switch playback to reverse mode.
+  * Added a hotkey to assign custom smoothing frequencies.
+  * Added a hotkey to enable Local Coordinates.
+  * IK iterations now have a minimum of 1.
+  * Calibration, continuous calibration, and bumped camera correction properties are separated into individual actions.
+  * Interval length in continuous calibration is now changeable.
+* **Devices Added**
+  * Added a new HMD clip for the VIVE Focus Vision.
+  * Added a new HMD clip for the Varjo XR4 (2026 version).
+  * Added the Security Key M.
+* **Active IO**
+  * **50+ Devices Supported** - Added the ability to support 50 to 80 wireless devices, depending on the frame rate.
+  * **Unicode Tag Names** - Added support for Chinese, Japanese, and other Unicode characters for ActiveIO tag names.
+  * Added GPIO data export and tag data descriptions to the CSV exporter.
+  * An error is now displayed when hitting the number of maximum ActiveIO devices in a system.
+  * The BaseStation Bar lights up with the percentage of bandwidth used at any given time.
+  * A warning now appears telling the user that the quality of connection might be reduced when there is low bandwidth available.
+  * Added the ability to change the illumination value.
+  * Added a Packet Error Rate property.
+  * Added the ability to custom name a device.
+  * Added the Bandwidth Available property
+  * Added the ability to save/write notes for taks.
+
+#### **Fixes**
+
+* **General Bug Fixes**
+  * Fixed an issue where cameras were set in a mode not designated by the profile.
+  * Fixed an issue where Prime<sup>x</sup> 22 and Prime<sup>x</sup> 41 were not showing correct ring lights.
+  * Fixed an issue where there were frame drops with X120 cameras at high exposures and gain values when using full resolution MJPEG.
+  * Fixed an issue where memory allocation grew past the point of recording.
+  * Fixed an issue where tabs unexpectedly changed when assigning values in the Settings > Views pane.
+  * Fixed an issue where 2D objects were not visualized correctly when show/hide options are toggled with Duplex Mode.
+  * Fixed an issue where (.mcal) export failed when saving to non-English folder paths (specifically Chinese and Japanese).
+  * Fixed an issue where Prime<sup>x</sup> 41 native frame rate was incorrect.
+  * Fixed an issue where Prime<sup>x</sup> 260 native frame rate was incorrect.
+  * Fixed an issue where markersets should not require a solve or training before CSV data can be exported.
+  * Fixed an issue where Trained Markersets could not be solved from the assets pane.
+  * Fixed an issue where GPIO data wasn’t streaming over NatNet in parity to the live server.
+  * Fixed an issue where the CSV exporter would report results incongruent with C3D data.
+  * Fixed an issue where the builder pane had a visual error with hands-only markersets.
+  * Fixed an issue where color cameras did not export the rigid body overlay.
+  * Fixed an issue where a loaded calibration would overwrite video modes on the tak.
+  * Fixed an issue where FBX export with Use Timecode enabled caused no keyframes to appear in the timeline.
+  * Fixed an issue where markers wouldn’t immediately disappear from the viewport once their keyframes were deleted.
+  * Fixed an issue where the viewport wouldn’t update in real time without requiring timeline movement.
+  * Fixed an issue where high resolution JPEG was not working on the Prime<sup>x</sup> 260.
+* **ActiveIO**
+  * Fixed an issue where ActiveIO devices were saving to takes even though they weren’t claimed.
+  * Fixed an issue where IMU types were not reporting correctly in some cases.
+  * Fixed an issue where notes on ActiveIO devices were not persisting when recording a take.
+  * Fixed an issue where NatNet GPIO data descriptions were reporting an incorrect number of ports.
+  * Fixed an issue where legacy (.tak) files with active pucks had incorrect properties.
+  * Fixed an issue where Motive slowed down with older (.tak) files with Active markers.
+  * Fixed an issue where there was an empty state column in the Devices Pane with the Wired CinePuck.
+  * Fixed an issue where ActiveIO battery reporting was incorrect. Multiple power cycles will improve reporting.
+  * Fixed an issue where there were incorrect Log Pane packet drop warnings when switching between claimed and advertising.
+  * Fixed an issue where the Devices pane in the BaseStation Column shows M00000 before claiming.
+  * Fixed an issue where bandwidth available was behaving inconsistently when changing quality of service.
+  * Fixed an issue where bulk renaming and resetting didn’t work.
+  * Fixed an issue where Pucks would not claim and update firmware as normal.
+  * Fixed an issue where users were unable to expand certain columns in the ActiveIO Devices Pane.
+  * Fixed an issue where Pucks were claiming incorrectly.
+  * Fixed an issue where ActiveIO Pucks wouldn’t release when paired with a rigid body.
+  * Fixed an issue where devices would persist in the Devices Pane until they were seen advertising again.
+  * Fixed an issue where all Pucks were not claiming and LEDs were behaving improperly.
+  * Fixed an issue where the number of device LEDs was reported incorrectly.
+  * Fixed an issue where there were conflicts in pattern assignment.
+  * Fixed an issue with AnchorPuck properties.
+  * Fixed an issue where disconnected Pucks weren’t disappearing from the Devices Pane when a rigid body was created first.
+  * Fixed an issue where a BaseStation plugged in alone supported only 100Hz.
+  * Fixed an issue where Pucks were not leaving Motive after they were turned off.
+  * Fixed an issue where changes in ActiveIO devices results in stutters in Motive and the Graph Pane.
+  * Fixed an issue where AnchorPuck Active Markers would disconnect with every open of Motive in a large camera system.
+
+#### Known Issues
+
+* **Gradual Memory Leak:** There is a gradual memory leak when using some newer NVIDIA drivers. If this issue occurs, roll back to NVIDIA drivers 32.0.15.5639, Oct. 23, 2024.
+* **Force Plates:** Force plate data will not be recorded when camera frames are dropped.
+* **Cameras:** Cameras operating in Reference video modes (including MJPEG, Grayscale, or Color Video) may not run at a faster frame rate than the cameras in Tracking video modes.
+* **Files:** Take files recorded in Motive versions older than 1.7 might need to be loaded into Motive 2.0 before they’re loaded into Motive 3.0+.
+
 ### Motive 3.5.0 Beta 1
 
 #### **Full Feature List** <a href="#text-full-feature-list-0" id="text-full-feature-list-0"></a>
