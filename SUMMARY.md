@@ -192,7 +192,7 @@
     * [AMTI Force Plate Setup](movement-sciences/movement-sciences-hardware/amti-force-plate-setup.md)
     * [Bertec Force Plate Setup](movement-sciences/movement-sciences-hardware/bertec-force-plate-setup.md)
     * [Kistler Force Plate Setup](movement-sciences/movement-sciences-hardware/kistler-force-plate-setup.md)
-    * [Delsys EMG Setup](movement-sciences/movement-sciences-hardware/delsys-emg-setup.md)
+    * [Delsys Trigno EMG Setup](movement-sciences/movement-sciences-hardware/delsys-emg-setup.md)
     * [NI-DAQ Setup](movement-sciences/movement-sciences-hardware/ni-daq-setup.md)
     * [Multiple Device Setup](movement-sciences/movement-sciences-hardware/multiple-device-setup.md)
   * [Movement Sciences Marker Sets](movement-sciences/movement-sciences-markersets/README.md)
