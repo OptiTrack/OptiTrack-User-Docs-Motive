@@ -134,7 +134,7 @@
       * [Live Link Content:  Active Puck Static Meshes](plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/live-link-content-active-puck-static-meshes.md)
     * [Unreal Engine: MotionBuilder Workflow](plugins/optitrack-unreal-engine-plugin/unreal-engine-motionbuilder-workflow.md)
     * [Unreal Engine: HMD Setup](plugins/optitrack-unreal-engine-plugin/unreal-engine-hmd-setup.md)
-    * [Unreal Engine VCS Inputs](plugins/optitrack-unreal-engine-plugin/unreal-engine-vcs-inputs.md)
+    * [Unreal Engine: VCS Inputs](plugins/optitrack-unreal-engine-plugin/unreal-engine-vcs-inputs.md)
   * [OptiTrack Unity Plugin](plugins/optitrack-unity-plugin/README.md)
     * [Unity: HMD Setup](plugins/optitrack-unity-plugin/unity-hmd-setup.md)
   * [OptiTrack OpenXR Plugin](plugins/optitrack-openxr-plugin.md)
