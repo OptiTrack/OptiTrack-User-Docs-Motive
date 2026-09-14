@@ -219,16 +219,18 @@ Type _Network_ in the Windows search bar to find and open the Control Panel to _
 
 #### Configure NIC settings
 
-Set the following properties to the value specified:
-
-* Interrupt Moderation = Disabled
-* Interrupt Moderation Rate = Disabled
+* Flow Control = Disabled
 * Jumbo Packets = Disabled
-* Max Number RSS Queues = 16
+* Interruption Moderation = Disabled
+* Interruption Moderation Rate = Disabled
+* Receive Side Scaling = Enabled
+  * Controls the max number of CPU cores that are used to process incoming packets.
+* Max Number RSS (Receive Side Scaling) Queues = 2-4 (not maxed)
+  * Value depends on number of available CPU cores
 * Receive Buffers = 4096 (max)
-* Receive Side scaling = Enabled
-* Speed and Duplex = Auto-Negotiate
 * Transmit Buffers = 16384 (max)
+* Link Speed = Auto
+* Speed & Duplex = Auto Negotiate
 
 **Steps:**
 
