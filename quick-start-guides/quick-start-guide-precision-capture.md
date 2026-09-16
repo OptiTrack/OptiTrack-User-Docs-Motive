@@ -159,23 +159,33 @@ Using the Rigid Body Refinement tool for improving asset definitions.
 
 ![Temperature of the processor board and the ringlight board displayed in the camera info.](<../.gitbook/assets/image (650).png>)
 
-In a mocap system, camera mount structures and other hardware components may be affected by temperature fluctuations. Refer to linear thermal expansion coefficient tables to examine which materials are susceptible to temperature changes. Avoid using a temperature sensitive material for mounting the cameras. For example, aluminum has relatively high thermal expansion coefficient, and therefore, mounting cameras onto aluminum mounting structures may distort the calibration quality. For best accuracy, routinely recalibrate the capture volume, and take the temperature fluctuation into an account both when selecting the mount structures and before collecting data.
+In a mocap system, camera mount structures and other hardware components can be affected by temperature fluctuations. Refer to linear thermal expansion coefficient tables to examine which materials are susceptible to temperature changes. Avoid using a temperature-sensitive material for mounting the cameras. For example, aluminum has relatively high thermal expansion coefficient, and therefore, mounting cameras onto aluminum mounting structures can distort the calibration quality. For best accuracy, routinely recalibrate the capture volume, and take the temperature fluctuation into an account when selecting the mount structures and before collecting data.
 
 ### Ambient Temperature
 
-An ideal method of avoiding influence from environmental temperature is to install the system in a temperature controlled volume. If such option is unavailable, routinely calibrate the volume before capture, and recalibrate the volume in between sessions when capturing for a long period. The effects are especially noticeable on hot days and will significantly affect your results. Thus, consistently monitor the average residual value and how well your rays converge to individual markers.
+Ideally, avoid influence of environmental temperature by installing the system in a temperature controlled volume. If that's not possible, routinely calibrate the volume before capture, and recalibrate the volume in between sessions when capturing for a long period. The effects are especially noticeable on hot days and will significantly affect your results. Thus, consistently monitor the average residual value and how well your rays converge to individual markers.
 
 ### Camera Heat
 
-The cameras will heat up with extended use, and change in internal hardware temperature may also affect the capture data. For this reason, avoid capturing or calibrating right after powering the system. Tests have found that the cameras need to be warmed up in Live mode for about an hour until it reaches a stable temperature. Typical stable temperatures are between 40-50 degrees Celsius or 25 degree Celsius above the ambient temperature. For Ethernet camera models, camera temperatures can be monitored from the [Cameras View](../motive-ui-panes/viewport.md) in Motive (Cameras View > Eye Icon > Camera Info).
+Cameras heat up with extended use, and change in internal hardware temperature can also affect the capture data. For this reason, avoid capturing or calibrating right after powering the system. Tests have found that the cameras need to be warmed up in Live mode for about an hour until they reach a stable temperature. Typical stable temperatures are between 40 and 50 degrees Celsius, or 25 degrees Celsius above the ambient temperature. For Ethernet camera models, you can monitor camera temperatures from the [Cameras View](../motive-ui-panes/viewport.md) in Motive (Cameras View > Eye Icon > Camera Info).
 
 {% hint style="danger" %}
-If a camera exceeds 80 degrees Celsius, this can be a cause for concern. It can cause frame drops and potential harm to the camera. If possible, keep the ambient temperature as low, dry, and consistent as possible.
+If a camera exceeds 80 degrees Celsius, the temperature can cause frame drops and potentially harm the camera. Aim to keep the ambient temperature as low, dry, and consistent as possible.
 {% endhint %}
+
+### Time to Stable Operating Temperature
+
+The time needed to reach a stable operating temperature varies by camera model as well as the state the cameras are in when starting, whether “cold” (no PoE received until use) or “hibernating” (previously connected to Motive, visibly displaying a blue status LED). The graph below shows the times needed for three camera models after a "cold" start within a temperature-controlled environment at default settings (120Hz, LED on, 250 microsecond exposure).
+
+<figure><img src="../.gitbook/assets/Time to Stable Operating Temp Graph.png.png" alt=""><figcaption></figcaption></figure>
+
+The PDF below provides a more detailed account of the times needed for cameras under the same conditions specified above.
+
+{% file src="../.gitbook/assets/Time_to_Stable_Operating_Temperature.pdf" %}
 
 ## Attention: Vibrations
 
-Especially for measuring at sub-millimeters, even a minimal shift of the setup can affect the recordings. Re-calibrate the capture volume if your average residual values start to deviate. In particular, watch out for the following:
+Especially for measuring at sub-millimeters, even a minimal shift of the setup can affect the recordings. Recalibrate the capture volume if your average residual values start to deviate. In particular, watch out for the following:
 
 * Avoid touching the cameras and the camera mounts.
 * Keep the capture area away from heavy foot traffic. People shouldn't be walking around the volume while the capture is taking place.
