@@ -120,7 +120,7 @@ The frame rate of the camera system gets determined by the selected sync input s
 
 ### Set Sync Offset
 
-In case if you need to delay the camera exposure from the input trigger, there is a sync offset can be applied. Click on the [![ContextMenu dotdotdot.png](https://v30.wiki.optitrack.com/images/c/c4/ContextMenu_dotdotdot.png)](https://v30.wiki.optitrack.com/index.php?title=File:ContextMenu_dotdotdot.png) icon at the top, and click _Show Advanced_ to view the advanced settings and you can set the Sync Offset (in microseconds) to apply the delay. This is typically used to synchronize other infrared systems with the camera system to avoid IR interference to each other.
+In case if you need to delay the camera exposure from the input trigger, there is a sync offset can be applied. Click on the <img src="../../.gitbook/assets/Motive Context Menu (35).png" alt="ContextMenu dotdotdot.png" data-size="line"> icon at the top, and click _Show Advanced_ to view the advanced settings and you can set the Sync Offset (in microseconds) to apply the delay. This is typically used to synchronize other infrared systems with the camera system to avoid IR interference to each other.
 
 ### Advanced: Sync Input Trigger and Exposure Timing
 
