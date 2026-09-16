@@ -33,7 +33,7 @@ Regardless of the selected Edit mode, you must reprocess the _Take_ to create ne
 
 ## Aligning Rigid Body Pivot Point
 
-There are two methods to align the pivot point of a rigid body. We recommend using the measurement probe method as it is the most accurate.&#x20;
+There are two methods to align the pivot point of a Rigid Body. We recommend using the measurement probe method as it is the most accurate.&#x20;
 
 ### Measurement Probe
 
