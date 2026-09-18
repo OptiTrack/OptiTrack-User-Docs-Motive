@@ -7,7 +7,7 @@ description: An introduction to the Motive API.
 {% hint style="danger" %}
 **Important Note:**
 
-The Motive API documentation is being updated for 3.1 and some of the functions may not yet be in the documentation. Please refer to the _MotiveAPI_ header file for any information that is not included in the online user guide.
+The Motive API documentation is being updated, and some of the functions might not yet be included in this user guide. Please refer to the MotiveAPI header file for any information that is not contained here.
 {% endhint %}
 
 ## Overview
