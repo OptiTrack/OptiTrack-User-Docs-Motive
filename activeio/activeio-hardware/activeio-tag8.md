@@ -6,7 +6,7 @@ description: A Quick Start Guide and specifications for the ActiveIO Tag8.
 
 ## Overview
 
-The ActiveIO Tag8 is a tag with 8 attached LED markers that can be used to track an individual asset. It's essentially a bare printed-circuit assembly (PCA) that lets users integrate OptiTrack's ActiveIO technology into motion-capture assets of their own making. It's the same technology built into other ActiveIO devices, including HMD Clips.
+The ActiveIO Tag8 is a tag with 8 attached LED markers that can be used to track an individual asset. The ActiveIO Tag8 is a printed-circuit assembly (PCA) that lets users integrate OptiTrack's ActiveIO technology into motion-capture assets of their own making. It's the same technology built into other ActiveIO devices, including HMD Clips.
 
 <figure><img src="../../.gitbook/assets/Tag8_w_LEDs.jpg" alt="An ActiveIO Tag8 with attached LEDs visible."><figcaption></figcaption></figure>
 
