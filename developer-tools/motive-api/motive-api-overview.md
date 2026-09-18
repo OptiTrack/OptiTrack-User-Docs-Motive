@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 **Important Note:**
 
-Motive API wiki pages are being updated for 3.0 beta. Some of the functions may be missing in the documentation. Please refer to the MotiveAPI.h header file for information on functions that are not documented here.
+Motive API wiki pages are being updated for 3.0. Some of the functions may be missing in the documentation. Please refer to the MotiveAPI.h header file for information on functions that are not documented here.
 {% endhint %}
 
 ## Overview
