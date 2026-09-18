@@ -12,7 +12,7 @@ metaLinks:
 
 The assembly of the Active Tags and the LEDs are relatively straightforward; connect the wires to the correct cathode/anode terminals using the diagrams, below.&#x20;
 
-![](<../../.gitbook/assets/image (1326).png>)
+<figure><img src="../../.gitbook/assets/image (1326).png" alt="An Active Tag with 8 LEDs attached."><figcaption></figcaption></figure>
 
 ## Usage Notes
 

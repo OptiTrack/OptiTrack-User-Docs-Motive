@@ -161,6 +161,7 @@
     * [ActiveIO Wand](activeio/activeio-hardware/activeio-wand.md)
     * [ActiveIO Wand Extension Pole Adapter](activeio/activeio-hardware/activeio-wand-extension-pole-adapter.md)
     * [ActiveIO Square](activeio/activeio-hardware/activeio-square.md)
+    * [ActiveIO Tag8](activeio/activeio-hardware/activeio-tag8.md)
   * [ActiveIO Configuration](activeio/activeio-configuration.md)
 * [ACTIVE CLASSIC](active-classic/README.md)
   * [Active Classic Hardware](active-classic/active-classic-hardware/README.md)
