@@ -18,8 +18,8 @@ Please consult our [ActiveIO Configuration](../activeio-configuration.md) page f
 
 ### Requirements
 
-* [ActiveIO BaseStation](activeio-basestation.md)
-* Motive 3.5 or higher
+* Motive 3.5 or later.
+* ActiveIO BaseStation. See the [ActiveIO BaseStation page](activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation.
 
 ## Control Panel
 
