@@ -14,8 +14,8 @@ The ActiveIO Puck is a stand alone trackable object that provides lightning fast
 
 #### Requirements
 
-* Motive 3.5 or higher.
-* ActiveIO BaseStation. Please see the [ActiveIO BaseStation page](activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation.&#x20;
+* &#x20;Motive 3.5 or later.
+* ActiveIO BaseStation. See the [ActiveIO BaseStation page](activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation.
 
 ### Power
 
