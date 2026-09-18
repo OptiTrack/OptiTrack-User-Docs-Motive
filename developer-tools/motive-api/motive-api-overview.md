@@ -11,7 +11,7 @@ metaLinks:
 {% hint style="danger" %}
 **Important Note:**
 
-The Motive API documentation is being updated for 3.1 and some of the functions may not yet be in the documentation. Please refer to the _MotiveAPI_ header file for any information that is not included in the online user guide.
+The Motive API documentation is being updated, and some of the functions might not yet be included in this user guide. Please refer to the MotiveAPI header file for any information that is not contained here.
 {% endhint %}
 
 ## Overview
@@ -26,7 +26,7 @@ All of the required components for utilizing the API are included in the Motive 
 * Frame control
 * Point Cloud reconstruction engine control
 * Ability to obtain and use reconstructed 3D Marker data
-* Rigid body tracking
+* Rigid Body tracking
 * Query results
 * Ability to stream results over the network
 
