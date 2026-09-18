@@ -14,8 +14,8 @@ The ActiveIO Tag8 is a tag with 8 attached LED markers that can be used to track
 
 ### Requirements
 
-* ActiveIO BaseStation
-*  Motive 3.5 or later
+* Motive 3.5 or later.
+* ActiveIO BaseStation. See the [ActiveIO BaseStation page](activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation.&#x20;
 
 ### Setup
 
