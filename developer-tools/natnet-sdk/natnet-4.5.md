@@ -19,7 +19,19 @@ Click the Download button to access the [changelog](https://optitrack.com/suppor
 {% endhint %}
 
 {% hint style="info" %}
-NatNet is backwards compatible with any version of Motive, however, older versions may be missing features that are present in newer versions.
+NatNet is backwards compatible with any version of Motive. However, older versions might be missing features that are present in newer versions.
+{% endhint %}
+
+{% hint style="info" %}
+**SDK/API Support Disclaimer**
+
+We provide developer tools to enable OptiTrack customers across a broad set of applications to utilize their systems in the ways that best suit them. Our Motive API through the NatNet SDK and Camera SDK is designed to enable experienced software developers to integrate data transfer and/or system operation with their preferred systems and pipelines. Sample projects are provided alongside each tool, and we strongly recommend the users to reference or use the samples as reliable starting points. The following list specifies the range of support that will be provided for the SDK tools:
+
+* Using the SDK tools requires background knowledge on software development; therefore, we do not provide support for basic project setup, compiling, and linking when using the SDK/API to create your own applications.
+* Although we ensure the SDK tools and their libraries work as intended, we do not provide support for custom developed applications that have been programmed or modified by users using the SDK tools.
+* Ticketed support will be provided for licensed Motive users using the Motive API and/or the NatNet SDK tools from the included libraries and sample source codes only.
+* The Camera SDK is a free product, and therefore we do not provide free ticketed support for it.
+* For other questions, please check out the [NaturalPoint forums](https://forums.naturalpoint.com/). Very often, similar development issues get reported and solved there.
 {% endhint %}
 
 ## Overview
