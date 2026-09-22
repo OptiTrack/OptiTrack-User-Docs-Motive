@@ -16,7 +16,7 @@ Regular maintenance helps ensure consistent tracking quality, minimizes downtime
 * Verify that all cameras are connected and communicating with the software.
 * Confirm that [synchronization devices](../synchronization/) and network hardware items are functioning normally.
 * Perform a quick tracking test to ensure that markers are detected and reconstructed correctly.
-* Check for any unexpected environmental changes that could affect tracking, such as moved equipment, new reflective surfaces, or lighting changes.
+* Check for any unexpected [environmental changes](../hardware/prepare-setup-area.md) that could affect tracking, such as moved equipment, new reflective surfaces, or lighting changes.
 * Validate system calibration, especially if:
   * Cameras have been moved.
   * Truss structures or mounts have been adjusted.
@@ -31,13 +31,13 @@ Regular maintenance helps ensure consistent tracking quality, minimizes downtime
 
 * Inspect camera lenses and protective windows for dust, fingerprints, or debris.
 * Clean optical surfaces with an appropriate microfiber cloth when needed.
-* Verify that [camera mounts](../hardware/) remain secure and have not shifted position.
+* Verify that [camera mounts](../hardware/camera-mount-structures.md) remain secure and have not shifted position.
 * Confirm that [camera focus](../hardware/aiming-and-focusing.md#adjusting-focus) remains sharp throughout the capture volume.
 
 ### Cables and Network
 
 * Inspect Ethernet and synchronization cables for wear, damage, or loose connections.
-* Verify that all [switches, power supplies, and network infrastructure](../hardware/cabling-and-wiring/cabling-and-load-balancing.md) devices are operating correctly.
+* Verify that all switches, power supplies, and network infrastructure devices are operating correctly.
 * Confirm that adequate ventilation exists around network equipment and workstations.
 
 ### Capture Volume Assessment
@@ -51,7 +51,7 @@ Regular maintenance helps ensure consistent tracking quality, minimizes downtime
 
 * Keep computer operating systems, motion capture software, and supporting components up to date according to your organization's validation process.
 * Test updates in a controlled environment before deployment on production systems when practical.
-* Maintain backups of [calibration files](../motive/calibration/#calibration-files), asset definitions, and important project configurations.
+* Maintain backups of [calibration files](../motive/calibration/#calibration-files), [asset definitions, and important project configurations](../motive/motive-basics.md#motive-user-profile-.motive).
 
 ### Marker and Asset Maintenance
 
@@ -65,7 +65,7 @@ Consider a comprehensive system review that includes:
 
 * [Camera positioning](../hardware/camera-placement.md) and coverage analysis.
 * Calibration validation.
-* Network infrastructure inspection.
+* [Network infrastructure inspection](../hardware/cabling-and-wiring/cabling-and-load-balancing.md).
 * Software review.
 * Workflow and operator training refresh.
 * Review of system expansion or optimization opportunities.
