@@ -12,13 +12,13 @@ For general information on exporting data, please see the [Data Export ](./)page
 
 ## General Export Options
 
-<figure><img src="../../.gitbook/assets/Data Export - CSV screen 1.png" alt=""><figcaption><p>General options to export tracking data to .csv format.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1587).png" alt="The pane in Motive software showing General tracking options for CSV Export"><figcaption></figcaption></figure>
 
-#### Frame Rate
+### Frame Rate
 
 Number of samples included per second of exported data.
 
-#### Start Frame
+### Start Frame
 
 Start frame of the exported data. Set to one of the following:&#x20;
 
@@ -26,7 +26,7 @@ Start frame of the exported data. Set to one of the following:&#x20;
 * The start of the working range (or scope range) as configured under the [Control Deck](../../motive-ui-panes/control-deck.md) in the [Graph](../../motive-ui-panes/graph-view-pane.md) [View pane](../../motive-ui-panes/graph-view-pane.md).
 * _Custom_ to enter a specific frame number.
 
-#### End Frame
+### End Frame
 
 End frame of the exported data. Set to one of the following:&#x20;
 
@@ -34,92 +34,106 @@ End frame of the exported data. Set to one of the following:&#x20;
 * The end of the working range (or scope range) as configured under the [Control Deck](../../motive-ui-panes/control-deck.md) in the [Graph](../../motive-ui-panes/graph-view-pane.md) [View pane](../../motive-ui-panes/graph-view-pane.md).
 * _Custom_ to enter a specific frame number.&#x20;
 
-#### Scale
+### Scale
 
 Apply scaling to the coordinates/distance of tracked assets in the exported tracking data.
 
-#### Units
+### Units
 
 Set the measurement units to use for exported data.
 
-#### Axis Convention
+### Axis Convention
 
 Sets the axis convention on exported data. This can be set to a custom convention or select preset conventions for Entertainment or Measurement.&#x20;
 
-#### X Axis | Y Axis | Z Axis
+### X Axis | Y Axis | Z Axis
 
 Allows customization of the axis convention in the exported file by determining which positional data to be included in the corresponding data set.
 
-#### Use World Coordinates
+### Use World Coordinates
 
 This option determines whether exported data will be based on world (global) or local coordinate systems.&#x20;
 
-### Coordinate Systems
+#### Coordinate Systems
 
 Coordinates for exported data are either global to the volume or local to the asset.&#x20;
 
+{% tabs %}
+{% tab title="Tab 1" %}
 #### **Global or World Coordinates**
 
 Defines the position and orientation in respect to the global coordinate system of the calibrated capture volume. The global coordinate system is the origin of the ground plane, set with a calibration square during the [Calibration](../calibration/) process.
+{% endtab %}
 
+{% tab title="Tab 2" %}
 #### **Local Coordinates**
 
 Defines the bone position and orientation in respect to the coordinate system of the parent bone.&#x20;
 
 Local coordinate axes can be set to visible from [Application Settings](../../motive-ui-panes/settings/) or in the [skeleton properties](../../motive-ui-panes/properties-pane/properties-pane-skeleton.md). The Bone rotation values in the Local coordinate space can be used to roughly represent the joint angles, however, for precise analysis, joint angles should be computed through a biomechanical analysis software using the exported capture data (C3D).
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 In a skeleton, the hip is always the top-most parent of the segment hierarchy.&#x20;
 {% endhint %}
 
+### Export Relative to Rigid Body
+
+This allows users to export all the data relative to a particular Rigid Body. In the box, type the name of the asset that you want used as the local origin. The name must precisely match the case-sensitive string in the Asset Name field in the Properties Pane.&#x20;
+
+<figure><img src="../../.gitbook/assets/CSV ExpRelRigidBody Properties.jpg" alt="The Properties Pane in Motive software showing attributes for a Rigid Body called Baseball Bat"><figcaption></figcaption></figure>
+
+If the asset is named `Baseball Bat`, as in the screenshot above, typing any variation (such as `baseball bat` or `Bat`) will cause the function to fail.&#x20;
+
 ## Motion Capture Export Options
 
 <figure><img src="../../.gitbook/assets/Data Export - CSV Screen 2 CROPPED.png" alt=""><figcaption><p>Motion Capture Export options for .csv exports.</p></figcaption></figure>
 
-#### Header information
+### Header information
 
 Detailed information about capture data is included as a header in exported CSV files. See the section [CSV Header](data-export-csv.md#csv-header) for specifics.&#x20;
 
-#### Misc. MoCap Data
+### Misc. MoCap Data
 
 Includes a fourth column of data for each bone or marker tracked.&#x20;
 
 * **Mean Error Data** is included for each bone.
 * **Size** is included for each marker.
 
-#### Markers
+### Markers
 
 X/Y/Z reconstructed 3D positions for each marker in exported CSV files.
 
-#### Unlabeled Markers
+### Unlabeled Markers
 
 Includes tracking data of all of the _unlabeled_ makers to the exported CSV file along with other labeled markers. To view only the _labeled_ marker data, turn off this export setting.
 
-#### Rigid Body Bones
+### Rigid Body Bones
 
 The exported CSV file will contain 6 Degrees of Freedom (6 DoF) data for each rigid body from the Take. This includes orientations (pitch, roll, and yaw) in the chosen **rotation type** as well as 3D positions (x,y,z) of the rigid body center.
 
-#### Rigid Body Constraints
+### Rigid Body Constraints
 
 3D position data for the location of each Marker Constraint of rigid body assets. This is distinct from the actual marker location. Compared to the positions of the raw marker positions included within the _Markers_ columns, the Rigid Body Constraints show the _solved_ positions of the markers as affected by the rigid body tracking but not affected by occlusions.
 
-#### Skeleton and Markerset Bones
+### Skeleton and Markerset Bones
 
 The exported CSV files will include 6 DoF data for each bone segment of skeletons and trained markersets in exported Takes. 6 DoF data contain orientations in the selected [rotation type](data-export-csv.md#rotation-type), and also 3D positions (x,y,z,) for the center of the bone. All skeleton and markerset assets must be solved to export this data.
 
-#### Bone Constraints
+### Bone Constraints
 
 3D position data for the location of each Marker Constraint of bone segments in skeleton and trained markerset assets. Compared to the real marker positions included within the _Markers_ columns, the Bone Markers show the _solved_ positions of the markers as affected by the skeleton tracking but not affected by occlusions.
 
-#### Exclude Fingers
+### Exclude Fingers
 
 Exported skeletons will not include the fingers, if they are tracked in the _Take_ file.&#x20;
 
-#### Asset Hip Name
+### Asset Hip Name
 
 When selected, the hip bone data is labeled as Asset\_Name:Asset\_Name (e.g., Skeleton:Skeleton). When unselected, the exported data will use the classic Motive naming convention of Asset\_Name:Hip (e.g., Skeleton:Hip).&#x20;
 
-#### Rotation Type
+### Rotation Type
 
 Rotation type determines whether **Quaternion** or **Euler** Angles are used for orientation convention in exported CSV files. For Euler rotation, right-handed coordinate system is used and all different orders (XYZ, XZY, YXZ, YZX, ZXY, ZYX) of elemental rotation are available. More specifically, the XYZ order indicates pitch is degree about the X axis, yaw is degree about the Y axis, and roll is degree about the Z axis.
 
