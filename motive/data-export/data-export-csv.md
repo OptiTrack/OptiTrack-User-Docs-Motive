@@ -16,7 +16,7 @@ For general information on exporting data, please see the [Data Export ](./)page
 
 ## General Export Options
 
-<figure><img src="../../.gitbook/assets/CSV General + ExpRelRigidBody 3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CSV General + ExpRelRigidBody 3.jpg" alt="The pane in Motive 3.5 showing General options for CSV Export."><figcaption></figcaption></figure>
 
 ### Frame Rate
 
@@ -86,7 +86,7 @@ In a skeleton, the hip is always the top-most parent of the segment hierarchy.&#
 
 This allows users to export all the data relative to a particular Rigid Body. In the box, type the name of the asset that you want used as the local origin. The name must precisely match the case-sensitive string in the Asset Name field in the Properties Pane.&#x20;
 
-<figure><img src="../../.gitbook/assets/CSV ExpRelRigidBody Properties.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CSV ExpRelRigidBody Properties.jpg" alt="The Properties Pane in Motive software showing attributes for a Rigid Body called Baseball Bat"><figcaption></figcaption></figure>
 
 If the asset is named `Baseball Bat`, as in the screenshot above, typing any variation (such as `baseball bat` or `Bat`) will cause the function to fail.&#x20;
 
