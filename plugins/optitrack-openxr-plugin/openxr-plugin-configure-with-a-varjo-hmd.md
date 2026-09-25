@@ -28,17 +28,19 @@ description: >-
     <figure><img src="../../.gitbook/assets/OpenXR Screen 01 OpenVR OpenXR 01.jpg" alt="Varjo Base application Compatibility section with switches for OpenVR and OpenXR highlighted."><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** If you are using the Varjo runtime, you do _not_ need to launch SteamVR to use the OptiTrack OpenXR plugin. This is the method we found most successful.
+**Note:** If you are using the Varjo OpenXR runtime, you do _not_ need to launch SteamVR to use the OptiTrack OpenXR plugin. This is the method we found most successful.
 
-If you prefer to use SteamVR’s runtime with your Varjo headset, under System, go to Headset Tracking in the Tracking section and choose SteamVR in the pulldown menu. See screenshot below.
+If you prefer to use SteamVR’s OpenXR runtime with your Varjo headset instead, you can do so by following the step called [SteamVR Setup](https://docs.optitrack.com/plugins/optitrack-openxr-plugin#steam-vr-setup) in the OptiTrack OpenXR Plugin guide. The settings in Varjo Base do not need to be adjusted.
+
+When SteamVR is properly configured, the Compatibility section of the system settings in Varjo Base will look like the the image below.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/HeadsetTrackingSteamVR 02.png" alt="Varjo Base application Tracking section with SteamVR selected in a pulldown menu under Headset Tracking."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SteamVR Compatibility.jpg" alt=""><figcaption></figcaption></figure>
 
 * In the Compatibility section, under the OpenXR API layers menu item, press Open.
   * Then, from the OpenXR API layers window, ensure the `XR_APILAYER_OPTITRACK_tracking_override` option is enabled.
 
-<figure><img src="../../.gitbook/assets/OpenXR Screen 01 Open Button 01.jpg" alt="Varjo Base application Compatibility section with the Open button highlighted."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SteamVR Compatibility Open.jpg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/OpenXR Screen 02 Enabled.jpg" alt="Varjo Base application, OpenXR API Layers section, with the XR_APIPLAYER_OPTITRACK_tracking_override option enabled."><figcaption></figcaption></figure>
 
