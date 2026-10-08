@@ -48,27 +48,35 @@ Double-click on the aim assist button to have the software automatically zoom in
 
 ### How to Change Focus
 
+The descriptions and images in the tabs below cover (left to right) the Primex 41 and PrimeX 22; the PrimeX 120 and PrimeX 260; the Prime 17W and Prime 41; the PrimeX 13 and 13W, and the Prime 13 and 13W; and the SlimX 13.&#x20;
+
 {% tabs %}
-{% tab title="PrimeX 41/PrimeX 22" %}
+{% tab title="PrimeX 41 and 22" %}
 **PrimeX 41 and PrimeX 22**
 
-For PrimeX 41 and 22 models, camera focus can be adjusted by rotating the focus ring on the lens body, which can be accessed at the center of the camera. The front ring on the lens changes the focus of the camera, and the rear ring adjusts the F-stop of the lens. In most cases, it is beneficial to set the f-stop low to have the aperture at its maximum size for capturing the brightest image. Carefully rotate the focus ring while monitoring the 2D grayscale camera view for image clarity. Once the focus and f-stop have been optimized on the lens, it should be locked down by tightening the set screw. In default configuration, PrimeX 41 cameras are equipped with 12mm F#1.8 lens, and the PrimeX 22 cameras are equipped with 6.8mm F#1.6 lens.
+For PrimeX 41 and 22 models, camera focus can be adjusted by rotating the focus ring on the lens body, which can be accessed at the center of the camera. The front ring on the lens changes the focus of the camera, and the rear ring adjusts the f-stop of the lens. While setting the f-stop low to have the aperture at its maximum size captures the brightest image, increasing f-stop for a smaller aperture gains a larger depth of field. (Learn more about [f-stop, aiming and focusing here](../quick-start-guides/quick-start-guide-precision-capture.md#focus-and-aiming).) Carefully rotate the focus ring while monitoring the 2D grayscale camera view for image clarity. Once the focus and f-stop have been optimized on the lens, it should be locked down by tightening the set screw. In default configuration, PrimeX 41 cameras are equipped with 12mm F#1.8 lens, and the PrimeX 22 cameras are equipped with 6.8mm F#1.6 lens.
 
-![Focus and f-stop rung on the PrimeX 41 lens](<../.gitbook/assets/image (504).png>)
+<figure><img src="../.gitbook/assets/PrimeX 41 PrimeX 22 Focus Fstop.jpg" alt="Side views of the PrimeX 41 and PrimeX 22 with focus rings and f-stop adjusters labeled"><figcaption><p>Focus ring and f-stop adjuster locations for the PrimeX 41 (left) and PrimeX 22 (right)</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="PrimeX 120 and 260" %}
+For PrimeX 120 and 260 models, camera focus is adjusted by rotating the focus ring on the lens body, which can be accessed at the center of the camera. The front ring on the lens changes the focus of the camera, and the rear ring adjusts the f-stop of the lens. While setting the f-stop low to have the aperture at its maximum size captures the brightest image, increasing f-stop for a smaller aperture gains a larger depth of field. (Learn more about [f-stop, aiming and focusing here](../quick-start-guides/quick-start-guide-precision-capture.md#focus-and-aiming).) Carefully rotate the focus ring while monitoring the 2D grayscale camera view for image clarity. Once the focus and f-stop have been optimized on the lens, it should be locked down by tightening the set screw.
+
+<figure><img src="../.gitbook/assets/PrimeX 120 PrimeX 260 Focus Fstop.jpg" alt="Side views of the PrimeX 120 and PrimeX 260 with focus rings and f-stop adjusters labeled"><figcaption><p>Focus ring and f-stop adjuster locations for the PrimeX 120 (left) and PrimeX 260 (right)</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Prime 17W and 41" %}
-**Prime 17W and 41\***
+**Prime 17W and Prime 41\***
 
-For Prime 17W and 41 models, camera focus can be adjusted by rotating the focus ring on the lens body, which can be accessed at the center of the camera. The front ring on the Prime 41 lens changes the focus of the camera, while the rear ring on the Prime 17W adjusts its focus. Set the aperture at its maximum size in order to capture the brightest image. For the Prime 41, the aperture ring is located at the rear of the lens body, where the Prime 17W aperture ring is located at the front. Carefully rotate the focus ring while monitoring the 2D grayscale camera view for image clarity. Align the mark with the infinity symbol when setting the focus back to infinity. Once the focus has been optimized, it should be locked down by tightening the set screw.
+For Prime 17W and 41 models, camera focus can be adjusted by rotating the focus ring on the lens body, which can be accessed at the center of the camera. The front ring on the Prime 41 lens changes the focus of the camera, while the rear ring on the Prime 17W adjusts its focus. While setting the f-stop low to have the aperture at its maximum size captures the brightest image, increasing f-stop for a smaller aperture gains a larger depth of field. (Learn more about [f-stop, aiming and focusing here](../quick-start-guides/quick-start-guide-precision-capture.md#focus-and-aiming).) For the Prime 41, the aperture ring is located at the rear of the lens body, where the Prime 17W aperture ring is located at the front. Carefully rotate the focus ring while monitoring the 2D grayscale camera view for image clarity. Align the mark with the infinity symbol when setting the focus back to infinity. Once the focus has been optimized, it should be locked down by tightening the set screw.
 
 **\*Legacy camera models**
 
 ![](<../.gitbook/assets/image (657).png>)
 {% endtab %}
 
-{% tab title="PrimeX 13/PrimeX 13W" %}
-**PrimeX 13 and 13W, and Prime 13\* and 13W\***
+{% tab title="PrimeX 13 and 13W" %}
+**PrimeX 13 and PrimeX 13W, and Prime 13\* and 13W\***
 
 PrimeX 13 and PrimeX 13W use M12 lenses and cameras can be focused using custom focus tools to rotate the lens body. Focusing tools can be purchased on [OptiTrack’s Lens Accessories page](http://www.optitrack.com/products/lens-accessories-filters/), and they clip onto the camera lens and rotates it without opening the camera housing. It could be beneficial to lower the LED illumination to minimize reflections from the adjusting hand.
 
@@ -80,6 +88,6 @@ PrimeX 13 and PrimeX 13W use M12 lenses and cameras can be focused using custom 
 {% tab title="SlimX 13" %}
 **Slim Series**
 
-SlimX 13 cameras also feature M12 lenses. The camera focus can be easily adjusted by rotating the lens without the need to remove the housing. Slim cameras support multiple lens types, including third-party lenses so focus techniques will vary. Refer to the lens type to determine how to proceed. (In general, M12 lenses will be focused by rotating the lens body, while C and CS lenses will be focused by rotating the focus ring).
+SlimX 13 cameras also feature M12 lenses. The camera focus can be easily adjusted by rotating the lens without the need to remove the housing. Slim cameras support multiple lens types, including third-party lenses, so focus techniques vary. Refer to the lens type to determine how to proceed. (In general, M12 lenses are focused by rotating the lens body, while C and CS lenses are focused by rotating the focus ring).
 {% endtab %}
 {% endtabs %}
