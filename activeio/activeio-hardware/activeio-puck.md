@@ -6,7 +6,7 @@ description: A Quick Start Guide and specifications for the ActiveIO Puck.
 
 ## Overview
 
-The ActiveIO Puck is a stand alone trackable object that provides lightning fast 6 DoF tracking information for any object to which it is applied. Carries a factory installed Active Tag with 8 LEDs and a rechargeable battery with up to 13 and a half hours of run time on a single charge.
+The ActiveIO Puck is a standalone trackable object that provides lightning fast 6 DoF tracking information for any object to which it is applied. It carries a factory installed ActiveIO Tag8 with 8 LEDs and a rechargeable battery that can run as long as 13.5 hours on a single charge.
 
 <figure><img src="../../.gitbook/assets/ActiveIO-Puck-no-shadow.png" alt="An OptiTrack ActiveIO Puck" width="563"><figcaption></figcaption></figure>
 
@@ -14,7 +14,7 @@ The ActiveIO Puck is a stand alone trackable object that provides lightning fast
 
 #### Requirements
 
-* &#x20;Motive 3.5 or later.
+* Motive 3.5 or later.
 * ActiveIO BaseStation. See the [ActiveIO BaseStation page](activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation.
 
 ### Power
@@ -44,7 +44,7 @@ The leftmost light indicates the battery strength & charging and charging status
 * Solid blue indicates the device is running on battery power, with more than 10% charge available.
 * Solid green means the device is fully charged.
 * Flashing green indicates the device is charging.
-* Blinking red indicates the battery is below 10% and needs to be charged. IR LEDs are disabled until the device is charged above 10% power.
+* Blinking red indicates the battery is at less than 10% and needs to be charged. IR LEDs are disabled until the device is charged to more than 10% capacity.
 
 {% hint style="info" %}
 The light flashes red if a charging error occurs. Disconnect and reconnect the device if this occurs. If the problem persists, [contact Support](https://optitrack.com/support#create-new-support-ticket).&#x20;
@@ -79,7 +79,7 @@ Patterned and Always On modes are synchronized with the camera system through an
 * The middle LED light is solid green when the device is in Continuous mode.
 
 {% hint style="success" icon="power-off" %}
-To switch between Synced and Continuous modes, double click the power button on the device, wait 1 second, then double click again.
+To switch between Synced and Continuous modes, double-click the power button on the device, wait 1 second, then double-click again.
 {% endhint %}
 
 #### Patterned Mode
@@ -95,15 +95,13 @@ In Always On mode, the ActiveIO Puck is synchronized with the camera system so t
 
 
 In Continuous mode, the IR LEDs emit constant light with no blinking and are not synced with\
-the camera exposure. This mode allows you to use the ActiveIO device without an ActiveIO Base\
-Station.&#x20;
+the camera exposure. This mode allows you to use the ActiveIO device without an ActiveIO BaseStation.&#x20;
 
-Compared to synced modes, the markers may appear dimmer to the cameras and battery life will be\
-reduced when operating in Continuous mode.&#x20;
+Compared with synced modes, the markers may appear dimmer to the cameras, and battery life will be reduced when operating in Continuous mode.&#x20;
 
 ## Motive Setup
 
-An ActiveIO Puck in sync mode will appear in the [Devices pane](../../motive-ui-panes/devices-pane.md) in an Advertising state when it first connects to Motive. All of the LEDs will blink white while the device is Advertising.  &#x20;
+An ActiveIO Puck in sync mode appears in the [Devices pane](../../motive-ui-panes/devices-pane.md) in an Advertising state when it connects to Motive. All of the LEDs blink white while the device is Advertising.  &#x20;
 
 {% hint style="info" %}
 Please see the page [ActiveIO Configuration](../activeio-configuration.md) for more detail on using ActiveIO devices in Motive.&#x20;
@@ -147,15 +145,15 @@ Additional specifications are available on the OptiTrack website.&#x20;
 
 **Dimensions without diffusers**
 
-* Width: 102mm (4.02”)
-* Length: 102mm (4.02”)
-* Depth: 20.6 mm (0.81”)
+* Width: 102mm (4.02 inches)
+* Length: 102mm (4.02 inches)
+* Depth: 20.6mm (0.81 inches)
 
 **Dimensions with diffusers**
 
-* Width: 105.9mm (4.17”)
-* Length: 105.9mm (4.17”)
-* Depth: 20.6 mm (0.81”)
+* Width: 105.9mm (4.17 inches)
+* Length: 105.9mm (4.17 inches)
+* Depth: 20.6mm (0.81 inches)
 
 </details>
 
@@ -176,7 +174,7 @@ The ActiveIO Puck has a female bayonet mount on the back, with 7 mounting access
 * 1/4-20 mount style thread
 * Flat Base
 * Picatinny Rail
-* Flat Strap (1")
+* Flat Strap (1 Inch)
 * Belt Clip
 * Wrist Strap
 * Manus Glove
@@ -196,7 +194,7 @@ Expected battery life of 20hrs at nominal operating conditions (cameras operatin
 
 **Charging**
 
-* 5v USB-C (Battery Charging & Power Only)
+* 5v USB-C (Battery Charging and Power Only)
 * \~5hrs zero to full charge
 
 </details>
@@ -206,7 +204,7 @@ Expected battery life of 20hrs at nominal operating conditions (cameras operatin
 <summary>LEDs</summary>
 
 * 850nm IR Spectrum
-* 8 LEDs with diffusers (12.75mm, 1/2", diameter) on four corner LED locations
+* 8 LEDs with diffusers (12.75mm, ½ inch, diameter) on four corner LED locations
 * Illuminations synchronized with camera exposures
 
 Illumination Angles
@@ -218,7 +216,7 @@ Illumination Angles
 
 ## Mounting Options
 
-The ActiveIO Puck has a bayonet style mounting slot on the back of the device. OptiTrack offers 7 different mounting options, along with a downloadable CAD model to create your own custom mounts.&#x20;
+The ActiveIO Puck has a bayonet style mounting slot on the back of the device. OptiTrack offers 7 mounting options, along with a downloadable CAD model to create your own custom mounts.&#x20;
 
 ### Add or Remove a Mount
 
@@ -229,7 +227,7 @@ To add a mount:&#x20;
 
 To remove a mount:
 
-1. Push down in the center of the mount and rotate it counter-clockwise until it releases.
+* Push down in the center of the mount and rotate it counter-clockwise until it releases.
 
 <figure><img src="../../.gitbook/assets/ActiveIO Puck - how to add the mount.png" alt="A sequence of images of the ActiveIO Puck showing one of the optional mounts being added. "><figcaption><p>Adding a mount to an ActiveIO Puck. </p></figcaption></figure>
 
@@ -269,9 +267,9 @@ The Picatinny Rail Mount is designed to snap securely to Picatinny Rail, the U.S
 
 <details>
 
-<summary>Flat Strap 1"</summary>
+<summary>Flat Strap 1 Inch</summary>
 
-The Flat Strap Mount accommodates a 1" wide by .08" thick flat strap.&#x20;
+The Flat Strap Mount accommodates a 1-inch wide by .08-inch thick flat strap.&#x20;
 
 <figure><img src="../../.gitbook/assets/AIO Puck Mount - Flat Strap.png" alt="A line drawing of the Flat Strap mount accessory for the ActiveIO Puck. "><figcaption></figcaption></figure>
 
