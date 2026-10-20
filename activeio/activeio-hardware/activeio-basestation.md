@@ -26,7 +26,7 @@ You can use ActiveIO and Active Classic devices in a single instance of Motive, 
 
 ## BaseStation Load Capacity
 
-An ActiveIO BaseStation can support 10 to 20 ActiveIO devices.&#x20;
+An ActiveIO BaseStation can support as many as 70 ActiveIO devices.&#x20;
 
 ## ActiveIO BaseStation Properties
 
