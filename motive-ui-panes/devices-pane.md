@@ -15,7 +15,7 @@ The Devices Pane lists all of the devices connected to the OptiTrack system and 
 * Tracking cameras
 * Color reference cameras
 * Synchronization hubs
-* Base Stations&#x20;
+* BaseStations&#x20;
 * Active Tags
 * Force plates&#x20;
 * Data acquisition devices (DAQ)
@@ -130,7 +130,7 @@ A camera must be enabled to record data and contribute to the reconstruction of 
 
 #### Multiplier
 
-This property is also known as the Frame Rate Multiplier. As noted [above](devices-pane.md#rate-multiplier), a reference camera can be set to run at a reduced rate (half, quarter, etc.) to reduce the data output and size of the _Take_ file. Tracking camera are reference cameras if they are running in MJPEG mode.&#x20;
+This property is also known as the Frame Rate Multiplier. As noted [above](devices-pane.md#rate-multiplier), a reference camera can be set to run at a reduced rate (half, quarter, and so on) to reduce the data output and size of the _Take_ file. Tracking camera are reference cameras if they are running in MJPEG mode.&#x20;
 
 #### Mode
 
@@ -185,7 +185,7 @@ For most applications, it's fine to have all cameras contribute to the 3D recons
 
 #### **Device** (view only)
 
-Displays the name of the selected camera type, e.g., Prime 13, Slim 3U, etc.
+Displays the name of the selected camera type, such as Prime 13, Slim 3U, and so on.
 
 #### Serial (view only)
 
@@ -303,16 +303,16 @@ The optimal [Bit Rate](devices-pane.md#bit-rate) for each preset is calculated b
 
 ## Synchronization Devices
 
-The Synchronization category includes synchronization devices such as the eSync and OptiHub2 as well as Base Stations used to connect Active devices to the system.
+The Synchronization category includes synchronization devices such as the eSync and OptiHub2 as well as BaseStations used to connect Active devices to the system.
 
 <figure><img src="../.gitbook/assets/Devices Pane - eSync and BaseStation.png" alt=""><figcaption><p>Synchronization and Active Tag devices in the Devices pane.</p></figcaption></figure>
 
-### Base Stations&#x20;
+### BaseStations&#x20;
 
-[Base Station](../active-classic/active-classic-hardware/basestation.md) values are read-only, in both the Devices pane and the Properties pane. Available display options are the _Device_ (device type) and the _Serial number_.
+[BaseStation](../active-classic/active-classic-hardware/basestation.md) values are read-only, in both the Devices pane and the Properties pane. Available display options are the _Device_ (device type) and the _Serial number_.
 
 {% hint style="info" %}
-The [Active Batch Programmer](../active-classic/configuration/active-batch-programmer.md) is required to view additional settings or make configuration changes to a Base Station and its associated active devices.&#x20;
+The [Active Batch Programmer](../active-classic/configuration/active-batch-programmer.md) is required to view additional settings or make configuration changes to a BaseStation and its associated active devices.&#x20;
 {% endhint %}
 
 ### Sync Hub
@@ -325,15 +325,15 @@ For more information on configuring a sync hub, please read the [Synchronization
 
 ## Active Tags
 
-Active devices that connect to the camera system via Base Stations are listed in the Active Tag section.&#x20;
+Active devices that connect to the camera system via BaseStations are listed in the Active Tag section.&#x20;
 
-* **Name:** the tag name consists of two numbers, the the RF channel used to communicate with the Base Station followed by the unique Uplink ID assigned to the device.&#x20;
+* **Name:** the tag name consists of two numbers, the the RF channel used to communicate with the BaseStation followed by the unique Uplink ID assigned to the device.&#x20;
 * **Paired Asset:**  If the tag is paired to an asset, the asset's name will appear here. Otherwise, the field will display N/A.
 * **Aligned:**  shows the status of the Active tag.
   * If the tag is unpaired, the circle x icon will appear. <img src="../.gitbook/assets/image (1455).png" alt="" data-size="original">
   * If the tag is pairing, the circle with the wave icon will appear. ![](<../.gitbook/assets/image (1456).png>)
   * If the tag is paired, the green circle with green check icon will appear. ![](<../.gitbook/assets/image (1457).png>)
-* **BaseStation:** displays the serial number of the connected Base Station. This column is not displayed by default; right-click the header to add it.
+* **BaseStation:** displays the serial number of the connected BaseStation. This column is not displayed by default; right-click the header to add it.
 
 <figure><img src="../.gitbook/assets/image (1556).png" alt="" width="563"><figcaption></figcaption></figure>
 
