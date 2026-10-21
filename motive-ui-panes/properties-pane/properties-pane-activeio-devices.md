@@ -6,14 +6,14 @@ description: An in-depth look at the properties available for ActiveIO devices.
 
 ## Overview
 
-ActiveIO properties determine how the corresponding ActiveIO device is tracked and provides status information about the device, such as signal strength, battery level, etc. This page covers the properties specific to the following ActiveIO devices:&#x20;
+ActiveIO properties determine how the corresponding ActiveIO device is tracked and provides status information about the device, such as signal strength and battery level. This page covers the properties specific to the following ActiveIO devices:&#x20;
 
 * ActiveIO Puck
 * ActiveIO Wand
 * ActiveIO Square
 * ActiveIO Clips
 
-Select an ActiveIO device in the Devices pane to display the corresponding properties in the [Properties pane](./). These properties can be modified both in Live and Edit mode.&#x20;
+Select an ActiveIO device in the Devices pane to display the corresponding properties in the [Properties pane](./). These properties can be modified in Live and Edit mode.&#x20;
 
 Many ActiveIO devices can also be Rigid Body assets in Motive. This page covers the properties specific to ActiveIO. For information about asset properties, please see the [Properties: Rigid Body](properties-pane-rigid-body.md) page.&#x20;
 
@@ -117,7 +117,7 @@ This property is available for ActiveIO devices only.&#x20;
 
 <summary>Notes <em>(Advanced)</em></summary>
 
-An open text field for storing custom device information, such as asset tag, location, etc. &#x20;
+An open text field for storing custom device information, such as asset tag and location. &#x20;
 
 </details>
 
@@ -172,7 +172,7 @@ This property is available for ActiveIO devices only.&#x20;
 A preset collection of LED patterns that ensures a unique ID for each active marker in the device. Pattern groups also make it easier to assign a different set of patterns to each device in the volume.&#x20;
 
 * Pattern groups each specify 8 marker patterns. Devices with more than 8 markers will occupy the selected pattern group and part of the next group.
-* Motive will attempt to prevent overlapping patterns with ActiveIO active tags, but cannot directly read or change the pattern group values of Active Classic devices.
+* Motive will attempt to prevent overlapping patterns with ActiveIO active tags, but it cannot directly read or change the pattern group values of Active Classic devices.
 * If running an ActiveIO tag and an Active Classic tag concurrently, you can confirm that the markers are in different pattern groups by selecting them in the 3D view and reading the label that appears.&#x20;
 * Motive will also notify users when it detects duplicate active patterns in the scene.
 
