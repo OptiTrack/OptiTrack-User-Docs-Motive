@@ -12,7 +12,7 @@ metaLinks:
 
 ### Host PC Requirements
 
-Required PC specifications may vary depending on the size of the camera system. Generally, a system with more than 24 cameras will require the recommended specs to run properly.
+Required PC specifications can vary depending on the size of the camera system. Generally, a system with more than 24 cameras will require the recommended specs to run properly.
 
 <table><thead><tr><th>Recommended</th><th valign="top">Minimum</th></tr></thead><tbody><tr><td><ul><li>OS: Windows (64-bit) any version currently supported by Microsoft</li><li>CPU: Intel i7 or better, running at 3 GHz or greater</li><li>RAM: 16GB of memory</li><li>GPU: GTX 1050 or better with the latest drivers and support for OpenGL 3.2+</li><li>USB C port to connect the Security Key or USB A port to connect the Hardware Key</li></ul></td><td valign="top"><ul><li>OS: Windows (64-bit) any version currently supported by Microsoft</li><li>CPU: Intel i7, 3 GHz</li><li>RAM: 4GB of memory</li><li>GPU that supports OpenGL 3.2+</li><li>USB C port or an adapter for USB A to USB C to connect the Security Key, or a USB A port to connect the Hardware Key</li></ul></td></tr></tbody></table>
 
@@ -30,7 +30,7 @@ When the download is complete, run the installer to begin the installation.
 
 #### **Install the USB Driver and Dependencies**
 
-When installing Motive for the first time, the installer will prompt you to install the OptiTrack USB Driver. This driver is required for all OptiTrack USB devices, including the Security and Hardware Keys. You may also be prompted to install other dependencies such as the C++ redistributable, which is included in the Motive installer. After all dependencies have been installed, Motive will resume its installation.
+When you install Motive for the first time, the installer prompts you to install the OptiTrack USB Driver. This driver is required for all OptiTrack USB devices, including the license keys. You might also be prompted to install other dependencies such as the C++ redistributable, which is included in the Motive installer. After all dependencies have been installed, Motive resumes its installation.
 
 #### **Install Motive**
 
@@ -40,9 +40,9 @@ Follow the installation prompts and install Motive in your desired file director
 
 #### **OptiTrack Peripheral Module**
 
-At the Custom Setup section of the installation process, you will be prompted to choose whether to install the Peripheral Devices along with Motive. If you plan to use force plate, NI-DAQ, or EMG devices along with the motion capture system, the Peripheral Devices must be installed.&#x20;
+At the Custom Setup section of the installation process, you're prompted to choose whether to install the Peripheral Devices along with Motive. If you plan to use force plate, NI-DAQ, or EMG devices along with the motion capture system, the Peripheral Devices must be installed.&#x20;
 
-If you are not going to use these devices, you may skip to the next step.
+If you don't intend to use these devices, you can skip to the next step.
 
 {% hint style="info" %}
 **Peripheral Module NI-DAQ**
@@ -62,67 +62,75 @@ The following settings are sufficient for most mocap applications. The page [Win
 
 #### **Firewall / Antivirus**
 
-We recommend isolating the camera network and the host PC so that firewall and antivirus protection are not required. That will not be possible in situations where the host PC is connected to a corporate  or institutional network. If so:&#x20;
+We recommend isolating the camera network and the host PC so that firewall and antivirus protection are not required. That's not possible when the host PC is connected to a corporate or institutional network. In that case:&#x20;
 
 * Make sure all antivirus software installed on the Host PC allows Motive traffic.
-* For Ethernet cameras, make sure the windows firewall is configured so the camera network is recognized.&#x20;
+* For Ethernet cameras, make sure the Windows firewall is configured so the camera network is recognized.&#x20;
 
 Potential issues that can occur if antivirus software is installed:&#x20;
 
-* Some programs (i.e., BitDefender, McAfee, etc.) may block Motive from downloading. The Motive software downloaded directly from [OptiTrack.com/downloads](https://optitrack.com/support/downloads/) is safe for use and will not harm your computer.&#x20;
-* If you're unable to view cameras in the [Devices pane](../motive-ui-panes/devices-pane.md), or you are seeing frame/data drops, verify that the antivirus or firewall settings allow all traffic from your camera network to Motive and vice versa.&#x20;
-* Antivirus software may need to be completely uninstalled if it continues to interfere with camera communication.&#x20;
+* Some programs (such as BitDefender and McAfee) might block Motive from downloading. The Motive software downloaded directly from [OptiTrack.com/downloads](https://optitrack.com/support/downloads/) is safe for use and will not harm your computer.&#x20;
+* If you're unable to view cameras in the [Devices pane](../motive-ui-panes/devices-pane.md), or you see frame/data drops, verify that the antivirus or firewall settings allow all traffic from your camera network to Motive and vice versa.&#x20;
+* You might need to completely uninstall antivirus software if it continues to interfere with camera communication.&#x20;
 
 #### **High Performance**
 
-Windows power saving mode limits CPU usage, which can impact Motive performance.&#x20;
+Windows power saving mode limits CPU usage, which can affect Motive performance.&#x20;
 
-To best utilize Motive, set the Power Plan to _High Performance_. Go to _Control Panel → Hardware and Sound → Power Options_ as shown in the image below.
+To best utilize Motive, set the Power Plan to High Performance. Go to Control Panel → Hardware and Sound → Power Options as shown in the image below.
 
 ![Notification to enable the high performance mode.](<../.gitbook/assets/image (737).png>) ![Enabling the high performance mode. Click image to enlarge.](<../.gitbook/assets/image (682).png>)
 
 #### **Graphics Card Settings**
 
-**Required only for computers with integrated graphics.**
+**This is required only for computers with integrated graphics.**
 
-Computers that have integrated graphics on the motherboard in addition to a dedicated graphics card may switch to the integrated graphics when the computer goes to sleep mode. This may cause the Viewport to become unresponsive when the PC exits sleep mode.&#x20;
+Computers that have integrated graphics on the motherboard in addition to a dedicated graphics card might switch to the integrated graphics when the computer goes to sleep mode. This can cause the Viewport to become unresponsive when the PC exits sleep mode.&#x20;
 
 To prevent this, set Motive to use high performance graphics only.&#x20;
 
-* Type _Graphics_ in the Windows Search bar to find and open the Graphics settings, located at _System > Display > Graphics_.&#x20;
+* Type Graphics in the Windows Search bar to find and open the Graphics settings, located at System > Display > Graphics.&#x20;
 
 <figure><img src="../.gitbook/assets/Windows Graphics Settings - customize only.png" alt="" width="451"><figcaption><p>Add an application for custom graphics settings. </p></figcaption></figure>
 
 * In the Add an app field, select Desktop app, then browse to the Motive executable: \
   C:\Program Files\OptiTrack\Motive\Motive.exe.
-* Motive will now appear in the list of customizable applications.&#x20;
-* Click Motive to display, then click, the Options button.
+* Motive now appears in the list of customizable applications.&#x20;
+* Click Motive to display, then click the Options button.
 * &#x20;Set the Graphics preference to High performance and click Save.
 
 <figure><img src="../.gitbook/assets/Graphics Preference settings.png" alt="" width="305"><figcaption><p>Windows Graphics preference for an application.</p></figcaption></figure>
 
 ## License Activation
 
-Once Motive is installed, the next step is to activate the software using the Motive 3.x license information provided at the time of purchase, and attach either the USB Security or Hardware Key. The Security Key attaches to the Host PC either through a USB C port or using an adapter for USB A to USB C. The Hardware Key attaches to the Host PC through a USB A port.
+Once Motive is installed, the next step is to activate the software using the Motive 3.x license information provided at the time of purchase, and attach a key.&#x20;
+
+### Security Key M
+
+The most recent key (and the only one currently sold) is the Security Key M, which attaches to the Host PC either directly via a USB-C port or through an adapter for USB-A to USB-C. It works with Motive 3.1 and later, as well as Motive 2.x. The Security Key M does not work with any version of Motive 3.0.x.
+
+<figure><img src="../.gitbook/assets/Security Key M.jpg" alt="The OptiTrack Security Key M for activating Motive software"><figcaption><p>Security Key M.</p></figcaption></figure>
+
+### Security Key and Hardware Key
+
+Two other keys are the Security Key (different from the Security Key M, above) and the Hardware Key. Neither of these keys is still produced, but those in circulation should still activate the software if they're working properly and connected to a license. The Security Key attaches to the Host PC through a USB-C port. The Hardware Key attaches to the Host PC either through a USB-A port or by using an adapter for USB-A to USB-C.
 
 <div><figure><img src="../.gitbook/assets/Security Key (3).png" alt=""><figcaption><p>     Security Key.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Hardware Key (2).png" alt=""><figcaption><p>          Hardware Key. </p></figcaption></figure></div>
 
-### Security Key vs. Hardware Key
+OptiTrack introduced a new licensing option with Motive 3.1.&#x20;
 
-OptiTrack introduced a new licensing option with Motive 3.&#x20;
-
-* **Security Key (Motive 3.x and above):** Beginning with version 3.0, a USB C Security Key is now available.&#x20;
-* **Hardware Key (Motive 2.x or below):** The USB A Hardware Key works with all versions of Motive. Motive 2.x versions and earlier require the USB A Hardware Key.&#x20;
+* **Security Key:** This key works with any version of Motive, starting with 3.0.0.&#x20;
+* **Hardware Key:** This key works with Motive 3.1.x or later as well as Motive 2.x. &#x20;
 
 Only one key should be connected at a time.&#x20;
 
-Security Keys are purchased separately. For more information, please see the following page: [https://optitrack.com/accessories/license-keys/](https://optitrack.com/accessories/license-keys/)
+The Security Key M is purchased separately. For more information, please see the following page: [https://optitrack.com/accessories/license-keys/](https://optitrack.com/accessories/license-keys/)
 
-To replace your Hardware Key with a Security Key, please [contact our Technical Sales group](https://www.optitrack.com/contact/).
+Once activated, licenses are permanently tied to their license key. If you need to transfer a license to another key, please contact support@optitrack.com. If you need a new license key, please contact sales@optitrack.com.
 
 ### License Types
 
-There are five types of Motive licenses:&#x20;
+There are five types of Motive license:&#x20;
 
 * Motive:Body-Unlimited
 * Motive:Body
@@ -136,9 +144,9 @@ Each license unlocks different features in the software depending on the use cas
 * The Motive:Tracker license is intended for real-time Rigid Body tracking applications.
 * The Motive:Edit and Motive:Edit Unlimited licenses are intended for users modifying data after it has been captured (post production work).&#x20;
 
-For more information on different Motive licenses, check the software comparison table on our [website](http://optitrack.com/software/compare/). An abbreviated version is available in the table below.
+For more information on different Motive licenses, check the [software comparison table](https://www.optitrack.com/software/motive/pricing) on our website. An abbreviated version is available in the table below.
 
-<table><thead><tr><th width="136">Feature</th><th width="104" align="center">Tracker</th><th width="110" align="center">Body</th><th width="147" align="center">Body Unlimited</th><th width="100" align="center">Edit</th><th align="center">Edit Unlimited</th></tr></thead><tbody><tr><td>Live Rigid Bodies </td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">No</td><td align="center">No</td></tr><tr><td>Live Skeletons &#x26; Trained Markersets </td><td align="center">No</td><td align="center">Up to 3</td><td align="center">Unlimited</td><td align="center">No</td><td align="center">No</td></tr><tr><td>Edit Rigid Bodies and Non-Trained (Manually- Labeled) Markersets</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td></tr><tr><td>Edit Skeletons &#x26; Trained Markersets </td><td align="center">No</td><td align="center">Up to 3</td><td align="center">Unlimited</td><td align="center">Up to 3</td><td align="center">Unlimited</td></tr><tr><td>Duplex Mode</td><td align="center">No</td><td align="center">Live Capture and Post</td><td align="center"><p>Live Capture </p><p>and Post</p></td><td align="center">Post Only</td><td align="center">Post Only</td></tr></tbody></table>
+<table><thead><tr><th width="136">Feature</th><th width="104" align="center">Tracker</th><th width="110" align="center">Body</th><th width="147" align="center">Body Unlimited</th><th width="100" align="center">Edit</th><th align="center">Edit Unlimited</th></tr></thead><tbody><tr><td>Live Rigid Bodies </td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">No</td><td align="center">No</td></tr><tr><td>Live Skeletons and Trained Markersets </td><td align="center">No</td><td align="center">Up to 3</td><td align="center">Unlimited</td><td align="center">No</td><td align="center">No</td></tr><tr><td>Edit Rigid Bodies and Non-Trained (Manually  Labeled) Markersets</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td><td align="center">Unlimited</td></tr><tr><td>Edit Skeletons and Trained Markersets </td><td align="center">No</td><td align="center">Up to 3</td><td align="center">Unlimited</td><td align="center">Up to 3</td><td align="center">Unlimited</td></tr><tr><td>Duplex Mode</td><td align="center">No</td><td align="center">Live Capture and Post</td><td align="center"><p>Live Capture </p><p>and Post</p></td><td align="center">Post Only</td><td align="center">Post Only</td></tr></tbody></table>
 
 ### Activate the License
 
@@ -150,19 +158,19 @@ Motive licenses are activated using the License Activation tool. This tool can b
 
 #### License Activation Tool
 
-* Launch Motive. If the license has been activated, the splash screen will appear momentarily before Motive loads. If not, the splash screen will display the _License not found_ error and a menu.&#x20;
+* Launch Motive. If the license has been activated, the splash screen appears momentarily before Motive loads. If it has not, the splash screen displays the License not found error and a menu.&#x20;
 
 <figure><img src="../.gitbook/assets/License Not Found (1).png" alt="" width="244"><figcaption><p>Motive splash screen with the<br>License not found message.</p></figcaption></figure>
 
-* Click _License Tool_ to open the License Activation Tool.&#x20;
+* Click License Tool to open the License Activation Tool.&#x20;
 
 <figure><img src="../.gitbook/assets/License Activation Tool (1).png" alt=""><figcaption></figcaption></figure>
 
-* The _License Serial Number_ and _License Hash_ were provided on a printed card (enclosed in an envelope) when the license was purchased. If the card is missing, this information is also located on the order invoice.
-* The _Security Key Serial Number_ is printed on the attached USB security or hardware key. &#x20;
+* The License Serial Number and License Hash are provided on a printed card (enclosed in an envelope) when the license is purchased. If the card is missing, this information is also located on the order invoice.
+* The Security Key Serial Number is printed on the attached USB security or hardware key. &#x20;
 * If you have already activated the license on another machine, make sure to enter the same name when activating it on the new PC.
-* Once you have entered all the information, click _Activate_. The license files will be copied into the license folder: C:\ProgramData\OptiTrack\License.
-* Click _Retry_ to finish loading Motive.
+* Once you have entered all the information, click Activate. The license files are copied into the license folder: C:\ProgramData\OptiTrack\License.
+* Click Retry to finish loading Motive.
 
 {% hint style="warning" %}
 Only one license (initial or maintenance) can be activated at a time. If you purchased one or more years of maintenance licensing, wait until the initial license expires before activating the first maintenance license. Let the first maintenance license expire before activating the next, and so on.&#x20;
@@ -170,16 +178,16 @@ Only one license (initial or maintenance) can be activated at a time. If you pur
 
 #### **Online Activation Tool**
 
-The Online License Activation tool allows you to activate licenses from the [OptiTrack Support page](https://optitrack.com/support/). This option requires more steps but is helpful if you are activating licenses for multiple systems or do not have access to the host PC to use the license tool from the splash screen.&#x20;
+The Online License Activation tool lets you activate licenses from the [OptiTrack Support page](https://optitrack.com/support/). This option requires more steps but is helpful if you are activating licenses for multiple systems or do not have access to the host PC to use the license tool from the splash screen.&#x20;
 
 ![](<../.gitbook/assets/image (700).png>)
 
 * Enter the email address to send the license file(s) to in the E-mail Address field.&#x20;
-* The _License Serial Number_ and _License Hash_ are located on the order invoice.
-* The _Device Serial Number_ is printed on the USB security key.&#x20;
+* The License Serial Number and License Hash are located on the order invoice.
+* The Device Serial Number is printed on the USB security key.&#x20;
 * If you have already activated the license on another machine, make sure to enter the same name when activating it on the new PC.
-* Once you have entered all the information, click _Activate_.&#x20;
-* The license file(s) will arrive via email. Check your spam filter and junk mail if you don't see it in your inbox.&#x20;
+* Once you have entered all the information, click Activate.&#x20;
+* The license file(s) arrive via email. Check your spam filter and junk mail if you don't see it in your inbox.&#x20;
 * Download the license file(s) to the License Folder on the hard drive of the host PC: C:\ProgramData\OptiTrack\License.
 * Insert the USB security key, then launch Motive.&#x20;
 
@@ -200,24 +208,24 @@ The Check My License tool allows you to lookup license information to obtain the
 
 **About Motive Screen**
 
-_About Motive_ includes information about the active license, which can be exported to a text file by clicking the Export... link at the bottom.&#x20;
+About Motive includes information on the active license, which can be exported to a text file by clicking the Export... link at the bottom.&#x20;
 
 <figure><img src="../.gitbook/assets/About Motive - Activated and masked.png" alt="" width="562"><figcaption><p>About Motive with an active license.</p></figcaption></figure>
 
-If Motive does not detect an active license, you can still open _About Motive_ from the splash screen, however the only information available is the Machine ID.&#x20;
+If Motive does not detect an active license, you can still open About Motive from the splash screen. However, the only information available is the Machine ID.&#x20;
 
 <figure><img src="../.gitbook/assets/About Motive ID Masked (3).png" alt="" width="560"><figcaption><p>About Motive without an active license. </p></figcaption></figure>
 
 ## Using Activated Software on a Different Computer
 
-You can install Motive on more than one computer with the same license and security key, but you will not be able to use it on multiple PCs simultaneously. Only the PC with the security key connected will be able to run Motive.  &#x20;
+You can install Motive on more than one computer with the same license and security key, but you cannot use it on multiple PCs simultaneously. Only the PC with the license key connected can run Motive.  &#x20;
 
 #### Use the License Activation Tool
 
 You can use the License Activation Tool to acquire the license files for the new host PC. This includes the initial license and any maintenance licenses that were purchased.
 
 * When run from the Motive splash screen, the tool will download the license files directly&#x20;
-* When run from the OptiTrack Support website, the license files will be sent via emailed. &#x20;
+* When run from the OptiTrack Support website, the license files are sent via email. &#x20;
 
 When using this method to transfer the license, enter the same contact information that was entered the first time the license was activated. We recommend exporting the license data to a text file from the original installation to use as a reference. &#x20;
 
@@ -227,7 +235,7 @@ If the original information is lost, please contact [OptiTrack Support](https://
 
 The license file(s) can also be copied from one computer to another. License files are located at c:\ProgramData\OptiTrack\License. Open the license folder from the Motive Help menu. &#x20;
 
-If the files are copied from one PC to another, there is no need to re-run the License Activation Tool to begin using the currently active license. Simply install the version of Motive supported by the license and connect the security key.&#x20;
+If the files are copied from one PC to another, there is no need to rerun the License Activation Tool to begin using the currently active license. Simply install the version of Motive supported by the license and connect the license key.&#x20;
 
 ## More Questions?
 
@@ -235,9 +243,9 @@ For more information on licensing of Motive, refer to the Licensing FAQs from th
 
 * [http://optitrack.com/support/faq/licensing.html](http://optitrack.com/support/faq/licensing.html)
 
-For common licensing issues and troubleshooting recommendations, please see the Licensing Troubleshooting page. &#x20;
+For common licensing issues and troubleshooting recommendations, please see the [Licensing Troubleshooting](https://docs.optitrack.com/general-troubleshooting/licensing-troubleshooting) page. &#x20;
 
 For more questions, contact OptiTrack Support:
 
 * [http://optitrack.com/support/](http://optitrack.com/support/)
-* Please attach the LicenseData.txt file exported from the _About Motive_ panel as a reference.
+* Please attach the LicenseData.txt file exported from the About Motive panel as a reference.
