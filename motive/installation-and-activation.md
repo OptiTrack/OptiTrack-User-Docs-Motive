@@ -103,30 +103,20 @@ To prevent this, set Motive to use high performance graphics only.&#x20;
 
 ## License Activation
 
-Once Motive is installed, the next step is to activate the software using the Motive 3.x license information provided at the time of purchase, and attach a key.&#x20;
+Once Motive is installed, activate your license by linking it to a USB license key. You need your license info card for the license serial and hash, and the serial number on the license key. Activating will generate a license file in the license folder on your computer.
 
-### Security Key M
+There are three types of license keys in circulation, but only the Security Key M is currently sold. You need to purchase the key separately from your license. (For more information, visit the following page: [https://optitrack.com/accessories/license-keys](https://optitrack.com/accessories/license-keys/).) Details on all three license keys are provided in the table below.
 
-The most recent key (and the only one currently sold) is the Security Key M, which attaches to the Host PC either directly via a USB-C port or through an adapter for USB-A to USB-C. It works with Motive 3.1 and later, as well as Motive 2.x. The Security Key M does not work with any version of Motive 3.0.x.
+<table><thead><tr><th width="144">License Key Name</th><th width="180" align="center">Image</th><th width="183" align="center">Connection Type</th><th width="120" align="center">Currently Sold</th><th width="126" align="center">Motive Version Compatibility</th></tr></thead><tbody><tr><td>Security Key M</td><td align="center"><img src="../.gitbook/assets/Security Key M.jpg" alt=""></td><td align="center">USB-C<br>(can be used with an adaptor to USB-A)</td><td align="center">Yes</td><td align="center">Any version except Motive 3.0.x</td></tr><tr><td>Security Key</td><td align="center"><img src="../.gitbook/assets/Security Key.jpg" alt=""></td><td align="center">USB-C<br>(can be used with an adaptor to USB-A)</td><td align="center">No</td><td align="center">Motive 3.0 and later</td></tr><tr><td>Hardware Key</td><td align="center"><img src="../.gitbook/assets/Hardware Key.jpg" alt=""></td><td align="center">USB-A<br>(can be used with an adaptor to USB-C)</td><td align="center">No</td><td align="center">Any version except Motive 3.0.x</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/Security Key M.jpg" alt="The OptiTrack Security Key M for activating Motive software"><figcaption><p>Security Key M.</p></figcaption></figure>
+### Additional License Information
 
-### Security Key and Hardware Key
-
-Two other keys are the Security Key (different from the Security Key M, above) and the Hardware Key. Neither of these keys is still produced, but those in circulation should still activate the software if they're working properly and connected to a license. The Security Key attaches to the Host PC through a USB-C port. The Hardware Key attaches to the Host PC either through a USB-A port or by using an adapter for USB-A to USB-C.
-
-<div><figure><img src="../.gitbook/assets/Security Key (3).png" alt=""><figcaption><p>     Security Key.</p></figcaption></figure> <figure><img src="../.gitbook/assets/Hardware Key (2).png" alt=""><figcaption><p>          Hardware Key. </p></figcaption></figure></div>
-
-OptiTrack introduced a new licensing option with Motive 3.1.&#x20;
-
-* **Security Key:** This key works with any version of Motive, starting with 3.0.0.&#x20;
-* **Hardware Key:** This key works with Motive 3.1.x or later as well as Motive 2.x. &#x20;
-
-Only one key should be connected at a time.&#x20;
-
-The Security Key M is purchased separately. For more information, please see the following page: [https://optitrack.com/accessories/license-keys/](https://optitrack.com/accessories/license-keys/)
-
-Once activated, licenses are permanently tied to their license key. If you need to transfer a license to another key, please contact support@optitrack.com. If you need a new license key, please contact sales@optitrack.com.
+* Connect only one key at a time.
+* After installing Motive, click About Me on the splash screen to see whether the license key is detected. Doing so also shows your license files and their info.
+* Plug the license key directly into a computer and not into a USB hub.
+* It is best practice to keep only the license file you are currently using in your computer's license folder, and not any previous versions.&#x20;
+* After activation, your maintenance period begins. You can use the license tool again to regenerate the license file if you lose it.
+* Once activated, licenses are permanently tied to the license key. If you need to transfer a license to another key, please contact support@optitrack.com. If you need a new license key or license, please contact sales@optitrack.com.
 
 ### License Types
 
