@@ -10,6 +10,61 @@ description: Motive's changelog history.
 
 <summary>Motive 3.5</summary>
 
+### Motive 3.5.1 Final
+
+#### Full Feature List
+
+* **ActiveIO**
+  * **100 Devices Supported** - Added the ability to support as many as 100 ActiveIO tags.
+  * **Tag8 Neo** - Added support for the Tag8 Neo.
+  * **Wake on Motion** - Implemented the ability to enable/disable wake-on-motion functionality for ActiveIO wands and squares, and implemented the ability to set the duration of wake on motion.
+  * Added the ability to turn off IMU data.
+  * Implemented the ability to change the System ID as well as the ability to ignore the advertising System ID for ActiveIO devices.
+  * Added the ability for the log pane to report signal strength and packet error problems.
+* **General**
+  * **Deflection Ratio** - Changed the (.motive) property name for the Deflection Ratio property to be more understandable. This might break loading in older rigid bodies into this version of Motive.
+  * **Filter Hotkeys** - Added customizable filter hotkeys that swap the smoothing frequency.
+  * Added a hotkey to enable reverse playback.
+  * Added the option to export rigid body quality data (Mean Marker Error).
+  * Added the ability to export calibration files for Tracking Bars.
+
+#### Fixes
+
+* **ActiveIO**
+  * **Active Pattern Depth** - Fixed an issue where pattern depth did not correctly change from the default on ActiveIO devices.
+  * Fixed an issue on the AnchorPuck where the marker states did not work properly.
+  * Fixed an issue where legacy takes with Active devices would crash Motive when playing back and streaming.
+  * Fixed an issue where BaseStation radios occasionally did not come in properly.
+  * Fixed an issue where disabled ActiveIO devices would be incorrectly removed from the system instead of being shown as disabled.
+  * Fixed an issue where ActiveIO Pucks would show as unavailable after a Motive restart while Sleep Mode is enabled.
+  * Fixed an issue where sensor-fused pucks incorrectly appeared to be disabled on a Motive restart.
+  * Fixed an issue where an ActiveIO BaseStation incorrectly limited the maximum native frame rate to 120 Hz.
+  * Fixed an issue where IMU data would not end up in the (.tak) file when recording with a legacy Active device.
+  * Fixed an issue where sensor-fused Pucks incorrectly appeared disabled and did not properly receive profile properties on a Motive restart.
+  * Fixed an issue where the sensor fusion label displayed an incorrect message when the IMU was turned off on an Active tag.
+  * Fixed an issue where a low bandwidth warning was erroneously shown for the ActiveIO BaseStation when only one device was connected.
+  * Fixed an issue in the Devices Pane where one was unable to scroll horizontally with an expanded list of Active devices.
+  * Fixed an issue where ActiveIO Tags would occasionally cause a huge jump in number of devices reported incongruent with the actual number.
+* **General**
+  * Fixed an issue where the Rename Assets hotkey did not function correctly.
+  * Fixed a frame-access error when shutting down Motive when certain takes are loaded.
+  * Fixed an issue where Motive would crash on certain dialog animations.
+  * Fixed an issue where the Capture Volume Color Picker incorrectly popped up when changing values in the 3D Views tab.
+  * Fixed an issue where the 2D View would stall occasionally when running cameras over a long period of time.
+* **Exporting**
+  * nMotive - Fixed an issue where nMotive would not export Duplex Mode video data.
+  * FBX Export - Fixed an issue where, when exporting FBX with Use Timecode enabled, keyframes were missing from the timeline, which caused incorrect importing into Blender.
+  * CSV Export - Fixed an issue where headers were not being offset correctly in the CSV Export when exporting a .tak with PTP.
+* **Other Devices**
+  * Fixed an issue on the PrimeX 260 where gain 1 did not apply with the correct value when toggled.
+  * Fixed an issue on the PrimeX 120 where image quality would drop when switching to Duplex Mode.
+
+#### Known Issues
+
+* **Force Plates:** Force plate data will not be recorded when camera frames are dropped.
+* **Cameras:** Cameras operating in Reference video modes (e.g. MJPEG, Grayscale, or Color Video) may not run at a faster frame rate than the cameras in Tracking video modes.
+* **Files:** Take files recorded in Motive versions older than 1.7 may need to be loaded into Motive 2.0 before loading them into Motive 3.0.
+
 ### Motive 3.5.0 Final
 
 #### **Full Feature List**
