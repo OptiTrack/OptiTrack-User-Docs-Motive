@@ -113,7 +113,7 @@
     * [Properties Pane: Skeleton](motive-ui-panes/properties-pane/properties-pane-skeleton.md)
     * [Properties Pane: Take](motive-ui-panes/properties-pane/properties-pane-take.md)
     * [Properties Pane:  Trained Markerset](motive-ui-panes/properties-pane/properties-pane-trained-markerset.md)
-    * [Properties Pane: eSync2](motive-ui-panes/properties-pane/properties-pane-esync2.md)
+    * [Properties Pane: eSync 2](motive-ui-panes/properties-pane/properties-pane-esync2.md)
   * [Status Panel](motive-ui-panes/status-panel.md)
   * [Toolbar/Command Bar](motive-ui-panes/toolbar-command-bar.md)
   * [Control Deck](motive-ui-panes/control-deck.md)
