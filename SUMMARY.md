@@ -181,7 +181,7 @@
 * [SYNCHRONIZATION](synchronization/README.md)
   * [Synchronization Hardware](synchronization/synchronization-hardware/README.md)
     * [External Device Sync Guide: eSync 2](synchronization/synchronization-hardware/external-device-sync-guide-esync-2.md)
-    * [External Device Sync Guide: OptiHub2](synchronization/synchronization-hardware/external-device-sync-guide-optihub2.md)
+    * [External Device Sync Guide: OptiHub 2](synchronization/synchronization-hardware/external-device-sync-guide-optihub2.md)
   * [Synchronization Setup](synchronization/synchronization-setup.md)
   * [OptiTrack Timecode](synchronization/optitrack-timecode.md)
 * [VIRTUAL PRODUCTION](virtual-production/README.md)
