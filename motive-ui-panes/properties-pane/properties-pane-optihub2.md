@@ -1,9 +1,9 @@
-# Properties Pane: OptiHub2
+# Properties Pane: OptiHub 2
 
 {% hint style="danger" %}
 **Important Note**
 
-Please note that the OptiHub2 is not designed for _precise_ synchronization with external devices. It is used to provide only a _rough_ synchronization to a trigger event on the input/output signal. Using an OptiHub2, there will be some amount of time delay between the trigger events and the desired actions, and for this reason, the OptiHub2 is not suitable for the precisely synchronizing to an external device. To accomplish such synchronization, it is recommended to use the [eSync 2](../../synchronization/synchronization-hardware/external-device-sync-guide-esync-2.md) instead along with an Ethernet camera system.
+Please note that the OptiHub 2 is not designed for _precise_ synchronization with external devices. It is used to provide only a _rough_ synchronization to a trigger event on the input/output signal. Using an OptiHub 2, there will be some amount of time delay between the trigger events and the desired actions, and for this reason, the OptiHub 2 is not suitable for the precisely synchronizing to an external device. To accomplish such synchronization, it is recommended to use the [eSync 2](../../synchronization/synchronization-hardware/external-device-sync-guide-esync-2.md) instead along with an Ethernet camera system.
 {% endhint %}
 
 By modifying the device properties of the OptiHub, users can customize the sync configurations of the camera system for implementing external devices in various sync chain setups. This page directly lists out the properties of the OptiHub. For general instructions on customizing sync settings for integrating external devices, it is recommended to read through the [External Device Sync Guide: OptiHub 2](../../synchronization/synchronization-hardware/external-device-sync-guide-optihub2.md) guide.
