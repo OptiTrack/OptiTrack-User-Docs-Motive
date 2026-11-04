@@ -108,7 +108,7 @@
     * [Properties Pane: Camera](motive-ui-panes/properties-pane/properties-pane-camera.md)
     * [Properties Pane: Force Plates](motive-ui-panes/properties-pane/properties-pane-force-plates.md)
     * [Properties Pane: NI-DAQ](motive-ui-panes/properties-pane/properties-pane-ni-daq.md)
-    * [Properties Pane: OptiHub2](motive-ui-panes/properties-pane/properties-pane-optihub2.md)
+    * [Properties Pane: OptiHub 2](motive-ui-panes/properties-pane/properties-pane-optihub2.md)
     * [Properties Pane: Rigid Body](motive-ui-panes/properties-pane/properties-pane-rigid-body.md)
     * [Properties Pane: Skeleton](motive-ui-panes/properties-pane/properties-pane-skeleton.md)
     * [Properties Pane: Take](motive-ui-panes/properties-pane/properties-pane-take.md)
