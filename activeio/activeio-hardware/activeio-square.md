@@ -45,7 +45,7 @@ The LEDs turn off if the square sits idle for several minutes, to prevent the ba
 If the device is on but the markers are not visible in Motive, pick it up or move it to turn the LEDs back on. &#x20;
 {% endhint %}
 
-### Sync Modes
+### Modes
 
 The ActiveIO Square has two operating modes, Sync and Always On. The switch on the control panel allows you to change the mode when the device is not connected to to an ActiveIO BaseStation.&#x20;
 
@@ -61,49 +61,55 @@ In Sync mode, the ActiveIO Square is synced with an ActiveIO BaseStation. In thi
 
 The middle LED indicator light flashes blue when in this mode.
 
-#### Continuous
+#### Always On
 
-In Continuous mode, the IR LEDs emit constant light with no blinking and are not synced with the camera exposure. This mode does not require an ActiveIO BaseStation. The markers may appear dimmer to the cameras and battery life will be reduced when compared to Sync mode.&#x20;
+In Always On mode, the IR LEDs emit constant light with no blinking and are not synced with the camera exposure. This mode does not require an ActiveIO BaseStation. The markers can appear dimmer to the cameras and battery life will be reduced when compared to Sync mode.&#x20;
 
 The middle LED indicator light is solid green in this mode.
 
-### Indicator Lights
+### Indicator LEDs
 
 The ActiveIO Square has three indicator lights on the control panel.&#x20;
 
-#### Power
+#### Power Status (Left)
 
 The left LED (the lightning bolt symbol) indicates battery strength and charging.
 
-<figure><img src="../../.gitbook/assets/Active Wand Controls - Power light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the Power Indicator light highlighted. "><figcaption><p>The Power indicator light on the ActiveIO Square.</p></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Active Wand Controls - Power light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the Power Indicator light highlighted. "><figcaption></figcaption></figure></div>
 
-* Solid blue: battery power is good.
-* Solid orange: the battery is low and should be charged.&#x20;
-* Blinking red: the battery is critically low and needs to be charged. The IR LEDs are disabled in this state.&#x20;
-* Blinking green: the battery is charging.
-* Solid green: the device is fully charged.
+* **Solid blue:** The device is on, battery power is good.
+* **Slow-blink red:** The battery is critically low (less than 10%).
+* **Slow-blink green:** The battery is charging.
+* **Solid green:** The battery is fully charged.
+
+{% hint style="info" %}
+When battery charge is low, IR marker LEDs become disabled until the connected battery is recharged to more than 10%.
+{% endhint %}
 
 {% hint style="info" %}
 The light flashes red if a charging error occurs. Disconnect and reconnect the device if this happens. If the problem persists, [contact Support](https://optitrack.com/support#create-new-support-ticket).&#x20;
 {% endhint %}
 
-#### Sync State
+#### Sync Status (Center)
 
 
 
-The middle LED (the light emitting dome symbol) indicates which sync mode the device is in.&#x20;
+The middle LED (the light emitting dome symbol) indicates the mode or sync status of the device.&#x20;
 
-<figure><img src="../../.gitbook/assets/Active Wand Controls - Sync light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the Sync State Indicator light highlighted. "><figcaption><p>The Sync state indicator light on the ActiveIO Square.</p></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Active Wand Controls - Sync light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the Sync State Indicator light highlighted. "><figcaption></figcaption></figure></div>
 
-* Blinking blue: the ActiveIO Square is in sync mode.
-* Blinking green: the device is scanning.
-* Solid green: the device is in Continuous mode
+* **One-second blink blue:** The device is synced. (If intermittent orange blinks appear, that indicates that timing packets weren’t received; a lot of orange blinks indicates poor RF conditions.)
+* **One-second blink orange:** The device is synced (missed timing packet).
+* **Slow-blink green:** The device is advertising (claimed).
+* **Slow-blink violet:** The device is advertising (unclaimed).
+* **Solid orange:** The device is on standby (wake-on-motion status).
+* **Solid green:** The device is in Always On mode.
 
-#### IMU&#x20;
+#### IMU Status (Right)
 
 The right LED (the gyro symbol) is disabled on the ActiveIO Square.
 
-<figure><img src="../../.gitbook/assets/Active Wand Controls - Power IMU light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the IMU State Indicator light highlighted. "><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Active Wand Controls - Power IMU light highlighted.png" alt="A technical drawing of the ActiveIO Square control panel, with the IMU State Indicator light highlighted. "><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 #### Firmware Updates
