@@ -23,10 +23,8 @@ The ActiveIO Tag8 needs no assembly before use.
 
 ### Activation
 
-1. The ActiveIO Tag8 can be powered by a battery via connector or by an outside power source via USB-C port. When the Tag8 is connected to a battery, press the Power Button to turn it on. If it's powered via USB, it automatically powers on.
-2. Once powered, the ActiveIO Tag8 appears in Motive.
-
-<figure><img src="../../.gitbook/assets/Tag8_LEDs_Power_Labeled.jpg" alt="An ActiveIO Tag8 closeup with the power button and indicator LEDs identified and labeled."><figcaption></figcaption></figure>
+1. The ActiveIO Tag8 can be powered by a battery via connector or by an outside power source via USB-C port. When the Tag8 is connected to a battery, press the Power Button (see diagram below) to turn it on. The button is very small; you can activate is effectively by using a fingernail, pen, or pencil to push it. If the Tag8 is powered by an external source via USB, it automatically powers on.
+2. Once powered, the Tag8 appears in Motive.
 
 ### Operation
 
@@ -34,28 +32,45 @@ The ActiveIO Tag8 needs no programming with a unique label. Once connected to Mo
 
 When a battery is connected, the Tag8 can charge the battery if it's connected to an outside power source via USB.
 
-### Indicator LEDs
+<figure><img src="../../.gitbook/assets/ActiveIO Tag8 LEDs + Power Labeled 1.jpg" alt=""><figcaption></figcaption></figure>
 
-When the Tag8 is connected to a battery, the lower right LED indicates battery strength and charging.
+### Indicator LEDs and Power Button
 
-* It appears solid blue when battery power is good.
-* It appears solid orange when the battery needs charging.
-* It blinks red when the battery is critically low.
-* It blinks green when charging.
-* It appears solid green when fully charged or no battery is installed.
-* It flashes red when a charging error occurs.
-* **Note:** IR marker LEDs become disabled until the connected battery is recharged.
+#### Power Status LED (Lower Right)
 
-The upper left LED:
+* **Solid blue:** The device is on and connected to a battery; battery power is good.
+* **Slow-blink red:** The battery is critically low (less than 10%).
+* **Slow-blink green:** The battery is charging.
+* **Solid green:** The battery is fully charged, or no battery is installed and the device is connected to an external power source.
 
-* Blinks blue when the ActiveIO Tag8 is synced.
-* Breathes green when scanning.
-* Appears solid green if the Tag8 is in Continuous mode.
+{% hint style="info" %}
+When battery charge is low, IR marker LEDs become disabled until the connected battery is recharged to more than 10%.
+{% endhint %}
 
-The upper right LED:
+#### Sync Status LED (Upper Left)
 
-* Appears solid yellow when the Inertial Measurement Unit (IMU) needs calibration.
-* Appears solid green when the IMU is calibrated.
+* **One-second blink blue:** The device is synced. (Intermittent orange blinks appear when timing packets aren’t received; a lot of orange blinks indicates poor RF conditions.)
+* **One-second blink orange:** The device is synced (missed timing packet).
+* **Slow-blink green:** The device is advertising (claimed).
+* **Slow-blink violet:** The device is advertising (unclaimed).
+* **Solid orange:** The device is on standby (wake-on-motion status).
+* **Solid green:** The device is in Continuous mode.
+
+{% hint style="info" %}
+To switch between either of the synced modes (Patterned and Always On) and the non-synced mode (Continuous), double-click the power button, wait 1 second, then double-click it again.
+{% endhint %}
+
+#### IMU Status LED (Upper Right)
+
+* **Fast-blink orange:** The Inertial Measurement Unit (IMU) needs calibration. (To calibrate, set the device on a flat surface for a few seconds until the LED turns solid orange.)
+* **Solid orange:** The IMU is calibrated.
+* **Fast-blink violet:** Fusing
+* **Solid blue:** Fused
+
+#### All LEDs at Once
+
+* **Solid yellow:** The device has been selected in the Devices pane of Motive (this lets users identify the device when more than one is active in the volume).
+* **Cycle through all colors:** The device is updating firmware.
 
 ## Modes
 
@@ -65,7 +80,9 @@ The ActiveIO Clip has two synced modes (Patterned and Always On) and one non-syn
 
 Patterned and Always On modes are synchronized with the camera system through an ActiveIO BaseStation. Synchronization allows the IR markers to be as bright and visible as possible when needed while reducing power consumption overall. The upper left indicator LED on the Tag8 blinks blue when it's synced.&#x20;
 
-**NOTE:** The two synced modes (Patterned and Always On), do not work with the previous generation Active BaseStation.
+{% hint style="info" %}
+The two synced modes (Patterned and Always On), do not work with the previous generation Active BaseStation.
+{% endhint %}
 
 The two synced modes differ as follows:
 
