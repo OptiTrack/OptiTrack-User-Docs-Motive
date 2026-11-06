@@ -30,28 +30,15 @@ An ActiveIO BaseStation can support as many as 70 ActiveIO devices.&#x20;
 
 ## ActiveIO BaseStation Properties
 
-As shipped, ActiveIO BaseStations connect to the OptiTrack system without additional configuration by the user.&#x20;
-
-* In the [Devices pane](../../motive-ui-panes/devices-pane.md), select the ActiveIO BaseStation.
-* The [Properties pane](../../motive-ui-panes/properties-pane/) displays the device name, serial number, and frame rate.&#x20;
-
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Basic Props.png" alt=""><figcaption></figcaption></figure>
-
-Click the <img src="../../.gitbook/assets/Motive Context Menu.png" alt="" data-size="line"> menu button in the top right corner of the Properties pane to view Advanced device information.&#x20;
-
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Adv Props CROPPED.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" icon="memo-pad" %}
-#### Notes Property
-
-The Advanced Properties include the user-editable Notes field. Use this freeform-text field to identify devices in the manner that best suits your workflow.&#x20;
-{% endhint %}
+As shipped, ActiveIO BaseStations connect to the OptiTrack system without additional configuration by the user. To learn more about viewing properties related to the ActiveIO BaseStation, visit [Properties Pane: ActiveIO BaseStation](https://docs.optitrack.com/motive-ui-panes/properties-pane/properties-pane-activeio-basestation).
 
 ## **BaseStation Lightbar**
 
 The Lightbar on the bottom front of the ActiveIO BaseStation indicates the device status.&#x20;
 
-_Note: Behavior of the Lightbar on the ActiveIo BaseStation is controlled by firmware and is subject to change._
+{% hint style="info" %}
+Behavior of the Lightbar on the ActiveIo BaseStation is controlled by firmware and is subject to change.
+{% endhint %}
 
 <details>
 
