@@ -23,9 +23,9 @@ The ActiveIO Puck is powered by an internal battery that allows for 15W USB fast
 
 To turn the device on, press the power button on the front. Once the device is powered on, it will be available in Motive.&#x20;
 
-<figure><img src="../../.gitbook/assets/ActiveIO Puck - power and indicator lights CROPPED.png" alt="The Indicator lights and the Power button on the OptiTrack ActiveIO Puck."><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/ActiveIO Puck - power and indicator lights CROPPED.png" alt="The Indicator lights and the Power button on the OptiTrack ActiveIO Puck."><figcaption></figcaption></figure></div>
 
-### Indicator Lights
+### Indicator LEDs
 
 Three LEDs above the power button indicate the status of the ActiveIO Puck. When the device is in the Advertising state, all 3 LEDs will blink white. After connecting the device to an instance of Motive, the LEDs will cycle in a rainbow pattern if the firmware is being updated.&#x20;
 
@@ -35,39 +35,47 @@ When the ActiveIO Puck is selected in Motive, all 3 indicator lights will displa
 Conversely, single-click the power button on the device to highlight it in Motive.&#x20;
 {% endhint %}
 
-**Left - Power**
+#### Power Status (Left)
 
-The leftmost light indicates the battery strength & charging and charging status.&#x20;
+<div align="left"><figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light LEFT.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Power button highlighted in blue."><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light LEFT.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Power button highlighted in blue."><figcaption></figcaption></figure>
+* **Solid blue:** The device is on, battery power is good.
+* **Slow-blink red:** The battery is critically low (less than 10%).
+* **Slow-blink green:** The battery is charging.
+* **Solid green:** The battery is fully charged.
 
-* Solid blue indicates the device is running on battery power, with more than 10% charge available.
-* Solid green means the device is fully charged.
-* Flashing green indicates the device is charging.
-* Blinking red indicates the battery is at less than 10% and needs to be charged. IR LEDs are disabled until the device is charged to more than 10% capacity.
+{% hint style="info" %}
+When battery charge is low, IR marker LEDs become disabled until the connected battery is recharged to more than 10%.
+{% endhint %}
 
 {% hint style="info" %}
 The light flashes red if a charging error occurs. Disconnect and reconnect the device if this occurs. If the problem persists, [contact Support](https://optitrack.com/support#create-new-support-ticket).&#x20;
 {% endhint %}
 
-**Middle - Sync**
+#### Sync Status (Center)
 
-The middle LED shows the status of the connection to the BaseStation.&#x20;
+<div align="left"><figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light MIDDLE.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Sync button highlighted in blue."><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light MIDDLE.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Sync button highlighted in blue."><figcaption></figcaption></figure>
+* **One-second blink blue:** The device is synced. (If intermittent orange blinks appear, that indicates that timing packets weren’t received; a lot of orange blinks indicates poor RF conditions.)
+* **One-second blink orange:** The device is synced (missed timing packet).
+* **Slow-blink green:** The device is advertising (claimed).
+* **Slow-blink violet:** The device is advertising (unclaimed).
+* **Solid orange:** The device is on standby (wake-on-motion status).
+* **Solid green:** The device is in Continuous mode.
 
-* Flashing blue indicates the ActiveIO Puck is synced, in either Patterned or Always On mode.&#x20;
-*  Flashing green means the device is scanning or advertising for connection.
-* Solid green indicates the device is in Continuous mode.
+#### IMU Status (Right)
 
-**Right - Device Calibration**
+<div align="left"><figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light RIGHT.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Device Calibration button highlighted in blue."><figcaption></figcaption></figure></div>
 
-The right LED (the gyro symbol) indicates the calibration status.&#x20;
+* **Fast-blink orange:** The Inertial Measurement Unit (IMU) needs calibration.
+* **Solid orange:** The IMU is calibrated.
+* **Fast-blink violet:** Fusing
+* **Solid blue:** Fused
 
-<figure><img src="../../.gitbook/assets/ActiveIO Puck - indicator light RIGHT.png" alt="The three indicator lights on the ActiveIO Puck - Power, Sync, and Device Calibration, with the Device Calibration button highlighted in blue."><figcaption></figcaption></figure>
+#### All LEDs at Once
 
-* Flashing Orange indicates the device needs calibration. Place the ActiveIO Puck on flat surface to complete its calibration.&#x20;
-* Solid Orange means the device is calibrated.&#x20;
+* **Solid yellow:** The device has been selected in the Devices pane of Motive (this lets users identify the device when more than one is active in the volume).
+* **Cycle through all colors:** The device is updating firmware.
 
 ### Sync Modes
 
