@@ -1,72 +1,75 @@
 ---
-description: An in-depth look at the properties available for the ActiveIO BaseStation.
+description: An in-depth look at the properties available for ActiveIO devices.
 ---
 
-# Properties Pane: ActiveIO BaseStation
+# Properties Pane: ActiveIO Devices
 
 ## Overview
 
-The Properties pane for the ActiveIO BaseStation displays facts such as device name and serial number, data-transfer rate, firmware details, and available bandwidth for tracking ActiveIO devices. See the [ActiveIO BaseStation page](../../activeio/activeio-hardware/activeio-basestation.md) for instructions on setting up and using an ActiveIO BaseStation. See [Properties Pane: ActiveIO Devices](properties-pane-activeio-devices-1.md) for information specific to the ActiveIO Puck, Wand, Square, and HMD Clips.
+ActiveIO properties determine how the corresponding ActiveIO device is tracked and provides status information about the device, such as signal strength and battery level. This page covers the properties specific to the following ActiveIO devices:&#x20;
 
-For general information on using and customizing the Properties pane, see the [Properties pane](./) page. For detailed descriptions of properties for other asset types or devices, see the following pages:
+* ActiveIO Puck
+* ActiveIO Wand
+* ActiveIO Square
+* ActiveIO Clips
+
+Select an ActiveIO device in the Devices pane to display the corresponding properties in the [Properties pane](./). These properties can be modified in Live and Edit mode.&#x20;
+
+Many ActiveIO devices can also be Rigid Body assets in Motive. This page covers the properties specific to ActiveIO. For information about asset properties, please see the [Properties: Rigid Body](properties-pane-rigid-body.md) page.&#x20;
+
+To learn more about pairing an Inertial Measurement Unit (IMU) to a Rigid Body, please see the [IMU Sensor Fusion](../../motive/imu-sensor-fusion.md) page.&#x20;
+
+For general information on using and customizing the Properties pane, see the [Properties pane](./) page. For detailed descriptions of properties for other asset types or devices, please see the following pages:
 
 * [Properties: Take](properties-pane-take.md)
 * [Properties: Trained Markerset](properties-pane-trained-markerset.md)
 * [Properties: Skeleton](properties-pane-skeleton.md)
 * [Properties: Camera](properties-pane-camera.md)
-* [Properties: eSync 2](properties-pane-esync2.md)
+* [Properties: eSync2](properties-pane-esync2.md)
 * [Properties: Force Plates](properties-pane-force-plates.md)
 * [Properties: NI-DAQ](properties-pane-ni-daq.md)
-* [Properties: OptiHub 2](properties-pane-optihub2.md)
-* [Properties: eSync 2](properties-pane-esync2.md)
+* [Properties: OptiHub2](properties-pane-optihub2.md)
+* [Properties: eSync2](properties-pane-esync2.md)
 
-## ActiveIO BaseStation Properties
+{% hint style="info" %}
+**Advanced Settings**
 
-As shipped, ActiveIO BaseStations connect to the OptiTrack system without additional configuration by the user.&#x20;
+The Properties pane contains advanced settings that are hidden by default. To access these settings, click the <img src="../../.gitbook/assets/Motive Context Menu (24).png" alt="the Motive 3-dot settings menu button. " data-size="line"> button in the top right corner.&#x20;
 
-To view properties related to the ActiveIO BaseStation, select the device in the [Devices pane](../devices-pane.md).&#x20;
+Use the _Edit Advanced_ option to customize which settings are in the _Advanced Settings_ category and which appear in the standard view, to show only the settings that are needed specifically for your capture application.&#x20;
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Device + Basic Props + RED BOX.png" alt="An ActiveIO BaseStation shown in Motive software&#x27;s Devices pane."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Properties Pane - Show Advanced (3).png" alt="The menu to Show Advanced or Edit Advanced settings in Motive. "><figcaption><p>Show or Edit Advanced Settings.</p></figcaption></figure>
 
-Click the <img src="../../.gitbook/assets/Motive Context Menu.png" alt="" data-size="line"> menu button in the top right corner of the Properties pane and choose Show Advanced device information.&#x20;
+## Active Tag Properties
 
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Properties Show Advanced.png" alt=""><figcaption></figcaption></figure>
+To view properties related to the ActiveIO device, select it from the Active Tag section of the [Devices pane](../devices-pane.md).&#x20;
 
-The Advanced properties appear in three categories: Details, General, and Advanced.&#x20;
+{% hint style="warning" %}
+The properties shown are for ActiveIO devices. Not all are available for Active Classic devices.&#x20;
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Properties Advanced Shown.png" alt=""><figcaption></figcaption></figure>
-
-If you wish to display any or all of these properties by default rather than in the Advanced area, click Edit Advanced and check (or uncheck) the corresponding boxes. Click Done Editing to activate the changes.
-
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Properties Edit Advanced.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ActiveIO Standard Properties and Devices Pane.png" alt="The Properties Pane and Devices Pane for an ActiveIO Puck, paired to a Rigid Body."><figcaption><p>Properties Pane for an Active Tag (IMU) paired to a Rigid Body. Standard Properties only. </p></figcaption></figure>
 
 ### Details
 
-The Details section displays basic information about the ActiveIO BaseStation.&#x20;
+The Details section displays basic information about the device and IMU.&#x20;
 
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Advanced Properties 01 Details.png" alt="The Details section of the Properties pane in Motive software for the OptiTrack ActiveIO BaseStation."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ActiveIO Adv Properties - Details.png" alt="The Details section of the ActiveIO device properties, standard and advanced properties shown."><figcaption><p>Standard and Advanced properties in the Details section of the Active Tag properties.</p></figcaption></figure>
 
 <details>
 
 <summary>Device Name</summary>
 
-Identifies the type of device.&#x20;
+Identifies the type of device in which the IMU is installed.&#x20;
 
 </details>
 
 <details>
 
-<summary>Model</summary>
+<summary>Tag Type</summary>
 
-The internal model number.&#x20;
-
-</details>
-
-<details>
-
-<summary>Sub-Model</summary>
-
-The internal sub-model number.
+Identifies the type of tag in terms of Connection type, number of LEDs, and IMU type, if available.&#x20;
 
 </details>
 
@@ -74,80 +77,248 @@ The internal sub-model number.
 
 <summary>Serial Number</summary>
 
-The serial number of the ActiveIO BaseStation.&#x20;
+The serial number of the IMU.&#x20;
 
-</details>
-
-<details>
-
-<summary>Firmware Version</summary>
-
-The Firmware version currently installed on the device.&#x20;
-
-{% hint style="success" %}
-Firmware updates happen automatically, if needed, after the device connects to Motive.&#x20;
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
 {% endhint %}
 
 </details>
 
 <details>
 
-<summary>Logic Version</summary>
+<summary>Model (Advanced)</summary>
 
-The version of the internal hardware logic configuration programmed onto the device.&#x20;
+The internal model number for the IMU.
 
-{% hint style="success" %}
-Logic configuration updates automatically, if needed, when the device connects to Motive.&#x20;
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
 {% endhint %}
 
 </details>
 
 <details>
 
-<summary>Notes</summary>
+<summary>Firmware Version <em>(Advanced)</em></summary>
 
-An open text field for storing custom device information. &#x20;
+The Firmware version currently installed on the IMU.&#x20;
+
+{% hint style="success" %}
+The Firmware will update automatically if necessary when the device connects to Motive.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Notes <em>(Advanced)</em></summary>
+
+An open text field for storing custom device information, such as asset tag and location. &#x20;
 
 </details>
 
 ### General
 
-The General section shows the device's refresh rate (the same as frame rate for a camera) and available bandwidth. &#x20;
-
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Advanced Properties 02 General.png" alt="The General section of the Properties pane in Motive software for the OptiTrack ActiveIO BaseStation."><figcaption></figcaption></figure>
-
 The General IMU properties vary depending on the IMU type (ActiveIO or Active Classic) and the connection type (Ethernet or wireless).&#x20;
 
-<details>
-
-<summary>Rate</summary>
-
-The rate that data is transferred from ActiveIO devices to the cameras through the BaseStation. This is the equivalent of frame rate for cameras.
-
-</details>
+<figure><img src="../../.gitbook/assets/Properties - RB IMU General Adv (1).png" alt="The General section of the ActiveIO device properties, standard and advanced properties shown."><figcaption><p>Standard and Advanced properties in the General section of the Active Tag properties.</p></figcaption></figure>
 
 <details>
 
-<summary>Bandwidth Available</summary>
+<summary>Enabled</summary>
 
-The remaining capacity for the ActiveIO BaseStation to track devices in its range. Each unit can accommodate as many as 70 ActiveIO devices.
+When enabled, the device is available for tracking in Motive.&#x20;
 
-</details>
-
-### Advanced
-
-The Advanced section of the ActiveIO BaseStation Properties pane lists the firmware versions currently running on the device’s dual internal radio modules.
-
-<figure><img src="../../.gitbook/assets/ActiveIO BaseStation Advanced Properties 03 Advanced.png" alt="The Advanced section of the Properties pane in Motive software for the OptiTrack ActiveIO BaseStation."><figcaption></figcaption></figure>
-
-<details>
-
-<summary>Radio 1 Version / Radio 2 Version</summary>
-
-The firmware version running the device's radio modules.
-
-</details>
-
-{% hint style="warning" %}
-The properties shown are for ActiveIO devices. Not all are available for Active Classic devices.&#x20;
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
 {% endhint %}
+
+</details>
+
+<details>
+
+<summary>Connected LEDs <em>(Advanced)</em></summary>
+
+The number of LED active markers on the device.
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Marker State</summary>
+
+* **Off** turns off the LED pulse so the markers are lit continuously.&#x20;
+* **ActiveIO** sets the LEDs to pulse on and off according to a preset pattern.&#x20;
+* **Synchronized** sets the LEDs to illuminate every frame.&#x20;
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Pattern Group</summary>
+
+A preset collection of LED patterns that ensures a unique ID for each active marker in the device. Pattern groups also make it easier to assign a different set of patterns to each device in the volume.&#x20;
+
+* Pattern groups each specify 8 marker patterns. Devices with more than 8 markers will occupy the selected pattern group and part of the next group.
+* Motive will attempt to prevent overlapping patterns with ActiveIO active tags, but it cannot directly read or change the pattern group values of Active Classic devices.
+* If running an ActiveIO tag and an Active Classic tag concurrently, you can confirm that the markers are in different pattern groups by selecting them in the 3D view and reading the label that appears.&#x20;
+* Motive will also notify users when it detects duplicate active patterns in the scene.
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Illumination</summary>
+
+Indicates the amount of time, in microseconds, that the active LEDs will illuminate per frame when the [Marker State](properties-pane-activeio-devices.md#marker-state) is set to _Synchronized_ or _ActiveIO_.&#x20;
+
+By Default, this property is set to match the camera frame rate.&#x20;
+
+</details>
+
+<details>
+
+<summary>Battery Level</summary>
+
+Indicates the amount of battery power available, in percent.
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Signal Strength</summary>
+
+The strength of the RF signal, in decibel-milliwatts (dBm).&#x20;
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Packet Error Rate</summary>
+
+Displays the percentage of:&#x20;
+
+The number of frames where device data is received / number of frames (over the past 3 seconds)
+
+The rate is updated about every 3 seconds.&#x20;
+
+</details>
+
+<details>
+
+<summary>BaseStation <em>(Advanced)</em></summary>
+
+The serial number of the BaseStation where the active device is connected.&#x20;
+
+{% hint style="info" %}
+This property is available only for wireless devices that connect to a BaseStation.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>RF Channel <em>(Advanced)</em></summary>
+
+The radio frequency communication channel used to communicate with the BaseStation for wireless devices.&#x20;
+
+This property is available only for wireless devices that connect to a BaseStation.&#x20;
+
+</details>
+
+<details>
+
+<summary>Quality of Service</summary>
+
+The Quality of Service property allows the device to send the IMU packet multiple times on redundant RF channels to reduce dropped packets in difficult RF environments.
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Device State</summary>
+
+Indicates whether or not the device is connected to the instances of Motive:&#x20;
+
+* Advertising: The device is available but not connected to Motive.&#x20;
+* Claimed: The device is connected to Motive.&#x20;
+
+For more information on connecting an ActiveIO device, see the [ActiveIO Configuration](../../activeio/activeio-configuration.md) page.&#x20;
+
+{% hint style="info" %}
+This property is available for ActiveIO devices only.&#x20;
+{% endhint %}
+
+</details>
+
+### IMU
+
+The IMU section of the Active device properties contains status information about the IMU.&#x20;
+
+Please see the [IMU Sensor Fusion](../../motive/imu-sensor-fusion.md) page for more information on pairing an IMU to a Rigid Body.&#x20;
+
+<figure><img src="../../.gitbook/assets/Properties - RB IMU IMU Adv.png" alt="The IMU section of the ActiveIO device properties, standard and advanced properties shown."><figcaption><p>Standard properties in the IMU section of the Active Tag properties.</p></figcaption></figure>
+
+<details>
+
+<summary>IMU Type</summary>
+
+Identifies the type of IMU in the device.
+
+</details>
+
+<details>
+
+<summary>Paired</summary>
+
+Identifies the rigid body currently paired to the IMU. Lists _None_ if the IMU is currently unpaired.&#x20;
+
+</details>
+
+<details>
+
+<summary>Aligned</summary>
+
+Displays the current state of the IMU pairing.&#x20;
+
+* Unpaired&#x20;
+* Paired
+* Aligned
+
+</details>
+
+<details>
+
+<summary>Uplink ID <em>(Active Classic devices only)</em></summary>
+
+For Active Classic devices, the Uplink ID is a number programmed to a tag that allows its paired BaseStation to identify it uniquely from other tags. This number should be unique for each device associated with a BaseStation. For wireless devices, the Uplink ID is the second component of the Active Tag name in the Devices pane.&#x20;
+
+</details>
