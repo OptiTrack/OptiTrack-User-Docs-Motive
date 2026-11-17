@@ -141,6 +141,7 @@
   * [OptiTrack OpenXR Plugin](plugins/optitrack-openxr-plugin/README.md)
     * [OpenXR Plugin: Configure with a Varjo HMD](plugins/optitrack-openxr-plugin/openxr-plugin-configure-with-a-varjo-hmd.md)
   * [OptiTrack OpenVR Driver](plugins/optitrack-openvr-driver.md)
+  * [OptiTrack Omniverse Extension](plugins/optitrack-omniverse-extension.md)
   * [OptiTrack MATLAB Plugin](plugins/optitrack-matlab-plugin.md)
   * [Autodesk Maya](plugins/autodesk-maya/README.md)
     * [Autodesk Maya: OptiTrack Insight VCS Plugin](plugins/autodesk-maya/maya-plugins.md)
