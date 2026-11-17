@@ -52,27 +52,37 @@ The NatNet SDK provides [utility functions](../developer-tools/natnet-sdk/natnet
 
 #### **NatNet\_DecodeTimecode**
 
-Helper function to decode OptiTrack timecode data into individual timecode values bool NatNet\_DecodeTimecode(unsigned int inTimecode, unsigned int inTimecodeSubframe,
+Helper function to decode OptiTrack timecode data into individual timecode values&#x20;
 
-```
-            int* hour, int* minute, int* second, 
+```cpp
+bool NatNet_DecodeTimecode(unsigned int inTimecode, unsigned int inTimecodeSubframe,
+            int* hour, int* minute, int* second,
             int* frame, int* subframe);
 ```
 
 #### **NatNet\_TimecodeStringify**
 
-Helper function to decode OptiTrack timecode into a user friendly string in the form “hh:mm:ss:ff:yy” bool NatNet\_TimecodeStringify(unsigned int inTimecode, unsigned int inTimecodeSubframe,
+Helper function to decode OptiTrack timecode into a user friendly string in the form “hh:mm:ss:ff:yy”&#x20;
 
-```
+```cpp
+bool NatNet_TimecodeStringify(unsigned int inTimecode, unsigned int inTimecodeSubframe, 
             char *Buffer, int BufferSize);
 ```
 
 #### **C++ Sample: Using the utility functions for timecode parameters**
 
-The following is an example of how to decode timecode using the NatNet helper functions (from the SampleClient.cpp example): // decode timecode to values int hour, minute, second, frame, subframe; bool bValid = pClient->DecodeTimecode(data->Timecode, data->TimecodeSubframe,
+The following is an example of how to decode timecode using the NatNet helper functions (from the SampleClient.cpp example):&#x20;
 
-```
+```cpp
+// decode timecode to values 
+int hour, minute, second, frame, subframe; 
+bool bValid = pClient->DecodeTimecode(data->Timecode, data->TimecodeSubframe,
         &hour, &minute, &second, &frame, &subframe);
 ```
 
-// decode timecode to friendly string char szTimecode\[128] = ""; pClient->TimecodeStringify(data->Timecode, data->TimecodeSubframe, szTimecode, 128); printf("Timecode : %s\n", szTimecode);
+```cpp
+// decode timecode to friendly string 
+char szTimecode[128] = ""; 
+pClient->TimecodeStringify(data->Timecode, data->TimecodeSubframe, szTimecode, 128); 
+printf("Timecode : %s\n", szTimecode);
+```
