@@ -1,5 +1,5 @@
 ---
-description: Learn to setup and use the OptiTrack Blender plugin.
+description: Learn to set up and use the OptiTrack Blender plugin.
 metaLinks:
   alternates:
     - >-
@@ -16,8 +16,8 @@ The [OptiTrack Blender Plugin](https://optitrack.com/support/downloads/plugins.h
 
 ### Version Requirements <a href="#version-requirements" id="version-requirements"></a>
 
-* Blender Version: 4.1 or above (recommended)
-* Motive Version: 3.1.0 or higher
+* Blender Version: 4.1 or later (recommended)
+* Motive Version: 3.1.0 or later
 
 ## Blender Setup (Client) <a href="#blender-setup-client" id="blender-setup-client"></a>
 
@@ -28,19 +28,19 @@ To install the plugin:
 
 ### Import Plugin Package into Blender <a href="#import-plugin-package-in-blender" id="import-plugin-package-in-blender"></a>
 
-* In Blender, select _Preferences_ from the Edit menu.
+* In Blender, select Preferences from the Edit menu.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt="The Blender Edit menu, with Preferences selected and highlighted. "><figcaption><p>The Edit menu in Blender.</p></figcaption></figure>
 
-* Select _Add-ons_ from the menu on the left.
-* Use the dropdown arrow in the upper right corner to select _Install from Disk..._
-* Browse to the downloaded zip file and _Install from Disk_.
+* Select Add-ons from the menu on the left.
+* Use the dropdown arrow in the upper right corner to select Install from Disk...
+* Browse to the downloaded zip file and Install from Disk.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt="Blender&#x27;s Preferences panel, with Plugins highlighted. " width="495"><figcaption><p>Blender Preferences: Add-ons.</p></figcaption></figure>
 
 ### Enable the Plugin <a href="#enabling-the-plugin" id="enabling-the-plugin"></a>
 
-* Click in the Search bar at the top of the Preferences pane and search for _Motive_.
+* Click in the Search bar at the top of the Preferences pane and search for Motive.
 * Search will return the Motive Blender Plugin. Check the checkbox to enable it.&#x20;
 
 <figure><img src="../../.gitbook/assets/Blender Plugin Version Info.png" alt="The Add-ons section of the Blender Preferences panel with the Motive plugin selected, and enabled. "><figcaption><p>Enabling the Motive Blender Plugin from the Blender Preferences pane.</p></figcaption></figure>
@@ -63,19 +63,19 @@ The OptiTrack Blender Plugin is designed to configure the necessary streaming se
 
 Click the <img src="../../.gitbook/assets/Control Deck - Streaming Off SMALL (2).png" alt="The button to open Motive&#x27;s Streaming settings from the Control deck. " data-size="line"> button in the right corner of the Control Deck to open the [Data Streaming Pane](../../motive-ui-panes/settings/settings-streaming.md) in Motive’s [Application Settings](../../motive-ui-panes/settings/) window. Configure the following settings:
 
-* **Enable** - Toggle this setting on to enable streaming in Motive.
-* **Local Interface** - This is the Local Host IP address. Motive is the Server and Blender is the client.&#x20;
+* **Enable:** Toggle this setting on to enable streaming in Motive.
+* **Local Interface:** This is the Local Host IP address. Motive is the Server and Blender is the client.&#x20;
   * When running Motive and Blender on the same machine, select loopback. This sets the IP address for both Server and Client to 127.0.0.1.
   * When streaming to a different PC, select the IP address that connects the Motive (server) computer to the network where the Blender (client) computer is located.&#x20;
-* **Transmission type** - Set to _Multicast_. The Blender Plugin is currently unable to use Unicast.
-* **Rigid Bodies**- To stream Rigid Body data, enable _Rigid Bodies_.
-* **Skeletons** - To stream Skeleton data, enable _Skeletons_.&#x20;
-* **Skeleton coordinates** - Set to Global.
-* **Bone Naming Convention** - Set to _FBX_.
-* **Up Axis** - Set to _Y-Axis_. The plugin automatically converts the Up-Axis to the Z-axis.
-* **Remote Trigger** - Keep this setting disabled.
+* **Transmission type:** Set to Multicast. The Blender Plugin is currently unable to use Unicast.
+* **Rigid Bodies:** To stream Rigid Body data, enable Rigid Bodies.
+* **Skeletons:** To stream Skeleton data, enable Skeletons.&#x20;
+* **Skeleton coordinates:** Set to Global.
+* **Bone Naming Convention:** Set to FBX.
+* **Up Axis:** Set to Y-Axis. The plugin automatically converts the Up-Axis to the Z-axis.
+* **Remote Trigger:** Keep this setting disabled.
 
-Once these settings are configured correctly, prepare your live Motive session or a _Take_ to stream data into Blender.
+Once these settings are configured correctly, prepare your live Motive session or a Take to stream data into Blender.
 
 {% hint style="info" %}
 The Blender plugin 1.1.1 supports Rigid Body and Skeleton data only.
@@ -111,22 +111,22 @@ As needed, Blender settings can be changed in the plugin panel for the following
 * Unit Scale
 * Frame Rate
 
-Once changes are made, click the _Apply Configuration_ checkbox to override Blender's settings with those selected. Deselect the checkbox to revert settings back to Blender's default.&#x20;
+Once changes are made, click the Apply Configuration checkbox to override Blender's settings with those selected. Deselect the checkbox to revert settings back to Blender's default.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt="Configuration settings for the Motive Blender plugin."><figcaption><p>Configuration settings.</p></figcaption></figure>
 
 #### Start Connection
 
-Select _Start Connection_ to obtain the data stream from Motive.&#x20;
+Select Start Connection to obtain the data stream from Motive.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Connection options - not connected.</p></figcaption></figure>
 
-When connected, the Connection settings will display the assets streaming from Motive. Assets will be labeled by _Streaming ID: Asset Name._
+When connected, the Connection settings will display the assets streaming from Motive. Assets will be labeled by Streaming ID: Asset Nam&#x65;_._
 
 <figure><img src="../../.gitbook/assets/Blender Plugin Panel - Connected (1).png" alt=""><figcaption><p>Connection options - while connected.</p></figcaption></figure>
 
-* Use the _Refresh Assets_ button to update the asset data after switching _Takes_ in Motive.&#x20;
-* Click _Stop Connection_ to stop streaming data entirely.
+* Use the Refresh Assets button to update the asset data after switching Takes in Motive.&#x20;
+* Click Stop Connection to stop streaming data.
 
 ## Assign Assets <a href="#assigning-assets-rigid-bodies" id="assigning-assets-rigid-bodies"></a>
 
@@ -134,19 +134,19 @@ OptiTrack's Blender plugin can stream Rigid Bodies and Skeleton data from Motive
 
 ### Rigid Bodies <a href="#assigning-assets-rigid-bodies" id="assigning-assets-rigid-bodies"></a>
 
-* Open the _Object Properties_ for the 3D Mesh you wish to link to the Rigid Body.
-* In the _Motive: Assign Assets_ section, select the Rigid Body that you want to track with the mesh from the Cube dropdown list.
+* Open the Object Properties for the 3D Mesh you wish to link to the Rigid Body.
+* In the Motive: Assign Assets section, select the Rigid Body that you want to track with the mesh from the Cube dropdown list.
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>3D Mesh properties: Motive: Assign Assets.</p></figcaption></figure>
 
-* In the Motive plugin panel, select _Start Receiver._ The 3D Mesh will start ingesting the Rigid Body data directly from Motive.
+* In the Motive plugin panel, select Start Receive&#x72;_._ The 3D Mesh will start ingesting the Rigid Body data directly from Motive.
 * Use the Pause button to stop the data from streaming into the object, and the data will stop being written to the 3D mesh.
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Motive Rigid Body data streaming into Blender.<br>Click image to enlarge.</p></figcaption></figure>
 
 ### Skeletons
 
-The OptiTrack Blender plugin includes a pre-built skeleton mesh. To apply the mesh to Skeleton assets from Motive, click the **Add Motive Armature** button.&#x20;
+The OptiTrack Blender plugin includes a pre-built skeleton mesh. To apply the mesh to Skeleton assets from Motive, click the Add Motive Armature button.&#x20;
 
 <figure><img src="../../.gitbook/assets/Blender Plugin Add Motive Armature (2).png" alt="The button to Add Motive Armature in the OptiTrack Blender plugin panel."><figcaption></figcaption></figure>
 
@@ -154,12 +154,12 @@ Select the Motive Skeleton asset (the actor) in the Blender Scene Collection pan
 
 <figure><img src="../../.gitbook/assets/Blender plugin - select Actor in Scene Collection.png" alt="The Blender Scene Collection pane with a Motive skeleton asset selected and properties displayed. "><figcaption></figcaption></figure>
 
-* Open the _Object Properties_ for the mesh.
-* In the _Motive: Assign Assets_ section, select the Actor that you want to track with the Motive Armature.&#x20;
+* Open the Object Properties for the mesh.
+* In the _Motive:_ Assign Assets section, select the Actor that you want to track with the Motive Armature.&#x20;
 
 <figure><img src="../../.gitbook/assets/Blender - connect actor to Mesh CROPPED.png" alt="The &#x22;Motive Assign Assets&#x22; section of the Blender mesh properties pane, showing a skeleton asset being assigned to the mesh."><figcaption></figcaption></figure>
 
-* In the Motive plugin panel, select _Start Receiver._ The skeleton mesh will start ingesting the skeleton data directly from Motive.
+* In the Motive plugin panel, select Start Receive&#x72;_._ The skeleton mesh will start ingesting the skeleton data directly from Motive.
 * Use the Pause button to stop the data from streaming into the skeleton, and the data will stop being written to the 3D mesh.
 
 <figure><img src="../../.gitbook/assets/Blender plugin - receiving data.png" alt="A Motive skeleton animated in Blender through the OptiTrack Blender plugin."><figcaption><p>Motive Skeleton data streaming into Blender.<br>Click image to enlarge. </p></figcaption></figure>
@@ -174,24 +174,24 @@ Rotation values are plotted in Quaternion angles. Data can still be modified in 
 
 ### Recording <a href="#recording" id="recording"></a>
 
-* Click the _Start Record_ button <img src="../../.gitbook/assets/image (20).png" alt="The Start Record button from the OptiTrack Blender plugin panel in Blender.  " data-size="original"> to begin recording.
+* Click the Start Record button <img src="../../.gitbook/assets/image (20).png" alt="The Start Record button from the OptiTrack Blender plugin panel in Blender.  " data-size="original"> to begin recording.
 * Keyframes will begin moving forward and plotting on the timeline.
 
 <figure><img src="../../.gitbook/assets/Blender plugin - recorded data Keyframes.png" alt="The Blender timeline with recorded keyframes shown."><figcaption><p>Blender timeline with plotted keyframes.</p></figcaption></figure>
 
-* Click the _Stop_ button <img src="../../.gitbook/assets/image (22).png" alt="The Stop Record button from the OptiTrack Blender plugin panel in Blender.  " data-size="original"> to stop plotting the key frames.
+* Click the Stop button <img src="../../.gitbook/assets/image (22).png" alt="The Stop Record button from the OptiTrack Blender plugin panel in Blender.  " data-size="original"> to stop plotting the key frames.
 
 ### Record a Frame Range <a href="#recording-a-frame-range" id="recording-a-frame-range"></a>
 
-Use the _Record a Frame Range_ function when data needs to be recorded within a set time limit.&#x20;
+Use the Record a Frame Range function when data needs to be recorded within a set time limit.&#x20;
 
-* Check the box to toggle on the _Record Frame Range_ function. <img src="../../.gitbook/assets/image (23).png" alt="The Record Frame Range button in Blender. " data-size="original">
-* Click _Select Frame Range,_ input the desired start and end frames to record within, and click OK.
+* Check the box to toggle on the Record Frame Range function. <img src="../../.gitbook/assets/image (23).png" alt="The Record Frame Range button in Blender. " data-size="original">
+* Click Select Frame Range, input the desired start and end frames to record within, and click OK.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt="Set Frame Range options for recording a frame range in Blender. "><figcaption><p>Select Frame Range to record in Blender.</p></figcaption></figure>
 
 * Whenever this option is toggled on, Blender will record the data only within the selected Frame Range when recording is in progress.&#x20;
-* Uncheck the box to toggle the _Record Frame Range_ function off.&#x20;
+* Uncheck the box to toggle the Record Frame Range function off.&#x20;
 
 ### Record Multiple Actions <a href="#recording-multiple-actions" id="recording-multiple-actions"></a>
 
@@ -204,11 +204,11 @@ The _Create New Action_ function allows you to record multiple actions in one Bl
 The Dope Sheet Action Editor shows all of the Actions in the file.&#x20;
 
 * Select the dropdown clock icon in the upper left of the Timeline window.&#x20;
-* Select _Dope Sheet_ from the popup menu.
+* Select Dope Sheet from the popup menu.
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt="The Dope Sheet window in Blender. "><figcaption><p>Access the Dope Sheet in Blender.</p></figcaption></figure>
 
-* In the _Mode_ dropdown, select _Action Editor_.
+* In the Mode dropdown, select Action Editor.
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt="Blender&#x27;s Mode menu with the Action Editor selected. "><figcaption><p>Dope Sheet Mode selection.</p></figcaption></figure>
 
@@ -217,15 +217,15 @@ The Dope Sheet Action Editor shows all of the Actions in the file.&#x20;
 <figure><img src="../../.gitbook/assets/image (30).png" alt="The Available Actions window in Blender. "><figcaption><p>Available Actions in a Blender session.</p></figcaption></figure>
 
 {% hint style="danger" %}
-* The preferred method for making new actions is to use the “Create New Action” button in the plugin’s panel rather than creating them through the Action Editor.&#x20;
+* The preferred method for making new actions is to use the Create New Action button in the plugin’s panel rather than creating them through the Action Editor.&#x20;
 {% endhint %}
 
-When moving to the next action, Click the _Delete Action_ button to remove all the key frames from the previous recorded action.&#x20;
+When moving to the next action, Click the Delete Action button to remove all the key frames from the previous recorded action.&#x20;
 
 <figure><img src="../../.gitbook/assets/Delete Action buttons.png" alt="The Delete Action button in Blender. "><figcaption><p>Delete Actions in Blender.</p></figcaption></figure>
 
 ## Access Help <a href="#note-for-maryanne-knight" id="note-for-maryanne-knight"></a>
 
-The _Info_ section of the plugin includes linked buttons to access the OptiTrack website and the Blender documentation in our online user guide (coming in release 1.1). &#x20;
+The Info section of the plugin includes linked buttons to access the OptiTrack website and the Blender documentation in our online user guide (coming in release 1.1). &#x20;
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt="The Info Panel from the OptiTrack Blender plugin."><figcaption><p>The Info Panel in the <br>Motive Blender plugin.</p></figcaption></figure>
