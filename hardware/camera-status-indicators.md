@@ -321,7 +321,7 @@ Different versions of Motive require different versions of firmware. During star
 
 <details>
 
-<summary>Green - Initialize Phase 1</summary>
+<summary>Solid Green: Initialize Phase 1</summary>
 
 Camera is powered and boot loader is running. Preparing to run main firmware.
 
@@ -329,7 +329,7 @@ Camera is powered and boot loader is running. Preparing to run main firmware.
 
 <details>
 
-<summary>Yellow - Initialize Phase 2</summary>
+<summary>Solid Yellow: Initialize Phase 2</summary>
 
 Firmware is running and switch communication in progress.
 
@@ -337,9 +337,33 @@ Firmware is running and switch communication in progress.
 
 <details>
 
-<summary>Blinking Green (Slow) - Initialize Phase 3</summary>
+<summary>Slow-Blinking Green: Initialize Phase 3</summary>
 
 Switch communication established and awaiting an IP address.
+
+</details>
+
+<details>
+
+<summary>One-Second Blinking Yellow: Initialize Phase 4</summary>
+
+Camera has fully initialized. In process of synchronizing with camera group or eSync.
+
+</details>
+
+<details>
+
+<summary>One-Second Blinking Green: Running</summary>
+
+Camera is fully operational and synchronized to the camera group. Ready for data capture.
+
+</details>
+
+<details>
+
+<summary>Alternating Red: Firmware Reset</summary>
+
+On board flash memory is being reset.
 
 </details>
 
@@ -353,41 +377,17 @@ Host has initiated firmware upload process.
 
 <details>
 
-<summary>Blinking Yellow - Initialize Phase 4</summary>
-
-Camera has fully initialized. In process of synchronizing with camera group or eSync.
-
-</details>
-
-<details>
-
-<summary>Blinking Green (Fast) - Running</summary>
-
-Camera is fully operational and synchronized to the camera group. Ready for data capture.
-
-</details>
-
-<details>
-
-<summary>Blue - Hibernating</summary>
-
-Camera is in a low power state and not sending data. Occurs after closing Motive but leaving the cameras connected to the switch.
-
-</details>
-
-<details>
-
-<summary>Alternating Red - Firmware Reset</summary>
-
-On board flash memory is being reset.
-
-</details>
-
-<details>
-
-<summary>Alternating Yellow - Firmware Update</summary>
+<summary>Alternating Yellow: Firmware Update</summary>
 
 Firmware is being written to flash. Numeric display in front will show progress. On completion, the light turns green and camera reboots.
+
+</details>
+
+<details>
+
+<summary>Blue: Hibernating</summary>
+
+Camera is in a low power state and not sending data. Occurs after closing Motive but leaving the cameras connected to the switch.
 
 </details>
 
