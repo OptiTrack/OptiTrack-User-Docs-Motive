@@ -321,7 +321,7 @@ Different versions of Motive require different versions of firmware. During star
 
 <details>
 
-<summary>Solid Green: Initialize Phase 1</summary>
+<summary>Solid Green: Initialization Phase 1</summary>
 
 Camera is powered and boot loader is running. Preparing to run main firmware.
 
@@ -329,7 +329,7 @@ Camera is powered and boot loader is running. Preparing to run main firmware.
 
 <details>
 
-<summary>Solid Yellow: Initialize Phase 2</summary>
+<summary>Solid Yellow: Initialization Phase 2</summary>
 
 Firmware is running and switch communication in progress.
 
@@ -337,7 +337,7 @@ Firmware is running and switch communication in progress.
 
 <details>
 
-<summary>Slow-Blinking Green: Initialize Phase 3</summary>
+<summary>Slow-Blinking Green: Initialization Phase 3</summary>
 
 Switch communication established and awaiting an IP address.
 
@@ -345,7 +345,7 @@ Switch communication established and awaiting an IP address.
 
 <details>
 
-<summary>One-Second Blinking Yellow: Initialize Phase 4</summary>
+<summary>One-Second Blinking Yellow: Initialization Phase 4</summary>
 
 Camera has fully initialized. In process of synchronizing with camera group or eSync.
 
@@ -369,7 +369,7 @@ On board flash memory is being reset.
 
 <details>
 
-<summary>Cyan - Firmware Loading</summary>
+<summary>Solid Cyan: Firmware Loading</summary>
 
 Host has initiated firmware upload process.
 
@@ -385,7 +385,7 @@ Firmware is being written to flash. Numeric display in front will show progress.
 
 <details>
 
-<summary>Blue: Hibernating</summary>
+<summary>Solid Blue: Hibernating</summary>
 
 Camera is in a low power state and not sending data. Occurs after closing Motive but leaving the cameras connected to the switch.
 
