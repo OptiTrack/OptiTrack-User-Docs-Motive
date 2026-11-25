@@ -81,7 +81,7 @@ If you do not have an Omniverse application that meets the requirements above, c
 
 * Select `Application` → `[kit_base_editor]: Kit Base Editor` to create an application using the Kit Base Editor template.
 
-<figure><img src="../.gitbook/assets/image (1588).png" alt=""><figcaption><p>Making a Kit Base Editor application with the Kit App Template</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1588) (1).png" alt=""><figcaption><p>Making a Kit Base Editor application with the Kit App Template</p></figcaption></figure>
 
 * After making the selection above, follow the prompt instructions as seen in the image below:
   * Enter name of application .kit file \[name-spaced, lowercase, alphanumeric]: \[set application name]
